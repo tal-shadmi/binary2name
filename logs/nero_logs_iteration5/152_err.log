@@ -1,0 +1,16 @@
+WARNING | 2021-12-08 19:59:28,437 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_completion_append_character
+WARNING | 2021-12-08 19:59:28,438 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_special_prefixes
+WARNING | 2021-12-08 19:59:28,438 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_function
+WARNING | 2021-12-08 19:59:28,438 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_line_buffer
+WARNING | 2021-12-08 19:59:28,439 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_pre_input_hook
+WARNING | 2021-12-08 19:59:28,439 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: history_length
+WARNING | 2021-12-08 19:59:28,439 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: dico_program_name
+WARNING | 2021-12-08 19:59:28,439 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_readline_name
+WARNING | 2021-12-08 19:59:28,439 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_over
+WARNING | 2021-12-08 19:59:28,447 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 20:38:03,443 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:38:03,450 | root     | got an error while analyzing quotearg_buffer_restyled
+ERROR   | 2021-12-08 20:38:03,976 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:38:03,977 | root     | got an error while analyzing quotearg_buffer
+ERROR   | 2021-12-08 20:48:13,239 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:48:13,241 | root     | got an error while analyzing locale_charset

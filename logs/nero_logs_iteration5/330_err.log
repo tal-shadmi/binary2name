@@ -1,0 +1,3 @@
+ERROR   | 2021-12-09 00:33:06,035 | root     | list index out of range
+ERROR   | 2021-12-09 00:33:06,035 | root     | got an error while analyzing cmd_quit
+Killed

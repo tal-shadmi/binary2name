@@ -1,0 +1,63 @@
+gcc-5__Ou__gnuit__gitwhich have 18 funcs
+analyzing gcc-5__Ou__gnuit__gitwhich/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/fatal
+started running fatal
+finished fatal
+analyzing gcc-5__Ou__gnuit__gitwhich/find
+started running find
+finished find
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing gcc-5__Ou__gnuit__gitwhich/xfree
+started running xfree
+finished xfree
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/xnmalloc
+started running xnmalloc
+finished xnmalloc
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/xnrealloc
+started running xnrealloc
+finished xnrealloc
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/x2nrealloc
+started running x2nrealloc
+finished x2nrealloc
+removing targets
+analyzing gcc-5__Ou__gnuit__gitwhich/xcharalloc
+started running xcharalloc
+finished xcharalloc
+analyzing gcc-5__Ou__gnuit__gitwhich/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__gnuit__gitwhich/xrealloc
+started running xrealloc
+finished xrealloc
+analyzing gcc-5__Ou__gnuit__gitwhich/x2realloc
+started running x2realloc
+finished x2realloc
+analyzing gcc-5__Ou__gnuit__gitwhich/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing gcc-5__Ou__gnuit__gitwhich/xcalloc
+started running xcalloc
+finished xcalloc
+analyzing gcc-5__Ou__gnuit__gitwhich/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing gcc-5__Ou__gnuit__gitwhich/xstrdup
+started running xstrdup
+finished xstrdup

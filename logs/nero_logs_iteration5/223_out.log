@@ -1,0 +1,22 @@
+gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls have 6 funcs
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/udp_connect
+started running udp_connect
+finished udp_connect
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/udp_close
+started running udp_close
+finished udp_close
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-dtls/verify_certificate_callback
+started running verify_certificate_callback
+finished verify_certificate_callback

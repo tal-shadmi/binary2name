@@ -1,0 +1,50 @@
+gcc-5__Ou__xorriso__make_xorriso_1 have 14 funcs
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_init
+started running Mx1_init
+finished Mx1_init
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_report_error
+started running Mx1_report_error
+finished Mx1_report_error
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1__get_word
+started running Mx1__get_word
+finished Mx1__get_word
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_is_wrap
+started running Mx1_is_wrap
+finished Mx1_is_wrap
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_is_bold_wrap
+started running Mx1_is_bold_wrap
+finished Mx1_is_bold_wrap
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_is_normal_wrap
+started running Mx1_is_normal_wrap
+finished Mx1_is_normal_wrap
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_is_ignored_wrap
+started running Mx1_is_ignored_wrap
+finished Mx1_is_ignored_wrap
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_is_any_wrap
+started running Mx1_is_any_wrap
+finished Mx1_is_any_wrap
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_rewrap
+started running Mx1_rewrap
+finished Mx1_rewrap
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_substitute
+started running Mx1_substitute
+stopped exploration
+finished Mx1_substitute
+removing targets
+analyzing gcc-5__Ou__xorriso__make_xorriso_1/Mx1_convert
+started running Mx1_convert
+finished Mx1_convert

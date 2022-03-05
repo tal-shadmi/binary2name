@@ -1,0 +1,19 @@
+gcc-5__Ou__mailutils__muauth have 5 funcs
+analyzing gcc-5__Ou__mailutils__muauth/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__muauth/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__muauth/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__muauth/use_uid
+started running use_uid
+finished use_uid
+analyzing gcc-5__Ou__mailutils__muauth/use_name
+started running use_name
+finished use_name

@@ -1,0 +1,37 @@
+WARNING | 2021-12-08 20:41:21,460 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_rakp_message_1
+WARNING | 2021-12-08 20:41:21,461 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_trlr
+WARNING | 2021-12-08 20:41:21,461 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_chassis_status_rs
+WARNING | 2021-12-08 20:41:21,461 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_session_hdr
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_channel_authentication_capabilities_rq
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_activate_session_rs
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_activate_session_rq
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_channel_authentication_capabilities_rs
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_identify_rs
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_identify_rq
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_session_hdr
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_rakp_message_4
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sensor_reading_rq
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sensor_reading_rs
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcp_hdr
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_chassis_status_rq
+WARNING | 2021-12-08 20:41:21,462 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_open_session_request
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_hdr_rs
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_hdr_rq
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_rakp_message_2
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_set_session_privilege_level_rq
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_set_session_privilege_level_rs
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_session_trlr
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_asf_presence_pong
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_asf_presence_ping
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_control_rs
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_control_rq
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_close_session_rq
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_open_session_response
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_close_session_rs
+WARNING | 2021-12-08 20:41:21,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_rakp_message_3
+WARNING | 2021-12-08 20:41:21,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_session_challenge_rs
+WARNING | 2021-12-08 20:41:21,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_session_challenge_rq
+WARNING | 2021-12-08 20:41:21,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcpplus_payload
+WARNING | 2021-12-08 20:41:21,467 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 21:35:07,450 | root     | 
+ERROR   | 2021-12-08 21:35:07,453 | root     | got an error while analyzing ipmipower_poll

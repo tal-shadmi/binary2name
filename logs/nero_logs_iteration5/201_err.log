@@ -1,0 +1,3 @@
+ERROR   | 2021-12-08 21:14:12,903 | root     | list index out of range
+ERROR   | 2021-12-08 21:14:12,903 | root     | got an error while analyzing insertTab
+Killed

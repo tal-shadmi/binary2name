@@ -1,0 +1,167 @@
+gcc-5__Ou__pspp__q2c have 45 funcs
+analyzing gcc-5__Ou__pspp__q2c/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/finish_up
+started running finish_up
+finished finish_up
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/hcf
+started running hcf
+finished hcf
+analyzing gcc-5__Ou__pspp__q2c/fail
+started running fail
+finished fail
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/xmalloc
+started running xmalloc
+finished xmalloc
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/xstrdup
+started running xstrdup
+finished xstrdup
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/get_buffer
+started running get_buffer
+finished get_buffer
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/st_lower
+started running st_lower
+finished st_lower
+analyzing gcc-5__Ou__pspp__q2c/st_upper
+started running st_upper
+finished st_upper
+analyzing gcc-5__Ou__pspp__q2c/skip_ws
+started running skip_ws
+finished skip_ws
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/get_line
+started running get_line
+finished get_line
+analyzing gcc-5__Ou__pspp__q2c/add_symbol
+started running add_symbol
+finished add_symbol
+analyzing gcc-5__Ou__pspp__q2c/find_symbol
+started running find_symbol
+finished find_symbol
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/id_cpy
+started running id_cpy
+finished id_cpy
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/unmunge
+started running unmunge
+finished unmunge
+analyzing gcc-5__Ou__pspp__q2c/lex_get
+started running lex_get
+finished lex_get
+analyzing gcc-5__Ou__pspp__q2c/force_id
+started running force_id
+finished force_id
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/force_string
+started running force_string
+finished force_string
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/match_id
+started running match_id
+finished match_id
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/match_token
+started running match_token
+finished match_token
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/skip_token
+started running skip_token
+finished skip_token
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/parse
+started running parse
+finished parse
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/parse_setting
+started running parse_setting
+finished parse_setting
+analyzing gcc-5__Ou__pspp__q2c/parse_specifier
+started running parse_specifier
+finished parse_specifier
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/parse_specifiers
+started running parse_specifiers
+finished parse_specifiers
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/parse_subcommand
+started running parse_subcommand
+finished parse_subcommand
+analyzing gcc-5__Ou__pspp__q2c/parse_subcommands
+started running parse_subcommands
+finished parse_subcommands
+analyzing gcc-5__Ou__pspp__q2c/dump
+started running dump
+finished dump
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/dump_blank_line
+started running dump_blank_line
+finished dump_blank_line
+analyzing gcc-5__Ou__pspp__q2c/dump_specifier_vars
+started running dump_specifier_vars
+stopped exploration
+finished dump_specifier_vars
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/is_keyword
+started running is_keyword
+finished is_keyword
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/make_identifier
+started running make_identifier
+finished make_identifier
+analyzing gcc-5__Ou__pspp__q2c/dump_declarations
+started running dump_declarations
+finished dump_declarations
+analyzing gcc-5__Ou__pspp__q2c/dump_specifier_init
+started running dump_specifier_init
+stopped exploration
+finished dump_specifier_init
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/dump_vars_init
+started running dump_vars_init
+finished dump_vars_init
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/make_match
+started running make_match
+finished make_match
+analyzing gcc-5__Ou__pspp__q2c/dump_specifier_parse
+started running dump_specifier_parse
+stopped exploration
+finished dump_specifier_parse
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/dump_subcommand
+started running dump_subcommand
+finished dump_subcommand
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/dump_parser
+started running dump_parser
+finished dump_parser
+analyzing gcc-5__Ou__pspp__q2c/dump_header
+started running dump_header
+finished dump_header
+analyzing gcc-5__Ou__pspp__q2c/dump_free
+started running dump_free
+finished dump_free
+removing targets
+analyzing gcc-5__Ou__pspp__q2c/recognize_directive
+started running recognize_directive
+finished recognize_directive

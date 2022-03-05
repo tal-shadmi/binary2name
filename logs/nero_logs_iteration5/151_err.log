@@ -1,0 +1,47 @@
+ERROR   | 2021-12-08 19:58:53,114 | root     | list index out of range
+ERROR   | 2021-12-08 19:58:53,114 | root     | got an error while analyzing finalize_numeric_output_buffer
+ERROR   | 2021-12-08 19:59:07,671 | root     | list index out of range
+ERROR   | 2021-12-08 19:59:07,671 | root     | got an error while analyzing is_zero
+ERROR   | 2021-12-08 19:59:08,682 | root     | list index out of range
+ERROR   | 2021-12-08 19:59:08,682 | root     | got an error while analyzing is_signed_zero
+ERROR   | 2021-12-08 19:59:13,205 | root     | list index out of range
+ERROR   | 2021-12-08 19:59:13,205 | root     | got an error while analyzing cmp_long_double
+ERROR   | 2021-12-08 19:59:14,355 | root     | list index out of range
+ERROR   | 2021-12-08 19:59:14,359 | root     | got an error while analyzing median_value
+ERROR   | 2021-12-08 20:01:23,998 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:23,998 | root     | got an error while analyzing percentile_value
+ERROR   | 2021-12-08 20:01:24,541 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:24,541 | root     | got an error while analyzing mad_value
+ERROR   | 2021-12-08 20:01:25,064 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:25,064 | root     | got an error while analyzing arithmetic_mean_value
+ERROR   | 2021-12-08 20:01:25,590 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:25,590 | root     | got an error while analyzing variance_value
+ERROR   | 2021-12-08 20:01:26,114 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:26,114 | root     | got an error while analyzing covariance_value
+ERROR   | 2021-12-08 20:01:26,812 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:26,812 | root     | got an error while analyzing pearson_corr_value
+ERROR   | 2021-12-08 20:01:27,892 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:27,892 | root     | got an error while analyzing stdev_value
+ERROR   | 2021-12-08 20:01:28,442 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:28,442 | root     | got an error while analyzing skewness_value
+ERROR   | 2021-12-08 20:01:29,832 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:29,832 | root     | got an error while analyzing SES_value
+ERROR   | 2021-12-08 20:01:30,356 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:30,356 | root     | got an error while analyzing skewnessZ_value
+ERROR   | 2021-12-08 20:01:30,894 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:30,894 | root     | got an error while analyzing excess_kurtosis_value
+ERROR   | 2021-12-08 20:01:31,434 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:31,434 | root     | got an error while analyzing SEK_value
+ERROR   | 2021-12-08 20:01:32,001 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:32,002 | root     | got an error while analyzing kurtosisZ_value
+ERROR   | 2021-12-08 20:01:33,038 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:33,039 | root     | got an error while analyzing pchisq_df2
+ERROR   | 2021-12-08 20:01:34,107 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:34,108 | root     | got an error while analyzing jarque_bera_pvalue
+ERROR   | 2021-12-08 20:01:34,893 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:34,893 | root     | got an error while analyzing dagostino_pearson_omnibus_pvalue
+ERROR   | 2021-12-08 20:01:35,423 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:35,423 | root     | got an error while analyzing mode_value
+ERROR   | 2021-12-08 20:01:35,936 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:35,936 | root     | got an error while analyzing trimmed_mean_value
+Killed

@@ -1,0 +1,15 @@
+WARNING | 2021-12-08 23:08:13,694 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __check_rhosts_file
+WARNING | 2021-12-08 23:08:13,698 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 23:31:51,570 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:31:51,589 | root     | got an error while analyzing getstr
+ERROR   | 2021-12-08 23:34:14,344 | root     | list index out of range
+ERROR   | 2021-12-08 23:34:14,345 | root     | got an error while analyzing fatal
+ERROR   | 2021-12-08 23:43:51,920 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:43:51,935 | root     | got an error while analyzing convert_options
+ERROR   | 2021-12-08 23:43:55,064 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:43:55,068 | root     | got an error while analyzing parser_convert
+ERROR   | 2021-12-08 23:43:55,548 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:43:55,552 | root     | got an error while analyzing calc_sizes
+ERROR   | 2021-12-08 23:43:56,933 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:43:56,936 | root     | got an error while analyzing parser_parse_arg
+Killed

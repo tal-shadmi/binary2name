@@ -1,0 +1,7 @@
+ERROR   | 2021-12-08 18:00:08,376 | root     | list index out of range
+ERROR   | 2021-12-08 18:00:08,376 | root     | got an error while analyzing quitnow
+ERROR   | 2021-12-08 18:00:09,521 | root     | list index out of range
+ERROR   | 2021-12-08 18:00:09,521 | root     | got an error while analyzing sysfail
+ERROR   | 2021-12-08 18:00:11,272 | root     | list index out of range
+ERROR   | 2021-12-08 18:00:11,272 | root     | got an error while analyzing usageerr
+Killed

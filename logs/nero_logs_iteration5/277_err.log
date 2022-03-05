@@ -1,0 +1,26 @@
+WARNING | 2021-12-08 23:18:39,469 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: LINES
+WARNING | 2021-12-08 23:18:39,470 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: COLS
+WARNING | 2021-12-08 23:18:39,470 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: curscr
+WARNING | 2021-12-08 23:18:39,470 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: stdscr
+WARNING | 2021-12-08 23:18:39,474 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-09 00:34:47,868 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:34:47,870 | root     | got an error while analyzing make_hol
+ERROR   | 2021-12-09 00:35:03,281 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:35:03,287 | root     | got an error while analyzing hol_free
+ERROR   | 2021-12-09 00:37:48,990 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:37:48,997 | root     | got an error while analyzing hol_find_entry
+ERROR   | 2021-12-09 00:37:53,495 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:37:54,041 | root     | got an error while analyzing hol_cluster_cmp
+ERROR   | 2021-12-09 00:43:19,472 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:19,474 | root     | got an error while analyzing hol_append
+ERROR   | 2021-12-09 00:43:20,319 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:20,319 | root     | got an error while analyzing space
+ERROR   | 2021-12-09 00:43:20,728 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:20,734 | root     | got an error while analyzing arg
+ERROR   | 2021-12-09 00:43:21,561 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:21,562 | root     | got an error while analyzing filter_doc
+ERROR   | 2021-12-09 00:43:21,902 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:21,902 | root     | got an error while analyzing print_header
+ERROR   | 2021-12-09 00:43:22,307 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:43:22,316 | root     | got an error while analyzing comma
+Killed

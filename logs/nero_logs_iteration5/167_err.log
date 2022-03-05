@@ -1,0 +1,24 @@
+WARNING | 2021-12-08 20:14:55,424 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_set_system_boot_options_rs
+WARNING | 2021-12-08 20:14:55,424 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_chassis_status_rs
+WARNING | 2021-12-08 20:14:55,424 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_system_restart_cause_rs
+WARNING | 2021-12-08 20:14:55,424 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_system_boot_options_boot_flags_rs
+WARNING | 2021-12-08 20:14:55,424 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_identify_rs
+WARNING | 2021-12-08 20:14:55,425 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_set_power_cycle_interval_rs
+WARNING | 2021-12-08 20:14:55,425 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_chassis_control_rs
+WARNING | 2021-12-08 20:14:55,425 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_power_on_hours_counter_rs
+WARNING | 2021-12-08 20:14:55,425 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_chassis_capabilities_rs
+WARNING | 2021-12-08 20:14:55,425 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_set_power_restore_policy_rs
+WARNING | 2021-12-08 20:14:55,429 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 20:43:23,664 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:43:23,680 | root     | got an error while analyzing cbuf_find_unread_line
+ERROR   | 2021-12-08 20:43:24,341 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:43:24,362 | root     | got an error while analyzing cbuf_get_fd
+ERROR   | 2021-12-08 20:44:49,660 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:44:50,426 | root     | got an error while analyzing cbuf_get_mem
+ERROR   | 2021-12-08 21:00:46,696 | root     | list index out of range
+ERROR   | 2021-12-08 21:00:46,697 | root     | got an error while analyzing cbuf_writer
+ERROR   | 2021-12-08 21:00:47,444 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:00:47,452 | root     | got an error while analyzing cbuf_grow
+ERROR   | 2021-12-08 21:00:48,064 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:00:48,071 | root     | got an error while analyzing cbuf_shrink
+Killed

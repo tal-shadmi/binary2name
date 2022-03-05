@@ -1,0 +1,42 @@
+gcc-5__Ou__nettle__rsa-verify have 12 funcs
+analyzing gcc-5__Ou__nettle__rsa-verify/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__rsa-verify/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__rsa-verify/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__rsa-verify/read_signature
+started running read_signature
+finished read_signature
+analyzing gcc-5__Ou__nettle__rsa-verify/xalloc
+started running xalloc
+finished xalloc
+analyzing gcc-5__Ou__nettle__rsa-verify/werror
+started running werror
+finished werror
+removing targets
+analyzing gcc-5__Ou__nettle__rsa-verify/read_file
+started running read_file
+finished read_file
+analyzing gcc-5__Ou__nettle__rsa-verify/write_data
+started running write_data
+finished write_data
+analyzing gcc-5__Ou__nettle__rsa-verify/write_file
+started running write_file
+finished write_file
+analyzing gcc-5__Ou__nettle__rsa-verify/simple_random
+started running simple_random
+finished simple_random
+removing targets
+analyzing gcc-5__Ou__nettle__rsa-verify/hash_file
+started running hash_file
+finished hash_file
+analyzing gcc-5__Ou__nettle__rsa-verify/read_rsa_key
+started running read_rsa_key
+finished read_rsa_key

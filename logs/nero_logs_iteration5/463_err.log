@@ -1,0 +1,2 @@
+ERROR   | 2021-12-09 03:30:28,399 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:30:28,405 | root     | got an error while analyzing process_one_file

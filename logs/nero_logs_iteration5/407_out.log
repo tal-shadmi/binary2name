@@ -1,0 +1,39 @@
+gcc-5__Ou__nettle__eratosthenes have 10 funcs
+analyzing gcc-5__Ou__nettle__eratosthenes/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/isqrt
+started running isqrt
+finished isqrt
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/vector_alloc
+started running vector_alloc
+finished vector_alloc
+analyzing gcc-5__Ou__nettle__eratosthenes/vector_init
+started running vector_init
+finished vector_init
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/vector_clear_bits
+started running vector_clear_bits
+finished vector_clear_bits
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/find_first_one
+started running find_first_one
+finished find_first_one
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/vector_find_next
+started running vector_find_next
+finished vector_find_next
+removing targets
+analyzing gcc-5__Ou__nettle__eratosthenes/atosize
+started running atosize
+finished atosize

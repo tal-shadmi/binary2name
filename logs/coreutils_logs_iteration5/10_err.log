@@ -1,0 +1,7 @@
+WARNING | 2021-12-08 18:00:34,702 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-09 04:41:35,425 | root     | b'out of memory'
+ERROR   | 2021-12-09 04:41:35,426 | root     | got an error while analyzing close_stream
+ERROR   | 2021-12-09 04:41:35,820 | root     | b'out of memory'
+ERROR   | 2021-12-09 04:41:35,820 | root     | got an error while analyzing umaxtostr
+ERROR   | 2021-12-09 04:41:37,237 | root     | b'out of memory'
+ERROR   | 2021-12-09 04:41:37,237 | root     | got an error while analyzing rpl_fseeko

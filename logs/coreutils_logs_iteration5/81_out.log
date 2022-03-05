@@ -1,0 +1,466 @@
+stat have 126 funcs
+analyzing stat/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing stat/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing stat/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing stat/make_format
+started running make_format
+finished make_format
+removing targets
+analyzing stat/out_uint_x
+started running out_uint_x
+finished out_uint_x
+analyzing stat/out_string
+started running out_string
+finished out_string
+analyzing stat/out_uint
+started running out_uint
+finished out_uint
+analyzing stat/out_int
+started running out_int
+finished out_int
+analyzing stat/print_statfs
+started running print_statfs
+finished print_statfs
+removing targets
+analyzing stat/print_it
+started running print_it
+finished print_it
+analyzing stat/human_time
+started running human_time
+finished human_time
+removing targets
+analyzing stat/find_bind_mount
+started running find_bind_mount
+finished find_bind_mount
+removing targets
+analyzing stat/default_format
+started running default_format
+finished default_format
+removing targets
+analyzing stat/out_epoch_sec.isra.9
+started running out_epoch_sec.isra.9
+finished out_epoch_sec.isra.9
+analyzing stat/print_stat
+started running print_stat
+finished print_stat
+removing targets
+analyzing stat/find_mount_point
+started running find_mount_point
+finished find_mount_point
+analyzing stat/areadlink_with_size
+started running areadlink_with_size
+finished areadlink_with_size
+analyzing stat/argmatch
+started running argmatch
+finished argmatch
+analyzing stat/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing stat/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing stat/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing stat/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing stat/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing stat/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing stat/dir_name
+started running dir_name
+finished dir_name
+analyzing stat/dir_len
+started running dir_len
+finished dir_len
+analyzing stat/mdir_name
+started running mdir_name
+finished mdir_name
+analyzing stat/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing stat/base_len
+started running base_len
+finished base_len
+analyzing stat/file_type
+started running file_type
+finished file_type
+removing targets
+analyzing stat/strmode
+started running strmode
+finished strmode
+removing targets
+analyzing stat/filemodestring
+started running filemodestring
+finished filemodestring
+removing targets
+analyzing stat/imaxtostr
+started running imaxtostr
+finished imaxtostr
+removing targets
+analyzing stat/memcpy_lowcase
+started running memcpy_lowcase
+finished memcpy_lowcase
+removing targets
+analyzing stat/memcpy_uppcase
+started running memcpy_uppcase
+finished memcpy_uppcase
+removing targets
+analyzing stat/nstrftime
+started running nstrftime
+finished nstrftime
+analyzing stat/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing stat/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing stat/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing stat/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing stat/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing stat/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing stat/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing stat/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing stat/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing stat/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing stat/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing stat/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing stat/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing stat/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing stat/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing stat/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing stat/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing stat/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing stat/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing stat/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing stat/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing stat/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing stat/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing stat/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing stat/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing stat/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing stat/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing stat/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing stat/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing stat/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing stat/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing stat/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing stat/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing stat/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing stat/quote
+started running quote
+finished quote
+removing targets
+analyzing stat/save_cwd
+started running save_cwd
+finished save_cwd
+analyzing stat/restore_cwd
+started running restore_cwd
+finished restore_cwd
+removing targets
+analyzing stat/free_cwd
+started running free_cwd
+finished free_cwd
+removing targets
+analyzing stat/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing stat/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing stat/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing stat/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing stat/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing stat/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing stat/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing stat/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing stat/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing stat/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing stat/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing stat/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing stat/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing stat/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing stat/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing stat/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing stat/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing stat/xgetcwd
+started running xgetcwd
+finished xgetcwd
+analyzing stat/xasprintf
+started running xasprintf
+finished xasprintf
+removing targets
+analyzing stat/cdb_free
+started running cdb_free
+finished cdb_free
+removing targets
+analyzing stat/cdb_advance_fd
+started running cdb_advance_fd
+finished cdb_advance_fd
+analyzing stat/chdir_long
+started running chdir_long
+finished chdir_long
+analyzing stat/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing stat/unescape_tab
+started running unescape_tab
+finished unescape_tab
+analyzing stat/free_mount_entry
+started running free_mount_entry
+finished free_mount_entry
+analyzing stat/read_file_system_list
+started running read_file_system_list
+stopped exploration
+finished read_file_system_list
+analyzing stat/setenv_TZ
+started running setenv_TZ
+finished setenv_TZ
+removing targets
+analyzing stat/tzfree.part.0
+started running tzfree.part.0
+finished tzfree.part.0
+removing targets
+analyzing stat/revert_tz.part.1
+started running revert_tz.part.1
+finished revert_tz.part.1
+analyzing stat/tzalloc
+started running tzalloc
+finished tzalloc
+removing targets
+analyzing stat/save_abbr
+started running save_abbr
+stopped exploration
+finished save_abbr
+removing targets
+analyzing stat/set_tz
+started running set_tz
+finished set_tz
+analyzing stat/tzfree
+started running tzfree
+finished tzfree
+removing targets
+analyzing stat/localtime_rz
+started running localtime_rz
+finished localtime_rz
+removing targets
+analyzing stat/mktime_z
+started running mktime_z
+finished mktime_z
+removing targets
+analyzing stat/close_stream
+started running close_stream
+finished close_stream
+analyzing stat/open_safer
+started running open_safer
+finished open_safer
+removing targets
+analyzing stat/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing stat/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing stat/fd_safer
+started running fd_safer
+finished fd_safer
+removing targets
+analyzing stat/xstrcat
+started running xstrcat
+finished xstrcat
+removing targets
+analyzing stat/xvasprintf
+started running xvasprintf
+finished xvasprintf
+removing targets
+analyzing stat/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing stat/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing stat/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing stat/rpl_vasprintf
+started running rpl_vasprintf
+finished rpl_vasprintf
+analyzing stat/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing stat/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing stat/vasnprintf
+started running vasnprintf
+stopped exploration
+finished vasnprintf
+analyzing stat/printf_fetchargs
+started running printf_fetchargs
+finished printf_fetchargs
+removing targets
+analyzing stat/printf_parse
+started running printf_parse
+stopped exploration
+finished printf_parse
+removing targets
+analyzing stat/atexit
+started running atexit
+finished atexit
+removing targets

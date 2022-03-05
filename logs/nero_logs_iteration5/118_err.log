@@ -1,0 +1,13 @@
+ERROR   | 2021-12-08 19:46:45,221 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:46:45,226 | root     | got an error while analyzing do_wipefd
+ERROR   | 2021-12-08 19:48:02,371 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:48:02,375 | root     | got an error while analyzing incname
+ERROR   | 2021-12-08 19:48:03,279 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:48:03,289 | root     | got an error while analyzing wipename
+ERROR   | 2021-12-08 19:48:04,044 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:48:04,052 | root     | got an error while analyzing wipefile
+ERROR   | 2021-12-08 19:51:15,360 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:51:15,361 | root     | got an error while analyzing humblock
+ERROR   | 2021-12-08 19:52:09,950 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:52:09,953 | root     | got an error while analyzing set_custom_quoting
+Killed

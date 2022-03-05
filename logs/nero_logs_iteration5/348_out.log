@@ -1,0 +1,201 @@
+gcc-5__Ou__mailutils__mailutils-pop have 57 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-pop/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mu_prstr
+started running mu_prstr
+finished mu_prstr
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/pop_session_str
+started running pop_session_str
+finished pop_session_str
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/pop_prompt_env
+started running pop_prompt_env
+finished pop_prompt_env
+analyzing gcc-5__Ou__mailutils__mailutils-pop/pop_set_verbose
+started running pop_set_verbose
+finished pop_set_verbose
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/pop_set_verbose_mask
+started running pop_set_verbose_mask
+finished pop_set_verbose_mask
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_verbose
+started running com_verbose
+finished com_verbose
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_user
+started running com_user
+finished com_user
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_apop
+started running com_apop
+finished com_apop
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_capa
+started running com_capa
+finished com_capa
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_uidl
+started running com_uidl
+finished com_uidl
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_list
+started running com_list
+finished com_list
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_noop
+started running com_noop
+finished com_noop
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_pass
+started running com_pass
+finished com_pass
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_stat
+started running com_stat
+finished com_stat
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_stls
+started running com_stls
+finished com_stls
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_dele
+started running com_dele
+finished com_dele
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_rset
+started running com_rset
+finished com_rset
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_top
+started running com_top
+finished com_top
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_retr
+started running com_retr
+finished com_retr
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_disconnect
+started running com_disconnect
+finished com_disconnect
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_connect
+started running com_connect
+finished com_connect
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/com_quit
+started running com_quit
+finished com_quit
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt
+analyzing gcc-5__Ou__mailutils__mailutils-pop/report_signals
+started running report_signals
+finished report_signals
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/print_comtab
+started running print_comtab
+stopped exploration
+finished print_comtab
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/print_help
+started running print_help
+finished print_help
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/list_commands
+started running list_commands
+finished list_commands
+analyzing gcc-5__Ou__mailutils__mailutils-pop/simple_find_command
+started running simple_find_command
+finished simple_find_command
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/find_command
+started running find_command
+finished find_command
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_help
+started running shell_help
+finished shell_help
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_prompt
+started running shell_prompt
+finished shell_prompt
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mutool_open_pager
+started running mutool_open_pager
+finished mutool_open_pager
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/get_history_file_name
+started running get_history_file_name
+finished get_history_file_name
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mutool_initialize_readline
+started running mutool_initialize_readline
+finished mutool_initialize_readline
+analyzing gcc-5__Ou__mailutils__mailutils-pop/finish_readline
+started running finish_readline
+finished finish_readline
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_completion
+started running shell_completion
+finished shell_completion
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_command_generator
+started running shell_command_generator
+finished shell_command_generator
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/pre_input
+started running pre_input
+finished pre_input
+analyzing gcc-5__Ou__mailutils__mailutils-pop/retrieve_history
+started running retrieve_history
+finished retrieve_history
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_history
+started running shell_history
+finished shell_history
+analyzing gcc-5__Ou__mailutils__mailutils-pop/next_arg
+started running next_arg
+finished next_arg
+analyzing gcc-5__Ou__mailutils__mailutils-pop/execute_line
+started running execute_line
+finished execute_line
+analyzing gcc-5__Ou__mailutils__mailutils-pop/input_line_interactive
+started running input_line_interactive
+finished input_line_interactive
+analyzing gcc-5__Ou__mailutils__mailutils-pop/input_line_script
+started running input_line_script
+finished input_line_script
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_exit
+started running shell_exit
+finished shell_exit
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mutool_shell_prompt_assoc
+started running mutool_shell_prompt_assoc
+finished mutool_shell_prompt_assoc
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/mutool_shell
+started running mutool_shell
+finished mutool_shell
+analyzing gcc-5__Ou__mailutils__mailutils-pop/port_from_sa
+started running port_from_sa
+finished port_from_sa
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/string_to_xlev
+started running string_to_xlev
+finished string_to_xlev
+analyzing gcc-5__Ou__mailutils__mailutils-pop/change_verbose_mask
+started running change_verbose_mask
+finished change_verbose_mask
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/shell_verbose
+started running shell_verbose
+finished shell_verbose
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-pop/get_bool
+started running get_bool
+finished get_bool
+analyzing gcc-5__Ou__mailutils__mailutils-pop/get_port
+started running get_port
+finished get_port

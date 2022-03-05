@@ -1,0 +1,77 @@
+gcc-5__Ou__less__lesskey have 21 funcs
+analyzing gcc-5__Ou__less__lesskey/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__less__lesskey/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__less__lesskey/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__less__lesskey/mkpathname
+started running mkpathname
+finished mkpathname
+analyzing gcc-5__Ou__less__lesskey/homefile
+started running homefile
+finished homefile
+analyzing gcc-5__Ou__less__lesskey/parse_args
+started running parse_args
+stopped exploration
+finished parse_args
+removing targets
+analyzing gcc-5__Ou__less__lesskey/init_tables
+started running init_tables
+finished init_tables
+analyzing gcc-5__Ou__less__lesskey/tstr
+started running tstr
+finished tstr
+removing targets
+analyzing gcc-5__Ou__less__lesskey/skipsp
+started running skipsp
+finished skipsp
+removing targets
+analyzing gcc-5__Ou__less__lesskey/skipnsp
+started running skipnsp
+finished skipnsp
+removing targets
+analyzing gcc-5__Ou__less__lesskey/clean_line
+started running clean_line
+finished clean_line
+analyzing gcc-5__Ou__less__lesskey/add_cmd_char
+started running add_cmd_char
+finished add_cmd_char
+removing targets
+analyzing gcc-5__Ou__less__lesskey/add_cmd_str
+started running add_cmd_str
+finished add_cmd_str
+removing targets
+analyzing gcc-5__Ou__less__lesskey/control_line
+started running control_line
+finished control_line
+analyzing gcc-5__Ou__less__lesskey/fputbytes
+started running fputbytes
+finished fputbytes
+removing targets
+analyzing gcc-5__Ou__less__lesskey/fputint
+started running fputint
+finished fputint
+removing targets
+analyzing gcc-5__Ou__less__lesskey/findaction
+started running findaction
+finished findaction
+removing targets
+analyzing gcc-5__Ou__less__lesskey/error
+started running error
+finished error
+analyzing gcc-5__Ou__less__lesskey/parse_cmdline
+started running parse_cmdline
+finished parse_cmdline
+analyzing gcc-5__Ou__less__lesskey/parse_varline
+started running parse_varline
+finished parse_varline
+analyzing gcc-5__Ou__less__lesskey/parse_line
+started running parse_line
+finished parse_line

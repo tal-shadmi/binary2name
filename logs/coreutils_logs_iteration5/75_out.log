@@ -1,0 +1,333 @@
+sha512sum have 89 funcs
+analyzing sha512sum/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing sha512sum/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing sha512sum/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing sha512sum/filename_unescape
+started running filename_unescape
+finished filename_unescape
+removing targets
+analyzing sha512sum/hex_digits
+started running hex_digits
+finished hex_digits
+removing targets
+analyzing sha512sum/print_filename
+started running print_filename
+finished print_filename
+removing targets
+analyzing sha512sum/digest_file.isra.1
+started running digest_file.isra.1
+finished digest_file.isra.1
+analyzing sha512sum/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing sha512sum/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing sha512sum/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing sha512sum/sha512_init_ctx
+started running sha512_init_ctx
+finished sha512_init_ctx
+analyzing sha512sum/sha384_init_ctx
+started running sha384_init_ctx
+finished sha384_init_ctx
+analyzing sha512sum/sha512_read_ctx
+started running sha512_read_ctx
+finished sha512_read_ctx
+removing targets
+analyzing sha512sum/sha384_read_ctx
+started running sha384_read_ctx
+finished sha384_read_ctx
+removing targets
+analyzing sha512sum/sha512_process_block
+started running sha512_process_block
+finished sha512_process_block
+removing targets
+analyzing sha512sum/sha512_conclude_ctx
+started running sha512_conclude_ctx
+finished sha512_conclude_ctx
+removing targets
+analyzing sha512sum/sha512_finish_ctx
+started running sha512_finish_ctx
+finished sha512_finish_ctx
+analyzing sha512sum/sha384_finish_ctx
+started running sha384_finish_ctx
+finished sha384_finish_ctx
+analyzing sha512sum/sha512_process_bytes
+started running sha512_process_bytes
+stopped exploration
+finished sha512_process_bytes
+removing targets
+analyzing sha512sum/sha512_buffer
+started running sha512_buffer
+finished sha512_buffer
+analyzing sha512sum/sha384_buffer
+started running sha384_buffer
+finished sha384_buffer
+analyzing sha512sum/shaxxx_stream.isra.1
+started running shaxxx_stream.isra.1
+finished shaxxx_stream.isra.1
+analyzing sha512sum/sha512_stream
+started running sha512_stream
+finished sha512_stream
+removing targets
+analyzing sha512sum/sha384_stream
+started running sha384_stream
+finished sha384_stream
+removing targets
+analyzing sha512sum/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing sha512sum/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing sha512sum/fopen_safer
+started running fopen_safer
+finished fopen_safer
+analyzing sha512sum/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing sha512sum/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing sha512sum/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing sha512sum/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing sha512sum/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing sha512sum/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing sha512sum/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing sha512sum/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing sha512sum/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing sha512sum/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing sha512sum/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing sha512sum/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing sha512sum/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing sha512sum/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing sha512sum/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing sha512sum/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing sha512sum/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing sha512sum/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing sha512sum/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing sha512sum/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing sha512sum/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing sha512sum/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing sha512sum/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing sha512sum/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing sha512sum/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing sha512sum/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing sha512sum/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing sha512sum/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing sha512sum/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing sha512sum/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing sha512sum/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing sha512sum/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing sha512sum/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing sha512sum/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing sha512sum/quote
+started running quote
+finished quote
+removing targets
+analyzing sha512sum/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing sha512sum/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing sha512sum/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing sha512sum/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing sha512sum/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing sha512sum/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing sha512sum/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing sha512sum/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing sha512sum/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing sha512sum/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing sha512sum/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing sha512sum/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing sha512sum/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing sha512sum/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing sha512sum/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing sha512sum/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing sha512sum/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing sha512sum/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing sha512sum/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing sha512sum/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing sha512sum/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing sha512sum/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing sha512sum/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing sha512sum/close_stream
+started running close_stream
+finished close_stream
+analyzing sha512sum/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing sha512sum/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing sha512sum/atexit
+started running atexit
+finished atexit
+removing targets

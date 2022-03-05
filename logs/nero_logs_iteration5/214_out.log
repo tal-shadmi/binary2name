@@ -1,0 +1,32 @@
+gcc-5__Ou__gnuplot-4.6.6__doc2gih have 9 funcs
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/RCSid
+started running RCSid
+finished RCSid
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/convert
+started running convert
+finished convert
+removing targets
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/process_line
+started running process_line
+finished process_line
+removing targets
+skipping RCSid
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/get_line
+started running get_line
+finished get_line
+removing targets
+analyzing gcc-5__Ou__gnuplot-4.6.6__doc2gih/safe_strncpy
+started running safe_strncpy
+finished safe_strncpy

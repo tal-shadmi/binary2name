@@ -1,0 +1,320 @@
+uptime have 85 funcs
+analyzing uptime/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing uptime/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing uptime/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing uptime/print_uptime
+started running print_uptime
+stopped exploration
+finished print_uptime
+analyzing uptime/uptime
+started running uptime
+finished uptime
+analyzing uptime/c_strtod
+started running c_strtod
+finished c_strtod
+removing targets
+analyzing uptime/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing uptime/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing uptime/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing uptime/fwrite_lowcase
+started running fwrite_lowcase
+finished fwrite_lowcase
+removing targets
+analyzing uptime/fwrite_uppcase
+started running fwrite_uppcase
+finished fwrite_uppcase
+removing targets
+analyzing uptime/fprintftime
+started running fprintftime
+finished fprintftime
+analyzing uptime/parse_long_options
+started running parse_long_options
+finished parse_long_options
+removing targets
+analyzing uptime/parse_gnu_standard_options_only
+started running parse_gnu_standard_options_only
+finished parse_gnu_standard_options_only
+removing targets
+analyzing uptime/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing uptime/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing uptime/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing uptime/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing uptime/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing uptime/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing uptime/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing uptime/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing uptime/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing uptime/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing uptime/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing uptime/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing uptime/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing uptime/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing uptime/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing uptime/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing uptime/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing uptime/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing uptime/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing uptime/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing uptime/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing uptime/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing uptime/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing uptime/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing uptime/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing uptime/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing uptime/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing uptime/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing uptime/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing uptime/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing uptime/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing uptime/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing uptime/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing uptime/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing uptime/quote
+started running quote
+finished quote
+removing targets
+analyzing uptime/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing uptime/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing uptime/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing uptime/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing uptime/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing uptime/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing uptime/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing uptime/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing uptime/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing uptime/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing uptime/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing uptime/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing uptime/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing uptime/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing uptime/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing uptime/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing uptime/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing uptime/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing uptime/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing uptime/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing uptime/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing uptime/extract_trimmed_name
+started running extract_trimmed_name
+finished extract_trimmed_name
+analyzing uptime/read_utmp
+started running read_utmp
+stopped exploration
+finished read_utmp
+analyzing uptime/setenv_TZ
+started running setenv_TZ
+finished setenv_TZ
+removing targets
+analyzing uptime/tzfree.part.0
+started running tzfree.part.0
+finished tzfree.part.0
+removing targets
+analyzing uptime/revert_tz.part.1
+started running revert_tz.part.1
+finished revert_tz.part.1
+analyzing uptime/tzalloc
+started running tzalloc
+finished tzalloc
+removing targets
+analyzing uptime/save_abbr
+started running save_abbr
+stopped exploration
+finished save_abbr
+removing targets
+analyzing uptime/set_tz
+started running set_tz
+finished set_tz
+analyzing uptime/tzfree
+started running tzfree
+finished tzfree
+removing targets
+analyzing uptime/localtime_rz
+started running localtime_rz
+finished localtime_rz
+removing targets
+analyzing uptime/mktime_z
+started running mktime_z
+finished mktime_z
+removing targets
+analyzing uptime/close_stream
+started running close_stream
+finished close_stream
+analyzing uptime/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing uptime/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing uptime/atexit
+started running atexit
+finished atexit
+removing targets

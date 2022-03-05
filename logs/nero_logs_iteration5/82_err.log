@@ -1,0 +1,3 @@
+WARNING | 2021-12-08 18:49:37,560 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2021-12-08 18:49:37,565 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

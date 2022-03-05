@@ -1,0 +1,278 @@
+chroot have 74 funcs
+analyzing chroot/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing chroot/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing chroot/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing chroot/parse_additional_groups
+started running parse_additional_groups
+stopped exploration
+finished parse_additional_groups
+analyzing chroot/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing chroot/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing chroot/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing chroot/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing chroot/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing chroot/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing chroot/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing chroot/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing chroot/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing chroot/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing chroot/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing chroot/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing chroot/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing chroot/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing chroot/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing chroot/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing chroot/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing chroot/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing chroot/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing chroot/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing chroot/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing chroot/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing chroot/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing chroot/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing chroot/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing chroot/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing chroot/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing chroot/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing chroot/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing chroot/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing chroot/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing chroot/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing chroot/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing chroot/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing chroot/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing chroot/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing chroot/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing chroot/quote
+started running quote
+finished quote
+removing targets
+analyzing chroot/parse_with_separator
+started running parse_with_separator
+finished parse_with_separator
+removing targets
+analyzing chroot/parse_user_spec
+started running parse_user_spec
+finished parse_user_spec
+removing targets
+analyzing chroot/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing chroot/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing chroot/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing chroot/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing chroot/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing chroot/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing chroot/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing chroot/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing chroot/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing chroot/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing chroot/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing chroot/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing chroot/xzalloc
+started running xzalloc
+stopped exploration
+finished xzalloc
+analyzing chroot/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing chroot/xmemdup
+started running xmemdup
+stopped exploration
+finished xmemdup
+analyzing chroot/xstrdup
+started running xstrdup
+stopped exploration
+finished xstrdup
+analyzing chroot/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing chroot/xgetgroups
+started running xgetgroups
+finished xgetgroups
+analyzing chroot/xstrtoul
+started running xstrtoul
+finished xstrtoul
+removing targets
+analyzing chroot/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing chroot/close_stream
+started running close_stream
+analyzing chroot/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing chroot/umaxtostr
+started running umaxtostr
+analyzing chroot/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing chroot/realloc_groupbuf
+started running realloc_groupbuf
+finished realloc_groupbuf
+removing targets
+analyzing chroot/mgetgroups
+started running mgetgroups
+finished mgetgroups
+removing targets
+analyzing chroot/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing chroot/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing chroot/rpl_fseeko
+started running rpl_fseeko
+analyzing chroot/atexit
+started running atexit
+finished atexit
+removing targets

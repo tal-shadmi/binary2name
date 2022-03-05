@@ -1,0 +1,41 @@
+gcc-5__Ou__acct__accton have 12 funcs
+analyzing gcc-5__Ou__acct__accton/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__accton/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__accton/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__acct__accton/print_option_error
+started running print_option_error
+finished print_option_error
+analyzing gcc-5__Ou__acct__accton/print_version
+started running print_version
+finished print_version
+analyzing gcc-5__Ou__acct__accton/give_usage
+started running give_usage
+finished give_usage
+analyzing gcc-5__Ou__acct__accton/print_help
+started running print_help
+finished print_help
+analyzing gcc-5__Ou__acct__accton/fatal
+started running fatal
+finished fatal
+analyzing gcc-5__Ou__acct__accton/file_open
+started running file_open
+finished file_open
+removing targets
+analyzing gcc-5__Ou__acct__accton/print_wtmp_file_location
+started running print_wtmp_file_location
+finished print_wtmp_file_location
+analyzing gcc-5__Ou__acct__accton/print_acct_file_location
+started running print_acct_file_location
+finished print_acct_file_location
+analyzing gcc-5__Ou__acct__accton/print_acct_file_locations
+started running print_acct_file_locations
+finished print_acct_file_locations

@@ -1,0 +1,369 @@
+gcc-5__Ou__bc__dc have 106 funcs
+analyzing gcc-5__Ou__bc__dc/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__bc__dc/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__bc__dc/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__bc__dc/bug_report_info
+started running bug_report_info
+finished bug_report_info
+analyzing gcc-5__Ou__bc__dc/show_version
+started running show_version
+finished show_version
+analyzing gcc-5__Ou__bc__dc/r1bindex
+started running r1bindex
+finished r1bindex
+analyzing gcc-5__Ou__bc__dc/try_file
+started running try_file
+finished try_file
+analyzing gcc-5__Ou__bc__dc/flush_okay
+started running flush_okay
+finished flush_okay
+analyzing gcc-5__Ou__bc__dc/dc_memfail
+started running dc_memfail
+finished dc_memfail
+analyzing gcc-5__Ou__bc__dc/dc_malloc
+started running dc_malloc
+finished dc_malloc
+analyzing gcc-5__Ou__bc__dc/dc_show_id
+started running dc_show_id
+finished dc_show_id
+analyzing gcc-5__Ou__bc__dc/dc_garbage
+started running dc_garbage
+finished dc_garbage
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_system
+started running dc_system
+finished dc_system
+analyzing gcc-5__Ou__bc__dc/dc_print
+started running dc_print
+finished dc_print
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_dup
+started running dc_dup
+finished dc_dup
+removing targets
+analyzing gcc-5__Ou__bc__dc/input_fil
+started running input_fil
+finished input_fil
+removing targets
+analyzing gcc-5__Ou__bc__dc/input_str
+started running input_str
+finished input_str
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_eval_and_free_str
+started running dc_eval_and_free_str
+finished dc_eval_and_free_str
+analyzing gcc-5__Ou__bc__dc/dc_trap_interrupt
+started running dc_trap_interrupt
+finished dc_trap_interrupt
+analyzing gcc-5__Ou__bc__dc/skip_past_eol
+started running skip_past_eol
+finished skip_past_eol
+analyzing gcc-5__Ou__bc__dc/dc_func
+started running dc_func
+finished dc_func
+removing targets
+analyzing gcc-5__Ou__bc__dc/evalstr
+started running evalstr
+finished evalstr
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_evalstr
+started running dc_evalstr
+finished dc_evalstr
+analyzing gcc-5__Ou__bc__dc/dc_evalfile
+started running dc_evalfile
+finished dc_evalfile
+analyzing gcc-5__Ou__bc__dc/dc_alloc
+started running dc_alloc
+finished dc_alloc
+analyzing gcc-5__Ou__bc__dc/dc_binop
+started running dc_binop
+finished dc_binop
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_binop2
+started running dc_binop2
+finished dc_binop2
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_cmpop
+started running dc_cmpop
+finished dc_cmpop
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_triop
+started running dc_triop
+finished dc_triop
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_register_init
+started running dc_register_init
+finished dc_register_init
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_clear_stack
+started running dc_clear_stack
+finished dc_clear_stack
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_push
+started running dc_push
+finished dc_push
+analyzing gcc-5__Ou__bc__dc/dc_register_push
+started running dc_register_push
+finished dc_register_push
+analyzing gcc-5__Ou__bc__dc/dc_top_of_stack
+started running dc_top_of_stack
+finished dc_top_of_stack
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_register_get
+started running dc_register_get
+finished dc_register_get
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_register_set
+started running dc_register_set
+finished dc_register_set
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_pop
+started running dc_pop
+finished dc_pop
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_register_pop
+started running dc_register_pop
+finished dc_register_pop
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_stack_rotate
+started running dc_stack_rotate
+finished dc_stack_rotate
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_tell_stackdepth
+started running dc_tell_stackdepth
+finished dc_tell_stackdepth
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_tell_length
+started running dc_tell_length
+finished dc_tell_length
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_printall
+started running dc_printall
+finished dc_printall
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_get_stacked_array
+started running dc_get_stacked_array
+finished dc_get_stacked_array
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_set_stacked_array
+started running dc_set_stacked_array
+finished dc_set_stacked_array
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_array_init
+started running dc_array_init
+finished dc_array_init
+analyzing gcc-5__Ou__bc__dc/dc_array_set
+started running dc_array_set
+finished dc_array_set
+analyzing gcc-5__Ou__bc__dc/dc_array_get
+started running dc_array_get
+finished dc_array_get
+analyzing gcc-5__Ou__bc__dc/dc_array_free
+started running dc_array_free
+stopped exploration
+finished dc_array_free
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_add
+started running dc_add
+finished dc_add
+analyzing gcc-5__Ou__bc__dc/dc_sub
+started running dc_sub
+finished dc_sub
+analyzing gcc-5__Ou__bc__dc/dc_mul
+started running dc_mul
+finished dc_mul
+analyzing gcc-5__Ou__bc__dc/dc_div
+started running dc_div
+finished dc_div
+analyzing gcc-5__Ou__bc__dc/dc_divrem
+started running dc_divrem
+finished dc_divrem
+analyzing gcc-5__Ou__bc__dc/dc_rem
+started running dc_rem
+finished dc_rem
+analyzing gcc-5__Ou__bc__dc/dc_modexp
+started running dc_modexp
+finished dc_modexp
+analyzing gcc-5__Ou__bc__dc/dc_exp
+started running dc_exp
+finished dc_exp
+analyzing gcc-5__Ou__bc__dc/dc_sqrt
+started running dc_sqrt
+finished dc_sqrt
+analyzing gcc-5__Ou__bc__dc/dc_compare
+started running dc_compare
+finished dc_compare
+analyzing gcc-5__Ou__bc__dc/dc_num2int
+started running dc_num2int
+finished dc_num2int
+analyzing gcc-5__Ou__bc__dc/dc_int2data
+started running dc_int2data
+finished dc_int2data
+analyzing gcc-5__Ou__bc__dc/dc_getnum
+started running dc_getnum
+finished dc_getnum
+analyzing gcc-5__Ou__bc__dc/dc_numlen
+started running dc_numlen
+finished dc_numlen
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_tell_scale
+started running dc_tell_scale
+finished dc_tell_scale
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_math_init
+started running dc_math_init
+finished dc_math_init
+analyzing gcc-5__Ou__bc__dc/dc_out_num
+started running dc_out_num
+finished dc_out_num
+analyzing gcc-5__Ou__bc__dc/dc_dump_num
+started running dc_dump_num
+finished dc_dump_num
+analyzing gcc-5__Ou__bc__dc/dc_free_num
+started running dc_free_num
+finished dc_free_num
+analyzing gcc-5__Ou__bc__dc/dc_dup_num
+started running dc_dup_num
+finished dc_dup_num
+analyzing gcc-5__Ou__bc__dc/set_line_max_from_environment
+started running set_line_max_from_environment
+finished set_line_max_from_environment
+analyzing gcc-5__Ou__bc__dc/out_char
+started running out_char
+finished out_char
+removing targets
+analyzing gcc-5__Ou__bc__dc/out_of_memory
+started running out_of_memory
+finished out_of_memory
+analyzing gcc-5__Ou__bc__dc/rt_error
+started running rt_error
+finished rt_error
+removing targets
+analyzing gcc-5__Ou__bc__dc/rt_warn
+started running rt_warn
+finished rt_warn
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_dup_str
+started running dc_dup_str
+finished dc_dup_str
+analyzing gcc-5__Ou__bc__dc/dc_free_str
+started running dc_free_str
+finished dc_free_str
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_out_str
+started running dc_out_str
+finished dc_out_str
+analyzing gcc-5__Ou__bc__dc/dc_makestring
+started running dc_makestring
+finished dc_makestring
+analyzing gcc-5__Ou__bc__dc/dc_readstring
+started running dc_readstring
+finished dc_readstring
+removing targets
+analyzing gcc-5__Ou__bc__dc/dc_str2charp
+started running dc_str2charp
+finished dc_str2charp
+analyzing gcc-5__Ou__bc__dc/dc_strlen
+started running dc_strlen
+finished dc_strlen
+analyzing gcc-5__Ou__bc__dc/dc_string_init
+started running dc_string_init
+finished dc_string_init
+analyzing gcc-5__Ou__bc__dc/bc_new_num
+started running bc_new_num
+finished bc_new_num
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_free_num
+started running bc_free_num
+finished bc_free_num
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_init_numbers
+started running bc_init_numbers
+finished bc_init_numbers
+analyzing gcc-5__Ou__bc__dc/bc_copy_num
+started running bc_copy_num
+finished bc_copy_num
+analyzing gcc-5__Ou__bc__dc/bc_init_num
+started running bc_init_num
+finished bc_init_num
+analyzing gcc-5__Ou__bc__dc/bc_compare
+started running bc_compare
+finished bc_compare
+analyzing gcc-5__Ou__bc__dc/bc_is_neg
+started running bc_is_neg
+finished bc_is_neg
+analyzing gcc-5__Ou__bc__dc/bc_is_zero
+started running bc_is_zero
+finished bc_is_zero
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_is_near_zero
+started running bc_is_near_zero
+finished bc_is_near_zero
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_sub
+started running bc_sub
+finished bc_sub
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_add
+started running bc_add
+finished bc_add
+removing targets
+analyzing gcc-5__Ou__bc__dc/new_sub_num
+started running new_sub_num
+finished new_sub_num
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_multiply
+started running bc_multiply
+finished bc_multiply
+analyzing gcc-5__Ou__bc__dc/bc_divide
+started running bc_divide
+stopped exploration
+finished bc_divide
+analyzing gcc-5__Ou__bc__dc/bc_divmod
+started running bc_divmod
+finished bc_divmod
+analyzing gcc-5__Ou__bc__dc/bc_modulo
+started running bc_modulo
+finished bc_modulo
+analyzing gcc-5__Ou__bc__dc/bc_raisemod
+started running bc_raisemod
+finished bc_raisemod
+analyzing gcc-5__Ou__bc__dc/bc_raise
+started running bc_raise
+finished bc_raise
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_sqrt
+started running bc_sqrt
+finished bc_sqrt
+analyzing gcc-5__Ou__bc__dc/bc_out_long
+started running bc_out_long
+finished bc_out_long
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_out_num
+started running bc_out_num
+finished bc_out_num
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_num2long
+started running bc_num2long
+finished bc_num2long
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_int2num
+started running bc_int2num
+finished bc_int2num
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_num2str
+started running bc_num2str
+finished bc_num2str
+removing targets
+analyzing gcc-5__Ou__bc__dc/bc_str2num
+started running bc_str2num
+finished bc_str2num

@@ -1,0 +1,120 @@
+gcc-5__Ou__mailutils__comsatd have 36 funcs
+analyzing gcc-5__Ou__mailutils__comsatd/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/expand_escape
+started running expand_escape
+finished expand_escape
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/expand_line
+started running expand_line
+finished expand_line
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/need_crlf
+started running need_crlf
+finished need_crlf
+analyzing gcc-5__Ou__mailutils__comsatd/open_tty
+started running open_tty
+finished open_tty
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/open_default_tty
+started running open_default_tty
+finished open_default_tty
+analyzing gcc-5__Ou__mailutils__comsatd/report_error
+started running report_error
+finished report_error
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/action_beep
+started running action_beep
+finished action_beep
+analyzing gcc-5__Ou__mailutils__comsatd/echo_string
+started running echo_string
+finished echo_string
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/action_echo
+started running action_echo
+finished action_echo
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/action_exec
+started running action_exec
+finished action_exec
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/action_default
+started running action_default
+finished action_default
+analyzing gcc-5__Ou__mailutils__comsatd/action_tty
+started running action_tty
+finished action_tty
+analyzing gcc-5__Ou__mailutils__comsatd/open_rc
+started running open_rc
+finished open_rc
+analyzing gcc-5__Ou__mailutils__comsatd/find_stmt
+started running find_stmt
+finished find_stmt
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/eval_biffrc
+started running eval_biffrc
+finished eval_biffrc
+analyzing gcc-5__Ou__mailutils__comsatd/run_user_action
+started running run_user_action
+finished run_user_action
+analyzing gcc-5__Ou__mailutils__comsatd/set_inetd_mode
+started running set_inetd_mode
+finished set_inetd_mode
+analyzing gcc-5__Ou__mailutils__comsatd/set_daemon_mode
+started running set_daemon_mode
+finished set_daemon_mode
+analyzing gcc-5__Ou__mailutils__comsatd/set_foreground
+started running set_foreground
+finished set_foreground
+analyzing gcc-5__Ou__mailutils__comsatd/biffrc_error_ctl
+started running biffrc_error_ctl
+finished biffrc_error_ctl
+analyzing gcc-5__Ou__mailutils__comsatd/cb_biffrc_errors_to_tty
+started running cb_biffrc_errors_to_tty
+finished cb_biffrc_errors_to_tty
+analyzing gcc-5__Ou__mailutils__comsatd/cb_biffrc_errors_to_err
+started running cb_biffrc_errors_to_err
+finished cb_biffrc_errors_to_err
+analyzing gcc-5__Ou__mailutils__comsatd/sig_hup
+started running sig_hup
+finished sig_hup
+analyzing gcc-5__Ou__mailutils__comsatd/comsat_init
+started running comsat_init
+finished comsat_init
+analyzing gcc-5__Ou__mailutils__comsatd/comsat_process
+started running comsat_process
+finished comsat_process
+analyzing gcc-5__Ou__mailutils__comsatd/comsat_main
+started running comsat_main
+finished comsat_main
+analyzing gcc-5__Ou__mailutils__comsatd/comsat_prefork
+started running comsat_prefork
+finished comsat_prefork
+removing targets
+analyzing gcc-5__Ou__mailutils__comsatd/comsat_connection
+started running comsat_connection
+finished comsat_connection
+analyzing gcc-5__Ou__mailutils__comsatd/notify_user
+started running notify_user
+finished notify_user
+analyzing gcc-5__Ou__mailutils__comsatd/find_user
+started running find_user
+analyzing gcc-5__Ou__mailutils__comsatd/change_user
+started running change_user
+analyzing gcc-5__Ou__mailutils__comsatd/mailbox_path
+started running mailbox_path
+finished mailbox_path
+analyzing gcc-5__Ou__mailutils__comsatd/stat
+started running stat
+finished stat
+removing targets

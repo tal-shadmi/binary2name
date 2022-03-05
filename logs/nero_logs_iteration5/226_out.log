@@ -1,0 +1,23 @@
+gcc-5__Ou__gnutls28-3.4.10__ex-client-srp have 6 funcs
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/check_alert
+started running check_alert
+finished check_alert
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/tcp_connect
+started running tcp_connect
+finished tcp_connect
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-srp/tcp_close
+started running tcp_close
+finished tcp_close

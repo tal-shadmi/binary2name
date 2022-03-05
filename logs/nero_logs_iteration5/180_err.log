@@ -1,0 +1,10 @@
+WARNING | 2021-12-08 20:38:14,179 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2021-12-08 20:38:14,180 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_trlr
+WARNING | 2021-12-08 20:38:14,180 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_session_hdr
+WARNING | 2021-12-08 20:38:14,180 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_channel_authentication_capabilities_rq
+WARNING | 2021-12-08 20:38:14,180 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_channel_authentication_capabilities_rs
+WARNING | 2021-12-08 20:38:14,181 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_rmcp_hdr
+WARNING | 2021-12-08 20:38:14,181 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_hdr_rs
+WARNING | 2021-12-08 20:38:14,181 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_lan_msg_hdr_rq
+WARNING | 2021-12-08 20:38:14,184 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

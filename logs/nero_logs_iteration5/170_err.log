@@ -1,0 +1,7 @@
+WARNING | 2021-12-08 20:21:13,583 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_device_id_rs
+WARNING | 2021-12-08 20:21:13,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_fru_dimm_spd_ddr4_record
+WARNING | 2021-12-08 20:21:13,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_fru_language_codes
+WARNING | 2021-12-08 20:21:13,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_fru_dimm_spd_ddr3_record
+WARNING | 2021-12-08 20:21:13,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_fru_dimm_spd_ddr_header
+WARNING | 2021-12-08 20:21:13,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_fru_chassis_types
+WARNING | 2021-12-08 20:21:13,592 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

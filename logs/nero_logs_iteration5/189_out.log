@@ -1,0 +1,69 @@
+gcc-5__Ou__gcal__tcal have 20 funcs
+analyzing gcc-5__Ou__gcal__tcal/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/usage_msg
+started running usage_msg
+finished usage_msg
+analyzing gcc-5__Ou__gcal__tcal/version_msg
+started running version_msg
+finished version_msg
+analyzing gcc-5__Ou__gcal__tcal/my_malloc
+started running my_malloc
+finished my_malloc
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/my_realloc
+started running my_realloc
+finished my_realloc
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/my_error
+started running my_error
+finished my_error
+analyzing gcc-5__Ou__gcal__tcal/handle_signal
+started running handle_signal
+finished handle_signal
+analyzing gcc-5__Ou__gcal__tcal/days_of_february
+started running days_of_february
+finished days_of_february
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/doy2date
+started running doy2date
+finished doy2date
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/date2num
+started running date2num
+finished date2num
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/num2date
+started running num2date
+stopped exploration
+finished num2date
+analyzing gcc-5__Ou__gcal__tcal/get_actual_date
+started running get_actual_date
+finished get_actual_date
+analyzing gcc-5__Ou__gcal__tcal/direxists
+started running direxists
+finished direxists
+analyzing gcc-5__Ou__gcal__tcal/path_search
+started running path_search
+analyzing gcc-5__Ou__gcal__tcal/clear_ungetc_buffer_preserving_position
+started running clear_ungetc_buffer_preserving_position
+analyzing gcc-5__Ou__gcal__tcal/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing gcc-5__Ou__gcal__tcal/rpl_fseeko
+started running rpl_fseeko
+analyzing gcc-5__Ou__gcal__tcal/stat
+started running stat
+finished stat
+removing targets

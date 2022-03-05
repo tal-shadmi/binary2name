@@ -1,0 +1,120 @@
+gcc-5__Ou__mailutils__movemail have 35 funcs
+analyzing gcc-5__Ou__mailutils__movemail/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/get_next_so_method
+started running get_next_so_method
+finished get_next_so_method
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/set_mailbox_ownership
+started running set_mailbox_ownership
+finished set_mailbox_ownership
+analyzing gcc-5__Ou__mailutils__movemail/set_mailbox_ownership_list
+started running set_mailbox_ownership_list
+finished set_mailbox_ownership_list
+analyzing gcc-5__Ou__mailutils__movemail/set_onerror_action
+started running set_onerror_action
+finished set_onerror_action
+analyzing gcc-5__Ou__mailutils__movemail/set_onerror_actions
+started running set_onerror_actions
+finished set_onerror_actions
+analyzing gcc-5__Ou__mailutils__movemail/cli_mailbox_ownership
+started running cli_mailbox_ownership
+finished cli_mailbox_ownership
+analyzing gcc-5__Ou__mailutils__movemail/cli_onerror
+started running cli_onerror
+finished cli_onerror
+analyzing gcc-5__Ou__mailutils__movemail/cb_mailbox_ownership
+started running cb_mailbox_ownership
+finished cb_mailbox_ownership
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/cb_onerror
+started running cb_onerror
+finished cb_onerror
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/die
+started running die
+finished die
+analyzing gcc-5__Ou__mailutils__movemail/lock_mailbox
+started running lock_mailbox
+finished lock_mailbox
+analyzing gcc-5__Ou__mailutils__movemail/attach_passwd_ticket
+started running attach_passwd_ticket
+finished attach_passwd_ticket
+analyzing gcc-5__Ou__mailutils__movemail/open_mailbox
+started running open_mailbox
+finished open_mailbox
+analyzing gcc-5__Ou__mailutils__movemail/move_message
+started running move_message
+finished move_message
+analyzing gcc-5__Ou__mailutils__movemail/movemail
+started running movemail
+finished movemail
+analyzing gcc-5__Ou__mailutils__movemail/compatibility_mode
+started running compatibility_mode
+finished compatibility_mode
+analyzing gcc-5__Ou__mailutils__movemail/close_mailboxes
+started running close_mailboxes
+finished close_mailboxes
+analyzing gcc-5__Ou__mailutils__movemail/get_mbox_owner_id
+started running get_mbox_owner_id
+finished get_mbox_owner_id
+analyzing gcc-5__Ou__mailutils__movemail/get_user_id
+started running get_user_id
+finished get_user_id
+analyzing gcc-5__Ou__mailutils__movemail/get_mbox_owner_name
+started running get_mbox_owner_name
+finished get_mbox_owner_name
+analyzing gcc-5__Ou__mailutils__movemail/guess_mbox_owner
+started running guess_mbox_owner
+finished guess_mbox_owner
+analyzing gcc-5__Ou__mailutils__movemail/switch_owner
+started running switch_owner
+finished switch_owner
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/get_url_part
+started running get_url_part
+finished get_url_part
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/movemail_getvar
+started running movemail_getvar
+finished movemail_getvar
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/set_program_id
+started running set_program_id
+finished set_program_id
+analyzing gcc-5__Ou__mailutils__movemail/screen_width
+started running screen_width
+finished screen_width
+analyzing gcc-5__Ou__mailutils__movemail/progress_format
+started running progress_format
+finished progress_format
+analyzing gcc-5__Ou__mailutils__movemail/progress_start
+started running progress_start
+finished progress_start
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/progress_mark
+started running progress_mark
+finished progress_mark
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/progress_stop
+started running progress_stop
+finished progress_stop
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/atexit
+started running atexit
+finished atexit
+removing targets
+analyzing gcc-5__Ou__mailutils__movemail/stat
+started running stat
+finished stat
+removing targets

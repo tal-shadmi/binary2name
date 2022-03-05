@@ -1,0 +1,582 @@
+gcc-5__Ou__uucp__uux have 166 funcs
+analyzing gcc-5__Ou__uucp__uux/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__uucp__uux/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__uucp__uux/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uxhelp
+started running uxhelp
+finished uxhelp
+analyzing gcc-5__Ou__uucp__uux/uxusage
+started running uxusage
+finished uxusage
+analyzing gcc-5__Ou__uucp__uux/uxadd_xqt_line
+started running uxadd_xqt_line
+finished uxadd_xqt_line
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uxadd_send_file
+started running uxadd_send_file
+finished uxadd_send_file
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uxcopy_stdin
+started running uxcopy_stdin
+finished uxcopy_stdin
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uxrecord_file
+started running uxrecord_file
+finished uxrecord_file
+analyzing gcc-5__Ou__uucp__uux/uxfatal
+started running uxfatal
+finished uxfatal
+analyzing gcc-5__Ou__uucp__uux/uxabort
+started running uxabort
+finished uxabort
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uxadd_name
+started running uxadd_name
+finished uxadd_name
+removing targets
+analyzing gcc-5__Ou__uucp__uux/funknown_system
+started running funknown_system
+finished funknown_system
+analyzing gcc-5__Ou__uucp__uux/zremove_local_sys
+started running zremove_local_sys
+stopped exploration
+finished zremove_local_sys
+analyzing gcc-5__Ou__uucp__uux/fin_directory_list
+started running fin_directory_list
+finished fin_directory_list
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ulog_fatal_fn
+started running ulog_fatal_fn
+finished ulog_fatal_fn
+analyzing gcc-5__Ou__uucp__uux/ulog_to_file
+started running ulog_to_file
+finished ulog_to_file
+analyzing gcc-5__Ou__uucp__uux/ulog_id
+started running ulog_id
+finished ulog_id
+analyzing gcc-5__Ou__uucp__uux/ulog_user
+started running ulog_user
+finished ulog_user
+analyzing gcc-5__Ou__uucp__uux/ulog_system
+started running ulog_system
+finished ulog_system
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ulog_device
+started running ulog_device
+finished ulog_device
+analyzing gcc-5__Ou__uucp__uux/zstpcpy
+started running zstpcpy
+finished zstpcpy
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ulog
+started running ulog
+finished ulog
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ulog_uuconf
+started running ulog_uuconf
+finished ulog_uuconf
+analyzing gcc-5__Ou__uucp__uux/ulog_close
+started running ulog_close
+finished ulog_close
+analyzing gcc-5__Ou__uucp__uux/ustats
+started running ustats
+stopped exploration
+finished ustats
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ustats_close
+started running ustats_close
+finished ustats_close
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zldate_and_time
+started running zldate_and_time
+finished zldate_and_time
+analyzing gcc-5__Ou__uucp__uux/fcopy_file
+started running fcopy_file
+finished fcopy_file
+analyzing gcc-5__Ou__uucp__uux/fcopy_open_file
+started running fcopy_open_file
+finished fcopy_open_file
+analyzing gcc-5__Ou__uucp__uux/fsysdep_access
+started running fsysdep_access
+finished fsysdep_access
+analyzing gcc-5__Ou__uucp__uux/fsysdep_daemon_access
+started running fsysdep_daemon_access
+finished fsysdep_daemon_access
+analyzing gcc-5__Ou__uucp__uux/zsysdep_base_name
+started running zsysdep_base_name
+finished zsysdep_base_name
+analyzing gcc-5__Ou__uucp__uux/fsysdep_needs_cwd
+started running fsysdep_needs_cwd
+finished fsysdep_needs_cwd
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsysdep_local_file_cwd
+started running zsysdep_local_file_cwd
+finished zsysdep_local_file_cwd
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsysdep_add_cwd
+started running zsysdep_add_cwd
+finished zsysdep_add_cwd
+removing targets
+analyzing gcc-5__Ou__uucp__uux/esysdep_fopen
+started running esysdep_fopen
+finished esysdep_fopen
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fscmd_seq
+started running fscmd_seq
+stopped exploration
+finished fscmd_seq
+analyzing gcc-5__Ou__uucp__uux/zsfile_name
+started running zsfile_name
+finished zsfile_name
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsysdep_data_file_name
+started running zsysdep_data_file_name
+finished zsysdep_data_file_name
+analyzing gcc-5__Ou__uucp__uux/usput62
+started running usput62
+stopped exploration
+finished usput62
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zscmd_file
+started running zscmd_file
+finished zscmd_file
+analyzing gcc-5__Ou__uucp__uux/zsysdep_xqt_file_name
+started running zsysdep_xqt_file_name
+finished zsysdep_xqt_file_name
+analyzing gcc-5__Ou__uucp__uux/fsysdep_in_directory
+started running fsysdep_in_directory
+finished fsysdep_in_directory
+removing targets
+analyzing gcc-5__Ou__uucp__uux/usysdep_initialize
+started running usysdep_initialize
+stopped exploration
+finished usysdep_initialize
+analyzing gcc-5__Ou__uucp__uux/usysdep_exit
+started running usysdep_exit
+finished usysdep_exit
+analyzing gcc-5__Ou__uucp__uux/fsysdep_other_config
+started running fsysdep_other_config
+finished fsysdep_other_config
+analyzing gcc-5__Ou__uucp__uux/zsysdep_localname
+started running zsysdep_localname
+finished zsysdep_localname
+analyzing gcc-5__Ou__uucp__uux/zsysdep_login_name
+started running zsysdep_login_name
+finished zsysdep_login_name
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fsysdep_link
+started running fsysdep_link
+finished fsysdep_link
+analyzing gcc-5__Ou__uucp__uux/zsysdep_local_file
+started running zsysdep_local_file
+finished zsysdep_local_file
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fsdo_lock
+started running fsdo_lock
+stopped exploration
+finished fsdo_lock
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fsdo_unlock
+started running fsdo_unlock
+finished fsdo_unlock
+removing targets
+analyzing gcc-5__Ou__uucp__uux/usysdep_localtime
+started running usysdep_localtime
+finished usysdep_localtime
+analyzing gcc-5__Ou__uucp__uux/fsysdep_make_dirs
+started running fsysdep_make_dirs
+finished fsysdep_make_dirs
+analyzing gcc-5__Ou__uucp__uux/fsysdep_run
+started running fsysdep_run
+finished fsysdep_run
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ussignal
+started running ussignal
+finished ussignal
+removing targets
+analyzing gcc-5__Ou__uucp__uux/usset_signal
+started running usset_signal
+finished usset_signal
+removing targets
+analyzing gcc-5__Ou__uucp__uux/usysdep_signal
+started running usysdep_signal
+finished usysdep_signal
+analyzing gcc-5__Ou__uucp__uux/zsysdep_in_dir
+started running zsysdep_in_dir
+finished zsysdep_in_dir
+analyzing gcc-5__Ou__uucp__uux/ixsspawn
+started running ixsspawn
+stopped exploration
+finished ixsspawn
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsysdep_spool_commands
+started running zsysdep_spool_commands
+stopped exploration
+finished zsysdep_spool_commands
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsfind_file
+started running zsfind_file
+finished zsfind_file
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fsysdep_sync
+started running fsysdep_sync
+finished fsysdep_sync
+analyzing gcc-5__Ou__uucp__uux/ixsysdep_time
+started running ixsysdep_time
+finished ixsysdep_time
+analyzing gcc-5__Ou__uucp__uux/fsuser_access
+started running fsuser_access
+stopped exploration
+finished fsuser_access
+removing targets
+analyzing gcc-5__Ou__uucp__uux/esysdep_user_fopen
+started running esysdep_user_fopen
+finished esysdep_user_fopen
+analyzing gcc-5__Ou__uucp__uux/fsuser_perms
+started running fsuser_perms
+finished fsuser_perms
+analyzing gcc-5__Ou__uucp__uux/fsuucp_perms
+started running fsuucp_perms
+finished fsuucp_perms
+analyzing gcc-5__Ou__uucp__uux/zsappend3
+started running zsappend3
+finished zsappend3
+analyzing gcc-5__Ou__uucp__uux/usysdep_detach
+started running usysdep_detach
+stopped exploration
+finished usysdep_detach
+analyzing gcc-5__Ou__uucp__uux/fsysdep_file_exists
+started running fsysdep_file_exists
+finished fsysdep_file_exists
+analyzing gcc-5__Ou__uucp__uux/fsysdep_directory
+started running fsysdep_directory
+finished fsysdep_directory
+analyzing gcc-5__Ou__uucp__uux/ixsfork
+started running ixsfork
+finished ixsfork
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ixswait
+started running ixswait
+finished ixswait
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zsfile_to_jobid
+started running zsfile_to_jobid
+finished zsfile_to_jobid
+analyzing gcc-5__Ou__uucp__uux/zsjobid_to_file
+started running zsjobid_to_file
+finished zsjobid_to_file
+analyzing gcc-5__Ou__uucp__uux/ixsysdep_process_time
+started running ixsysdep_process_time
+finished ixsysdep_process_time
+analyzing gcc-5__Ou__uucp__uux/uuconf_debugfile
+started running uuconf_debugfile
+finished uuconf_debugfile
+analyzing gcc-5__Ou__uucp__uux/uuconf_debuglevel
+started running uuconf_debuglevel
+finished uuconf_debuglevel
+analyzing gcc-5__Ou__uucp__uux/uuconf_error_string
+started running uuconf_error_string
+finished uuconf_error_string
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zeprint_num
+started running zeprint_num
+finished zeprint_num
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_system_free
+started running uuconf_system_free
+finished uuconf_system_free
+analyzing gcc-5__Ou__uucp__uux/uuconf_init
+started running uuconf_init
+finished uuconf_init
+analyzing gcc-5__Ou__uucp__uux/uuconf_lockdir
+started running uuconf_lockdir
+finished uuconf_lockdir
+analyzing gcc-5__Ou__uucp__uux/uuconf_system_local
+started running uuconf_system_local
+finished uuconf_system_local
+analyzing gcc-5__Ou__uucp__uux/uuconf_localname
+started running uuconf_localname
+finished uuconf_localname
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_logfile
+started running uuconf_logfile
+finished uuconf_logfile
+analyzing gcc-5__Ou__uucp__uux/uuconf_system_info
+started running uuconf_system_info
+finished uuconf_system_info
+analyzing gcc-5__Ou__uucp__uux/uuconf_system_names
+started running uuconf_system_names
+finished uuconf_system_names
+analyzing gcc-5__Ou__uucp__uux/uuconf_spooldir
+started running uuconf_spooldir
+finished uuconf_spooldir
+analyzing gcc-5__Ou__uucp__uux/uuconf_statsfile
+started running uuconf_statsfile
+finished uuconf_statsfile
+analyzing gcc-5__Ou__uucp__uux/uuconf_taylor_init
+started running uuconf_taylor_init
+finished uuconf_taylor_init
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itdebug
+started running itdebug
+finished itdebug
+analyzing gcc-5__Ou__uucp__uux/itaddfile
+started running itaddfile
+finished itaddfile
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itunknown
+started running itunknown
+finished itunknown
+analyzing gcc-5__Ou__uucp__uux/itprogram
+started running itprogram
+finished itprogram
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itset_default
+started running itset_default
+finished itset_default
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uiset_call
+started running uiset_call
+finished uiset_call
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iisystem
+started running iisystem
+finished iisystem
+analyzing gcc-5__Ou__uucp__uux/iialias
+started running iialias
+finished iialias
+analyzing gcc-5__Ou__uucp__uux/iialternate
+started running iialternate
+finished iialternate
+analyzing gcc-5__Ou__uucp__uux/iidefault_alternates
+started running iidefault_alternates
+finished iidefault_alternates
+analyzing gcc-5__Ou__uucp__uux/iitime
+started running iitime
+finished iitime
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iitimegrade
+started running iitimegrade
+finished iitimegrade
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iibaud_range
+started running iibaud_range
+finished iibaud_range
+analyzing gcc-5__Ou__uucp__uux/iisize
+started running iisize
+finished iisize
+analyzing gcc-5__Ou__uucp__uux/iisizecmp
+started running iisizecmp
+finished iisizecmp
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iiport
+started running iiport
+finished iiport
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iichat
+started running iichat
+finished iichat
+analyzing gcc-5__Ou__uucp__uux/iidebug
+started running iidebug
+finished iidebug
+analyzing gcc-5__Ou__uucp__uux/iicalled_login
+started running iicalled_login
+finished iicalled_login
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iiproto_param
+started running iiproto_param
+finished iiproto_param
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iirequest
+started running iirequest
+finished iirequest
+analyzing gcc-5__Ou__uucp__uux/iitransfer
+started running iitransfer
+finished iitransfer
+analyzing gcc-5__Ou__uucp__uux/iiforward
+started running iiforward
+finished iiforward
+removing targets
+analyzing gcc-5__Ou__uucp__uux/iiunknown
+started running iiunknown
+finished iiunknown
+analyzing gcc-5__Ou__uucp__uux/uuconf_taylor_system_unknown
+started running uuconf_taylor_system_unknown
+finished uuconf_taylor_system_unknown
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_taylor_system_names
+started running uuconf_taylor_system_names
+finished uuconf_taylor_system_names
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_system_unknown
+started running uuconf_system_unknown
+finished uuconf_system_unknown
+analyzing gcc-5__Ou__uucp__uux/uuconf_malloc_block
+started running uuconf_malloc_block
+finished uuconf_malloc_block
+analyzing gcc-5__Ou__uucp__uux/uuconf_malloc
+started running uuconf_malloc
+finished uuconf_malloc
+removing targets
+analyzing gcc-5__Ou__uucp__uux/icchat
+started running icchat
+finished icchat
+removing targets
+analyzing gcc-5__Ou__uucp__uux/icchat_fail
+started running icchat_fail
+finished icchat_fail
+analyzing gcc-5__Ou__uucp__uux/icunknown
+started running icunknown
+finished icunknown
+analyzing gcc-5__Ou__uucp__uux/uuconf_cmd_args
+started running uuconf_cmd_args
+stopped exploration
+finished uuconf_cmd_args
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_cmd_file
+started running uuconf_cmd_file
+finished uuconf_cmd_file
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_cmd_line
+started running uuconf_cmd_line
+stopped exploration
+finished uuconf_cmd_line
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_free_block
+started running uuconf_free_block
+finished uuconf_free_block
+removing targets
+analyzing gcc-5__Ou__uucp__uux/uuconf_free
+started running uuconf_free
+finished uuconf_free
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itsystem
+started running itsystem
+finished itsystem
+analyzing gcc-5__Ou__uucp__uux/itcalled_login
+started running itcalled_login
+finished itcalled_login
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itmyname
+started running itmyname
+finished itmyname
+analyzing gcc-5__Ou__uucp__uux/itadd_span
+started running itadd_span
+finished itadd_span
+removing targets
+analyzing gcc-5__Ou__uucp__uux/itnew
+started running itnew
+finished itnew
+analyzing gcc-5__Ou__uucp__uux/ipproto_param
+started running ipproto_param
+finished ipproto_param
+analyzing gcc-5__Ou__uucp__uux/ipbaud_range
+started running ipbaud_range
+finished ipbaud_range
+analyzing gcc-5__Ou__uucp__uux/ipdialer
+started running ipdialer
+finished ipdialer
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ipcunknown
+started running ipcunknown
+finished ipcunknown
+analyzing gcc-5__Ou__uucp__uux/uuconf_add_block
+started running uuconf_add_block
+finished uuconf_add_block
+analyzing gcc-5__Ou__uucp__uux/uuconf_grade_cmp
+started running uuconf_grade_cmp
+finished uuconf_grade_cmp
+analyzing gcc-5__Ou__uucp__uux/idchat
+started running idchat
+finished idchat
+analyzing gcc-5__Ou__uucp__uux/iddtr_toggle
+started running iddtr_toggle
+finished iddtr_toggle
+removing targets
+analyzing gcc-5__Ou__uucp__uux/idcomplete
+started running idcomplete
+finished idcomplete
+analyzing gcc-5__Ou__uucp__uux/idproto_param
+started running idproto_param
+finished idproto_param
+analyzing gcc-5__Ou__uucp__uux/idcunknown
+started running idcunknown
+finished idcunknown
+analyzing gcc-5__Ou__uucp__uux/zbufalc
+started running zbufalc
+finished zbufalc
+removing targets
+analyzing gcc-5__Ou__uucp__uux/ubuffree
+started running ubuffree
+finished ubuffree
+removing targets
+analyzing gcc-5__Ou__uucp__uux/zbufcpy
+started running zbufcpy
+finished zbufcpy
+removing targets
+analyzing gcc-5__Ou__uucp__uux/idebug_parse
+started running idebug_parse
+finished idebug_parse
+analyzing gcc-5__Ou__uucp__uux/cdebug_char
+started running cdebug_char
+finished cdebug_char
+analyzing gcc-5__Ou__uucp__uux/udebug_buffer
+started running udebug_buffer
+finished udebug_buffer
+analyzing gcc-5__Ou__uucp__uux/exchange
+started running exchange
+finished exchange
+analyzing gcc-5__Ou__uucp__uux/gnu_getopt
+started running gnu_getopt
+finished gnu_getopt
+analyzing gcc-5__Ou__uucp__uux/getopt_long
+started running getopt_long
+finished getopt_long
+analyzing gcc-5__Ou__uucp__uux/getopt_long_only
+started running getopt_long_only
+finished getopt_long_only
+analyzing gcc-5__Ou__uucp__uux/fneeds_quotes
+started running fneeds_quotes
+finished fneeds_quotes
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fcmd_needs_quotes
+started running fcmd_needs_quotes
+finished fcmd_needs_quotes
+analyzing gcc-5__Ou__uucp__uux/uquote_cmd
+started running uquote_cmd
+finished uquote_cmd
+analyzing gcc-5__Ou__uucp__uux/ufree_quoted_cmd
+started running ufree_quoted_cmd
+finished ufree_quoted_cmd
+analyzing gcc-5__Ou__uucp__uux/zquote_cmd_string
+started running zquote_cmd_string
+finished zquote_cmd_string
+removing targets
+analyzing gcc-5__Ou__uucp__uux/fspool_file
+started running fspool_file
+finished fspool_file
+removing targets
+analyzing gcc-5__Ou__uucp__uux/xfree
+started running xfree
+finished xfree
+removing targets
+analyzing gcc-5__Ou__uucp__uux/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__uucp__uux/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__uucp__uux/stat
+started running stat
+finished stat
+removing targets

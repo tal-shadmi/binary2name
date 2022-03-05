@@ -1,0 +1,333 @@
+wc have 89 funcs
+analyzing wc/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing wc/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing wc/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing wc/write_counts
+started running write_counts
+finished write_counts
+removing targets
+analyzing wc/wc
+started running wc
+finished wc
+removing targets
+analyzing wc/argv_iter_init_argv
+started running argv_iter_init_argv
+finished argv_iter_init_argv
+analyzing wc/argv_iter_init_stream
+started running argv_iter_init_stream
+finished argv_iter_init_stream
+analyzing wc/argv_iter
+started running argv_iter
+finished argv_iter
+removing targets
+analyzing wc/argv_iter_n_args
+started running argv_iter_n_args
+finished argv_iter_n_args
+removing targets
+analyzing wc/argv_iter_free
+started running argv_iter_free
+finished argv_iter_free
+removing targets
+analyzing wc/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing wc/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing wc/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing wc/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing wc/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing wc/umaxtostr
+started running umaxtostr
+finished umaxtostr
+removing targets
+analyzing wc/mb_width_aux
+started running mb_width_aux
+finished mb_width_aux
+analyzing wc/mb_copy
+started running mb_copy
+finished mb_copy
+removing targets
+analyzing wc/is_basic
+started running is_basic
+finished is_basic
+analyzing wc/physmem_total
+started running physmem_total
+finished physmem_total
+analyzing wc/physmem_available
+started running physmem_available
+finished physmem_available
+analyzing wc/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing wc/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing wc/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing wc/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing wc/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing wc/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing wc/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing wc/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing wc/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing wc/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing wc/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing wc/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing wc/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing wc/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing wc/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing wc/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing wc/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing wc/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing wc/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing wc/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing wc/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing wc/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing wc/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing wc/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing wc/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing wc/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing wc/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing wc/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing wc/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing wc/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing wc/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing wc/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing wc/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing wc/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing wc/quote
+started running quote
+finished quote
+removing targets
+analyzing wc/save_token
+started running save_token
+finished save_token
+removing targets
+analyzing wc/readtokens0_init
+started running readtokens0_init
+stopped exploration
+finished readtokens0_init
+analyzing wc/readtokens0_free
+started running readtokens0_free
+finished readtokens0_free
+analyzing wc/readtokens0
+started running readtokens0
+stopped exploration
+finished readtokens0
+removing targets
+analyzing wc/safe_read
+started running safe_read
+finished safe_read
+analyzing wc/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing wc/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing wc/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing wc/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing wc/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing wc/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing wc/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing wc/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing wc/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing wc/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing wc/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing wc/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing wc/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing wc/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing wc/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing wc/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing wc/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing wc/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing wc/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing wc/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing wc/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing wc/print_and_abort
+started running print_and_abort
+finished print_and_abort
+analyzing wc/call_chunkfun
+started running call_chunkfun
+finished call_chunkfun
+removing targets
+analyzing wc/call_freefun
+started running call_freefun
+finished call_freefun
+removing targets
+analyzing wc/close_stream
+started running close_stream
+finished close_stream
+analyzing wc/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing wc/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing wc/atexit
+started running atexit
+finished atexit
+removing targets

@@ -1,0 +1,9 @@
+ERROR   | 2021-12-08 22:31:20,167 | root     | list index out of range
+ERROR   | 2021-12-08 22:31:20,170 | root     | got an error while analyzing fillbuf
+ERROR   | 2021-12-08 22:37:32,586 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:32,589 | root     | got an error while analyzing grepdir
+ERROR   | 2021-12-08 22:37:35,478 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:35,484 | root     | got an error while analyzing prepend_args
+ERROR   | 2021-12-08 22:37:36,493 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:36,500 | root     | got an error while analyzing prepend_default_options
+Killed

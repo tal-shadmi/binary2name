@@ -1,0 +1,5 @@
+WARNING | 2021-12-08 18:28:17,728 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: re_syntax_options
+WARNING | 2021-12-08 18:28:17,732 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 18:28:23,803 | root     | list index out of range
+ERROR   | 2021-12-08 18:28:23,803 | root     | got an error while analyzing cleanup_fatal
+Killed

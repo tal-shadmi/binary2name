@@ -1,0 +1,12 @@
+WARNING | 2021-12-08 19:01:20,694 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2021-12-08 19:01:20,699 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 19:09:00,753 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:09:00,756 | root     | got an error while analyzing quotearg_buffer_restyled
+ERROR   | 2021-12-08 19:09:01,217 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:09:01,232 | root     | got an error while analyzing quotearg_buffer
+ERROR   | 2021-12-08 19:22:25,726 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:22:25,728 | root     | got an error while analyzing locale_charset
+ERROR   | 2021-12-08 19:22:27,222 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:22:27,231 | root     | got an error while analyzing clear_ungetc_buffer_preserving_position
+ERROR   | 2021-12-08 19:22:27,900 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:22:27,902 | root     | got an error while analyzing rpl_fseeko

@@ -1,0 +1,38 @@
+gcc-5__Ou__mailutils__mailutils-logger have 11 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-logger/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-logger/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-logger/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-logger/set_priority
+started running set_priority
+finished set_priority
+analyzing gcc-5__Ou__mailutils__mailutils-logger/set_syslog
+started running set_syslog
+finished set_syslog
+analyzing gcc-5__Ou__mailutils__mailutils-logger/set_stderr
+started running set_stderr
+finished set_stderr
+analyzing gcc-5__Ou__mailutils__mailutils-logger/set_severity
+started running set_severity
+finished set_severity
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-logger/parse_locus_point
+started running parse_locus_point
+finished parse_locus_point
+analyzing gcc-5__Ou__mailutils__mailutils-logger/set_locus
+started running set_locus
+finished set_locus
+analyzing gcc-5__Ou__mailutils__mailutils-logger/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-logger/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt

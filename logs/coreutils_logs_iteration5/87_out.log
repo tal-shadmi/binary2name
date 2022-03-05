@@ -1,0 +1,479 @@
+tail have 130 funcs
+analyzing tail/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing tail/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing tail/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing tail/wd_hasher
+started running wd_hasher
+finished wd_hasher
+analyzing tail/wd_comparator
+started running wd_comparator
+finished wd_comparator
+analyzing tail/pretty_name.isra.7
+started running pretty_name.isra.7
+finished pretty_name.isra.7
+analyzing tail/close_fd
+started running close_fd
+finished close_fd
+removing targets
+analyzing tail/xwrite_stdout.part.10
+started running xwrite_stdout.part.10
+stopped exploration
+finished xwrite_stdout.part.10
+analyzing tail/start_lines
+started running start_lines
+stopped exploration
+finished start_lines
+removing targets
+analyzing tail/dump_remainder
+started running dump_remainder
+finished dump_remainder
+analyzing tail/start_bytes
+started running start_bytes
+finished start_bytes
+removing targets
+analyzing tail/xlseek
+started running xlseek
+stopped exploration
+finished xlseek
+analyzing tail/file_lines
+started running file_lines
+stopped exploration
+finished file_lines
+removing targets
+analyzing tail/check_fspec
+started running check_fspec
+finished check_fspec
+removing targets
+analyzing tail/fremote
+started running fremote
+finished fremote
+analyzing tail/recheck
+started running recheck
+finished recheck
+analyzing tail/argmatch
+started running argmatch
+finished argmatch
+analyzing tail/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing tail/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing tail/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing tail/cl_strtod
+started running cl_strtod
+finished cl_strtod
+analyzing tail/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing tail/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing tail/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing tail/dir_len
+started running dir_len
+finished dir_len
+analyzing tail/mdir_name
+started running mdir_name
+finished mdir_name
+analyzing tail/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing tail/base_len
+started running base_len
+finished base_len
+analyzing tail/open_safer
+started running open_safer
+finished open_safer
+removing targets
+analyzing tail/next_prime
+started running next_prime
+stopped exploration
+finished next_prime
+removing targets
+analyzing tail/raw_hasher
+started running raw_hasher
+finished raw_hasher
+analyzing tail/raw_comparator
+started running raw_comparator
+finished raw_comparator
+analyzing tail/safe_hasher
+started running safe_hasher
+finished safe_hasher
+analyzing tail/hash_find_entry
+started running hash_find_entry
+finished hash_find_entry
+analyzing tail/check_tuning.isra.0
+started running check_tuning.isra.0
+finished check_tuning.isra.0
+removing targets
+analyzing tail/transfer_entries
+started running transfer_entries
+stopped exploration
+finished transfer_entries
+removing targets
+analyzing tail/hash_get_n_buckets
+started running hash_get_n_buckets
+finished hash_get_n_buckets
+analyzing tail/hash_get_n_buckets_used
+started running hash_get_n_buckets_used
+finished hash_get_n_buckets_used
+analyzing tail/hash_get_n_entries
+started running hash_get_n_entries
+finished hash_get_n_entries
+analyzing tail/hash_get_max_bucket_length
+started running hash_get_max_bucket_length
+finished hash_get_max_bucket_length
+removing targets
+analyzing tail/hash_table_ok
+started running hash_table_ok
+finished hash_table_ok
+removing targets
+analyzing tail/hash_print_statistics
+started running hash_print_statistics
+finished hash_print_statistics
+removing targets
+analyzing tail/hash_lookup
+started running hash_lookup
+finished hash_lookup
+analyzing tail/hash_get_first
+started running hash_get_first
+finished hash_get_first
+removing targets
+analyzing tail/hash_get_next
+started running hash_get_next
+finished hash_get_next
+analyzing tail/hash_get_entries
+started running hash_get_entries
+finished hash_get_entries
+removing targets
+analyzing tail/hash_do_for_each
+started running hash_do_for_each
+finished hash_do_for_each
+removing targets
+analyzing tail/hash_string
+started running hash_string
+finished hash_string
+removing targets
+analyzing tail/hash_reset_tuning
+started running hash_reset_tuning
+finished hash_reset_tuning
+analyzing tail/hash_initialize
+started running hash_initialize
+finished hash_initialize
+analyzing tail/hash_clear
+started running hash_clear
+finished hash_clear
+removing targets
+analyzing tail/hash_free
+started running hash_free
+finished hash_free
+removing targets
+analyzing tail/hash_rehash
+started running hash_rehash
+stopped exploration
+finished hash_rehash
+removing targets
+analyzing tail/hash_insert_if_absent
+started running hash_insert_if_absent
+finished hash_insert_if_absent
+removing targets
+analyzing tail/hash_insert
+started running hash_insert
+finished hash_insert
+analyzing tail/hash_delete
+started running hash_delete
+stopped exploration
+finished hash_delete
+analyzing tail/offtostr
+started running offtostr
+finished offtostr
+removing targets
+analyzing tail/posix2_version
+started running posix2_version
+finished posix2_version
+analyzing tail/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing tail/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing tail/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing tail/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing tail/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing tail/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing tail/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing tail/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing tail/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing tail/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing tail/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing tail/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing tail/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing tail/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing tail/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing tail/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing tail/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing tail/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing tail/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing tail/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing tail/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing tail/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing tail/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing tail/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing tail/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing tail/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing tail/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing tail/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing tail/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing tail/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing tail/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing tail/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing tail/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing tail/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing tail/quote
+started running quote
+finished quote
+removing targets
+analyzing tail/safe_read
+started running safe_read
+finished safe_read
+analyzing tail/fd_safer
+started running fd_safer
+finished fd_safer
+removing targets
+analyzing tail/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing tail/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing tail/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing tail/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing tail/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing tail/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing tail/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing tail/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing tail/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing tail/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing tail/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing tail/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing tail/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing tail/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing tail/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing tail/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing tail/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing tail/xnumtoumax
+started running xnumtoumax
+finished xnumtoumax
+analyzing tail/xdectoumax
+started running xdectoumax
+finished xdectoumax
+analyzing tail/xnanosleep
+started running xnanosleep
+finished xnanosleep
+analyzing tail/xstrtod
+started running xstrtod
+finished xstrtod
+analyzing tail/xstrtoumax
+started running xstrtoumax
+finished xstrtoumax
+removing targets
+analyzing tail/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing tail/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing tail/rpl_nanosleep
+started running rpl_nanosleep
+finished rpl_nanosleep
+removing targets
+analyzing tail/c_strtod
+started running c_strtod
+finished c_strtod
+removing targets
+analyzing tail/close_stream
+started running close_stream
+finished close_stream
+analyzing tail/dtotimespec
+started running dtotimespec
+finished dtotimespec
+removing targets
+analyzing tail/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing tail/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing tail/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing tail/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing tail/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing tail/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing tail/atexit
+started running atexit
+finished atexit
+removing targets

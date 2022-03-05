@@ -1,0 +1,962 @@
+vdir have 255 funcs
+analyzing vdir/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing vdir/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing vdir/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing vdir/dev_ino_hash
+started running dev_ino_hash
+finished dev_ino_hash
+analyzing vdir/dev_ino_compare
+started running dev_ino_compare
+finished dev_ino_compare
+removing targets
+analyzing vdir/sighandler
+started running sighandler
+finished sighandler
+removing targets
+analyzing vdir/dev_ino_free
+started running dev_ino_free
+finished dev_ino_free
+removing targets
+analyzing vdir/get_funky_string
+started running get_funky_string
+stopped exploration
+finished get_funky_string
+removing targets
+analyzing vdir/is_colored
+started running is_colored
+finished is_colored
+removing targets
+analyzing vdir/set_line_length
+started running set_line_length
+finished set_line_length
+analyzing vdir/abformat_init
+started running abformat_init
+finished abformat_init
+removing targets
+analyzing vdir/queue_directory
+started running queue_directory
+finished queue_directory
+analyzing vdir/strcmp_size
+started running strcmp_size
+finished strcmp_size
+removing targets
+analyzing vdir/rev_strcmp_size
+started running rev_strcmp_size
+finished rev_strcmp_size
+removing targets
+analyzing vdir/strcmp_name
+started running strcmp_name
+finished strcmp_name
+removing targets
+analyzing vdir/rev_strcmp_name
+started running rev_strcmp_name
+finished rev_strcmp_name
+removing targets
+analyzing vdir/needs_quoting
+started running needs_quoting
+finished needs_quoting
+analyzing vdir/file_escape
+started running file_escape
+finished file_escape
+analyzing vdir/sort_files
+started running sort_files
+finished sort_files
+removing targets
+analyzing vdir/xstrcoll
+started running xstrcoll
+finished xstrcoll
+analyzing vdir/xstrcoll_size
+started running xstrcoll_size
+finished xstrcoll_size
+removing targets
+analyzing vdir/rev_xstrcoll_size
+started running rev_xstrcoll_size
+finished rev_xstrcoll_size
+removing targets
+analyzing vdir/xstrcoll_name
+started running xstrcoll_name
+finished xstrcoll_name
+removing targets
+analyzing vdir/rev_xstrcoll_name
+started running rev_xstrcoll_name
+finished rev_xstrcoll_name
+removing targets
+analyzing vdir/rev_xstrcoll_version
+started running rev_xstrcoll_version
+stopped exploration
+finished rev_xstrcoll_version
+removing targets
+analyzing vdir/xstrcoll_version
+started running xstrcoll_version
+stopped exploration
+finished xstrcoll_version
+removing targets
+analyzing vdir/extract_dirs_from_files
+started running extract_dirs_from_files
+finished extract_dirs_from_files
+removing targets
+analyzing vdir/indent
+started running indent
+finished indent
+removing targets
+analyzing vdir/dired_dump_obstack
+started running dired_dump_obstack
+finished dired_dump_obstack
+removing targets
+analyzing vdir/format_user_or_group
+started running format_user_or_group
+finished format_user_or_group
+removing targets
+analyzing vdir/format_user
+started running format_user
+finished format_user
+removing targets
+analyzing vdir/stophandler
+started running stophandler
+finished stophandler
+removing targets
+analyzing vdir/file_failure
+started running file_failure
+finished file_failure
+analyzing vdir/xstrcoll_df_size
+started running xstrcoll_df_size
+finished xstrcoll_df_size
+removing targets
+analyzing vdir/strcmp_df_size
+started running strcmp_df_size
+finished strcmp_df_size
+removing targets
+analyzing vdir/rev_xstrcoll_df_size
+started running rev_xstrcoll_df_size
+finished rev_xstrcoll_df_size
+removing targets
+analyzing vdir/rev_strcmp_df_size
+started running rev_strcmp_df_size
+finished rev_strcmp_df_size
+removing targets
+analyzing vdir/xstrcoll_df_name
+started running xstrcoll_df_name
+finished xstrcoll_df_name
+removing targets
+analyzing vdir/strcmp_df_name
+started running strcmp_df_name
+finished strcmp_df_name
+removing targets
+analyzing vdir/rev_xstrcoll_df_name
+started running rev_xstrcoll_df_name
+finished rev_xstrcoll_df_name
+removing targets
+analyzing vdir/rev_strcmp_df_name
+started running rev_strcmp_df_name
+finished rev_strcmp_df_name
+removing targets
+analyzing vdir/get_type_indicator
+started running get_type_indicator
+finished get_type_indicator
+removing targets
+analyzing vdir/print_type_indicator
+started running print_type_indicator
+finished print_type_indicator
+analyzing vdir/strcmp_df_mtime
+started running strcmp_df_mtime
+finished strcmp_df_mtime
+removing targets
+analyzing vdir/rev_xstrcoll_df_version
+started running rev_xstrcoll_df_version
+stopped exploration
+finished rev_xstrcoll_df_version
+removing targets
+analyzing vdir/xstrcoll_df_version
+started running xstrcoll_df_version
+stopped exploration
+finished xstrcoll_df_version
+removing targets
+analyzing vdir/rev_strcmp_df_extension
+started running rev_strcmp_df_extension
+finished rev_strcmp_df_extension
+removing targets
+analyzing vdir/signal_setup
+started running signal_setup
+finished signal_setup
+removing targets
+analyzing vdir/prep_non_filename_text
+started running prep_non_filename_text
+finished prep_non_filename_text
+removing targets
+analyzing vdir/put_indicator
+started running put_indicator
+finished put_indicator
+removing targets
+analyzing vdir/process_signals
+started running process_signals
+finished process_signals
+removing targets
+analyzing vdir/set_normal_color
+started running set_normal_color
+finished set_normal_color
+removing targets
+analyzing vdir/quote_name_buf.constprop.54
+started running quote_name_buf.constprop.54
+finished quote_name_buf.constprop.54
+analyzing vdir/quote_name
+started running quote_name
+finished quote_name
+analyzing vdir/print_name_with_quoting
+started running print_name_with_quoting
+finished print_name_with_quoting
+removing targets
+analyzing vdir/print_file_name_and_frills
+started running print_file_name_and_frills
+finished print_file_name_and_frills
+analyzing vdir/print_long_format
+started running print_long_format
+finished print_long_format
+removing targets
+analyzing vdir/quote_name_width
+started running quote_name_width
+finished quote_name_width
+analyzing vdir/length_of_file_name_and_frills
+started running length_of_file_name_and_frills
+finished length_of_file_name_and_frills
+removing targets
+analyzing vdir/calculate_columns
+started running calculate_columns
+finished calculate_columns
+removing targets
+analyzing vdir/print_with_separator
+started running print_with_separator
+finished print_with_separator
+removing targets
+analyzing vdir/print_current_files
+started running print_current_files
+finished print_current_files
+removing targets
+analyzing vdir/rev_strcmp_df_atime
+started running rev_strcmp_df_atime
+finished rev_strcmp_df_atime
+removing targets
+analyzing vdir/rev_strcmp_df_ctime
+started running rev_strcmp_df_ctime
+finished rev_strcmp_df_ctime
+removing targets
+analyzing vdir/clear_files
+started running clear_files
+finished clear_files
+removing targets
+analyzing vdir/format_user_width
+started running format_user_width
+finished format_user_width
+removing targets
+analyzing vdir/gobble_file.constprop.52
+started running gobble_file.constprop.52
+finished gobble_file.constprop.52
+removing targets
+analyzing vdir/print_dir
+started running print_dir
+finished print_dir
+analyzing vdir/xstrcoll_ctime
+started running xstrcoll_ctime
+finished xstrcoll_ctime
+removing targets
+analyzing vdir/xstrcoll_atime
+started running xstrcoll_atime
+finished xstrcoll_atime
+removing targets
+analyzing vdir/xstrcoll_mtime
+started running xstrcoll_mtime
+finished xstrcoll_mtime
+removing targets
+analyzing vdir/rev_xstrcoll_mtime
+started running rev_xstrcoll_mtime
+finished rev_xstrcoll_mtime
+removing targets
+analyzing vdir/rev_xstrcoll_atime
+started running rev_xstrcoll_atime
+finished rev_xstrcoll_atime
+removing targets
+analyzing vdir/rev_xstrcoll_ctime
+started running rev_xstrcoll_ctime
+finished rev_xstrcoll_ctime
+removing targets
+analyzing vdir/xstrcoll_extension
+started running xstrcoll_extension
+finished xstrcoll_extension
+analyzing vdir/rev_xstrcoll_extension
+started running rev_xstrcoll_extension
+finished rev_xstrcoll_extension
+analyzing vdir/rev_strcmp_atime
+started running rev_strcmp_atime
+finished rev_strcmp_atime
+removing targets
+analyzing vdir/rev_strcmp_mtime
+started running rev_strcmp_mtime
+finished rev_strcmp_mtime
+removing targets
+analyzing vdir/rev_strcmp_ctime
+started running rev_strcmp_ctime
+finished rev_strcmp_ctime
+removing targets
+analyzing vdir/strcmp_atime
+started running strcmp_atime
+finished strcmp_atime
+removing targets
+analyzing vdir/strcmp_mtime
+started running strcmp_mtime
+finished strcmp_mtime
+removing targets
+analyzing vdir/strcmp_ctime
+started running strcmp_ctime
+finished strcmp_ctime
+removing targets
+analyzing vdir/xstrcoll_df_atime
+started running xstrcoll_df_atime
+finished xstrcoll_df_atime
+removing targets
+analyzing vdir/xstrcoll_df_mtime
+started running xstrcoll_df_mtime
+finished xstrcoll_df_mtime
+removing targets
+analyzing vdir/rev_xstrcoll_df_ctime
+started running rev_xstrcoll_df_ctime
+finished rev_xstrcoll_df_ctime
+removing targets
+analyzing vdir/rev_xstrcoll_df_mtime
+started running rev_xstrcoll_df_mtime
+finished rev_xstrcoll_df_mtime
+removing targets
+analyzing vdir/rev_xstrcoll_df_atime
+started running rev_xstrcoll_df_atime
+finished rev_xstrcoll_df_atime
+removing targets
+analyzing vdir/xstrcoll_df_ctime
+started running xstrcoll_df_ctime
+finished xstrcoll_df_ctime
+removing targets
+analyzing vdir/strcmp_extension
+started running strcmp_extension
+finished strcmp_extension
+analyzing vdir/rev_strcmp_extension
+started running rev_strcmp_extension
+finished rev_strcmp_extension
+analyzing vdir/rev_xstrcoll_df_extension
+started running rev_xstrcoll_df_extension
+finished rev_xstrcoll_df_extension
+removing targets
+analyzing vdir/xstrcoll_df_extension
+started running xstrcoll_df_extension
+finished xstrcoll_df_extension
+removing targets
+analyzing vdir/strcmp_df_atime
+started running strcmp_df_atime
+finished strcmp_df_atime
+removing targets
+analyzing vdir/rev_strcmp_df_mtime
+started running rev_strcmp_df_mtime
+finished rev_strcmp_df_mtime
+removing targets
+analyzing vdir/strcmp_df_ctime
+started running strcmp_df_ctime
+finished strcmp_df_ctime
+removing targets
+analyzing vdir/strcmp_df_extension
+started running strcmp_df_extension
+finished strcmp_df_extension
+removing targets
+analyzing vdir/areadlink_with_size
+started running areadlink_with_size
+finished areadlink_with_size
+analyzing vdir/argmatch
+started running argmatch
+finished argmatch
+analyzing vdir/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing vdir/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing vdir/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing vdir/c_strncasecmp
+started running c_strncasecmp
+finished c_strncasecmp
+removing targets
+analyzing vdir/canonicalize_filename_mode
+started running canonicalize_filename_mode
+stopped exploration
+finished canonicalize_filename_mode
+removing targets
+analyzing vdir/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing vdir/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing vdir/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing vdir/dir_len
+started running dir_len
+finished dir_len
+analyzing vdir/mdir_name
+started running mdir_name
+finished mdir_name
+analyzing vdir/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing vdir/base_len
+started running base_len
+finished base_len
+analyzing vdir/file_has_acl
+started running file_has_acl
+finished file_has_acl
+analyzing vdir/record_file
+started running record_file
+finished record_file
+removing targets
+analyzing vdir/seen_file
+started running seen_file
+finished seen_file
+removing targets
+analyzing vdir/strmode
+started running strmode
+finished strmode
+removing targets
+analyzing vdir/filemodestring
+started running filemodestring
+finished filemodestring
+removing targets
+analyzing vdir/file_name_concat
+started running file_name_concat
+finished file_name_concat
+analyzing vdir/mfile_name_concat
+started running mfile_name_concat
+finished mfile_name_concat
+analyzing vdir/match_suffix
+started running match_suffix
+finished match_suffix
+removing targets
+analyzing vdir/filevercmp
+started running filevercmp
+stopped exploration
+finished filevercmp
+analyzing vdir/gettime
+started running gettime
+finished gettime
+removing targets
+analyzing vdir/current_timespec
+started running current_timespec
+finished current_timespec
+analyzing vdir/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing vdir/next_prime
+started running next_prime
+stopped exploration
+finished next_prime
+removing targets
+analyzing vdir/raw_hasher
+started running raw_hasher
+finished raw_hasher
+analyzing vdir/raw_comparator
+started running raw_comparator
+finished raw_comparator
+analyzing vdir/safe_hasher
+started running safe_hasher
+finished safe_hasher
+analyzing vdir/hash_find_entry
+started running hash_find_entry
+finished hash_find_entry
+analyzing vdir/check_tuning.isra.0
+started running check_tuning.isra.0
+finished check_tuning.isra.0
+removing targets
+analyzing vdir/transfer_entries
+started running transfer_entries
+stopped exploration
+finished transfer_entries
+removing targets
+analyzing vdir/hash_get_n_buckets
+started running hash_get_n_buckets
+finished hash_get_n_buckets
+analyzing vdir/hash_get_n_buckets_used
+started running hash_get_n_buckets_used
+finished hash_get_n_buckets_used
+analyzing vdir/hash_get_n_entries
+started running hash_get_n_entries
+finished hash_get_n_entries
+analyzing vdir/hash_get_max_bucket_length
+started running hash_get_max_bucket_length
+finished hash_get_max_bucket_length
+removing targets
+analyzing vdir/hash_table_ok
+started running hash_table_ok
+finished hash_table_ok
+removing targets
+analyzing vdir/hash_print_statistics
+started running hash_print_statistics
+finished hash_print_statistics
+removing targets
+analyzing vdir/hash_lookup
+started running hash_lookup
+finished hash_lookup
+analyzing vdir/hash_get_first
+started running hash_get_first
+finished hash_get_first
+removing targets
+analyzing vdir/hash_get_next
+started running hash_get_next
+finished hash_get_next
+analyzing vdir/hash_get_entries
+started running hash_get_entries
+finished hash_get_entries
+removing targets
+analyzing vdir/hash_do_for_each
+started running hash_do_for_each
+finished hash_do_for_each
+removing targets
+analyzing vdir/hash_string
+started running hash_string
+finished hash_string
+removing targets
+analyzing vdir/hash_reset_tuning
+started running hash_reset_tuning
+finished hash_reset_tuning
+analyzing vdir/hash_initialize
+started running hash_initialize
+finished hash_initialize
+analyzing vdir/hash_clear
+started running hash_clear
+finished hash_clear
+removing targets
+analyzing vdir/hash_free
+started running hash_free
+stopped exploration
+finished hash_free
+removing targets
+analyzing vdir/hash_rehash
+started running hash_rehash
+stopped exploration
+finished hash_rehash
+removing targets
+analyzing vdir/hash_insert_if_absent
+started running hash_insert_if_absent
+finished hash_insert_if_absent
+removing targets
+analyzing vdir/hash_insert
+started running hash_insert
+finished hash_insert
+analyzing vdir/hash_delete
+started running hash_delete
+stopped exploration
+finished hash_delete
+analyzing vdir/triple_hash
+started running triple_hash
+finished triple_hash
+analyzing vdir/triple_hash_no_name
+started running triple_hash_no_name
+finished triple_hash_no_name
+analyzing vdir/triple_compare
+started running triple_compare
+finished triple_compare
+removing targets
+analyzing vdir/triple_compare_ino_str
+started running triple_compare_ino_str
+finished triple_compare_ino_str
+removing targets
+analyzing vdir/triple_free
+started running triple_free
+finished triple_free
+analyzing vdir/adjust_value.part.0
+started running adjust_value.part.0
+finished adjust_value.part.0
+analyzing vdir/human_readable
+started running human_readable
+stopped exploration
+finished human_readable
+analyzing vdir/human_options
+started running human_options
+finished human_options
+removing targets
+analyzing vdir/getuser
+started running getuser
+finished getuser
+removing targets
+analyzing vdir/getuidbyname
+started running getuidbyname
+finished getuidbyname
+removing targets
+analyzing vdir/getgroup
+started running getgroup
+finished getgroup
+removing targets
+analyzing vdir/getgidbyname
+started running getgidbyname
+finished getgidbyname
+removing targets
+analyzing vdir/imaxtostr
+started running imaxtostr
+finished imaxtostr
+removing targets
+analyzing vdir/umaxtostr
+started running umaxtostr
+finished umaxtostr
+removing targets
+analyzing vdir/mbsalign
+started running mbsalign
+stopped exploration
+finished mbsalign
+analyzing vdir/ambsalign
+started running ambsalign
+finished ambsalign
+analyzing vdir/mbsnwidth
+started running mbsnwidth
+stopped exploration
+finished mbsnwidth
+analyzing vdir/gnu_mbswidth
+started running gnu_mbswidth
+stopped exploration
+finished gnu_mbswidth
+analyzing vdir/mpsort_with_tmp
+started running mpsort_with_tmp
+finished mpsort_with_tmp
+removing targets
+analyzing vdir/mpsort
+started running mpsort
+finished mpsort
+removing targets
+analyzing vdir/memcpy_lowcase
+started running memcpy_lowcase
+finished memcpy_lowcase
+removing targets
+analyzing vdir/memcpy_uppcase
+started running memcpy_uppcase
+finished memcpy_uppcase
+removing targets
+analyzing vdir/nstrftime
+started running nstrftime
+finished nstrftime
+analyzing vdir/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing vdir/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing vdir/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing vdir/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing vdir/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing vdir/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing vdir/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing vdir/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing vdir/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing vdir/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing vdir/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing vdir/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing vdir/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing vdir/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing vdir/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing vdir/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing vdir/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing vdir/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing vdir/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing vdir/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing vdir/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing vdir/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing vdir/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing vdir/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing vdir/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing vdir/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing vdir/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing vdir/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing vdir/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing vdir/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing vdir/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing vdir/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing vdir/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing vdir/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing vdir/quote
+started running quote
+finished quote
+removing targets
+analyzing vdir/same_nameat.part.0
+started running same_nameat.part.0
+finished same_nameat.part.0
+analyzing vdir/same_nameat
+started running same_nameat
+finished same_nameat
+analyzing vdir/same_name
+started running same_name
+finished same_name
+removing targets
+analyzing vdir/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing vdir/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing vdir/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing vdir/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing vdir/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing vdir/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing vdir/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing vdir/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing vdir/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing vdir/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing vdir/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing vdir/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing vdir/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing vdir/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing vdir/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing vdir/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing vdir/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing vdir/xnumtoumax
+started running xnumtoumax
+finished xnumtoumax
+analyzing vdir/xdectoumax
+started running xdectoumax
+finished xdectoumax
+analyzing vdir/xgetcwd
+started running xgetcwd
+finished xgetcwd
+analyzing vdir/xgethostname
+started running xgethostname
+finished xgethostname
+analyzing vdir/xstrtoul
+started running xstrtoul
+finished xstrtoul
+removing targets
+analyzing vdir/xstrtol_fatal
+started running xstrtol_fatal
+stopped exploration
+finished xstrtol_fatal
+removing targets
+analyzing vdir/xstrtoumax
+started running xstrtoumax
+finished xstrtoumax
+removing targets
+analyzing vdir/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing vdir/print_and_abort
+started running print_and_abort
+finished print_and_abort
+analyzing vdir/call_chunkfun
+started running call_chunkfun
+finished call_chunkfun
+removing targets
+analyzing vdir/call_freefun
+started running call_freefun
+finished call_freefun
+removing targets
+analyzing vdir/setenv_TZ
+started running setenv_TZ
+finished setenv_TZ
+removing targets
+analyzing vdir/tzfree.part.0
+started running tzfree.part.0
+finished tzfree.part.0
+removing targets
+analyzing vdir/revert_tz.part.1
+started running revert_tz.part.1
+finished revert_tz.part.1
+analyzing vdir/tzalloc
+started running tzalloc
+finished tzalloc
+removing targets
+analyzing vdir/save_abbr
+started running save_abbr
+stopped exploration
+finished save_abbr
+removing targets
+analyzing vdir/set_tz
+started running set_tz
+finished set_tz
+analyzing vdir/tzfree
+started running tzfree
+finished tzfree
+removing targets
+analyzing vdir/localtime_rz
+started running localtime_rz
+finished localtime_rz
+removing targets
+analyzing vdir/mktime_z
+started running mktime_z
+finished mktime_z
+removing targets
+analyzing vdir/close_stream
+started running close_stream
+finished close_stream
+analyzing vdir/dir_name
+started running dir_name
+finished dir_name
+analyzing vdir/hash_pjw
+started running hash_pjw
+finished hash_pjw
+removing targets
+analyzing vdir/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing vdir/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing vdir/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing vdir/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing vdir/atexit
+started running atexit
+finished atexit
+removing targets

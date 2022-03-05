@@ -1,0 +1,15 @@
+WARNING | 2021-12-09 02:17:16,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_function
+WARNING | 2021-12-09 02:17:16,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_config_dir
+WARNING | 2021-12-09 02:17:16,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_getc_function
+WARNING | 2021-12-09 02:17:16,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_source_info_option
+WARNING | 2021-12-09 02:17:16,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_log_dir
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_instream
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_utmp_file
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_readline_name
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_wtmp_file
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_bug_report_address
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_resolve_hostnames
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_acct_dir
+WARNING | 2021-12-09 02:17:16,625 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_pid_dir
+WARNING | 2021-12-09 02:17:16,632 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

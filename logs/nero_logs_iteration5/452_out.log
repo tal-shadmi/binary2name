@@ -1,0 +1,1226 @@
+gcc-5__Ou__rush__rush have 343 funcs
+analyzing gcc-5__Ou__rush__rush/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__rush__rush/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__rush__rush/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__rush__rush/check_nonroot_owner
+started running check_nonroot_owner
+finished check_nonroot_owner
+analyzing gcc-5__Ou__rush__rush/check_iwgrp
+started running check_iwgrp
+finished check_iwgrp
+analyzing gcc-5__Ou__rush__rush/check_iwoth
+started running check_iwoth
+finished check_iwoth
+analyzing gcc-5__Ou__rush__rush/check_linked_wrdir
+started running check_linked_wrdir
+finished check_linked_wrdir
+removing targets
+analyzing gcc-5__Ou__rush__rush/check_dir_iwgrp
+started running check_dir_iwgrp
+finished check_dir_iwgrp
+analyzing gcc-5__Ou__rush__rush/check_dir_iwoth
+started running check_dir_iwoth
+finished check_dir_iwoth
+analyzing gcc-5__Ou__rush__rush/check_config_permissions
+started running check_config_permissions
+finished check_config_permissions
+analyzing gcc-5__Ou__rush__rush/cfck_keyword
+started running cfck_keyword
+finished cfck_keyword
+analyzing gcc-5__Ou__rush__rush/skipws
+started running skipws
+finished skipws
+removing targets
+analyzing gcc-5__Ou__rush__rush/eow
+started running eow
+finished eow
+removing targets
+analyzing gcc-5__Ou__rush__rush/trimws
+started running trimws
+finished trimws
+analyzing gcc-5__Ou__rush__rush/trimslash
+started running trimslash
+finished trimslash
+analyzing gcc-5__Ou__rush__rush/parse_file_mode
+started running parse_file_mode
+finished parse_file_mode
+analyzing gcc-5__Ou__rush__rush/parsegid
+started running parsegid
+finished parsegid
+analyzing gcc-5__Ou__rush__rush/parseuid
+started running parseuid
+finished parseuid
+analyzing gcc-5__Ou__rush__rush/init_input_buf
+started running init_input_buf
+stopped exploration
+finished init_input_buf
+analyzing gcc-5__Ou__rush__rush/init_input_string
+started running init_input_string
+finished init_input_string
+analyzing gcc-5__Ou__rush__rush/free_input_buf
+started running free_input_buf
+finished free_input_buf
+removing targets
+analyzing gcc-5__Ou__rush__rush/read_line_plain
+started running read_line_plain
+finished read_line_plain
+removing targets
+analyzing gcc-5__Ou__rush__rush/read_line
+started running read_line
+finished read_line
+analyzing gcc-5__Ou__rush__rush/unquote_char
+started running unquote_char
+finished unquote_char
+removing targets
+analyzing gcc-5__Ou__rush__rush/copy_string
+started running copy_string
+finished copy_string
+analyzing gcc-5__Ou__rush__rush/new_rush_rule
+started running new_rush_rule
+finished new_rush_rule
+analyzing gcc-5__Ou__rush__rush/absolute_dir_p
+started running absolute_dir_p
+finished absolute_dir_p
+removing targets
+analyzing gcc-5__Ou__rush__rush/check_dir
+started running check_dir
+finished check_dir
+removing targets
+analyzing gcc-5__Ou__rush__rush/new_transform_node
+started running new_transform_node
+finished new_transform_node
+analyzing gcc-5__Ou__rush__rush/new_test_node
+started running new_test_node
+finished new_test_node
+analyzing gcc-5__Ou__rush__rush/parse_cmp_op
+started running parse_cmp_op
+finished parse_cmp_op
+removing targets
+analyzing gcc-5__Ou__rush__rush/numstrtonum
+started running numstrtonum
+finished numstrtonum
+analyzing gcc-5__Ou__rush__rush/parse_numtest
+started running parse_numtest
+finished parse_numtest
+analyzing gcc-5__Ou__rush__rush/parse_neg_strv
+started running parse_neg_strv
+finished parse_neg_strv
+removing targets
+analyzing gcc-5__Ou__rush__rush/regexp_error
+started running regexp_error
+finished regexp_error
+analyzing gcc-5__Ou__rush__rush/check_argc
+started running check_argc
+finished check_argc
+removing targets
+analyzing gcc-5__Ou__rush__rush/uidtonum
+started running uidtonum
+finished uidtonum
+analyzing gcc-5__Ou__rush__rush/gidtonum
+started running gidtonum
+finished gidtonum
+analyzing gcc-5__Ou__rush__rush/get_bool
+started running get_bool
+finished get_bool
+analyzing gcc-5__Ou__rush__rush/copy_part
+started running copy_part
+finished copy_part
+analyzing gcc-5__Ou__rush__rush/parse_conn
+started running parse_conn
+finished parse_conn
+analyzing gcc-5__Ou__rush__rush/find_family
+started running find_family
+finished find_family
+removing targets
+analyzing gcc-5__Ou__rush__rush/parse_url
+started running parse_url
+finished parse_url
+analyzing gcc-5__Ou__rush__rush/make_socket
+started running make_socket
+finished make_socket
+removing targets
+analyzing gcc-5__Ou__rush__rush/get_arg_index
+started running get_arg_index
+finished get_arg_index
+removing targets
+analyzing gcc-5__Ou__rush__rush/find_token
+started running find_token
+finished find_token
+analyzing gcc-5__Ou__rush__rush/parse_input_buf
+started running parse_input_buf
+stopped exploration
+finished parse_input_buf
+removing targets
+analyzing gcc-5__Ou__rush__rush/parse_config
+started running parse_config
+finished parse_config
+analyzing gcc-5__Ou__rush__rush/dumper_init
+started running dumper_init
+finished dumper_init
+analyzing gcc-5__Ou__rush__rush/dumper_copy
+started running dumper_copy
+finished dumper_copy
+analyzing gcc-5__Ou__rush__rush/dump_indent
+started running dump_indent
+finished dump_indent
+removing targets
+analyzing gcc-5__Ou__rush__rush/dump_separator
+started running dump_separator
+finished dump_separator
+removing targets
+analyzing gcc-5__Ou__rush__rush/dump_delim
+started running dump_delim
+finished dump_delim
+analyzing gcc-5__Ou__rush__rush/dump_id
+started running dump_id
+finished dump_id
+removing targets
+analyzing gcc-5__Ou__rush__rush/dump_null
+started running dump_null
+finished dump_null
+analyzing gcc-5__Ou__rush__rush/dump_string_data
+started running dump_string_data
+finished dump_string_data
+removing targets
+analyzing gcc-5__Ou__rush__rush/dump_string
+started running dump_string
+finished dump_string
+analyzing gcc-5__Ou__rush__rush/dump_raw_argv
+started running dump_raw_argv
+finished dump_raw_argv
+removing targets
+analyzing gcc-5__Ou__rush__rush/cmp_ptr
+started running cmp_ptr
+finished cmp_ptr
+analyzing gcc-5__Ou__rush__rush/dump_argv
+started running dump_argv
+finished dump_argv
+analyzing gcc-5__Ou__rush__rush/dump_umax
+started running dump_umax
+finished dump_umax
+analyzing gcc-5__Ou__rush__rush/dump_octal
+started running dump_octal
+finished dump_octal
+analyzing gcc-5__Ou__rush__rush/dump_int
+started running dump_int
+finished dump_int
+analyzing gcc-5__Ou__rush__rush/dump_request
+started running dump_request
+stopped exploration
+finished dump_request
+analyzing gcc-5__Ou__rush__rush/do_set_limit
+started running do_set_limit
+finished do_set_limit
+removing targets
+analyzing gcc-5__Ou__rush__rush/set_prio
+started running set_prio
+finished set_prio
+removing targets
+analyzing gcc-5__Ou__rush__rush/check_logins
+started running check_logins
+finished check_logins
+removing targets
+analyzing gcc-5__Ou__rush__rush/set_user_limits
+started running set_user_limits
+stopped exploration
+finished set_user_limits
+removing targets
+analyzing gcc-5__Ou__rush__rush/getlimit
+started running getlimit
+finished getlimit
+analyzing gcc-5__Ou__rush__rush/parse_limits
+started running parse_limits
+finished parse_limits
+analyzing gcc-5__Ou__rush__rush/meta_expand
+started running meta_expand
+finished meta_expand
+removing targets
+analyzing gcc-5__Ou__rush__rush/find_expansion_char
+started running find_expansion_char
+finished find_expansion_char
+removing targets
+analyzing gcc-5__Ou__rush__rush/find_expansion_word
+started running find_expansion_word
+finished find_expansion_word
+removing targets
+analyzing gcc-5__Ou__rush__rush/meta_expand_string
+started running meta_expand_string
+stopped exploration
+finished meta_expand_string
+removing targets
+analyzing gcc-5__Ou__rush__rush/meta_uid
+started running meta_uid
+finished meta_uid
+analyzing gcc-5__Ou__rush__rush/meta_user
+started running meta_user
+finished meta_user
+analyzing gcc-5__Ou__rush__rush/meta_gid
+started running meta_gid
+finished meta_gid
+analyzing gcc-5__Ou__rush__rush/meta_group
+started running meta_group
+finished meta_group
+analyzing gcc-5__Ou__rush__rush/meta_home
+started running meta_home
+finished meta_home
+analyzing gcc-5__Ou__rush__rush/meta_gecos
+started running meta_gecos
+finished meta_gecos
+analyzing gcc-5__Ou__rush__rush/meta_program
+started running meta_program
+finished meta_program
+removing targets
+analyzing gcc-5__Ou__rush__rush/meta_command
+started running meta_command
+finished meta_command
+analyzing gcc-5__Ou__rush__rush/rush_expand_string
+started running rush_expand_string
+finished rush_expand_string
+analyzing gcc-5__Ou__rush__rush/map_string
+started running map_string
+stopped exploration
+finished map_string
+analyzing gcc-5__Ou__rush__rush/set_error_msg
+started running set_error_msg
+finished set_error_msg
+analyzing gcc-5__Ou__rush__rush/string_to_error_index
+started running string_to_error_index
+finished string_to_error_index
+removing targets
+analyzing gcc-5__Ou__rush__rush/send_msg
+started running send_msg
+finished send_msg
+analyzing gcc-5__Ou__rush__rush/vlogmsg
+started running vlogmsg
+finished vlogmsg
+removing targets
+analyzing gcc-5__Ou__rush__rush/logmsg
+started running logmsg
+finished logmsg
+removing targets
+analyzing gcc-5__Ou__rush__rush/die
+started running die
+finished die
+analyzing gcc-5__Ou__rush__rush/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing gcc-5__Ou__rush__rush/is_prefix
+started running is_prefix
+finished is_prefix
+analyzing gcc-5__Ou__rush__rush/is_suffix
+started running is_suffix
+finished is_suffix
+analyzing gcc-5__Ou__rush__rush/test_request_cmdline
+started running test_request_cmdline
+finished test_request_cmdline
+analyzing gcc-5__Ou__rush__rush/test_request_arg
+started running test_request_arg
+finished test_request_arg
+removing targets
+analyzing gcc-5__Ou__rush__rush/test_num_p
+started running test_num_p
+finished test_num_p
+removing targets
+analyzing gcc-5__Ou__rush__rush/test_request_argc
+started running test_request_argc
+finished test_request_argc
+analyzing gcc-5__Ou__rush__rush/test_request_uid
+started running test_request_uid
+finished test_request_uid
+analyzing gcc-5__Ou__rush__rush/test_request_gid
+started running test_request_gid
+finished test_request_gid
+analyzing gcc-5__Ou__rush__rush/groupcmp
+started running groupcmp
+finished groupcmp
+analyzing gcc-5__Ou__rush__rush/test_request_group
+started running test_request_group
+finished test_request_group
+removing targets
+analyzing gcc-5__Ou__rush__rush/test_request_user
+started running test_request_user
+finished test_request_user
+removing targets
+analyzing gcc-5__Ou__rush__rush/run_tests
+started running run_tests
+finished run_tests
+removing targets
+analyzing gcc-5__Ou__rush__rush/make_file_name
+started running make_file_name
+finished make_file_name
+analyzing gcc-5__Ou__rush__rush/expand_tilde
+started running expand_tilde
+finished expand_tilde
+removing targets
+analyzing gcc-5__Ou__rush__rush/find_env_pos
+started running find_env_pos
+finished find_env_pos
+analyzing gcc-5__Ou__rush__rush/find_env_ptr
+started running find_env_ptr
+finished find_env_ptr
+analyzing gcc-5__Ou__rush__rush/var_is_unset
+started running var_is_unset
+finished var_is_unset
+analyzing gcc-5__Ou__rush__rush/env_concat
+started running env_concat
+finished env_concat
+removing targets
+analyzing gcc-5__Ou__rush__rush/env_setup
+started running env_setup
+finished env_setup
+removing targets
+analyzing gcc-5__Ou__rush__rush/reparse_cmdline
+started running reparse_cmdline
+finished reparse_cmdline
+analyzing gcc-5__Ou__rush__rush/rebuild_cmdline
+started running rebuild_cmdline
+finished rebuild_cmdline
+analyzing gcc-5__Ou__rush__rush/get_arg_no
+started running get_arg_no
+finished get_arg_no
+removing targets
+analyzing gcc-5__Ou__rush__rush/assign_string
+started running assign_string
+finished assign_string
+removing targets
+analyzing gcc-5__Ou__rush__rush/transform_cmdline_fun
+started running transform_cmdline_fun
+finished transform_cmdline_fun
+removing targets
+analyzing gcc-5__Ou__rush__rush/transform_setcmd_fun
+started running transform_setcmd_fun
+finished transform_setcmd_fun
+removing targets
+analyzing gcc-5__Ou__rush__rush/transform_arg_fun
+started running transform_arg_fun
+finished transform_arg_fun
+analyzing gcc-5__Ou__rush__rush/transform_map_fun
+started running transform_map_fun
+finished transform_map_fun
+removing targets
+analyzing gcc-5__Ou__rush__rush/transform_delarg_fun
+started running transform_delarg_fun
+finished transform_delarg_fun
+analyzing gcc-5__Ou__rush__rush/transform_setarg_fun
+started running transform_setarg_fun
+finished transform_setarg_fun
+analyzing gcc-5__Ou__rush__rush/run_transforms
+started running run_transforms
+stopped exploration
+finished run_transforms
+removing targets
+analyzing gcc-5__Ou__rush__rush/acct_on
+started running acct_on
+finished acct_on
+analyzing gcc-5__Ou__rush__rush/acct_off
+started running acct_off
+finished acct_off
+analyzing gcc-5__Ou__rush__rush/fork_process
+started running fork_process
+finished fork_process
+analyzing gcc-5__Ou__rush__rush/membergid
+started running membergid
+finished membergid
+removing targets
+analyzing gcc-5__Ou__rush__rush/get_user_groups
+started running get_user_groups
+stopped exploration
+finished get_user_groups
+analyzing gcc-5__Ou__rush__rush/setowner
+started running setowner
+finished setowner
+analyzing gcc-5__Ou__rush__rush/run_rule
+started running run_rule
+stopped exploration
+finished run_rule
+removing targets
+analyzing gcc-5__Ou__rush__rush/indent
+started running indent
+finished indent
+removing targets
+analyzing gcc-5__Ou__rush__rush/print_option_descr
+started running print_option_descr
+finished print_option_descr
+removing targets
+analyzing gcc-5__Ou__rush__rush/print_help
+started running print_help
+finished print_help
+analyzing gcc-5__Ou__rush__rush/cmpidx_short
+started running cmpidx_short
+finished cmpidx_short
+analyzing gcc-5__Ou__rush__rush/cmpidx_long
+started running cmpidx_long
+finished cmpidx_long
+removing targets
+analyzing gcc-5__Ou__rush__rush/print_usage
+started running print_usage
+finished print_usage
+analyzing gcc-5__Ou__rush__rush/print_version_only
+started running print_version_only
+finished print_version_only
+analyzing gcc-5__Ou__rush__rush/print_version
+started running print_version
+finished print_version
+analyzing gcc-5__Ou__rush__rush/get_options
+started running get_options
+stopped exploration
+finished get_options
+removing targets
+analyzing gcc-5__Ou__rush__rush/post_socket_send
+started running post_socket_send
+finished post_socket_send
+removing targets
+analyzing gcc-5__Ou__rush__rush/new_transform
+started running new_transform
+finished new_transform
+analyzing gcc-5__Ou__rush__rush/add_segment
+started running add_segment
+finished add_segment
+analyzing gcc-5__Ou__rush__rush/add_literal_segment
+started running add_literal_segment
+finished add_literal_segment
+removing targets
+analyzing gcc-5__Ou__rush__rush/add_char_segment
+started running add_char_segment
+finished add_char_segment
+analyzing gcc-5__Ou__rush__rush/add_backref_segment
+started running add_backref_segment
+finished add_backref_segment
+analyzing gcc-5__Ou__rush__rush/add_case_ctl_segment
+started running add_case_ctl_segment
+finished add_case_ctl_segment
+analyzing gcc-5__Ou__rush__rush/parse_transform_expr
+started running parse_transform_expr
+stopped exploration
+finished parse_transform_expr
+analyzing gcc-5__Ou__rush__rush/compile_transform_expr
+started running compile_transform_expr
+finished compile_transform_expr
+removing targets
+analyzing gcc-5__Ou__rush__rush/run_case_conv
+started running run_case_conv
+finished run_case_conv
+removing targets
+analyzing gcc-5__Ou__rush__rush/transform_string
+started running transform_string
+finished transform_string
+removing targets
+analyzing gcc-5__Ou__rush__rush/argcv_free
+started running argcv_free
+finished argcv_free
+removing targets
+analyzing gcc-5__Ou__rush__rush/argcv_string
+started running argcv_string
+finished argcv_string
+analyzing gcc-5__Ou__rush__rush/rush_i18n_init
+started running rush_i18n_init
+finished rush_i18n_init
+analyzing gcc-5__Ou__rush__rush/user_gettext
+started running user_gettext
+finished user_gettext
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_set_program_name
+started running rush_set_program_name
+finished rush_set_program_name
+analyzing gcc-5__Ou__rush__rush/format_error
+started running format_error
+finished format_error
+removing targets
+analyzing gcc-5__Ou__rush__rush/mkname
+started running mkname
+finished mkname
+analyzing gcc-5__Ou__rush__rush/rushdb_open_internal
+started running rushdb_open_internal
+finished rushdb_open_internal
+analyzing gcc-5__Ou__rush__rush/rushdb_open
+started running rushdb_open
+finished rushdb_open
+analyzing gcc-5__Ou__rush__rush/rushdb_close
+started running rushdb_close
+finished rushdb_close
+analyzing gcc-5__Ou__rush__rush/rushdb_backward_direction
+started running rushdb_backward_direction
+finished rushdb_backward_direction
+analyzing gcc-5__Ou__rush__rush/rushdb_lock
+started running rushdb_lock
+finished rushdb_lock
+removing targets
+analyzing gcc-5__Ou__rush__rush/rushdb_unlock
+started running rushdb_unlock
+finished rushdb_unlock
+analyzing gcc-5__Ou__rush__rush/format_key_free
+started running format_key_free
+finished format_key_free
+removing targets
+analyzing gcc-5__Ou__rush__rush/format_key_lookup
+started running format_key_lookup
+finished format_key_lookup
+removing targets
+analyzing gcc-5__Ou__rush__rush/form_free
+started running form_free
+finished form_free
+removing targets
+analyzing gcc-5__Ou__rush__rush/key_align
+started running key_align
+finished key_align
+analyzing gcc-5__Ou__rush__rush/output_string
+started running output_string
+finished output_string
+removing targets
+analyzing gcc-5__Ou__rush__rush/output_string_key
+started running output_string_key
+finished output_string_key
+removing targets
+analyzing gcc-5__Ou__rush__rush/output_tab
+started running output_tab
+finished output_tab
+removing targets
+analyzing gcc-5__Ou__rush__rush/output_duration
+started running output_duration
+finished output_duration
+removing targets
+analyzing gcc-5__Ou__rush__rush/output_time
+started running output_time
+finished output_time
+analyzing gcc-5__Ou__rush__rush/format_user
+started running format_user
+finished format_user
+analyzing gcc-5__Ou__rush__rush/format_rule
+started running format_rule
+finished format_rule
+analyzing gcc-5__Ou__rush__rush/format_command
+started running format_command
+finished format_command
+analyzing gcc-5__Ou__rush__rush/format_pid
+started running format_pid
+finished format_pid
+analyzing gcc-5__Ou__rush__rush/format_duration
+started running format_duration
+finished format_duration
+removing targets
+analyzing gcc-5__Ou__rush__rush/format_start
+started running format_start
+finished format_start
+analyzing gcc-5__Ou__rush__rush/format_stop
+started running format_stop
+finished format_stop
+removing targets
+analyzing gcc-5__Ou__rush__rush/collect_sequence
+started running collect_sequence
+finished collect_sequence
+removing targets
+analyzing gcc-5__Ou__rush__rush/parse_string_fmt
+started running parse_string_fmt
+finished parse_string_fmt
+analyzing gcc-5__Ou__rush__rush/parse_quote
+started running parse_quote
+finished parse_quote
+analyzing gcc-5__Ou__rush__rush/parse_string
+started running parse_string
+finished parse_string
+analyzing gcc-5__Ou__rush__rush/get_token
+started running get_token
+finished get_token
+removing targets
+analyzing gcc-5__Ou__rush__rush/is_time_function
+started running is_time_function
+finished is_time_function
+removing targets
+analyzing gcc-5__Ou__rush__rush/time_width
+started running time_width
+finished time_width
+analyzing gcc-5__Ou__rush__rush/parse_form
+started running parse_form
+finished parse_form
+analyzing gcc-5__Ou__rush__rush/rushdb_compile_format
+started running rushdb_compile_format
+finished rushdb_compile_format
+analyzing gcc-5__Ou__rush__rush/rushdb_print
+started running rushdb_print
+stopped exploration
+finished rushdb_print
+removing targets
+analyzing gcc-5__Ou__rush__rush/rushdb_print_header
+started running rushdb_print_header
+finished rushdb_print_header
+removing targets
+analyzing gcc-5__Ou__rush__rush/rushdb_start
+started running rushdb_start
+finished rushdb_start
+analyzing gcc-5__Ou__rush__rush/rushdb_stop
+started running rushdb_stop
+finished rushdb_stop
+analyzing gcc-5__Ou__rush__rush/new_line_seg
+started running new_line_seg
+finished new_line_seg
+analyzing gcc-5__Ou__rush__rush/slist_append
+started running slist_append
+finished slist_append
+analyzing gcc-5__Ou__rush__rush/slist_alloc
+started running slist_alloc
+finished slist_alloc
+analyzing gcc-5__Ou__rush__rush/slist_reduce
+started running slist_reduce
+finished slist_reduce
+removing targets
+analyzing gcc-5__Ou__rush__rush/slist_create
+started running slist_create
+finished slist_create
+analyzing gcc-5__Ou__rush__rush/slist_free
+started running slist_free
+finished slist_free
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_utmp_open
+started running rush_utmp_open
+finished rush_utmp_open
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_utmp_close
+started running rush_utmp_close
+finished rush_utmp_close
+analyzing gcc-5__Ou__rush__rush/rush_utmp_read0
+started running rush_utmp_read0
+finished rush_utmp_read0
+analyzing gcc-5__Ou__rush__rush/rush_utmp_read
+started running rush_utmp_read
+finished rush_utmp_read
+analyzing gcc-5__Ou__rush__rush/rush_utmp_chstatus
+started running rush_utmp_chstatus
+finished rush_utmp_chstatus
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_utmp_write
+started running rush_utmp_write
+finished rush_utmp_write
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_utmp_lock_all
+started running rush_utmp_lock_all
+finished rush_utmp_lock_all
+analyzing gcc-5__Ou__rush__rush/rush_utmp_unlock_all
+started running rush_utmp_unlock_all
+finished rush_utmp_unlock_all
+analyzing gcc-5__Ou__rush__rush/wordsplit_init0
+started running wordsplit_init0
+finished wordsplit_init0
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_init
+started running wordsplit_init
+stopped exploration
+finished wordsplit_init
+removing targets
+analyzing gcc-5__Ou__rush__rush/alloc_space
+started running alloc_space
+finished alloc_space
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_flagstr
+started running wsnode_flagstr
+finished wsnode_flagstr
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_ptr
+started running wsnode_ptr
+finished wsnode_ptr
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_len
+started running wsnode_len
+finished wsnode_len
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_new
+started running wsnode_new
+finished wsnode_new
+analyzing gcc-5__Ou__rush__rush/wsnode_free
+started running wsnode_free
+finished wsnode_free
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_append
+started running wsnode_append
+finished wsnode_append
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_remove
+started running wsnode_remove
+finished wsnode_remove
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_insert
+started running wsnode_insert
+finished wsnode_insert
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_add_segm
+started running wordsplit_add_segm
+finished wordsplit_add_segm
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_free_nodes
+started running wordsplit_free_nodes
+finished wordsplit_free_nodes
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_dump_nodes
+started running wordsplit_dump_nodes
+finished wordsplit_dump_nodes
+removing targets
+analyzing gcc-5__Ou__rush__rush/coalesce_segment
+started running coalesce_segment
+finished coalesce_segment
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_quoteremoval
+started running wsnode_quoteremoval
+finished wsnode_quoteremoval
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsnode_coalesce
+started running wsnode_coalesce
+finished wsnode_coalesce
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_finish
+started running wordsplit_finish
+finished wordsplit_finish
+removing targets
+analyzing gcc-5__Ou__rush__rush/node_split_prefix
+started running node_split_prefix
+finished node_split_prefix
+removing targets
+analyzing gcc-5__Ou__rush__rush/find_closing_paren
+started running find_closing_paren
+finished find_closing_paren
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_find_env
+started running wordsplit_find_env
+finished wordsplit_find_env
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsplt_assign_var
+started running wsplt_assign_var
+finished wsplt_assign_var
+removing targets
+analyzing gcc-5__Ou__rush__rush/expvar
+started running expvar
+stopped exploration
+finished expvar
+removing targets
+analyzing gcc-5__Ou__rush__rush/begin_var_p
+started running begin_var_p
+finished begin_var_p
+removing targets
+analyzing gcc-5__Ou__rush__rush/node_expand
+started running node_expand
+finished node_expand
+analyzing gcc-5__Ou__rush__rush/wsnode_nullelim
+started running wsnode_nullelim
+finished wsnode_nullelim
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_varexp
+started running wordsplit_varexp
+finished wordsplit_varexp
+removing targets
+analyzing gcc-5__Ou__rush__rush/begin_cmd_p
+started running begin_cmd_p
+finished begin_cmd_p
+analyzing gcc-5__Ou__rush__rush/expcmd
+started running expcmd
+finished expcmd
+analyzing gcc-5__Ou__rush__rush/wordsplit_cmdexp
+started running wordsplit_cmdexp
+finished wordsplit_cmdexp
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_trimws
+started running wordsplit_trimws
+stopped exploration
+finished wordsplit_trimws
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_tildexpand
+started running wordsplit_tildexpand
+stopped exploration
+finished wordsplit_tildexpand
+removing targets
+analyzing gcc-5__Ou__rush__rush/isglob
+started running isglob
+finished isglob
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_pathexpand
+started running wordsplit_pathexpand
+stopped exploration
+finished wordsplit_pathexpand
+removing targets
+analyzing gcc-5__Ou__rush__rush/skip_sed_expr
+started running skip_sed_expr
+finished skip_sed_expr
+removing targets
+analyzing gcc-5__Ou__rush__rush/skip_delim
+started running skip_delim
+finished skip_delim
+removing targets
+analyzing gcc-5__Ou__rush__rush/scan_qstring
+started running scan_qstring
+finished scan_qstring
+removing targets
+analyzing gcc-5__Ou__rush__rush/scan_word
+started running scan_word
+stopped exploration
+finished scan_word
+removing targets
+analyzing gcc-5__Ou__rush__rush/xtonum
+started running xtonum
+finished xtonum
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_c_quoted_length
+started running wordsplit_c_quoted_length
+stopped exploration
+finished wordsplit_c_quoted_length
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsplt_unquote_char
+started running wsplt_unquote_char
+finished wsplt_unquote_char
+removing targets
+analyzing gcc-5__Ou__rush__rush/wsplt_quote_char
+started running wsplt_quote_char
+finished wsplt_quote_char
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_c_unquote_char
+started running wordsplit_c_unquote_char
+finished wordsplit_c_unquote_char
+analyzing gcc-5__Ou__rush__rush/wordsplit_c_quote_char
+started running wordsplit_c_quote_char
+finished wordsplit_c_quote_char
+analyzing gcc-5__Ou__rush__rush/wordsplit_string_unquote_copy
+started running wordsplit_string_unquote_copy
+stopped exploration
+finished wordsplit_string_unquote_copy
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_c_quote_copy
+started running wordsplit_c_quote_copy
+finished wordsplit_c_quote_copy
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_process_list
+started running wordsplit_process_list
+finished wordsplit_process_list
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_run
+started running wordsplit_run
+finished wordsplit_run
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_len
+started running wordsplit_len
+finished wordsplit_len
+analyzing gcc-5__Ou__rush__rush/wordsplit
+started running wordsplit
+finished wordsplit
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_free_words
+started running wordsplit_free_words
+finished wordsplit_free_words
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_free_envbuf
+started running wordsplit_free_envbuf
+finished wordsplit_free_envbuf
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_clearerr
+started running wordsplit_clearerr
+finished wordsplit_clearerr
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_free
+started running wordsplit_free
+finished wordsplit_free
+analyzing gcc-5__Ou__rush__rush/wordsplit_getwords
+started running wordsplit_getwords
+finished wordsplit_getwords
+analyzing gcc-5__Ou__rush__rush/wordsplit_strerror
+started running wordsplit_strerror
+finished wordsplit_strerror
+removing targets
+analyzing gcc-5__Ou__rush__rush/wordsplit_perror
+started running wordsplit_perror
+finished wordsplit_perror
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_open
+started running rush_wtmp_open
+finished rush_wtmp_open
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_close
+started running rush_wtmp_close
+finished rush_wtmp_close
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_rewind
+started running rush_wtmp_rewind
+finished rush_wtmp_rewind
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_set_dir
+started running rush_wtmp_set_dir
+finished rush_wtmp_set_dir
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_seek
+started running rush_wtmp_seek
+finished rush_wtmp_seek
+analyzing gcc-5__Ou__rush__rush/alloc_wtmp
+started running alloc_wtmp
+finished alloc_wtmp
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_read_fwd
+started running rush_wtmp_read_fwd
+finished rush_wtmp_read_fwd
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_read
+started running rush_wtmp_read
+finished rush_wtmp_read
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_reclen
+started running rush_wtmp_reclen
+finished rush_wtmp_reclen
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_copy
+started running rush_wtmp_copy
+finished rush_wtmp_copy
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_append
+started running rush_wtmp_append
+finished rush_wtmp_append
+removing targets
+analyzing gcc-5__Ou__rush__rush/rush_wtmp_update
+started running rush_wtmp_update
+finished rush_wtmp_update
+analyzing gcc-5__Ou__rush__rush/c_isalnum
+started running c_isalnum
+finished c_isalnum
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isalpha
+started running c_isalpha
+finished c_isalpha
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isascii
+started running c_isascii
+finished c_isascii
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isblank
+started running c_isblank
+finished c_isblank
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_iscntrl
+started running c_iscntrl
+finished c_iscntrl
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isdigit
+started running c_isdigit
+finished c_isdigit
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isgraph
+started running c_isgraph
+finished c_isgraph
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_islower
+started running c_islower
+finished c_islower
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isprint
+started running c_isprint
+finished c_isprint
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_ispunct
+started running c_ispunct
+finished c_ispunct
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isspace
+started running c_isspace
+finished c_isspace
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isupper
+started running c_isupper
+finished c_isupper
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_isxdigit
+started running c_isxdigit
+finished c_isxdigit
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_tolower
+started running c_tolower
+finished c_tolower
+removing targets
+analyzing gcc-5__Ou__rush__rush/c_toupper
+started running c_toupper
+finished c_toupper
+removing targets
+analyzing gcc-5__Ou__rush__rush/dir_name
+started running dir_name
+finished dir_name
+analyzing gcc-5__Ou__rush__rush/dir_len
+started running dir_len
+finished dir_len
+removing targets
+analyzing gcc-5__Ou__rush__rush/mdir_name
+started running mdir_name
+finished mdir_name
+analyzing gcc-5__Ou__rush__rush/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing gcc-5__Ou__rush__rush/base_len
+started running base_len
+finished base_len
+analyzing gcc-5__Ou__rush__rush/fwrite_lowcase
+started running fwrite_lowcase
+finished fwrite_lowcase
+removing targets
+analyzing gcc-5__Ou__rush__rush/fwrite_uppcase
+started running fwrite_uppcase
+finished fwrite_uppcase
+removing targets
+analyzing gcc-5__Ou__rush__rush/iso_week_days
+started running iso_week_days
+finished iso_week_days
+analyzing gcc-5__Ou__rush__rush/strftime_case_
+started running strftime_case_
+stopped exploration
+finished strftime_case_
+removing targets
+analyzing gcc-5__Ou__rush__rush/fprintftime
+started running fprintftime
+finished fprintftime
+analyzing gcc-5__Ou__rush__rush/uinttostr
+started running uinttostr
+finished uinttostr
+removing targets
+analyzing gcc-5__Ou__rush__rush/umaxtostr
+started running umaxtostr
+finished umaxtostr
+removing targets
+analyzing gcc-5__Ou__rush__rush/memcpy_lowcase
+started running memcpy_lowcase
+finished memcpy_lowcase
+removing targets
+analyzing gcc-5__Ou__rush__rush/memcpy_uppcase
+started running memcpy_uppcase
+finished memcpy_uppcase
+removing targets
+skipping iso|week|days
+skipping strftime|case|
+analyzing gcc-5__Ou__rush__rush/nstrftime
+started running nstrftime
+finished nstrftime
+analyzing gcc-5__Ou__rush__rush/xnmalloc
+started running xnmalloc
+finished xnmalloc
+removing targets
+analyzing gcc-5__Ou__rush__rush/xnrealloc
+started running xnrealloc
+finished xnrealloc
+removing targets
+analyzing gcc-5__Ou__rush__rush/x2nrealloc
+started running x2nrealloc
+finished x2nrealloc
+removing targets
+analyzing gcc-5__Ou__rush__rush/xcharalloc
+started running xcharalloc
+finished xcharalloc
+analyzing gcc-5__Ou__rush__rush/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__rush__rush/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__rush__rush/x2realloc
+started running x2realloc
+finished x2realloc
+analyzing gcc-5__Ou__rush__rush/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing gcc-5__Ou__rush__rush/xcalloc
+started running xcalloc
+finished xcalloc
+analyzing gcc-5__Ou__rush__rush/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing gcc-5__Ou__rush__rush/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__rush__rush/call_chunkfun
+started running call_chunkfun
+finished call_chunkfun
+removing targets
+analyzing gcc-5__Ou__rush__rush/call_freefun
+started running call_freefun
+finished call_freefun
+removing targets
+analyzing gcc-5__Ou__rush__rush/print_and_abort
+started running print_and_abort
+finished print_and_abort
+analyzing gcc-5__Ou__rush__rush/isdst_differ
+started running isdst_differ
+finished isdst_differ
+removing targets
+analyzing gcc-5__Ou__rush__rush/equal_tm
+started running equal_tm
+finished equal_tm
+analyzing gcc-5__Ou__rush__rush/extend_abbrs
+started running extend_abbrs
+finished extend_abbrs
+analyzing gcc-5__Ou__rush__rush/tzalloc
+started running tzalloc
+finished tzalloc
+removing targets
+analyzing gcc-5__Ou__rush__rush/save_abbr
+started running save_abbr
+finished save_abbr
+removing targets
+analyzing gcc-5__Ou__rush__rush/tzfree
+started running tzfree
+finished tzfree
+removing targets
+analyzing gcc-5__Ou__rush__rush/getenv_TZ
+started running getenv_TZ
+finished getenv_TZ
+analyzing gcc-5__Ou__rush__rush/setenv_TZ
+started running setenv_TZ
+finished setenv_TZ
+removing targets
+analyzing gcc-5__Ou__rush__rush/change_env
+started running change_env
+finished change_env
+removing targets
+analyzing gcc-5__Ou__rush__rush/set_tz
+started running set_tz
+finished set_tz
+analyzing gcc-5__Ou__rush__rush/revert_tz
+started running revert_tz
+finished revert_tz
+removing targets
+analyzing gcc-5__Ou__rush__rush/localtime_rz
+started running localtime_rz
+finished localtime_rz
+removing targets
+analyzing gcc-5__Ou__rush__rush/mktime_z
+started running mktime_z
+finished mktime_z
+removing targets
+analyzing gcc-5__Ou__rush__rush/shr
+started running shr
+finished shr
+removing targets
+analyzing gcc-5__Ou__rush__rush/leapyear
+started running leapyear
+finished leapyear
+removing targets
+skipping isdst|differ
+analyzing gcc-5__Ou__rush__rush/ydhms_diff
+started running ydhms_diff
+finished ydhms_diff
+analyzing gcc-5__Ou__rush__rush/long_int_avg
+started running long_int_avg
+finished long_int_avg
+analyzing gcc-5__Ou__rush__rush/guess_time_tm
+started running guess_time_tm
+finished guess_time_tm
+removing targets
+analyzing gcc-5__Ou__rush__rush/convert_time
+started running convert_time
+finished convert_time
+analyzing gcc-5__Ou__rush__rush/ranged_convert
+started running ranged_convert
+finished ranged_convert
+removing targets
+analyzing gcc-5__Ou__rush__rush/mktime_internal
+started running mktime_internal
+stopped exploration
+finished mktime_internal
+analyzing gcc-5__Ou__rush__rush/rpl_mktime
+started running rpl_mktime
+finished rpl_mktime
+analyzing gcc-5__Ou__rush__rush/stat
+started running stat
+finished stat
+removing targets

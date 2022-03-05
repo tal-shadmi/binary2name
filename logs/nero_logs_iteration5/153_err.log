@@ -1,0 +1,14 @@
+WARNING | 2021-12-08 20:00:44,852 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_log_to_stderr
+WARNING | 2021-12-08 20:00:44,852 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: dico_markup_type
+WARNING | 2021-12-08 20:00:44,852 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_error_count
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: dico_invocation_name
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_print_diag_fun
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: dico_program_name
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_parser_options
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_preprocessor
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grecs_default_port
+WARNING | 2021-12-08 20:00:44,853 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: dico_argcv_quoting_style
+WARNING | 2021-12-08 20:00:44,865 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 21:14:07,875 | root     | list index out of range
+ERROR   | 2021-12-08 21:14:07,876 | root     | got an error while analyzing dicod_server
+Killed

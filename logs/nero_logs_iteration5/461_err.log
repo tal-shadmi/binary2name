@@ -1,0 +1,17 @@
+WARNING | 2021-12-09 03:18:51,712 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: BC
+WARNING | 2021-12-09 03:18:51,713 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: PC
+WARNING | 2021-12-09 03:18:51,713 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ospeed
+WARNING | 2021-12-09 03:18:51,716 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-09 03:35:13,554 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:35:13,559 | root     | got an error while analyzing display_process_line
+ERROR   | 2021-12-09 03:35:14,830 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:35:14,830 | root     | got an error while analyzing display_update_node_text
+ERROR   | 2021-12-09 03:35:17,342 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:35:17,351 | root     | got an error while analyzing display_update_one_window
+ERROR   | 2021-12-09 03:38:17,828 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:38:17,830 | root     | got an error while analyzing display_scroll_line_starts
+ERROR   | 2021-12-09 03:42:41,278 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:42:41,348 | root     | got an error while analyzing info_find_fullpath
+ERROR   | 2021-12-09 03:43:03,963 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:43:03,968 | root     | got an error while analyzing info_file_find_next_in_path
+Killed

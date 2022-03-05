@@ -1,0 +1,6 @@
+WARNING | 2021-12-09 01:03:18,054 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_debug_line_info
+WARNING | 2021-12-09 01:03:18,054 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_strerr
+WARNING | 2021-12-09 01:03:18,054 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_c_tab
+WARNING | 2021-12-09 01:03:18,058 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-09 01:21:25,290 | root     | 
+ERROR   | 2021-12-09 01:21:25,291 | root     | got an error while analyzing mimetypes_yyparse

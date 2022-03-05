@@ -1,0 +1,14 @@
+ERROR   | 2021-12-08 19:57:40,921 | root     | list index out of range
+ERROR   | 2021-12-08 19:57:40,922 | root     | got an error while analyzing fillbuf
+ERROR   | 2021-12-08 20:01:10,197 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:10,198 | root     | got an error while analyzing nan_compare
+ERROR   | 2021-12-08 20:01:10,815 | root     | list index out of range
+ERROR   | 2021-12-08 20:01:10,815 | root     | got an error while analyzing general_numcompare
+ERROR   | 2021-12-08 20:10:46,285 | root     | b'out of memory'
+ERROR   | 2021-12-08 20:10:46,724 | root     | got an error while analyzing getmonth
+ASSERTION VIOLATION
+File: ../src/ast/shared_occs.cpp
+Line: 119
+UNEXPECTED CODE WAS REACHED.
+Z3 4.8.13.0
+Please file an issue with this message and more detail about how you encountered it at https://github.com/Z3Prover/z3/issues/new

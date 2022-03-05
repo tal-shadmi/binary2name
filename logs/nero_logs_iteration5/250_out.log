@@ -1,0 +1,80 @@
+gcc-5__Ou__gxmessage__gxmessage have 22 funcs
+analyzing gcc-5__Ou__gxmessage__gxmessage/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/g_string_append_c_inline
+started running g_string_append_c_inline
+finished g_string_append_c_inline
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/button_first
+started running button_first
+finished button_first
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/button_free_all
+started running button_free_all
+finished button_free_all
+analyzing gcc-5__Ou__gxmessage__gxmessage/button_append
+started running button_append
+finished button_append
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/parse_label_value_pair
+started running parse_label_value_pair
+finished parse_label_value_pair
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/button_list_from_str
+started running button_list_from_str
+finished button_list_from_str
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/button_set_default
+started running button_set_default
+finished button_set_default
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/my_get_opt
+started running my_get_opt
+finished my_get_opt
+analyzing gcc-5__Ou__gxmessage__gxmessage/cb_window_destroy
+started running cb_window_destroy
+finished cb_window_destroy
+analyzing gcc-5__Ou__gxmessage__gxmessage/cb_key_press
+started running cb_key_press
+finished cb_key_press
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/cb_button_clicked
+started running cb_button_clicked
+finished cb_button_clicked
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/cb_entry_activated
+started running cb_entry_activated
+finished cb_entry_activated
+analyzing gcc-5__Ou__gxmessage__gxmessage/cb_timeout
+started running cb_timeout
+finished cb_timeout
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/label_width_okay
+started running label_width_okay
+finished label_width_okay
+analyzing gcc-5__Ou__gxmessage__gxmessage/window_create
+started running window_create
+finished window_create
+analyzing gcc-5__Ou__gxmessage__gxmessage/read_stdin
+started running read_stdin
+finished read_stdin
+analyzing gcc-5__Ou__gxmessage__gxmessage/message_to_utf8
+started running message_to_utf8
+finished message_to_utf8
+removing targets
+analyzing gcc-5__Ou__gxmessage__gxmessage/my_gtk_init
+started running my_gtk_init
+finished my_gtk_init
+analyzing gcc-5__Ou__gxmessage__gxmessage/prog_cleanup
+started running prog_cleanup
+finished prog_cleanup

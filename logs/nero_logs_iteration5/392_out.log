@@ -1,0 +1,52 @@
+gcc-5__Ou__marst__macvt have 14 funcs
+analyzing gcc-5__Ou__marst__macvt/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__marst__macvt/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__marst__macvt/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__marst__macvt/my_assert
+started running my_assert
+finished my_assert
+analyzing gcc-5__Ou__marst__macvt/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__marst__macvt/get_char
+started running get_char
+finished get_char
+analyzing gcc-5__Ou__marst__macvt/scan_pad
+started running scan_pad
+finished scan_pad
+removing targets
+analyzing gcc-5__Ou__marst__macvt/scan_comment
+started running scan_comment
+finished scan_comment
+analyzing gcc-5__Ou__marst__macvt/convert
+started running convert
+finished convert
+analyzing gcc-5__Ou__marst__macvt/emit_str
+started running emit_str
+finished emit_str
+removing targets
+analyzing gcc-5__Ou__marst__macvt/emit_sym
+started running emit_sym
+finished emit_sym
+removing targets
+analyzing gcc-5__Ou__marst__macvt/display_help
+started running display_help
+finished display_help
+analyzing gcc-5__Ou__marst__macvt/display_version
+started running display_version
+finished display_version
+analyzing gcc-5__Ou__marst__macvt/process_cmdline
+started running process_cmdline
+stopped exploration
+finished process_cmdline
+removing targets

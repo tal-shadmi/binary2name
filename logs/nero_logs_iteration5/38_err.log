@@ -1,0 +1,17 @@
+ERROR   | 2021-12-08 18:38:55,870 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:38:55,877 | root     | got an error while analyzing dump_relocations
+ERROR   | 2021-12-08 18:42:56,452 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:42:56,570 | root     | got an error while analyzing decode_ARM_machine_flags
+ERROR   | 2021-12-08 18:43:40,008 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:43:40,010 | root     | got an error while analyzing decode_NDS32_machine_flags
+ERROR   | 2021-12-08 19:26:00,325 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:26:00,325 | root     | got an error while analyzing find_symbol_for_address
+ERROR   | 2021-12-08 19:26:54,483 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:26:54,498 | root     | got an error while analyzing dump_ia64_unwind
+ERROR   | 2021-12-08 19:27:14,688 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:27:14,695 | root     | got an error while analyzing dump_hppa_unwind
+ERROR   | 2021-12-08 19:28:39,000 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:28:39,004 | root     | got an error while analyzing get_unwind_section_word
+ERROR   | 2021-12-08 19:54:04,723 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:54:04,727 | root     | got an error while analyzing dump_arm_unwind
+Killed

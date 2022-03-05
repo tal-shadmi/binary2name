@@ -1,0 +1,17 @@
+WARNING | 2021-12-08 20:18:49,251 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_capability_info_mandatory_platform_attributes_rs
+WARNING | 2021-12-08 20:18:49,253 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_asset_tag_rs
+WARNING | 2021-12-08 20:18:49,253 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_capability_info_enhanced_system_power_statistics_attributes_rs
+WARNING | 2021-12-08 20:18:49,253 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_set_asset_tag_rs
+WARNING | 2021-12-08 20:18:49,253 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_set_management_controller_identifier_string_rs
+WARNING | 2021-12-08 20:18:49,253 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_set_power_limit_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_capability_info_optional_platform_attributes_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_dcmi_rolling_average_time_period
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_activate_deactivate_power_limit_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_power_reading_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_capability_info_manageability_access_attributes_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_management_controller_identifier_string_rs
+WARNING | 2021-12-08 20:18:49,254 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_capability_info_supported_dcmi_capabilities_rs
+WARNING | 2021-12-08 20:18:49,255 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_dcmi_sensor_info_rs
+WARNING | 2021-12-08 20:18:49,255 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_dcmi_get_power_limit_rs
+WARNING | 2021-12-08 20:18:49,261 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

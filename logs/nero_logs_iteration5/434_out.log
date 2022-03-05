@@ -1,0 +1,147 @@
+gcc-5__Ou__pspp__pspp have 44 funcs
+analyzing gcc-5__Ou__pspp__pspp/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/fpu_init
+started running fpu_init
+finished fpu_init
+analyzing gcc-5__Ou__pspp__pspp/bug_handler
+started running bug_handler
+finished bug_handler
+analyzing gcc-5__Ou__pspp__pspp/output_msg
+started running output_msg
+finished output_msg
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/add_syntax_reader
+started running add_syntax_reader
+finished add_syntax_reader
+analyzing gcc-5__Ou__pspp__pspp/llx_from_ll
+started running llx_from_ll
+finished llx_from_ll
+analyzing gcc-5__Ou__pspp__pspp/hmap_first
+started running hmap_first
+finished hmap_first
+analyzing gcc-5__Ou__pspp__pspp/hmap_next
+started running hmap_next
+finished hmap_next
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/hmap_is_empty
+started running hmap_is_empty
+finished hmap_is_empty
+analyzing gcc-5__Ou__pspp__pspp/hmap_first_nonempty_bucket__
+started running hmap_first_nonempty_bucket__
+finished hmap_first_nonempty_bucket__
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/hmap_nullable_data__
+started running hmap_nullable_data__
+finished hmap_nullable_data__
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/string_map_is_empty
+started running string_map_is_empty
+finished string_map_is_empty
+analyzing gcc-5__Ou__pspp__pspp/string_set_node_get_string
+started running string_set_node_get_string
+finished string_set_node_get_string
+analyzing gcc-5__Ou__pspp__pspp/string_set_first
+started running string_set_first
+finished string_set_first
+analyzing gcc-5__Ou__pspp__pspp/string_set_next
+started running string_set_next
+finished string_set_next
+analyzing gcc-5__Ou__pspp__pspp/register_output_driver
+started running register_output_driver
+finished register_output_driver
+analyzing gcc-5__Ou__pspp__pspp/parse_output_option
+started running parse_output_option
+finished parse_output_option
+analyzing gcc-5__Ou__pspp__pspp/get_supported_formats
+started running get_supported_formats
+finished get_supported_formats
+analyzing gcc-5__Ou__pspp__pspp/terminal_option_callback
+started running terminal_option_callback
+finished terminal_option_callback
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/terminal_opts_init
+started running terminal_opts_init
+finished terminal_opts_init
+analyzing gcc-5__Ou__pspp__pspp/term_is_utf8_xterm
+started running term_is_utf8_xterm
+finished term_is_utf8_xterm
+analyzing gcc-5__Ou__pspp__pspp/terminal_opts_done
+started running terminal_opts_done
+finished terminal_opts_done
+analyzing gcc-5__Ou__pspp__pspp/ss_empty
+started running ss_empty
+finished ss_empty
+analyzing gcc-5__Ou__pspp__pspp/ss_buffer
+started running ss_buffer
+finished ss_buffer
+analyzing gcc-5__Ou__pspp__pspp/welcome
+started running welcome
+finished welcome
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/terminal_reader_cast
+started running terminal_reader_cast
+finished terminal_reader_cast
+analyzing gcc-5__Ou__pspp__pspp/terminal_reader_read
+started running terminal_reader_read
+finished terminal_reader_read
+analyzing gcc-5__Ou__pspp__pspp/terminal_reader_close
+started running terminal_reader_close
+finished terminal_reader_close
+analyzing gcc-5__Ou__pspp__pspp/terminal_reader_create
+started running terminal_reader_create
+finished terminal_reader_create
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/readline_prompt
+started running readline_prompt
+finished readline_prompt
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/interruptible_getc
+started running interruptible_getc
+finished interruptible_getc
+analyzing gcc-5__Ou__pspp__pspp/handler
+started running handler
+finished handler
+analyzing gcc-5__Ou__pspp__pspp/readline_init
+started running readline_init
+finished readline_init
+analyzing gcc-5__Ou__pspp__pspp/readline_done
+started running readline_done
+finished readline_done
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/readline_read
+started running readline_read
+finished readline_read
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/complete_command_name
+started running complete_command_name
+finished complete_command_name
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/dont_complete
+started running dont_complete
+finished dont_complete
+analyzing gcc-5__Ou__pspp__pspp/command_generator
+started running command_generator
+finished command_generator
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/terminal_check_size
+started running terminal_check_size
+finished terminal_check_size
+skipping llx|from|ll
+analyzing gcc-5__Ou__pspp__pspp/source_init_option_callback
+started running source_init_option_callback
+finished source_init_option_callback
+removing targets
+analyzing gcc-5__Ou__pspp__pspp/source_init_register_argv_parser
+started running source_init_register_argv_parser
+finished source_init_register_argv_parser

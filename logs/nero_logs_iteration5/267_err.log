@@ -1,0 +1,5 @@
+ERROR   | 2021-12-08 23:20:45,238 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:20:45,240 | root     | got an error while analyzing fill_in_uparams
+ERROR   | 2021-12-08 23:20:49,977 | root     | b'out of memory'
+ERROR   | 2021-12-08 23:20:49,982 | root     | got an error while analyzing make_hol
+Killed

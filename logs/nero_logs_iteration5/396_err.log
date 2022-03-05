@@ -1,0 +1,13 @@
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Screen_Cols
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Has_Alt_Charset
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Use_Ansi_Colors
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLang_TT_Baud_Rate
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Ignore_Beep
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Screen_Rows
+WARNING | 2021-12-09 01:55:26,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLsmg_Display_Eight_Bit
+WARNING | 2021-12-09 01:55:26,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLang_TT_Read_FD
+WARNING | 2021-12-09 01:55:26,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLang_Version
+WARNING | 2021-12-09 01:55:26,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Blink_Mode
+WARNING | 2021-12-09 01:55:26,464 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: SLtt_Try_Termcap
+WARNING | 2021-12-09 01:55:26,470 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

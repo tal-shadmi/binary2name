@@ -1,0 +1,183 @@
+gcc-5__Ou__binutils-2.26__elfedit have 49 funcs
+analyzing gcc-5__Ou__binutils-2.26__elfedit/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/elf_class
+started running elf_class
+finished elf_class
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/update_elf_header
+started running update_elf_header
+finished update_elf_header
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/get_file_header
+started running get_file_header
+finished get_file_header
+analyzing gcc-5__Ou__binutils-2.26__elfedit/process_object
+started running process_object
+finished process_object
+analyzing gcc-5__Ou__binutils-2.26__elfedit/process_archive
+started running process_archive
+finished process_archive
+analyzing gcc-5__Ou__binutils-2.26__elfedit/check_file
+started running check_file
+finished check_file
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/process_file
+started running process_file
+finished process_file
+analyzing gcc-5__Ou__binutils-2.26__elfedit/elf_osabi
+started running elf_osabi
+finished elf_osabi
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/elf_machine
+started running elf_machine
+finished elf_machine
+analyzing gcc-5__Ou__binutils-2.26__elfedit/elf_type
+started running elf_type
+finished elf_type
+analyzing gcc-5__Ou__binutils-2.26__elfedit/print_version
+started running print_version
+finished print_version
+analyzing gcc-5__Ou__binutils-2.26__elfedit/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/warn
+started running warn
+finished warn
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_put_little_endian
+started running byte_put_little_endian
+finished byte_put_little_endian
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_put_big_endian
+started running byte_put_big_endian
+finished byte_put_big_endian
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_get_little_endian
+started running byte_get_little_endian
+finished byte_get_little_endian
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_get_big_endian
+started running byte_get_big_endian
+finished byte_get_big_endian
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_get_signed
+started running byte_get_signed
+finished byte_get_signed
+analyzing gcc-5__Ou__binutils-2.26__elfedit/byte_get_64
+started running byte_get_64
+finished byte_get_64
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/adjust_relative_path
+started running adjust_relative_path
+finished adjust_relative_path
+analyzing gcc-5__Ou__binutils-2.26__elfedit/process_archive_index_and_symbols
+started running process_archive_index_and_symbols
+finished process_archive_index_and_symbols
+analyzing gcc-5__Ou__binutils-2.26__elfedit/setup_archive
+started running setup_archive
+finished setup_archive
+analyzing gcc-5__Ou__binutils-2.26__elfedit/setup_nested_archive
+started running setup_nested_archive
+finished setup_nested_archive
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/release_archive
+started running release_archive
+finished release_archive
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/get_archive_member_name
+started running get_archive_member_name
+finished get_archive_member_name
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/get_archive_member_name_at
+started running get_archive_member_name_at
+finished get_archive_member_name_at
+analyzing gcc-5__Ou__binutils-2.26__elfedit/make_qualified_name
+started running make_qualified_name
+finished make_qualified_name
+analyzing gcc-5__Ou__binutils-2.26__elfedit/dupargv
+started running dupargv
+finished dupargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/freeargv
+started running freeargv
+finished freeargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/consume_whitespace
+started running consume_whitespace
+finished consume_whitespace
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/only_whitespace
+started running only_whitespace
+finished only_whitespace
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/buildargv
+started running buildargv
+finished buildargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/writeargv
+started running writeargv
+finished writeargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/expandargv
+started running expandargv
+stopped exploration
+finished expandargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/countargv
+started running countargv
+finished countargv
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/unix_lbasename
+started running unix_lbasename
+finished unix_lbasename
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/dos_lbasename
+started running dos_lbasename
+finished dos_lbasename
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/lbasename
+started running lbasename
+finished lbasename
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xexit
+started running xexit
+finished xexit
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xmalloc_set_program_name
+started running xmalloc_set_program_name
+finished xmalloc_set_program_name
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xmalloc_failed
+started running xmalloc_failed
+finished xmalloc_failed
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xmalloc
+started running xmalloc
+finished xmalloc
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__binutils-2.26__elfedit/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__binutils-2.26__elfedit/stat
+started running stat
+finished stat
+removing targets

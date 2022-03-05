@@ -1,0 +1,416 @@
+od have 109 funcs
+analyzing od/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing od/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing od/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing od/format_address_none
+started running format_address_none
+finished format_address_none
+analyzing od/format_address_std
+started running format_address_std
+finished format_address_std
+removing targets
+analyzing od/parse_old_offset
+started running parse_old_offset
+finished parse_old_offset
+removing targets
+analyzing od/print_named_ascii
+started running print_named_ascii
+finished print_named_ascii
+removing targets
+analyzing od/print_long_long
+started running print_long_long
+finished print_long_long
+removing targets
+analyzing od/print_long
+started running print_long
+finished print_long
+removing targets
+analyzing od/print_int
+started running print_int
+finished print_int
+removing targets
+analyzing od/print_short
+started running print_short
+finished print_short
+removing targets
+analyzing od/print_s_short
+started running print_s_short
+finished print_s_short
+removing targets
+analyzing od/print_char
+started running print_char
+finished print_char
+removing targets
+analyzing od/print_s_char
+started running print_s_char
+finished print_s_char
+removing targets
+analyzing od/print_long_double
+started running print_long_double
+finished print_long_double
+removing targets
+analyzing od/print_double
+started running print_double
+finished print_double
+removing targets
+analyzing od/print_float
+started running print_float
+finished print_float
+removing targets
+analyzing od/decode_format_string
+started running decode_format_string
+stopped exploration
+finished decode_format_string
+removing targets
+analyzing od/print_ascii
+started running print_ascii
+finished print_ascii
+removing targets
+analyzing od/check_and_close
+started running check_and_close
+finished check_and_close
+removing targets
+analyzing od/open_next_file
+started running open_next_file
+finished open_next_file
+removing targets
+analyzing od/skip
+started running skip
+stopped exploration
+finished skip
+removing targets
+analyzing od/read_char
+started running read_char
+finished read_char
+removing targets
+analyzing od/write_block
+started running write_block
+finished write_block
+removing targets
+analyzing od/format_address_paren
+started running format_address_paren
+finished format_address_paren
+removing targets
+analyzing od/format_address_label
+started running format_address_label
+finished format_address_label
+analyzing od/read_block
+started running read_block
+finished read_block
+removing targets
+analyzing od/argmatch
+started running argmatch
+finished argmatch
+analyzing od/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing od/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing od/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing od/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing od/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing od/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing od/dtoastr
+started running dtoastr
+finished dtoastr
+removing targets
+analyzing od/ftoastr
+started running ftoastr
+finished ftoastr
+removing targets
+analyzing od/ldtoastr
+started running ldtoastr
+finished ldtoastr
+analyzing od/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing od/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing od/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing od/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing od/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing od/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing od/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing od/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing od/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing od/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing od/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing od/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing od/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing od/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing od/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing od/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing od/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing od/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing od/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing od/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing od/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing od/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing od/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing od/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing od/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing od/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing od/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing od/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing od/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing od/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing od/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing od/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing od/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing od/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing od/quote
+started running quote
+finished quote
+removing targets
+analyzing od/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing od/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing od/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing od/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing od/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing od/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing od/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing od/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing od/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing od/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing od/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing od/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing od/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing od/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing od/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing od/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing od/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing od/xvprintf
+started running xvprintf
+finished xvprintf
+analyzing od/xprintf
+started running xprintf
+finished xprintf
+removing targets
+analyzing od/xvfprintf
+started running xvfprintf
+finished xvfprintf
+analyzing od/xfprintf
+started running xfprintf
+finished xfprintf
+removing targets
+analyzing od/xstrtol_fatal
+started running xstrtol_fatal
+stopped exploration
+finished xstrtol_fatal
+removing targets
+analyzing od/xstrtoumax
+started running xstrtoumax
+stopped exploration
+finished xstrtoumax
+removing targets
+analyzing od/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing od/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing od/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing od/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing od/rpl_vfprintf
+started running rpl_vfprintf
+finished rpl_vfprintf
+analyzing od/rpl_vprintf
+started running rpl_vprintf
+finished rpl_vprintf
+removing targets
+analyzing od/close_stream
+started running close_stream
+finished close_stream
+analyzing od/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing od/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing od/fseterr
+started running fseterr
+finished fseterr
+analyzing od/vasnprintf
+started running vasnprintf
+stopped exploration
+finished vasnprintf
+analyzing od/printf_fetchargs
+started running printf_fetchargs
+finished printf_fetchargs
+removing targets
+analyzing od/printf_parse
+started running printf_parse
+stopped exploration
+finished printf_parse
+removing targets
+analyzing od/atexit
+started running atexit
+finished atexit
+removing targets

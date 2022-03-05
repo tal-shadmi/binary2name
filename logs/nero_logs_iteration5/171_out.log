@@ -1,0 +1,56 @@
+gcc-5__Ou__freeipmi__ipmi-locate have 16 funcs
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/display_ipmi_locate_info
+started running display_ipmi_locate_info
+finished display_ipmi_locate_info
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/dmidecode_probe_display
+started running dmidecode_probe_display
+finished dmidecode_probe_display
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/smbios_probe_display
+started running smbios_probe_display
+finished smbios_probe_display
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/acpi_probe_display
+started running acpi_probe_display
+finished acpi_probe_display
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/pci_probe_display
+started running pci_probe_display
+finished pci_probe_display
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/defaults_display
+started running defaults_display
+finished defaults_display
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/cmdline_parse
+started running cmdline_parse
+finished cmdline_parse
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/ipmi_locate_argp_parse
+started running ipmi_locate_argp_parse
+finished ipmi_locate_argp_parse
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/ipmi_is_root
+started running ipmi_is_root
+finished ipmi_is_root
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/ipmi_disable_coredump
+started running ipmi_disable_coredump
+finished ipmi_disable_coredump
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/check_kg_len
+started running check_kg_len
+finished check_kg_len
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/format_kg
+started running format_kg
+finished format_kg
+removing targets
+analyzing gcc-5__Ou__freeipmi__ipmi-locate/get_timestamp_flags
+started running get_timestamp_flags
+finished get_timestamp_flags
+removing targets

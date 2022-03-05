@@ -1,0 +1,111 @@
+gcc-5__Ou__gdbm__gdbm_dump have 31 funcs
+analyzing gcc-5__Ou__gdbm__gdbm_dump/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/prerror
+started running prerror
+finished prerror
+analyzing gcc-5__Ou__gdbm__gdbm_dump/verror
+started running verror
+finished verror
+analyzing gcc-5__Ou__gdbm__gdbm_dump/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/sys_perror
+started running sys_perror
+finished sys_perror
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/gdbm_perror
+started running gdbm_perror
+finished gdbm_perror
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/optcmp
+started running optcmp
+finished optcmp
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/sort_options
+started running sort_options
+finished sort_options
+analyzing gcc-5__Ou__gdbm__gdbm_dump/sort_group
+started running sort_group
+finished sort_group
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/sort_all_options
+started running sort_all_options
+finished sort_all_options
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/add_options
+started running add_options
+stopped exploration
+finished add_options
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/parseopt_first
+started running parseopt_first
+finished parseopt_first
+analyzing gcc-5__Ou__gdbm__gdbm_dump/indent
+started running indent
+finished indent
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/print_option_descr
+started running print_option_descr
+finished print_option_descr
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/print_option
+started running print_option
+finished print_option
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/parseopt_print_help
+started running parseopt_print_help
+finished parseopt_print_help
+analyzing gcc-5__Ou__gdbm__gdbm_dump/cmpidx_short
+started running cmpidx_short
+finished cmpidx_short
+analyzing gcc-5__Ou__gdbm__gdbm_dump/cmpidx_long
+started running cmpidx_long
+finished cmpidx_long
+analyzing gcc-5__Ou__gdbm__gdbm_dump/print_usage
+started running print_usage
+finished print_usage
+analyzing gcc-5__Ou__gdbm__gdbm_dump/print_version_only
+started running print_version_only
+finished print_version_only
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/handle_option
+started running handle_option
+finished handle_option
+removing targets
+analyzing gcc-5__Ou__gdbm__gdbm_dump/parseopt_next
+started running parseopt_next
+finished parseopt_next
+analyzing gcc-5__Ou__gdbm__gdbm_dump/set_progname
+started running set_progname
+finished set_progname
+analyzing gcc-5__Ou__gdbm__gdbm_dump/ealloc_die
+started running ealloc_die
+finished ealloc_die
+analyzing gcc-5__Ou__gdbm__gdbm_dump/emalloc
+started running emalloc
+finished emalloc
+analyzing gcc-5__Ou__gdbm__gdbm_dump/erealloc
+started running erealloc
+finished erealloc
+analyzing gcc-5__Ou__gdbm__gdbm_dump/ecalloc
+started running ecalloc
+finished ecalloc
+analyzing gcc-5__Ou__gdbm__gdbm_dump/ezalloc
+started running ezalloc
+finished ezalloc
+analyzing gcc-5__Ou__gdbm__gdbm_dump/estrdup
+started running estrdup
+finished estrdup
+removing targets

@@ -1,0 +1,36 @@
+gcc-5__Ou__mailutils__echosrv have 10 funcs
+analyzing gcc-5__Ou__mailutils__echosrv/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__echosrv/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__echosrv/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__echosrv/echo_conn
+started running echo_conn
+finished echo_conn
+analyzing gcc-5__Ou__mailutils__echosrv/tcp_conn_handler
+started running tcp_conn_handler
+finished tcp_conn_handler
+analyzing gcc-5__Ou__mailutils__echosrv/tcp_conn_free
+started running tcp_conn_free
+finished tcp_conn_free
+analyzing gcc-5__Ou__mailutils__echosrv/create_server
+started running create_server
+finished create_server
+removing targets
+analyzing gcc-5__Ou__mailutils__echosrv/sig_child
+started running sig_child
+finished sig_child
+analyzing gcc-5__Ou__mailutils__echosrv/server_idle
+started running server_idle
+finished server_idle
+removing targets
+analyzing gcc-5__Ou__mailutils__echosrv/run
+started running run
+finished run

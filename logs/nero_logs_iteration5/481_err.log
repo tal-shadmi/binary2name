@@ -1,0 +1,44 @@
+ERROR   | 2021-12-09 05:37:14,970 | root     | list index out of range
+ERROR   | 2021-12-09 05:37:14,971 | root     | got an error while analyzing AddTwoPieces
+ERROR   | 2021-12-09 10:29:13,929 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:29:13,930 | root     | got an error while analyzing GenLegal
+ERROR   | 2021-12-09 10:29:18,750 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:29:18,750 | root     | got an error while analyzing CheckTestCallback
+ERROR   | 2021-12-09 10:29:24,087 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:29:24,088 | root     | got an error while analyzing CheckTest
+ERROR   | 2021-12-09 10:35:37,174 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:35:37,174 | root     | got an error while analyzing DisambiguateCallback
+ERROR   | 2021-12-09 10:35:43,507 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:35:43,507 | root     | got an error while analyzing Disambiguate
+ERROR   | 2021-12-09 10:35:48,209 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:35:48,210 | root     | got an error while analyzing CoordsToAlgebraicCallback
+ERROR   | 2021-12-09 10:39:47,856 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:39:47,856 | root     | got an error while analyzing CoordsToAlgebraic
+ERROR   | 2021-12-09 10:39:52,835 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:39:52,835 | root     | got an error while analyzing AttacksCallback
+ERROR   | 2021-12-09 10:39:57,586 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:39:57,586 | root     | got an error while analyzing ExistingAttacksCallback
+ERROR   | 2021-12-09 10:40:02,284 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:40:02,284 | root     | got an error while analyzing ProtectedCallback
+ERROR   | 2021-12-09 10:41:46,377 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:41:46,377 | root     | got an error while analyzing Scan
+ERROR   | 2021-12-09 10:41:50,974 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:41:50,974 | root     | got an error while analyzing SkipWhite
+ERROR   | 2021-12-09 10:42:59,440 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:42:59,440 | root     | got an error while analyzing Number
+ERROR   | 2021-12-09 10:43:04,198 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:43:04,199 | root     | got an error while analyzing RdTime
+ERROR   | 2021-12-09 10:50:06,802 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:50:06,802 | root     | got an error while analyzing ParsePGNTag
+ERROR   | 2021-12-09 10:50:48,880 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:50:48,880 | root     | got an error while analyzing PrintPGNTags
+ERROR   | 2021-12-09 10:50:53,550 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:50:53,550 | root     | got an error while analyzing PGNTags
+ERROR   | 2021-12-09 10:51:07,675 | root     | b'out of memory'
+ERROR   | 2021-12-09 10:51:07,675 | root     | got an error while analyzing InitEngineUCI
+ASSERTION VIOLATION
+File: ../src/ast/shared_occs.cpp
+Line: 119
+UNEXPECTED CODE WAS REACHED.
+Z3 4.8.13.0
+Please file an issue with this message and more detail about how you encountered it at https://github.com/Z3Prover/z3/issues/new

@@ -1,0 +1,394 @@
+shred have 107 funcs
+analyzing shred/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing shred/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing shred/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing shred/clear_random_data
+started running clear_random_data
+finished clear_random_data
+removing targets
+analyzing shred/direct_mode
+started running direct_mode
+finished direct_mode
+analyzing shred/dosync
+started running dosync
+finished dosync
+analyzing shred/dopass
+started running dopass
+stopped exploration
+finished dopass
+analyzing shred/do_wipefd
+started running do_wipefd
+stopped exploration
+finished do_wipefd
+removing targets
+analyzing shred/argmatch
+started running argmatch
+finished argmatch
+analyzing shred/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing shred/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing shred/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing shred/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing shred/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing shred/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing shred/dir_name
+started running dir_name
+finished dir_name
+analyzing shred/dir_len
+started running dir_len
+finished dir_len
+analyzing shred/mdir_name
+started running mdir_name
+finished mdir_name
+analyzing shred/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing shred/base_len
+started running base_len
+finished base_len
+analyzing shred/open_safer
+started running open_safer
+finished open_safer
+removing targets
+analyzing shred/adjust_value.part.0
+started running adjust_value.part.0
+finished adjust_value.part.0
+analyzing shred/human_readable
+started running human_readable
+stopped exploration
+finished human_readable
+analyzing shred/human_options
+started running human_options
+finished human_options
+removing targets
+analyzing shred/umaxtostr
+started running umaxtostr
+finished umaxtostr
+removing targets
+analyzing shred/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing shred/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing shred/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing shred/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing shred/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing shred/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing shred/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing shred/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing shred/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing shred/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing shred/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing shred/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing shred/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing shred/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing shred/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing shred/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing shred/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing shred/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing shred/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing shred/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing shred/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing shred/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing shred/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing shred/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing shred/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing shred/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing shred/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing shred/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing shred/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing shred/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing shred/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing shred/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing shred/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing shred/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing shred/quote
+started running quote
+finished quote
+removing targets
+analyzing shred/randint_new
+started running randint_new
+finished randint_new
+analyzing shred/randint_all_new
+started running randint_all_new
+finished randint_all_new
+analyzing shred/randint_get_source
+started running randint_get_source
+finished randint_get_source
+analyzing shred/randint_genmax
+started running randint_genmax
+stopped exploration
+finished randint_genmax
+removing targets
+analyzing shred/randint_free
+started running randint_free
+finished randint_free
+analyzing shred/randint_all_free
+started running randint_all_free
+finished randint_all_free
+analyzing shred/randread_error
+started running randread_error
+stopped exploration
+finished randread_error
+removing targets
+analyzing shred/randread_new
+started running randread_new
+finished randread_new
+removing targets
+analyzing shred/randread_set_handler
+started running randread_set_handler
+finished randread_set_handler
+analyzing shred/randread_set_handler_arg
+started running randread_set_handler_arg
+finished randread_set_handler_arg
+analyzing shred/randread
+started running randread
+finished randread
+removing targets
+analyzing shred/randread_free
+started running randread_free
+finished randread_free
+analyzing shred/isaac_refill
+started running isaac_refill
+finished isaac_refill
+removing targets
+analyzing shred/isaac_seed
+started running isaac_seed
+finished isaac_seed
+removing targets
+analyzing shred/renameatu
+started running renameatu
+finished renameatu
+analyzing shred/fd_safer
+started running fd_safer
+finished fd_safer
+removing targets
+analyzing shred/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing shred/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing shred/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing shred/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing shred/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing shred/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing shred/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing shred/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing shred/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing shred/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing shred/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing shred/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing shred/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing shred/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing shred/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing shred/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing shred/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing shred/xnumtoumax
+started running xnumtoumax
+finished xnumtoumax
+analyzing shred/xdectoumax
+started running xdectoumax
+finished xdectoumax
+analyzing shred/xstrtoumax
+started running xstrtoumax
+finished xstrtoumax
+removing targets
+analyzing shred/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing shred/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing shred/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing shred/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing shred/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing shred/close_stream
+started running close_stream
+finished close_stream
+analyzing shred/fopen_safer
+started running fopen_safer
+finished fopen_safer
+analyzing shred/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing shred/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing shred/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing shred/atexit
+started running atexit
+finished atexit
+removing targets

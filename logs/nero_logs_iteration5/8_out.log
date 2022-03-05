@@ -1,0 +1,31 @@
+gcc-5__Ou__adns__adnsheloex have 8 funcs
+analyzing gcc-5__Ou__adns__adnsheloex/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnsheloex/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnsheloex/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__adns__adnsheloex/msg
+started running msg
+finished msg
+removing targets
+analyzing gcc-5__Ou__adns__adnsheloex/aargh
+started running aargh
+finished aargh
+analyzing gcc-5__Ou__adns__adnsheloex/readline
+started running readline
+finished readline
+analyzing gcc-5__Ou__adns__adnsheloex/proclog
+started running proclog
+stopped exploration
+finished proclog
+removing targets
+analyzing gcc-5__Ou__adns__adnsheloex/printhelp
+started running printhelp
+finished printhelp

@@ -1,0 +1,147 @@
+gcc-5__Ou__adns__adnshost have 41 funcs
+analyzing gcc-5__Ou__adns__adnshost/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/quitnow
+started running quitnow
+finished quitnow
+analyzing gcc-5__Ou__adns__adnshost/sysfail
+started running sysfail
+finished sysfail
+analyzing gcc-5__Ou__adns__adnshost/usageerr
+started running usageerr
+finished usageerr
+analyzing gcc-5__Ou__adns__adnshost/outerr
+started running outerr
+finished outerr
+analyzing gcc-5__Ou__adns__adnshost/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__adns__adnshost/xstrsave
+started running xstrsave
+finished xstrsave
+analyzing gcc-5__Ou__adns__adnshost/of_config
+started running of_config
+finished of_config
+analyzing gcc-5__Ou__adns__adnshost/of_type
+started running of_type
+finished of_type
+analyzing gcc-5__Ou__adns__adnshost/process_optarg
+started running process_optarg
+stopped exploration
+finished process_optarg
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/read_stdin
+started running read_stdin
+stopped exploration
+finished read_stdin
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/printusage
+started running printusage
+finished printusage
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/of_version
+started running of_version
+finished of_version
+analyzing gcc-5__Ou__adns__adnshost/of_help
+started running of_help
+finished of_help
+analyzing gcc-5__Ou__adns__adnshost/oc_long
+started running oc_long
+finished oc_long
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/oc_short
+started running oc_short
+finished oc_short
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/find1
+started running find1
+finished find1
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/find
+started running find
+finished find
+analyzing gcc-5__Ou__adns__adnshost/opt_findl
+started running opt_findl
+finished opt_findl
+analyzing gcc-5__Ou__adns__adnshost/opt_finds
+started running opt_finds
+finished opt_finds
+analyzing gcc-5__Ou__adns__adnshost/noninvert
+started running noninvert
+finished noninvert
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/opt_do
+started running opt_do
+finished opt_do
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/ensure_adns_init
+started running ensure_adns_init
+finished ensure_adns_init
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/type_info
+started running type_info
+finished type_info
+analyzing gcc-5__Ou__adns__adnshost/prep_query
+started running prep_query
+finished prep_query
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/of_ptr
+started running of_ptr
+finished of_ptr
+analyzing gcc-5__Ou__adns__adnshost/of_reverse
+started running of_reverse
+finished of_reverse
+analyzing gcc-5__Ou__adns__adnshost/query_do
+started running query_do
+finished query_do
+analyzing gcc-5__Ou__adns__adnshost/dequeue_query
+started running dequeue_query
+finished dequeue_query
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/print_withspace
+started running print_withspace
+finished print_withspace
+analyzing gcc-5__Ou__adns__adnshost/print_ttl
+started running print_ttl
+finished print_ttl
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/owner_show
+started running owner_show
+finished owner_show
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/print_owner_ttl
+started running print_owner_ttl
+finished print_owner_ttl
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/check_status
+started running check_status
+finished check_status
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/print_status
+started running print_status
+finished print_status
+analyzing gcc-5__Ou__adns__adnshost/print_dnsfail
+started running print_dnsfail
+finished print_dnsfail
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/query_done
+started running query_done
+finished query_done
+removing targets
+analyzing gcc-5__Ou__adns__adnshost/of_asynch_id
+started running of_asynch_id
+finished of_asynch_id
+analyzing gcc-5__Ou__adns__adnshost/of_cancel_id
+started running of_cancel_id
+finished of_cancel_id
+removing targets

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 5, in <module>
+    from angr import Project
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/__init__.py", line 41, in <module>
+    from .procedures import SIM_PROCEDURES, SimProcedures, SIM_LIBRARIES
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/__init__.py", line 2, in <module>
+    from .definitions import SIM_LIBRARIES
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/definitions/__init__.py", line 619, in <module>
+    for _ in autoimport.auto_import_modules('angr.procedures.definitions', os.path.dirname(os.path.realpath(__file__))):
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/misc/autoimport.py", line 40, in auto_import_modules
+    proc_module = importlib.import_module(".%s" % proc_module_name, base_module)
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 917, in get_data
+MemoryError

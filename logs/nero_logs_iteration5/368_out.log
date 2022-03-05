@@ -1,0 +1,57 @@
+gcc-5__Ou__mailutils__mta have 16 funcs
+analyzing gcc-5__Ou__mailutils__mta/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/from_address
+started running from_address
+finished from_address
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/make_tmp
+started running make_tmp
+finished make_tmp
+analyzing gcc-5__Ou__mailutils__mta/register_handlers
+started running register_handlers
+finished register_handlers
+analyzing gcc-5__Ou__mailutils__mta/add_recipient
+started running add_recipient
+finished add_recipient
+analyzing gcc-5__Ou__mailutils__mta/address_email_string
+started running address_email_string
+finished address_email_string
+analyzing gcc-5__Ou__mailutils__mta/mta_send
+started running mta_send
+finished mta_send
+analyzing gcc-5__Ou__mailutils__mta/message_finalize
+started running message_finalize
+finished message_finalize
+analyzing gcc-5__Ou__mailutils__mta/mta_stdin
+started running mta_stdin
+finished mta_stdin
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/smtp_reply
+started running smtp_reply
+finished smtp_reply
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/smtp_kw
+started running smtp_kw
+finished smtp_kw
+removing targets
+analyzing gcc-5__Ou__mailutils__mta/check_prefix
+started running check_prefix
+finished check_prefix
+analyzing gcc-5__Ou__mailutils__mta/smtp
+started running smtp
+stopped exploration
+finished smtp
+analyzing gcc-5__Ou__mailutils__mta/mta_smtp
+started running mta_smtp
+finished mta_smtp

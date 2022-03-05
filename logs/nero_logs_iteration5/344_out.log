@@ -1,0 +1,293 @@
+gcc-5__Ou__mailutils__mailutils-imap have 86 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-imap/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mu_prstr
+started running mu_prstr
+finished mu_prstr
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mu_msgset_imap_print
+started running mu_msgset_imap_print
+finished mu_msgset_imap_print
+analyzing gcc-5__Ou__mailutils__mailutils-imap/current_imap_state
+started running current_imap_state
+finished current_imap_state
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_set_verbose
+started running imap_set_verbose
+finished imap_set_verbose
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_set_verbose_mask
+started running imap_set_verbose_mask
+finished imap_set_verbose_mask
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_verbose
+started running com_verbose
+finished com_verbose
+analyzing gcc-5__Ou__mailutils__mailutils-imap/parse_msgset
+started running parse_msgset
+finished parse_msgset
+analyzing gcc-5__Ou__mailutils__mailutils-imap/report_failure
+started running report_failure
+finished report_failure
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_prompt_env
+started running imap_prompt_env
+finished imap_prompt_env
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_preauth_callback
+started running imap_preauth_callback
+finished imap_preauth_callback
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_bye_callback
+started running imap_bye_callback
+finished imap_bye_callback
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_bad_callback
+started running imap_bad_callback
+finished imap_bad_callback
+analyzing gcc-5__Ou__mailutils__mailutils-imap/format_email
+started running format_email
+finished format_email
+analyzing gcc-5__Ou__mailutils__mailutils-imap/format_date
+started running format_date
+finished format_date
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_param
+started running print_param
+finished print_param
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_item
+started running print_item
+finished print_item
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_address
+started running print_address
+finished print_address
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_imapenvelope
+started running print_imapenvelope
+finished print_imapenvelope
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_bs
+started running print_bs
+finished print_bs
+analyzing gcc-5__Ou__mailutils__mailutils-imap/fetch_response_printer
+started running fetch_response_printer
+finished fetch_response_printer
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/imap_fetch_callback
+started running imap_fetch_callback
+finished imap_fetch_callback
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_uid
+started running com_uid
+finished com_uid
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_disconnect
+started running com_disconnect
+finished com_disconnect
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_connect
+started running com_connect
+finished com_connect
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_starttls
+started running com_starttls
+finished com_starttls
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_logout
+started running com_logout
+finished com_logout
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_capability
+started running com_capability
+finished com_capability
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_login
+started running com_login
+finished com_login
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_id
+started running com_id
+finished com_id
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_imap_stats
+started running print_imap_stats
+finished print_imap_stats
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/select_mbox
+started running select_mbox
+finished select_mbox
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_select
+started running com_select
+finished com_select
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_examine
+started running com_examine
+finished com_examine
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_status
+started running com_status
+finished com_status
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_noop
+started running com_noop
+finished com_noop
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_check
+started running com_check
+finished com_check
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_fetch
+started running com_fetch
+finished com_fetch
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_store
+started running com_store
+finished com_store
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_close
+started running com_close
+finished com_close
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_unselect
+started running com_unselect
+finished com_unselect
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_delete
+started running com_delete
+finished com_delete
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_rename
+started running com_rename
+finished com_rename
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_expunge
+started running com_expunge
+finished com_expunge
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_create
+started running com_create
+finished com_create
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_subscribe
+started running com_subscribe
+finished com_subscribe
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_unsubscribe
+started running com_unsubscribe
+finished com_unsubscribe
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_append
+started running com_append
+finished com_append
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_copy
+started running com_copy
+finished com_copy
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_search
+started running com_search
+finished com_search
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_list_item
+started running print_list_item
+finished print_list_item
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_list
+started running com_list
+finished com_list
+analyzing gcc-5__Ou__mailutils__mailutils-imap/com_lsub
+started running com_lsub
+finished com_lsub
+analyzing gcc-5__Ou__mailutils__mailutils-imap/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt
+analyzing gcc-5__Ou__mailutils__mailutils-imap/get_bool
+started running get_bool
+finished get_bool
+analyzing gcc-5__Ou__mailutils__mailutils-imap/get_port
+started running get_port
+finished get_port
+analyzing gcc-5__Ou__mailutils__mailutils-imap/report_signals
+started running report_signals
+finished report_signals
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_comtab
+started running print_comtab
+stopped exploration
+finished print_comtab
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/print_help
+started running print_help
+finished print_help
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/list_commands
+started running list_commands
+finished list_commands
+analyzing gcc-5__Ou__mailutils__mailutils-imap/simple_find_command
+started running simple_find_command
+finished simple_find_command
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/find_command
+started running find_command
+finished find_command
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_help
+started running shell_help
+finished shell_help
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_prompt
+started running shell_prompt
+finished shell_prompt
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mutool_open_pager
+started running mutool_open_pager
+finished mutool_open_pager
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/get_history_file_name
+started running get_history_file_name
+finished get_history_file_name
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mutool_initialize_readline
+started running mutool_initialize_readline
+finished mutool_initialize_readline
+analyzing gcc-5__Ou__mailutils__mailutils-imap/finish_readline
+started running finish_readline
+finished finish_readline
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_completion
+started running shell_completion
+finished shell_completion
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_command_generator
+started running shell_command_generator
+finished shell_command_generator
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/pre_input
+started running pre_input
+finished pre_input
+analyzing gcc-5__Ou__mailutils__mailutils-imap/retrieve_history
+started running retrieve_history
+finished retrieve_history
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_history
+started running shell_history
+finished shell_history
+analyzing gcc-5__Ou__mailutils__mailutils-imap/next_arg
+started running next_arg
+finished next_arg
+analyzing gcc-5__Ou__mailutils__mailutils-imap/execute_line
+started running execute_line
+finished execute_line
+analyzing gcc-5__Ou__mailutils__mailutils-imap/input_line_interactive
+started running input_line_interactive
+finished input_line_interactive
+analyzing gcc-5__Ou__mailutils__mailutils-imap/input_line_script
+started running input_line_script
+finished input_line_script
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_exit
+started running shell_exit
+finished shell_exit
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mutool_shell_prompt_assoc
+started running mutool_shell_prompt_assoc
+finished mutool_shell_prompt_assoc
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/mutool_shell
+started running mutool_shell
+finished mutool_shell
+analyzing gcc-5__Ou__mailutils__mailutils-imap/string_to_xlev
+started running string_to_xlev
+finished string_to_xlev
+analyzing gcc-5__Ou__mailutils__mailutils-imap/change_verbose_mask
+started running change_verbose_mask
+finished change_verbose_mask
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-imap/shell_verbose
+started running shell_verbose
+finished shell_verbose
+removing targets

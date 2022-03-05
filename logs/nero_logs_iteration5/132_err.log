@@ -1,0 +1,3 @@
+ERROR   | 2021-12-08 19:51:07,063 | root     | 
+ERROR   | 2021-12-08 19:51:07,063 | root     | got an error while analyzing yyparse
+Killed

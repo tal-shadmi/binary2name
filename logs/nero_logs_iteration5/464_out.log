@@ -1,0 +1,74 @@
+gcc-5__Ou__time__time have 20 funcs
+analyzing gcc-5__Ou__time__time/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__time__time/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__time__time/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__time__time/get_rusage_maxrss_kb
+started running get_rusage_maxrss_kb
+finished get_rusage_maxrss_kb
+analyzing gcc-5__Ou__time__time/get_rusage_ixrss_kb
+started running get_rusage_ixrss_kb
+finished get_rusage_ixrss_kb
+analyzing gcc-5__Ou__time__time/get_rusage_idrss_kb
+started running get_rusage_idrss_kb
+finished get_rusage_idrss_kb
+analyzing gcc-5__Ou__time__time/get_rusage_isrss_kb
+started running get_rusage_isrss_kb
+finished get_rusage_isrss_kb
+analyzing gcc-5__Ou__time__time/fprintargv
+started running fprintargv
+finished fprintargv
+analyzing gcc-5__Ou__time__time/linear_argv
+started running linear_argv
+finished linear_argv
+removing targets
+analyzing gcc-5__Ou__time__time/summarize
+started running summarize
+stopped exploration
+finished summarize
+removing targets
+analyzing gcc-5__Ou__time__time/getargs
+started running getargs
+stopped exploration
+finished getargs
+analyzing gcc-5__Ou__time__time/run_command
+started running run_command
+finished run_command
+analyzing gcc-5__Ou__time__time/resuse_start
+started running resuse_start
+finished resuse_start
+analyzing gcc-5__Ou__time__time/resuse_end
+started running resuse_end
+finished resuse_end
+removing targets
+analyzing gcc-5__Ou__time__time/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing gcc-5__Ou__time__time/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing gcc-5__Ou__time__time/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing gcc-5__Ou__time__time/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing gcc-5__Ou__time__time/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing gcc-5__Ou__time__time/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address

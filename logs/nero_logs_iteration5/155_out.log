@@ -1,0 +1,35 @@
+gcc-5__Ou__diction__diction have 9 funcs
+analyzing gcc-5__Ou__diction__diction/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__diction__diction/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__diction__diction/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__diction__diction/loadPhrases
+started running loadPhrases
+stopped exploration
+finished loadPhrases
+analyzing gcc-5__Ou__diction__diction/diction
+started running diction
+finished diction
+removing targets
+analyzing gcc-5__Ou__diction__diction/print_usage
+started running print_usage
+finished print_usage
+analyzing gcc-5__Ou__diction__diction/endingInAbbrev
+started running endingInAbbrev
+finished endingInAbbrev
+analyzing gcc-5__Ou__diction__diction/endingInPossesiveS
+started running endingInPossesiveS
+finished endingInPossesiveS
+removing targets
+analyzing gcc-5__Ou__diction__diction/sentence
+started running sentence
+stopped exploration
+finished sentence

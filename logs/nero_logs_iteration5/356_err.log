@@ -1,0 +1,12 @@
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_maildir_record
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_imaps_record
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_log_facility
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_pops_record
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_mh_record
+WARNING | 2021-12-09 00:52:56,067 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_pop_record
+WARNING | 2021-12-09 00:52:56,068 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_program_name
+WARNING | 2021-12-09 00:52:56,068 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_mbox_record
+WARNING | 2021-12-09 00:52:56,068 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_imap_record
+WARNING | 2021-12-09 00:52:56,068 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_strout
+WARNING | 2021-12-09 00:52:56,068 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_log_tag
+WARNING | 2021-12-09 00:52:56,070 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

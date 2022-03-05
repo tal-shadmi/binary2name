@@ -1,0 +1,295 @@
+gcc-5__Ou__marst__marst have 79 funcs
+analyzing gcc-5__Ou__marst__marst/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__marst__marst/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__marst__marst/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__marst__marst/my_assert
+started running my_assert
+finished my_assert
+analyzing gcc-5__Ou__marst__marst/my_malloc
+started running my_malloc
+finished my_malloc
+removing targets
+analyzing gcc-5__Ou__marst__marst/my_realloc
+started running my_realloc
+finished my_realloc
+removing targets
+analyzing gcc-5__Ou__marst__marst/my_free
+started running my_free
+finished my_free
+removing targets
+analyzing gcc-5__Ou__marst__marst/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__marst__marst/warning
+started running warning
+finished warning
+removing targets
+analyzing gcc-5__Ou__marst__marst/read_line
+started running read_line
+stopped exploration
+finished read_line
+analyzing gcc-5__Ou__marst__marst/skip_pad
+started running skip_pad
+finished skip_pad
+removing targets
+analyzing gcc-5__Ou__marst__marst/scan_symbol
+started running scan_symbol
+finished scan_symbol
+analyzing gcc-5__Ou__marst__marst/add_char
+started running add_char
+finished add_char
+removing targets
+analyzing gcc-5__Ou__marst__marst/scan_token
+started running scan_token
+finished scan_token
+removing targets
+analyzing gcc-5__Ou__marst__marst/get_token
+started running get_token
+finished get_token
+analyzing gcc-5__Ou__marst__marst/get_token2
+started running get_token2
+finished get_token2
+removing targets
+analyzing gcc-5__Ou__marst__marst/new_code
+started running new_code
+finished new_code
+removing targets
+analyzing gcc-5__Ou__marst__marst/prepend
+started running prepend
+finished prepend
+removing targets
+analyzing gcc-5__Ou__marst__marst/append
+started running append
+finished append
+removing targets
+analyzing gcc-5__Ou__marst__marst/catenate
+started running catenate
+finished catenate
+removing targets
+analyzing gcc-5__Ou__marst__marst/free_code
+started running free_code
+finished free_code
+removing targets
+analyzing gcc-5__Ou__marst__marst/look_up
+started running look_up
+stopped exploration
+finished look_up
+removing targets
+analyzing gcc-5__Ou__marst__marst/to_real
+started running to_real
+finished to_real
+removing targets
+analyzing gcc-5__Ou__marst__marst/to_int
+started running to_int
+finished to_int
+removing targets
+analyzing gcc-5__Ou__marst__marst/dsa_level
+started running dsa_level
+finished dsa_level
+removing targets
+analyzing gcc-5__Ou__marst__marst/current_level
+started running current_level
+finished current_level
+removing targets
+analyzing gcc-5__Ou__marst__marst/subscripted_variable
+started running subscripted_variable
+finished subscripted_variable
+analyzing gcc-5__Ou__marst__marst/switch_designator
+started running switch_designator
+finished switch_designator
+removing targets
+analyzing gcc-5__Ou__marst__marst/emit_dsa_pointers
+started running emit_dsa_pointers
+finished emit_dsa_pointers
+analyzing gcc-5__Ou__marst__marst/actual_parameter
+started running actual_parameter
+finished actual_parameter
+analyzing gcc-5__Ou__marst__marst/ext_comma
+started running ext_comma
+finished ext_comma
+removing targets
+analyzing gcc-5__Ou__marst__marst/function_designator
+started running function_designator
+finished function_designator
+analyzing gcc-5__Ou__marst__marst/block_level
+started running block_level
+finished block_level
+removing targets
+analyzing gcc-5__Ou__marst__marst/call_by_name
+started running call_by_name
+finished call_by_name
+analyzing gcc-5__Ou__marst__marst/primary
+started running primary
+finished primary
+removing targets
+analyzing gcc-5__Ou__marst__marst/factor
+started running factor
+finished factor
+analyzing gcc-5__Ou__marst__marst/term
+started running term
+finished term
+analyzing gcc-5__Ou__marst__marst/arith_expression
+started running arith_expression
+finished arith_expression
+removing targets
+analyzing gcc-5__Ou__marst__marst/relation
+started running relation
+finished relation
+analyzing gcc-5__Ou__marst__marst/bool_primary
+started running bool_primary
+finished bool_primary
+removing targets
+analyzing gcc-5__Ou__marst__marst/bool_factor
+started running bool_factor
+finished bool_factor
+analyzing gcc-5__Ou__marst__marst/bool_term
+started running bool_term
+finished bool_term
+analyzing gcc-5__Ou__marst__marst/implication
+started running implication
+finished implication
+analyzing gcc-5__Ou__marst__marst/simple_expr
+started running simple_expr
+finished simple_expr
+analyzing gcc-5__Ou__marst__marst/expression
+started running expression
+finished expression
+removing targets
+analyzing gcc-5__Ou__marst__marst/assignment_statement
+started running assignment_statement
+finished assignment_statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/go_to_statement
+started running go_to_statement
+finished go_to_statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/dummy_statement
+started running dummy_statement
+finished dummy_statement
+analyzing gcc-5__Ou__marst__marst/emit_ssn
+started running emit_ssn
+finished emit_ssn
+analyzing gcc-5__Ou__marst__marst/label_list
+started running label_list
+finished label_list
+analyzing gcc-5__Ou__marst__marst/conditional_statement
+started running conditional_statement
+finished conditional_statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/get_variable
+started running get_variable
+finished get_variable
+analyzing gcc-5__Ou__marst__marst/set_variable
+started running set_variable
+finished set_variable
+removing targets
+analyzing gcc-5__Ou__marst__marst/for_statement
+started running for_statement
+finished for_statement
+analyzing gcc-5__Ou__marst__marst/procedure_statement
+started running procedure_statement
+finished procedure_statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/statement
+started running statement
+finished statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/has_labels
+started running has_labels
+finished has_labels
+removing targets
+analyzing gcc-5__Ou__marst__marst/enter_block
+started running enter_block
+stopped exploration
+finished enter_block
+analyzing gcc-5__Ou__marst__marst/leave_block
+started running leave_block
+finished leave_block
+analyzing gcc-5__Ou__marst__marst/is_declaration
+started running is_declaration
+finished is_declaration
+removing targets
+analyzing gcc-5__Ou__marst__marst/block_or_compound_statement
+started running block_or_compound_statement
+stopped exploration
+finished block_or_compound_statement
+removing targets
+analyzing gcc-5__Ou__marst__marst/type_declaration
+started running type_declaration
+finished type_declaration
+removing targets
+analyzing gcc-5__Ou__marst__marst/own_bound
+started running own_bound
+finished own_bound
+analyzing gcc-5__Ou__marst__marst/array_declaration
+started running array_declaration
+finished array_declaration
+analyzing gcc-5__Ou__marst__marst/switch_declaration
+started running switch_declaration
+finished switch_declaration
+removing targets
+analyzing gcc-5__Ou__marst__marst/emit_proc_head
+started running emit_proc_head
+stopped exploration
+finished emit_proc_head
+removing targets
+analyzing gcc-5__Ou__marst__marst/procedure_declaration
+started running procedure_declaration
+finished procedure_declaration
+removing targets
+analyzing gcc-5__Ou__marst__marst/declaration
+started running declaration
+finished declaration
+analyzing gcc-5__Ou__marst__marst/resolving
+started running resolving
+stopped exploration
+finished resolving
+removing targets
+analyzing gcc-5__Ou__marst__marst/entire_module
+started running entire_module
+finished entire_module
+analyzing gcc-5__Ou__marst__marst/proc_block
+started running proc_block
+finished proc_block
+removing targets
+analyzing gcc-5__Ou__marst__marst/emit_decl_code
+started running emit_decl_code
+finished emit_decl_code
+removing targets
+analyzing gcc-5__Ou__marst__marst/emit_dsa_code
+started running emit_dsa_code
+finished emit_dsa_code
+removing targets
+analyzing gcc-5__Ou__marst__marst/emit_startup_code
+started running emit_startup_code
+finished emit_startup_code
+analyzing gcc-5__Ou__marst__marst/get_code_char
+started running get_code_char
+finished get_code_char
+removing targets
+analyzing gcc-5__Ou__marst__marst/output_code
+started running output_code
+stopped exploration
+finished output_code
+removing targets
+analyzing gcc-5__Ou__marst__marst/display_help
+started running display_help
+finished display_help
+analyzing gcc-5__Ou__marst__marst/display_version
+started running display_version
+finished display_version
+analyzing gcc-5__Ou__marst__marst/process_cmdline
+started running process_cmdline
+stopped exploration
+finished process_cmdline
+removing targets

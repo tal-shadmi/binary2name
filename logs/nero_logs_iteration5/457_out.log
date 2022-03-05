@@ -1,0 +1,59 @@
+gcc-5__Ou__spell__spell have 16 funcs
+analyzing gcc-5__Ou__spell__spell/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__spell__spell/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__spell__spell/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__spell__spell/read_file
+started running read_file
+stopped exploration
+finished read_file
+analyzing gcc-5__Ou__spell__spell/read_ispell
+started running read_ispell
+stopped exploration
+finished read_ispell
+analyzing gcc-5__Ou__spell__spell/read_ispell_errors
+started running read_ispell_errors
+stopped exploration
+finished read_ispell_errors
+analyzing gcc-5__Ou__spell__spell/new_pipe
+started running new_pipe
+finished new_pipe
+analyzing gcc-5__Ou__spell__spell/sig_pipe
+started running sig_pipe
+finished sig_pipe
+analyzing gcc-5__Ou__spell__spell/sig_chld
+started running sig_chld
+finished sig_chld
+analyzing gcc-5__Ou__spell__spell/parent
+started running parent
+stopped exploration
+finished parent
+analyzing gcc-5__Ou__spell__spell/run_ispell_in_child
+started running run_ispell_in_child
+finished run_ispell_in_child
+analyzing gcc-5__Ou__spell__spell/error
+started running error
+finished error
+removing targets
+analyzing gcc-5__Ou__spell__spell/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__spell__spell/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__spell__spell/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__spell__spell/stat
+started running stat
+finished stat
+removing targets

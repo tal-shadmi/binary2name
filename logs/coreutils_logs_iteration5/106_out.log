@@ -1,0 +1,306 @@
+who have 82 funcs
+analyzing who/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing who/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing who/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing who/print_line
+started running print_line
+finished print_line
+removing targets
+analyzing who/make_id_equals_comment
+started running make_id_equals_comment
+finished make_id_equals_comment
+analyzing who/time_string.isra.1
+started running time_string.isra.1
+finished time_string.isra.1
+analyzing who/print_user
+started running print_user
+finished print_user
+analyzing who/who
+started running who
+finished who
+analyzing who/canon_host_r
+started running canon_host_r
+finished canon_host_r
+analyzing who/canon_host
+started running canon_host
+finished canon_host
+removing targets
+analyzing who/ch_strerror
+started running ch_strerror
+finished ch_strerror
+removing targets
+analyzing who/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing who/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing who/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing who/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing who/imaxtostr
+started running imaxtostr
+finished imaxtostr
+removing targets
+analyzing who/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing who/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing who/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing who/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing who/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing who/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing who/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing who/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing who/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing who/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing who/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing who/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing who/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing who/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing who/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing who/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing who/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing who/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing who/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing who/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing who/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing who/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing who/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing who/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing who/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing who/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing who/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing who/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing who/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing who/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing who/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing who/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing who/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing who/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing who/quote
+started running quote
+finished quote
+removing targets
+analyzing who/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing who/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing who/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing who/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing who/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing who/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing who/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing who/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing who/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing who/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing who/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing who/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing who/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing who/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing who/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing who/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing who/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing who/rpl_asprintf
+started running rpl_asprintf
+finished rpl_asprintf
+removing targets
+analyzing who/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing who/extract_trimmed_name
+started running extract_trimmed_name
+finished extract_trimmed_name
+analyzing who/read_utmp
+started running read_utmp
+stopped exploration
+finished read_utmp
+analyzing who/rpl_vasprintf
+started running rpl_vasprintf
+finished rpl_vasprintf
+analyzing who/close_stream
+started running close_stream
+finished close_stream
+analyzing who/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing who/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing who/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing who/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing who/vasnprintf
+started running vasnprintf
+stopped exploration
+finished vasnprintf
+analyzing who/printf_fetchargs
+started running printf_fetchargs
+finished printf_fetchargs
+removing targets
+analyzing who/printf_parse
+started running printf_parse
+stopped exploration
+finished printf_parse
+removing targets
+analyzing who/atexit
+started running atexit
+finished atexit
+removing targets

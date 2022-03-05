@@ -1,0 +1,63 @@
+gcc-5__Ou__mailutils__from have 17 funcs
+analyzing gcc-5__Ou__mailutils__from/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__from/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__from/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__from/from_select
+started running from_select
+finished from_select
+removing targets
+analyzing gcc-5__Ou__mailutils__from/util_getcols
+started running util_getcols
+finished util_getcols
+analyzing gcc-5__Ou__mailutils__from/get_charset
+started running get_charset
+finished get_charset
+removing targets
+analyzing gcc-5__Ou__mailutils__from/alloc_logical
+started running alloc_logical
+finished alloc_logical
+analyzing gcc-5__Ou__mailutils__from/puts_bidi
+started running puts_bidi
+finished puts_bidi
+removing targets
+analyzing gcc-5__Ou__mailutils__from/print_line
+started running print_line
+finished print_line
+removing targets
+analyzing gcc-5__Ou__mailutils__from/format_field_simple
+started running format_field_simple
+finished format_field_simple
+removing targets
+analyzing gcc-5__Ou__mailutils__from/format_field_align
+started running format_field_align
+finished format_field_align
+removing targets
+analyzing gcc-5__Ou__mailutils__from/init_output
+started running init_output
+finished init_output
+removing targets
+analyzing gcc-5__Ou__mailutils__from/rfc2047_decode_wrapper
+started running rfc2047_decode_wrapper
+finished rfc2047_decode_wrapper
+analyzing gcc-5__Ou__mailutils__from/get_personal
+started running get_personal
+finished get_personal
+analyzing gcc-5__Ou__mailutils__from/action
+started running action
+finished action
+removing targets
+analyzing gcc-5__Ou__mailutils__from/frm_abort
+started running frm_abort
+finished frm_abort
+analyzing gcc-5__Ou__mailutils__from/frm_scan
+started running frm_scan
+finished frm_scan

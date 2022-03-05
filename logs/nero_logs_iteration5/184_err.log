@@ -1,0 +1,12 @@
+WARNING | 2021-12-08 20:49:58,531 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_outstream
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_function
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_line_buffer
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: history_length
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_inhibit_completion
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __gmp_version
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_readline_name
+WARNING | 2021-12-08 20:49:58,532 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_over
+WARNING | 2021-12-08 20:49:58,539 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 21:32:50,440 | root     | 
+ERROR   | 2021-12-08 21:32:50,446 | root     | got an error while analyzing yyparse
+Killed

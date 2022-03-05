@@ -1,0 +1,81 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 217, in analyze_binary
+  File "paths_constraints_main.py", line 50, in analyze_func
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/sim_manager.py", line 280, in run
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/sim_manager.py", line 365, in step
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/sim_manager.py", line 402, in step_state
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/misc/hookset.py", line 75, in __call__
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/exploration_techniques/loop_seer.py", line 98, in successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/misc/hookset.py", line 80, in __call__
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/sim_manager.py", line 441, in successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/factory.py", line 60, in successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/slicing.py", line 19, in process
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/engine.py", line 149, in process
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/failure.py", line 21, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/syscall.py", line 18, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/hook.py", line 54, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/unicorn.py", line 169, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/soot/engine.py", line 64, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/heavy.py", line 138, in process_successors
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/super_fastpath.py", line 19, in handle_vex_block
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/slicing.py", line 26, in handle_vex_block
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/actions.py", line 30, in handle_vex_block
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/inspect.py", line 45, in handle_vex_block
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/light.py", line 446, in handle_vex_block
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/slicing.py", line 30, in _handle_vex_stmt
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/inspect.py", line 40, in _handle_vex_stmt
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/resilience.py", line 36, in inner
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/heavy.py", line 204, in _handle_vex_stmt
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/light.py", line 51, in _handle_vex_stmt
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/light/light.py", line 209, in _handle_vex_stmt_Exit
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/actions.py", line 188, in _perform_vex_stmt_Exit
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/vex/heavy/heavy.py", line 255, in _perform_vex_stmt_Exit
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/successors.py", line 126, in add_successor
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/engines/successors.py", line 258, in _categorize_successor
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/sim_state.py", line 568, in satisfiable
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/state_plugins/sim_action_object.py", line 57, in ast_stripper
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/state_plugins/solver.py", line 89, in wrapped_f
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/state_plugins/solver.py", line 655, in satisfiable
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontend_mixins/constraint_filter_mixin.py", line 34, in satisfiable
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontend_mixins/sat_cache_mixin.py", line 45, in satisfiable
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontends/composite_frontend.py", line 303, in satisfiable
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontends/composite_frontend.py", line 295, in check_satisfiability
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontends/full_frontend.py", line 92, in check_satisfiability
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/frontends/full_frontend.py", line 54, in _get_solver
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/claripy/backends/backend_z3.py", line 697, in solver
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/z3/z3.py", line 7223, in param_descrs
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/z3/z3core.py", line 3810, in Z3_solver_get_param_descrs
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/z3/z3core.py", line 1441, in Check
+z3.z3types.Z3Exception: b'out of memory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1025, in emit
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 869, in format
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 610, in format
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 550, in formatTime
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 360, in <module>
+  File "paths_constraints_main.py", line 356, in main
+  File "paths_constraints_main.py", line 193, in generate_dataset
+  File "paths_constraints_main.py", line 221, in analyze_binary
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1959, in error
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1407, in error
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1514, in _log
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1524, in handle
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 894, in handle
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 1033, in emit
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/logging/__init__.py", line 947, in handleError
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/traceback.py", line 104, in print_exception
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/traceback.py", line 497, in __init__
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/traceback.py", line 508, in __init__
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/traceback.py", line 350, in extract
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/linecache.py", line 175, in lazycache
+MemoryError

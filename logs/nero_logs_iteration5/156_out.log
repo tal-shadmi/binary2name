@@ -1,0 +1,119 @@
+gcc-5__Ou__diction__style have 34 funcs
+analyzing gcc-5__Ou__diction__style/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__diction__style/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__diction__style/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__diction__style/newHit
+started running newHit
+finished newHit
+analyzing gcc-5__Ou__diction__style/noteHit
+started running noteHit
+finished noteHit
+removing targets
+analyzing gcc-5__Ou__diction__style/kincaid
+started running kincaid
+finished kincaid
+analyzing gcc-5__Ou__diction__style/ari
+started running ari
+finished ari
+analyzing gcc-5__Ou__diction__style/coleman_liau
+started running coleman_liau
+finished coleman_liau
+analyzing gcc-5__Ou__diction__style/flesch
+started running flesch
+finished flesch
+analyzing gcc-5__Ou__diction__style/fog
+started running fog
+finished fog
+analyzing gcc-5__Ou__diction__style/wstf
+started running wstf
+finished wstf
+analyzing gcc-5__Ou__diction__style/wheeler_smith
+started running wheeler_smith
+stopped exploration
+finished wheeler_smith
+removing targets
+analyzing gcc-5__Ou__diction__style/lix
+started running lix
+stopped exploration
+finished lix
+removing targets
+analyzing gcc-5__Ou__diction__style/smog
+started running smog
+finished smog
+analyzing gcc-5__Ou__diction__style/wordcmp
+started running wordcmp
+finished wordcmp
+removing targets
+analyzing gcc-5__Ou__diction__style/article
+started running article
+finished article
+analyzing gcc-5__Ou__diction__style/pronoun
+started running pronoun
+finished pronoun
+analyzing gcc-5__Ou__diction__style/interrogativePronoun
+started running interrogativePronoun
+finished interrogativePronoun
+analyzing gcc-5__Ou__diction__style/conjunction
+started running conjunction
+finished conjunction
+analyzing gcc-5__Ou__diction__style/nominalization
+started running nominalization
+finished nominalization
+removing targets
+analyzing gcc-5__Ou__diction__style/subConjunction
+started running subConjunction
+finished subConjunction
+analyzing gcc-5__Ou__diction__style/preposition
+started running preposition
+finished preposition
+analyzing gcc-5__Ou__diction__style/auxVerb
+started running auxVerb
+finished auxVerb
+analyzing gcc-5__Ou__diction__style/tobeVerb
+started running tobeVerb
+finished tobeVerb
+analyzing gcc-5__Ou__diction__style/vowel
+started running vowel
+finished vowel
+removing targets
+analyzing gcc-5__Ou__diction__style/syll_en
+started running syll_en
+finished syll_en
+removing targets
+analyzing gcc-5__Ou__diction__style/syll_de
+started running syll_de
+finished syll_de
+analyzing gcc-5__Ou__diction__style/syll_nl
+started running syll_nl
+finished syll_nl
+analyzing gcc-5__Ou__diction__style/syll
+started running syll
+finished syll
+removing targets
+analyzing gcc-5__Ou__diction__style/style
+started running style
+finished style
+removing targets
+analyzing gcc-5__Ou__diction__style/print_usage
+started running print_usage
+finished print_usage
+analyzing gcc-5__Ou__diction__style/endingInAbbrev
+started running endingInAbbrev
+finished endingInAbbrev
+analyzing gcc-5__Ou__diction__style/endingInPossesiveS
+started running endingInPossesiveS
+finished endingInPossesiveS
+removing targets
+analyzing gcc-5__Ou__diction__style/sentence
+started running sentence
+stopped exploration
+finished sentence

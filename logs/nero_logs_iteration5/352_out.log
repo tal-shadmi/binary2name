@@ -1,0 +1,101 @@
+gcc-5__Ou__mailutils__mailutils-stat have 31 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-stat/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_string
+started running pr_c_string
+finished pr_c_string
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_short
+started running pr_c_short
+finished pr_c_short
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_ushort
+started running pr_c_ushort
+finished pr_c_ushort
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_int
+started running pr_c_int
+finished pr_c_int
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_uint
+started running pr_c_uint
+finished pr_c_uint
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_long
+started running pr_c_long
+finished pr_c_long
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_ulong
+started running pr_c_ulong
+finished pr_c_ulong
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_size
+started running pr_c_size
+finished pr_c_size
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_off
+started running pr_c_off
+finished pr_c_off
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_time
+started running pr_c_time
+finished pr_c_time
+analyzing gcc-5__Ou__mailutils__mailutils-stat/pr_c_time_h
+started running pr_c_time_h
+finished pr_c_time_h
+analyzing gcc-5__Ou__mailutils__mailutils-stat/mu_c_output
+started running mu_c_output
+finished mu_c_output
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/propfmt
+started running propfmt
+finished propfmt
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/fmtspec
+started running fmtspec
+finished fmtspec
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/format_stat
+started running format_stat
+finished format_stat
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_type
+started running get_type
+finished get_type
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_path
+started running get_path
+finished get_path
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_url
+started running get_url
+finished get_url
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_size
+started running get_size
+finished get_size
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_count
+started running get_count
+finished get_count
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_recent
+started running get_recent
+finished get_recent
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_unseen
+started running get_unseen
+finished get_unseen
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_uidvalidity
+started running get_uidvalidity
+finished get_uidvalidity
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_uidnext
+started running get_uidnext
+finished get_uidnext
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_atime
+started running get_atime
+finished get_atime
+analyzing gcc-5__Ou__mailutils__mailutils-stat/get_name
+started running get_name
+finished get_name
+analyzing gcc-5__Ou__mailutils__mailutils-stat/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-stat/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt

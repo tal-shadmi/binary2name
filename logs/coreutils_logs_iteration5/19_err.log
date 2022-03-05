@@ -1,0 +1,4 @@
+WARNING | 2021-12-08 18:00:34,498 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-08 18:11:00,917 | root     | list index out of range
+ERROR   | 2021-12-08 18:11:00,917 | root     | got an error while analyzing replace_problematic_chars
+Killed

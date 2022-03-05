@@ -1,0 +1,14 @@
+WARNING | 2021-12-09 00:19:47,208 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_maildir_record
+WARNING | 2021-12-09 00:19:47,209 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_imaps_record
+WARNING | 2021-12-09 00:19:47,209 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_pops_record
+WARNING | 2021-12-09 00:19:47,209 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_mh_record
+WARNING | 2021-12-09 00:19:47,209 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_pop_record
+WARNING | 2021-12-09 00:19:47,209 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_log_syslog
+WARNING | 2021-12-09 00:19:47,210 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_mbox_record
+WARNING | 2021-12-09 00:19:47,210 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_imap_record
+WARNING | 2021-12-09 00:19:47,210 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_strerr
+WARNING | 2021-12-09 00:19:47,213 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-09 00:30:55,044 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:30:55,050 | root     | got an error while analyzing find_user
+ERROR   | 2021-12-09 00:31:02,540 | root     | b'out of memory'
+ERROR   | 2021-12-09 00:31:03,811 | root     | got an error while analyzing change_user

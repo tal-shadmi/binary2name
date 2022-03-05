@@ -1,0 +1,15 @@
+ERROR   | 2021-12-08 19:25:57,715 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:25:57,726 | root     | got an error while analyzing canonicalize_filename_mode
+ERROR   | 2021-12-08 19:26:00,692 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:26:00,693 | root     | got an error while analyzing close_stdout
+ERROR   | 2021-12-08 19:26:54,374 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:26:54,384 | root     | got an error while analyzing hash_get_max_bucket_length
+ERROR   | 2021-12-08 19:28:45,480 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:28:45,481 | root     | got an error while analyzing hash_get_next
+ERROR   | 2021-12-08 19:29:00,435 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:29:00,437 | root     | got an error while analyzing hash_get_entries
+ERROR   | 2021-12-08 19:29:00,959 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:29:00,962 | root     | got an error while analyzing hash_do_for_each
+ERROR   | 2021-12-08 19:31:31,505 | root     | b'out of memory'
+ERROR   | 2021-12-08 19:31:31,523 | root     | got an error while analyzing hash_initialize
+Killed

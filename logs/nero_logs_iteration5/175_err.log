@@ -1,0 +1,14 @@
+WARNING | 2021-12-08 20:29:13,765 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_device_id_rs
+WARNING | 2021-12-08 20:29:13,766 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_units
+WARNING | 2021-12-08 20:29:13,766 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_oem_sensor_type
+WARNING | 2021-12-08 20:29:13,766 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_types
+WARNING | 2021-12-08 20:29:13,766 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sel_allocation_info_rs
+WARNING | 2021-12-08 20:29:13,766 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sel_info_rs
+WARNING | 2021-12-08 20:29:13,770 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 21:28:15,866 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:28:16,390 | root     | got an error while analyzing cbuf_copier
+ERROR   | 2021-12-08 21:31:13,243 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:13,244 | root     | got an error while analyzing conffile_parse
+ERROR   | 2021-12-08 21:31:16,062 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:16,065 | root     | got an error while analyzing conffile_bool
+Killed

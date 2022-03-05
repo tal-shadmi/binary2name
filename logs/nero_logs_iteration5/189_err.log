@@ -1,0 +1,8 @@
+ERROR   | 2021-12-08 21:14:59,877 | root     | 
+ERROR   | 2021-12-08 21:14:59,881 | root     | got an error while analyzing num2date
+ERROR   | 2021-12-08 21:18:12,355 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:18:12,361 | root     | got an error while analyzing path_search
+ERROR   | 2021-12-08 21:18:12,581 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:18:12,587 | root     | got an error while analyzing clear_ungetc_buffer_preserving_position
+ERROR   | 2021-12-08 21:18:15,041 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:18:15,148 | root     | got an error while analyzing rpl_fseeko

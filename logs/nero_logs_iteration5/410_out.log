@@ -1,0 +1,213 @@
+gcc-5__Ou__nettle__nettle-benchmark have 66 funcs
+analyzing gcc-5__Ou__nettle__nettle-benchmark/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/die
+started running die
+finished die
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_function
+started running time_function
+finished time_function
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_nothing
+started running bench_nothing
+finished bench_nothing
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_memxor
+started running bench_memxor
+finished bench_memxor
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_memxor3
+started running bench_memxor3
+finished bench_memxor3
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_hash
+started running bench_hash
+finished bench_hash
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_cipher
+started running bench_cipher
+finished bench_cipher
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_cbc_encrypt
+started running bench_cbc_encrypt
+finished bench_cbc_encrypt
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_cbc_decrypt
+started running bench_cbc_decrypt
+finished bench_cbc_decrypt
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_ctr
+started running bench_ctr
+finished bench_ctr
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_aead_crypt
+started running bench_aead_crypt
+finished bench_aead_crypt
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_aead_update
+started running bench_aead_update
+finished bench_aead_update
+analyzing gcc-5__Ou__nettle__nettle-benchmark/init_data
+started running init_data
+finished init_data
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/init_key
+started running init_key
+finished init_key
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/init_nonce
+started running init_nonce
+finished init_nonce
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/header
+started running header
+finished header
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/display
+started running display
+finished display
+analyzing gcc-5__Ou__nettle__nettle-benchmark/xalloc
+started running xalloc
+finished xalloc
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_overhead
+started running time_overhead
+finished time_overhead
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_memxor
+started running time_memxor
+finished time_memxor
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_hash
+started running time_hash
+finished time_hash
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_umac
+started running time_umac
+finished time_umac
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_poly1305_aes
+started running time_poly1305_aes
+finished time_poly1305_aes
+analyzing gcc-5__Ou__nettle__nettle-benchmark/prefix_p
+started running prefix_p
+finished prefix_p
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/block_cipher_p
+started running block_cipher_p
+finished block_cipher_p
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_cipher
+started running time_cipher
+finished time_cipher
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_aead
+started running time_aead
+finished time_aead
+analyzing gcc-5__Ou__nettle__nettle-benchmark/compare_double
+started running compare_double
+finished compare_double
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_sha1_compress
+started running bench_sha1_compress
+finished bench_sha1_compress
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_salsa20_core
+started running bench_salsa20_core
+finished bench_salsa20_core
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/bench_sha3_permute
+started running bench_sha3_permute
+finished bench_sha3_permute
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/nettle_openssl_init
+started running nettle_openssl_init
+finished nettle_openssl_init
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_evp_set_encrypt_key
+started running openssl_evp_set_encrypt_key
+finished openssl_evp_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_evp_set_decrypt_key
+started running openssl_evp_set_decrypt_key
+finished openssl_evp_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_evp_encrypt
+started running openssl_evp_encrypt
+finished openssl_evp_encrypt
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_evp_decrypt
+started running openssl_evp_decrypt
+finished openssl_evp_decrypt
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes128_set_encrypt_key
+started running openssl_aes128_set_encrypt_key
+finished openssl_aes128_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes128_set_decrypt_key
+started running openssl_aes128_set_decrypt_key
+finished openssl_aes128_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes192_set_encrypt_key
+started running openssl_aes192_set_encrypt_key
+finished openssl_aes192_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes192_set_decrypt_key
+started running openssl_aes192_set_decrypt_key
+finished openssl_aes192_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes256_set_encrypt_key
+started running openssl_aes256_set_encrypt_key
+finished openssl_aes256_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_aes256_set_decrypt_key
+started running openssl_aes256_set_decrypt_key
+finished openssl_aes256_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_arcfour128_set_encrypt_key
+started running openssl_arcfour128_set_encrypt_key
+finished openssl_arcfour128_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_arcfour128_set_decrypt_key
+started running openssl_arcfour128_set_decrypt_key
+finished openssl_arcfour128_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_bf128_set_encrypt_key
+started running openssl_bf128_set_encrypt_key
+finished openssl_bf128_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_bf128_set_decrypt_key
+started running openssl_bf128_set_decrypt_key
+finished openssl_bf128_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_des_set_encrypt_key
+started running openssl_des_set_encrypt_key
+finished openssl_des_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_des_set_decrypt_key
+started running openssl_des_set_decrypt_key
+finished openssl_des_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_cast128_set_encrypt_key
+started running openssl_cast128_set_encrypt_key
+finished openssl_cast128_set_encrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_cast128_set_decrypt_key
+started running openssl_cast128_set_decrypt_key
+finished openssl_cast128_set_decrypt_key
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_md5_init
+started running openssl_md5_init
+finished openssl_md5_init
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_md5_update
+started running openssl_md5_update
+finished openssl_md5_update
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_md5_digest
+started running openssl_md5_digest
+finished openssl_md5_digest
+removing targets
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_sha1_init
+started running openssl_sha1_init
+finished openssl_sha1_init
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_sha1_update
+started running openssl_sha1_update
+finished openssl_sha1_update
+analyzing gcc-5__Ou__nettle__nettle-benchmark/openssl_sha1_digest
+started running openssl_sha1_digest
+finished openssl_sha1_digest
+removing targets
+skipping die
+analyzing gcc-5__Ou__nettle__nettle-benchmark/cgt_works_p
+started running cgt_works_p
+finished cgt_works_p
+analyzing gcc-5__Ou__nettle__nettle-benchmark/cgt_time_start
+started running cgt_time_start
+finished cgt_time_start
+analyzing gcc-5__Ou__nettle__nettle-benchmark/cgt_time_end
+started running cgt_time_end
+finished cgt_time_end
+analyzing gcc-5__Ou__nettle__nettle-benchmark/clock_time_start
+started running clock_time_start
+finished clock_time_start
+analyzing gcc-5__Ou__nettle__nettle-benchmark/clock_time_end
+started running clock_time_end
+finished clock_time_end
+analyzing gcc-5__Ou__nettle__nettle-benchmark/time_init
+started running time_init
+finished time_init

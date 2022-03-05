@@ -1,0 +1,7 @@
+WARNING | 2021-12-09 02:24:37,086 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_config_dir
+WARNING | 2021-12-09 02:24:37,086 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_printutmp_empty_string
+WARNING | 2021-12-09 02:24:37,087 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_utmp_file
+WARNING | 2021-12-09 02:24:37,087 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_printutmp_date_format
+WARNING | 2021-12-09 02:24:37,087 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: grad_resolve_hostnames
+WARNING | 2021-12-09 02:24:37,089 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

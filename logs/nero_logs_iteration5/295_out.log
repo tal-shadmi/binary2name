@@ -1,0 +1,34 @@
+gcc-5__Ou__libmicrohttpd__fileserver_example_dirs have 9 funcs
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/file_reader
+started running file_reader
+finished file_reader
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/file_free_callback
+started running file_free_callback
+finished file_free_callback
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/dir_free_callback
+started running dir_free_callback
+finished dir_free_callback
+removing targets
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/dir_reader
+started running dir_reader
+finished dir_reader
+removing targets
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/ahc_echo
+started running ahc_echo
+finished ahc_echo
+analyzing gcc-5__Ou__libmicrohttpd__fileserver_example_dirs/fstat
+started running fstat
+finished fstat
+removing targets

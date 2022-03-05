@@ -1,0 +1,7 @@
+ERROR   | 2021-12-08 18:16:16,569 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:16:16,577 | root     | got an error while analyzing ipaddr2domain
+ERROR   | 2021-12-08 18:17:27,213 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:17:27,221 | root     | got an error while analyzing proclog
+ERROR   | 2021-12-08 18:18:41,516 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:18:41,521 | root     | got an error while analyzing Paddr
+Killed

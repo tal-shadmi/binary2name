@@ -1,0 +1,53 @@
+{ "func_name": "argmatch",
+    "GNN_DATA": 
+    {"nodes": 
+        {
+        "4216672": "push|reg|  |push|reg||mov|reg|rsi|   |push|reg|   |push|reg|      |mov|reg|rcx|   |push|rbp|      |push|rbx|        |mov|rbp|rdx|   |sub|rsp|0x28|  |mov|qword|ptr|rsp|+|8|rdi|     |mov|qword|ptr|rsp|+|0x18|rdx|    |call|0x4018d0| ",
+        "4216710": "mov|reg|qword|ptr|reg|   |mov|qword|ptr|rsp|-1|  |test|reg|reg|  |je|target_0|   ",
+        "4216909": "mov|rax|qword|ptr|rsp|     |add|rsp|0x28|  |pop|rbx|       |pop|rbp|       |pop|reg||pop|reg|        |pop|reg|       |pop|reg|       |ret|   ", 
+        "4216730": "mov|reg|rax|       |mov|byte|ptr|rsp|+|0x17|0|     |xor|ebx|ebx|   |jmp|target_0|  ", 
+        "4216823": "mov|rsi|qword|ptr|rsp|+|8| |mov|rdx|reg|   |mov|rdi|reg|   |call|0x401820| ", 
+        "4216839": "test|eax|eax|      |jne|target_0|  ", 
+        "4216807": "add|rbx|1|       |add|rbp|reg|     |mov|reg|qword|ptr|reg|+|rbx*8| |test|reg|reg|  |je|target_0|   ", 
+        "4216888": "cmp|byte|ptr|rsp|+|0x17|0| |mov|rax|-2|    |cmove|rax|qword|ptr|rsp||mov|qword|ptr|rsp|rax|  |mov|rax|qword|ptr|rsp| |add|rsp|0x28|  |pop|rbx|       |pop|rbp| |pop|reg|       |pop|reg|       |pop|reg|       |pop|reg|       |ret|   ",
+        "4216843": "mov|rdi|reg|       |call|0x4018d0| ", 
+        "4216851": "cmp|rax|reg|     |je|target_0|     ", 
+        "4216944": "mov|qword|ptr|rsp|rbx|   |jmp|target_0|  ", 
+        "4216856": "cmp|qword|ptr|rsp|-1|      |jne|target_0|  ", 
+        "4216863": "mov|qword|ptr|rsp|rbx|     |add|rbx|1|     |add|rbp|reg|   |mov|reg|qword|ptr|reg|+|rbx*8| |test|reg|reg|    |jne|target_0|  ", 
+        "4216883": "nop|dword|ptr|rax|+|rax| |cmp|byte|ptr|rsp|+|0x17|0|       |mov|rax|-2|    |cmove|rax|qword|ptr|rsp|       |mov|qword|ptr|rsp|rax|   |mov|rax|qword|ptr|rsp| |add|rsp|0x28|  |pop|rbx|       |pop|rbp|       |pop|reg| |pop|reg|       |pop|reg|       |pop|reg|  |ret|   ", 
+        "4216752": "mov|rax|qword|ptr|rsp|+|0x18|      |test|rax|rax|  |je|target_0|   ", 
+        "4216928": "mov|byte|ptr|rsp|+|0x17|1| |jmp|target_0|  ", 
+        "4216766": "mov|rdi|qword|ptr|rsp|   |mov|rdx|reg|     |mov|rsi|rbp|  |imul|rdi|reg|  |add|rdi|rax|   |call|0x4019a0| ", 
+        "4216788": "test|eax|eax|      |movzx|eax|byte|ptr|rsp|+|0x17| |mov|ecx|1|     |cmovne|eax|ecx|  |mov|byte|ptr|rsp|+|0x17|al|    |add|rbx|1|     |add|rbp|reg|   |mov|reg|qword|ptr|reg|+|rbx*8|   |test|reg|reg|  |je|target_0|   "
+    }, 
+        "edges": [
+            {"EDGE": ["4216672", "4216710"],   "CONSTRAINT": "<Bool|__eq__|reg|0xffffffffff000000|>       |<Bool|__eq__|mem_0|0x0|>       "}, 
+            {"EDGE": ["4216710", "4216909"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216710", "4216730"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216730", "4216823"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216823", "4216839"],   "CONSTRAINT": "<Bool|__ne__|ret|0x0|>"}, 
+            {"EDGE": ["4216839", "4216807"],   "CONSTRAINT": "<Bool|__eq__|mem_0|0x0|>    "}, 
+            {"EDGE": ["4216839", "4216843"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216807", "4216888"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216807", "4216823"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216888", "4216909"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216843", "4216851"],   "CONSTRAINT": "<Bool|__eq__|ret|ret|>    "},
+            {"EDGE": ["4216851", "4216944"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216851", "4216856"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216944", "4216909"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216856", "4216863"],   "CONSTRAINT": "<Bool|__eq__|mem_0|0x0|>      "}, 
+            {"EDGE": ["4216856", "4216752"],   "CONSTRAINT": "<Bool|__eq__|reg|0x0|>      "}, 
+            {"EDGE": ["4216863", "4216883"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216863", "4216823"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216883", "4216888"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216752", "4216928"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216752", "4216766"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216928", "4216807"],   "CONSTRAINT": "<Bool|__eq__|mem_0|0x0|>    "}, 
+            {"EDGE": ["4216766", "4216788"],   "CONSTRAINT": ""}, 
+            {"EDGE": ["4216788", "4216807"],   "CONSTRAINT": "<Bool|__eq__|mem_0|0x0|>"}
+        ]
+        
+    }
+        
+}

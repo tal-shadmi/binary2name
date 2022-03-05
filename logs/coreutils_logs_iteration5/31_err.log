@@ -1,0 +1,11 @@
+WARNING | 2021-12-08 18:23:58,212 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-08 21:10:27,607 | root     | list index out of range
+ERROR   | 2021-12-08 21:10:27,612 | root     | got an error while analyzing xzalloc
+ERROR   | 2021-12-08 21:23:41,365 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:23:41,371 | root     | got an error while analyzing xmemdup
+ERROR   | 2021-12-08 21:23:41,717 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:23:41,725 | root     | got an error while analyzing xstrdup
+ERROR   | 2021-12-08 21:23:44,976 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:23:44,981 | root     | got an error while analyzing rpl_fseeko
+ERROR   | 2021-12-08 21:23:45,675 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:23:45,680 | root     | got an error while analyzing close_stream

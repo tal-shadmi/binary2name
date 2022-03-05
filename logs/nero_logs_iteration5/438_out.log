@@ -1,0 +1,16 @@
+gcc-5__Ou__radius__mktypes have 4 funcs
+analyzing gcc-5__Ou__radius__mktypes/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__radius__mktypes/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__radius__mktypes/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__radius__mktypes/print_number
+started running print_number
+finished print_number

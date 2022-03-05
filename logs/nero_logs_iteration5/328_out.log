@@ -1,0 +1,84 @@
+gcc-5__Ou__mailutils__frm have 24 funcs
+analyzing gcc-5__Ou__mailutils__frm/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/prepare_attrs
+started running prepare_attrs
+finished prepare_attrs
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/decode_attr
+started running decode_attr
+finished decode_attr
+analyzing gcc-5__Ou__mailutils__frm/cli_show_field
+started running cli_show_field
+finished cli_show_field
+analyzing gcc-5__Ou__mailutils__frm/cli_Quiet
+started running cli_Quiet
+finished cli_Quiet
+analyzing gcc-5__Ou__mailutils__frm/cli_query
+started running cli_query
+finished cli_query
+analyzing gcc-5__Ou__mailutils__frm/cli_status
+started running cli_status
+finished cli_status
+analyzing gcc-5__Ou__mailutils__frm/frm_select
+started running frm_select
+finished frm_select
+analyzing gcc-5__Ou__mailutils__frm/frm
+started running frm
+finished frm
+analyzing gcc-5__Ou__mailutils__frm/util_getcols
+started running util_getcols
+finished util_getcols
+analyzing gcc-5__Ou__mailutils__frm/get_charset
+started running get_charset
+finished get_charset
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/alloc_logical
+started running alloc_logical
+finished alloc_logical
+analyzing gcc-5__Ou__mailutils__frm/puts_bidi
+started running puts_bidi
+finished puts_bidi
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/print_line
+started running print_line
+finished print_line
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/format_field_simple
+started running format_field_simple
+finished format_field_simple
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/format_field_align
+started running format_field_align
+finished format_field_align
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/init_output
+started running init_output
+finished init_output
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/rfc2047_decode_wrapper
+started running rfc2047_decode_wrapper
+finished rfc2047_decode_wrapper
+analyzing gcc-5__Ou__mailutils__frm/get_personal
+started running get_personal
+finished get_personal
+analyzing gcc-5__Ou__mailutils__frm/action
+started running action
+finished action
+removing targets
+analyzing gcc-5__Ou__mailutils__frm/frm_abort
+started running frm_abort
+finished frm_abort
+analyzing gcc-5__Ou__mailutils__frm/frm_scan
+started running frm_scan
+finished frm_scan

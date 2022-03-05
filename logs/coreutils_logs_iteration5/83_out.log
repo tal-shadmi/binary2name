@@ -1,0 +1,323 @@
+stty have 86 funcs
+analyzing stty/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing stty/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing stty/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing stty/string_to_baud
+started running string_to_baud
+finished string_to_baud
+removing targets
+analyzing stty/mode_type_flag
+started running mode_type_flag
+finished mode_type_flag
+removing targets
+analyzing stty/wrapf
+started running wrapf
+finished wrapf
+removing targets
+analyzing stty/display_speed
+started running display_speed
+finished display_speed
+analyzing stty/integer_arg
+started running integer_arg
+finished integer_arg
+analyzing stty/visible.part.0
+started running visible.part.0
+finished visible.part.0
+removing targets
+analyzing stty/screen_columns
+started running screen_columns
+finished screen_columns
+analyzing stty/set_window_size
+started running set_window_size
+finished set_window_size
+analyzing stty/display_window_size
+started running display_window_size
+finished display_window_size
+analyzing stty/apply_settings
+started running apply_settings
+stopped exploration
+finished apply_settings
+removing targets
+analyzing stty/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing stty/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing stty/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing stty/fd_reopen
+started running fd_reopen
+finished fd_reopen
+analyzing stty/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing stty/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing stty/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing stty/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing stty/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing stty/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing stty/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing stty/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing stty/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing stty/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing stty/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing stty/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing stty/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing stty/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing stty/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing stty/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing stty/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing stty/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing stty/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing stty/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing stty/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing stty/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing stty/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing stty/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing stty/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing stty/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing stty/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing stty/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing stty/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing stty/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing stty/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing stty/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing stty/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing stty/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing stty/quote
+started running quote
+finished quote
+removing targets
+analyzing stty/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing stty/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing stty/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing stty/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing stty/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing stty/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing stty/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing stty/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing stty/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing stty/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing stty/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing stty/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing stty/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing stty/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing stty/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing stty/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing stty/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing stty/xnumtoumax
+started running xnumtoumax
+finished xnumtoumax
+analyzing stty/xdectoumax
+started running xdectoumax
+finished xdectoumax
+analyzing stty/xstrtol
+started running xstrtol
+finished xstrtol
+removing targets
+analyzing stty/xstrtoumax
+started running xstrtoumax
+stopped exploration
+finished xstrtoumax
+removing targets
+analyzing stty/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing stty/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing stty/rpl_vasprintf
+started running rpl_vasprintf
+finished rpl_vasprintf
+analyzing stty/close_stream
+started running close_stream
+finished close_stream
+analyzing stty/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing stty/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing stty/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing stty/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing stty/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing stty/vasnprintf
+started running vasnprintf
+stopped exploration
+finished vasnprintf
+analyzing stty/printf_fetchargs
+started running printf_fetchargs
+finished printf_fetchargs
+removing targets
+analyzing stty/printf_parse
+started running printf_parse
+stopped exploration
+finished printf_parse
+removing targets
+analyzing stty/atexit
+started running atexit
+finished atexit
+removing targets

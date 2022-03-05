@@ -1,0 +1,172 @@
+gcc-5__Ou__acct__dump-utmp have 49 funcs
+analyzing gcc-5__Ou__acct__dump-utmp/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/give_usage
+started running give_usage
+finished give_usage
+analyzing gcc-5__Ou__acct__dump-utmp/fatal
+started running fatal
+finished fatal
+analyzing gcc-5__Ou__acct__dump-utmp/file_open
+started running file_open
+finished file_open
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/print_wtmp_file_location
+started running print_wtmp_file_location
+finished print_wtmp_file_location
+analyzing gcc-5__Ou__acct__dump-utmp/print_acct_file_location
+started running print_acct_file_location
+finished print_acct_file_location
+analyzing gcc-5__Ou__acct__dump-utmp/print_acct_file_locations
+started running print_acct_file_locations
+finished print_acct_file_locations
+analyzing gcc-5__Ou__acct__dump-utmp/setup_pts_devices
+started running setup_pts_devices
+finished setup_pts_devices
+analyzing gcc-5__Ou__acct__dump-utmp/setup_devices
+started running setup_devices
+finished setup_devices
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/dev_gnu_name
+started running dev_gnu_name
+finished dev_gnu_name
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/file_reader_init
+started running file_reader_init
+finished file_reader_init
+analyzing gcc-5__Ou__acct__dump-utmp/file_reader_add_file
+started running file_reader_add_file
+finished file_reader_add_file
+analyzing gcc-5__Ou__acct__dump-utmp/file_reader_get_entry
+started running file_reader_get_entry
+stopped exploration
+finished file_reader_get_entry
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/file_reader_print_file_and_line
+started running file_reader_print_file_and_line
+finished file_reader_print_file_and_line
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hash
+started running hash
+finished hash
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_init
+started running hashtab_init
+finished hashtab_init
+analyzing gcc-5__Ou__acct__dump-utmp/get_key_len
+started running get_key_len
+finished get_key_len
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_resize
+started running hashtab_resize
+stopped exploration
+finished hashtab_resize
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_create
+started running hashtab_create
+finished hashtab_create
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_find
+started running hashtab_find
+finished hashtab_find
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_get_key
+started running hashtab_get_key
+finished hashtab_get_key
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_get_value
+started running hashtab_get_value
+finished hashtab_get_value
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_set_value
+started running hashtab_set_value
+finished hashtab_set_value
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_first
+started running hashtab_first
+finished hashtab_first
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_next
+started running hashtab_next
+finished hashtab_next
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_dump_keys
+started running hashtab_dump_keys
+finished hashtab_dump_keys
+analyzing gcc-5__Ou__acct__dump-utmp/hashtab_delete
+started running hashtab_delete
+finished hashtab_delete
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/utmp_init
+started running utmp_init
+finished utmp_init
+analyzing gcc-5__Ou__acct__dump-utmp/add_utmp_file
+started running add_utmp_file
+finished add_utmp_file
+analyzing gcc-5__Ou__acct__dump-utmp/utmp_get_entry
+started running utmp_get_entry
+finished utmp_get_entry
+analyzing gcc-5__Ou__acct__dump-utmp/print_utmp_record
+started running print_utmp_record
+finished print_utmp_record
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/utmp_print_file_and_line
+started running utmp_print_file_and_line
+finished utmp_print_file_and_line
+analyzing gcc-5__Ou__acct__dump-utmp/fix_ut_type_field
+started running fix_ut_type_field
+finished fix_ut_type_field
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/bad_utmp_record
+started running bad_utmp_record
+finished bad_utmp_record
+analyzing gcc-5__Ou__acct__dump-utmp/xnmalloc
+started running xnmalloc
+finished xnmalloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/xnrealloc
+started running xnrealloc
+finished xnrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/x2nrealloc
+started running x2nrealloc
+finished x2nrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/xcharalloc
+started running xcharalloc
+finished xcharalloc
+analyzing gcc-5__Ou__acct__dump-utmp/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__acct__dump-utmp/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-utmp/x2realloc
+started running x2realloc
+finished x2realloc
+analyzing gcc-5__Ou__acct__dump-utmp/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing gcc-5__Ou__acct__dump-utmp/xcalloc
+started running xcalloc
+finished xcalloc
+analyzing gcc-5__Ou__acct__dump-utmp/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing gcc-5__Ou__acct__dump-utmp/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__acct__dump-utmp/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing gcc-5__Ou__acct__dump-utmp/stat
+started running stat
+finished stat
+removing targets

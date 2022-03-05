@@ -1,0 +1,21 @@
+ERROR   | 2021-12-09 03:35:51,683 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:35:51,685 | root     | got an error while analyzing mpn_set_str_other
+ERROR   | 2021-12-09 03:36:23,673 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:36:23,675 | root     | got an error while analyzing mpz_init
+ERROR   | 2021-12-09 03:42:41,152 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:42:41,162 | root     | got an error while analyzing mpz_get_d
+ERROR   | 2021-12-09 03:42:41,550 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:42:41,559 | root     | got an error while analyzing mpz_cmpabs_d
+ERROR   | 2021-12-09 03:42:41,875 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:42:41,882 | root     | got an error while analyzing mpz_cmp_d
+ERROR   | 2021-12-09 03:43:03,808 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:43:03,810 | root     | got an error while analyzing mpz_sgn
+ERROR   | 2021-12-09 03:43:04,143 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:43:04,146 | root     | got an error while analyzing mpz_cmp_si
+ERROR   | 2021-12-09 03:43:04,474 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:43:04,491 | root     | got an error while analyzing mpz_cmp_ui
+ERROR   | 2021-12-09 03:46:07,536 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:46:07,539 | root     | got an error while analyzing mpz_abs_add
+ERROR   | 2021-12-09 03:46:15,448 | root     | b'out of memory'
+ERROR   | 2021-12-09 03:46:15,450 | root     | got an error while analyzing mpz_abs_sub
+Killed

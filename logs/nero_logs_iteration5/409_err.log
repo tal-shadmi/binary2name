@@ -1,0 +1,11 @@
+WARNING | 2021-12-09 02:01:44,918 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_secp_521r1
+WARNING | 2021-12-09 02:01:44,918 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_sha384
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_sha1
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_secp_384r1
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_secp_224r1
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_sha256
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_secp_256r1
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_sha224
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_secp_192r1
+WARNING | 2021-12-09 02:01:44,919 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: nettle_sha512
+WARNING | 2021-12-09 02:01:44,921 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

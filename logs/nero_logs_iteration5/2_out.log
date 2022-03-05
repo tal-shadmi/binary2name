@@ -1,0 +1,186 @@
+gcc-5__Ou__acct__dump-acct have 53 funcs
+analyzing gcc-5__Ou__acct__dump-acct/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/give_usage
+started running give_usage
+finished give_usage
+analyzing gcc-5__Ou__acct__dump-acct/fatal
+started running fatal
+finished fatal
+analyzing gcc-5__Ou__acct__dump-acct/file_open
+started running file_open
+finished file_open
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/print_wtmp_file_location
+started running print_wtmp_file_location
+finished print_wtmp_file_location
+analyzing gcc-5__Ou__acct__dump-acct/print_acct_file_location
+started running print_acct_file_location
+finished print_acct_file_location
+analyzing gcc-5__Ou__acct__dump-acct/print_acct_file_locations
+started running print_acct_file_locations
+finished print_acct_file_locations
+analyzing gcc-5__Ou__acct__dump-acct/setup_pts_devices
+started running setup_pts_devices
+finished setup_pts_devices
+analyzing gcc-5__Ou__acct__dump-acct/setup_devices
+started running setup_devices
+finished setup_devices
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/dev_gnu_name
+started running dev_gnu_name
+finished dev_gnu_name
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/file_reader_init
+started running file_reader_init
+finished file_reader_init
+analyzing gcc-5__Ou__acct__dump-acct/file_reader_add_file
+started running file_reader_add_file
+finished file_reader_add_file
+analyzing gcc-5__Ou__acct__dump-acct/file_reader_get_entry
+started running file_reader_get_entry
+stopped exploration
+finished file_reader_get_entry
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/file_reader_print_file_and_line
+started running file_reader_print_file_and_line
+finished file_reader_print_file_and_line
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hash
+started running hash
+finished hash
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_init
+started running hashtab_init
+finished hashtab_init
+analyzing gcc-5__Ou__acct__dump-acct/get_key_len
+started running get_key_len
+finished get_key_len
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_resize
+started running hashtab_resize
+stopped exploration
+finished hashtab_resize
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_create
+started running hashtab_create
+finished hashtab_create
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_find
+started running hashtab_find
+finished hashtab_find
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_get_key
+started running hashtab_get_key
+finished hashtab_get_key
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_get_value
+started running hashtab_get_value
+finished hashtab_get_value
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_set_value
+started running hashtab_set_value
+finished hashtab_set_value
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_first
+started running hashtab_first
+finished hashtab_first
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_next
+started running hashtab_next
+finished hashtab_next
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_dump_keys
+started running hashtab_dump_keys
+finished hashtab_dump_keys
+analyzing gcc-5__Ou__acct__dump-acct/hashtab_delete
+started running hashtab_delete
+finished hashtab_delete
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/pacct_init
+started running pacct_init
+finished pacct_init
+analyzing gcc-5__Ou__acct__dump-acct/add_pacct_file
+started running add_pacct_file
+finished add_pacct_file
+analyzing gcc-5__Ou__acct__dump-acct/pacct_get_entry
+started running pacct_get_entry
+finished pacct_get_entry
+analyzing gcc-5__Ou__acct__dump-acct/print_pacct_record
+started running print_pacct_record
+finished print_pacct_record
+analyzing gcc-5__Ou__acct__dump-acct/pacct_print_file_and_line
+started running pacct_print_file_and_line
+finished pacct_print_file_and_line
+analyzing gcc-5__Ou__acct__dump-acct/comp_t_2_double
+started running comp_t_2_double
+finished comp_t_2_double
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/comp2_t_2_double
+started running comp2_t_2_double
+finished comp2_t_2_double
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/double_2_comp_t
+started running double_2_comp_t
+finished double_2_comp_t
+analyzing gcc-5__Ou__acct__dump-acct/double_2_comp2_t
+started running double_2_comp2_t
+finished double_2_comp2_t
+analyzing gcc-5__Ou__acct__dump-acct/convert_acct_record_read
+started running convert_acct_record_read
+finished convert_acct_record_read
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/convert_acct_record_write
+started running convert_acct_record_write
+finished convert_acct_record_write
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/xnmalloc
+started running xnmalloc
+finished xnmalloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/xnrealloc
+started running xnrealloc
+finished xnrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/x2nrealloc
+started running x2nrealloc
+finished x2nrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/xcharalloc
+started running xcharalloc
+finished xcharalloc
+analyzing gcc-5__Ou__acct__dump-acct/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__acct__dump-acct/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__acct__dump-acct/x2realloc
+started running x2realloc
+finished x2realloc
+analyzing gcc-5__Ou__acct__dump-acct/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing gcc-5__Ou__acct__dump-acct/xcalloc
+started running xcalloc
+finished xcalloc
+analyzing gcc-5__Ou__acct__dump-acct/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing gcc-5__Ou__acct__dump-acct/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__acct__dump-acct/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing gcc-5__Ou__acct__dump-acct/stat
+started running stat
+finished stat
+removing targets

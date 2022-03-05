@@ -1,0 +1,338 @@
+uniq have 91 funcs
+analyzing uniq/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing uniq/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing uniq/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing uniq/different
+started running different
+finished different
+removing targets
+analyzing uniq/size_opt
+started running size_opt
+finished size_opt
+analyzing uniq/writeline
+started running writeline
+finished writeline
+removing targets
+analyzing uniq/find_field.isra.2
+started running find_field.isra.2
+finished find_field.isra.2
+removing targets
+analyzing uniq/argmatch
+started running argmatch
+finished argmatch
+analyzing uniq/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing uniq/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing uniq/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing uniq/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing uniq/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing uniq/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing uniq/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing uniq/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing uniq/protect_fd
+started running protect_fd
+finished protect_fd
+analyzing uniq/freopen_safer
+started running freopen_safer
+finished freopen_safer
+analyzing uniq/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing uniq/initbuffer
+started running initbuffer
+finished initbuffer
+analyzing uniq/readlinebuffer_delim
+started running readlinebuffer_delim
+finished readlinebuffer_delim
+removing targets
+analyzing uniq/readlinebuffer
+started running readlinebuffer
+finished readlinebuffer
+removing targets
+analyzing uniq/freebuffer
+started running freebuffer
+finished freebuffer
+removing targets
+analyzing uniq/memcasecmp
+started running memcasecmp
+finished memcasecmp
+removing targets
+analyzing uniq/posix2_version
+started running posix2_version
+finished posix2_version
+analyzing uniq/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing uniq/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing uniq/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing uniq/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing uniq/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing uniq/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing uniq/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing uniq/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing uniq/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing uniq/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing uniq/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing uniq/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing uniq/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing uniq/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing uniq/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing uniq/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing uniq/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing uniq/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing uniq/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing uniq/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing uniq/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing uniq/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing uniq/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing uniq/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing uniq/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing uniq/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing uniq/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing uniq/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing uniq/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing uniq/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing uniq/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing uniq/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing uniq/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing uniq/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing uniq/quote
+started running quote
+finished quote
+removing targets
+analyzing uniq/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing uniq/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing uniq/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing uniq/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing uniq/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing uniq/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing uniq/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing uniq/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing uniq/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing uniq/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing uniq/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing uniq/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing uniq/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing uniq/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing uniq/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing uniq/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing uniq/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing uniq/collate_error
+started running collate_error
+finished collate_error
+analyzing uniq/xmemcoll
+started running xmemcoll
+finished xmemcoll
+analyzing uniq/xmemcoll0
+started running xmemcoll0
+finished xmemcoll0
+analyzing uniq/xstrtoul
+started running xstrtoul
+finished xstrtoul
+removing targets
+analyzing uniq/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing uniq/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing uniq/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing uniq/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing uniq/close_stream
+started running close_stream
+finished close_stream
+analyzing uniq/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing uniq/strcoll_loop
+started running strcoll_loop
+finished strcoll_loop
+analyzing uniq/memcoll
+started running memcoll
+finished memcoll
+removing targets
+analyzing uniq/memcoll0
+started running memcoll0
+finished memcoll0
+removing targets
+analyzing uniq/atexit
+started running atexit
+finished atexit
+removing targets

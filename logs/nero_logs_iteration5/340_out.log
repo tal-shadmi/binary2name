@@ -1,0 +1,19 @@
+gcc-5__Ou__mailutils__mailutils-acl have 5 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-acl/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-acl/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-acl/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-acl/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-acl/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt

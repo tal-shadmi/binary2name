@@ -1,0 +1,25 @@
+gcc-5__Ou__libredwg__dwgbmp have 7 funcs
+analyzing gcc-5__Ou__libredwg__dwgbmp/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__libredwg__dwgbmp/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__libredwg__dwgbmp/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__libredwg__dwgbmp/suffix
+started running suffix
+finished suffix
+analyzing gcc-5__Ou__libredwg__dwgbmp/opt_version
+started running opt_version
+finished opt_version
+analyzing gcc-5__Ou__libredwg__dwgbmp/help
+started running help
+finished help
+analyzing gcc-5__Ou__libredwg__dwgbmp/get_bmp
+started running get_bmp
+finished get_bmp

@@ -1,0 +1,54 @@
+gcc-5__Ou__libredwg__dwg2svg2 have 16 funcs
+analyzing gcc-5__Ou__libredwg__dwg2svg2/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__libredwg__dwg2svg2/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__libredwg__dwg2svg2/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__libredwg__dwg2svg2/opt_version
+started running opt_version
+finished opt_version
+analyzing gcc-5__Ou__libredwg__dwg2svg2/help
+started running help
+finished help
+analyzing gcc-5__Ou__libredwg__dwg2svg2/transform_X
+started running transform_X
+finished transform_X
+analyzing gcc-5__Ou__libredwg__dwg2svg2/transform_Y
+started running transform_Y
+finished transform_Y
+analyzing gcc-5__Ou__libredwg__dwg2svg2/test_SVG
+started running test_SVG
+finished test_SVG
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_TEXT
+started running output_TEXT
+finished output_TEXT
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_LINE
+started running output_LINE
+finished output_LINE
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_CIRCLE
+started running output_CIRCLE
+finished output_CIRCLE
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_ARC
+started running output_ARC
+finished output_ARC
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_INSERT
+started running output_INSERT
+finished output_INSERT
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_object
+started running output_object
+finished output_object
+removing targets
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_BLOCK_HEADER
+started running output_BLOCK_HEADER
+finished output_BLOCK_HEADER
+removing targets
+analyzing gcc-5__Ou__libredwg__dwg2svg2/output_SVG
+started running output_SVG
+finished output_SVG

@@ -1,0 +1,272 @@
+gcc-5__Ou__mailutils__pop3d have 79 funcs
+analyzing gcc-5__Ou__mailutils__pop3d/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_apopuser
+started running pop3d_apopuser
+finished pop3d_apopuser
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_apop
+started running pop3d_apop
+finished pop3d_apop
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_auth
+started running pop3d_auth
+finished pop3d_auth
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/set_bulletin_db
+started running set_bulletin_db
+finished set_bulletin_db
+analyzing gcc-5__Ou__mailutils__pop3d/close_bulletin_mailbox
+started running close_bulletin_mailbox
+finished close_bulletin_mailbox
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/open_bulletin_mailbox
+started running open_bulletin_mailbox
+finished open_bulletin_mailbox
+analyzing gcc-5__Ou__mailutils__pop3d/set_bulletin_source
+started running set_bulletin_source
+finished set_bulletin_source
+analyzing gcc-5__Ou__mailutils__pop3d/read_popbull_file
+started running read_popbull_file
+finished read_popbull_file
+analyzing gcc-5__Ou__mailutils__pop3d/write_popbull_file
+started running write_popbull_file
+finished write_popbull_file
+analyzing gcc-5__Ou__mailutils__pop3d/get_last_delivered_num
+started running get_last_delivered_num
+finished get_last_delivered_num
+analyzing gcc-5__Ou__mailutils__pop3d/store_last_delivered_num
+started running store_last_delivered_num
+finished store_last_delivered_num
+analyzing gcc-5__Ou__mailutils__pop3d/deliver_pending_bulletins
+started running deliver_pending_bulletins
+finished deliver_pending_bulletins
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/print_capa
+started running print_capa
+finished print_capa
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_capa
+started running pop3d_capa
+finished pop3d_capa
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_append_capa_string
+started running pop3d_append_capa_string
+finished pop3d_append_capa_string
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_append_capa_func
+started running pop3d_append_capa_func
+finished pop3d_append_capa_func
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/capa_free
+started running capa_free
+finished capa_free
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/capa_implementation
+started running capa_implementation
+finished capa_implementation
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/capa_stls
+started running capa_stls
+finished capa_stls
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/capa_user
+started running capa_user
+finished capa_user
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_session_init
+started running pop3d_session_init
+finished pop3d_session_init
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_session_free
+started running pop3d_session_free
+finished pop3d_session_free
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_find_command
+started running pop3d_find_command
+finished pop3d_find_command
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/stls_preflight
+started running stls_preflight
+finished stls_preflight
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_error_string
+started running pop3d_error_string
+finished pop3d_error_string
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_dele
+started running pop3d_dele
+finished pop3d_dele
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_mark_retr
+started running pop3d_mark_retr
+finished pop3d_mark_retr
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_is_retr
+started running pop3d_is_retr
+finished pop3d_is_retr
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_unmark_retr
+started running pop3d_unmark_retr
+finished pop3d_unmark_retr
+analyzing gcc-5__Ou__mailutils__pop3d/header_is_expired
+started running header_is_expired
+finished header_is_expired
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/expire_mark_message
+started running expire_mark_message
+finished expire_mark_message
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_parse_command
+started running pop3d_parse_command
+finished pop3d_parse_command
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_abquit
+started running pop3d_abquit
+finished pop3d_abquit
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/log_cipher
+started running log_cipher
+finished log_cipher
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_setio
+started running pop3d_setio
+finished pop3d_setio
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_init_tls_server
+started running pop3d_init_tls_server
+finished pop3d_init_tls_server
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_bye
+started running pop3d_bye
+finished pop3d_bye
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_flush_output
+started running pop3d_flush_output
+finished pop3d_flush_output
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_is_master
+started running pop3d_is_master
+finished pop3d_is_master
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_outf
+started running pop3d_outf
+finished pop3d_outf
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_readline
+started running pop3d_readline
+finished pop3d_readline
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_mark_deleted
+started running pop3d_mark_deleted
+finished pop3d_mark_deleted
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_is_deleted
+started running pop3d_is_deleted
+finished pop3d_is_deleted
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_unset_deleted
+started running pop3d_unset_deleted
+finished pop3d_unset_deleted
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_undelete_all
+started running pop3d_undelete_all
+finished pop3d_undelete_all
+analyzing gcc-5__Ou__mailutils__pop3d/set_xscript_level
+started running set_xscript_level
+finished set_xscript_level
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_list
+started running pop3d_list
+finished pop3d_list
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_noop
+started running pop3d_noop
+finished pop3d_noop
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/set_foreground
+started running set_foreground
+finished set_foreground
+analyzing gcc-5__Ou__mailutils__pop3d/set_inetd_mode
+started running set_inetd_mode
+finished set_inetd_mode
+analyzing gcc-5__Ou__mailutils__pop3d/set_daemon_mode
+started running set_daemon_mode
+finished set_daemon_mode
+analyzing gcc-5__Ou__mailutils__pop3d/cb_bulletin_source
+started running cb_bulletin_source
+finished cb_bulletin_source
+analyzing gcc-5__Ou__mailutils__pop3d/cb2_file_safety_checks
+started running cb2_file_safety_checks
+finished cb2_file_safety_checks
+analyzing gcc-5__Ou__mailutils__pop3d/cb_apop_safety_checks
+started running cb_apop_safety_checks
+finished cb_apop_safety_checks
+analyzing gcc-5__Ou__mailutils__pop3d/cb_apop_database_owner
+started running cb_apop_database_owner
+finished cb_apop_database_owner
+analyzing gcc-5__Ou__mailutils__pop3d/cb_tls
+started running cb_tls
+finished cb_tls
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_get_client_address
+started running pop3d_get_client_address
+finished pop3d_get_client_address
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_mainloop
+started running pop3d_mainloop
+finished pop3d_mainloop
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_connection
+started running pop3d_connection
+finished pop3d_connection
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_alloc_die
+started running pop3d_alloc_die
+finished pop3d_alloc_die
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_quit
+started running pop3d_quit
+finished pop3d_quit
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_fix_mark
+started running pop3d_fix_mark
+finished pop3d_fix_mark
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_send_payload
+started running pop3d_send_payload
+finished pop3d_send_payload
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_retr
+started running pop3d_retr
+finished pop3d_retr
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_rset
+started running pop3d_rset
+finished pop3d_rset
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_master_signal
+started running pop3d_master_signal
+finished pop3d_master_signal
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_child_signal
+started running pop3d_child_signal
+finished pop3d_child_signal
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_stat
+started running pop3d_stat
+finished pop3d_stat
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_stls
+started running pop3d_stls
+finished pop3d_stls
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_top
+started running pop3d_top
+finished pop3d_top
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_uidl
+started running pop3d_uidl
+finished pop3d_uidl
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_begin_session
+started running pop3d_begin_session
+finished pop3d_begin_session
+analyzing gcc-5__Ou__mailutils__pop3d/pop3d_user
+started running pop3d_user
+finished pop3d_user
+removing targets
+analyzing gcc-5__Ou__mailutils__pop3d/mu_tcpwrapper_cfg_init
+started running mu_tcpwrapper_cfg_init
+finished mu_tcpwrapper_cfg_init
+analyzing gcc-5__Ou__mailutils__pop3d/mu_tcpwrapper_access
+started running mu_tcpwrapper_access
+finished mu_tcpwrapper_access
+analyzing gcc-5__Ou__mailutils__pop3d/mu_tcp_wrapper_prefork
+started running mu_tcp_wrapper_prefork
+finished mu_tcp_wrapper_prefork
+removing targets

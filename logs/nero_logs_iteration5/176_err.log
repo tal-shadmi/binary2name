@@ -1,0 +1,13 @@
+WARNING | 2021-12-08 20:30:15,929 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_device_id_rs
+WARNING | 2021-12-08 20:30:15,929 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_units
+WARNING | 2021-12-08 20:30:15,929 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_types
+WARNING | 2021-12-08 20:30:15,929 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_oem_sensor_type
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sensor_event_enable_rs
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_oem_device_type
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_device_types
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sensor_hysteresis_rs
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sensor_thresholds_rs
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sdr_repository_allocation_info_rs
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_sdr_repository_info_rs
+WARNING | 2021-12-08 20:30:15,930 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_entity_ids
+WARNING | 2021-12-08 20:30:15,940 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

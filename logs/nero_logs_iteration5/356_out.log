@@ -1,0 +1,56 @@
+gcc-5__Ou__mailutils__mboxidx have 17 funcs
+analyzing gcc-5__Ou__mailutils__mboxidx/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mboxidx/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mboxidx/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mboxidx/help
+started running help
+finished help
+removing targets
+analyzing gcc-5__Ou__mailutils__mboxidx/matchstr
+started running matchstr
+finished matchstr
+analyzing gcc-5__Ou__mailutils__mboxidx/fldadd
+started running fldadd
+finished fldadd
+analyzing gcc-5__Ou__mailutils__mboxidx/get_hdr_value
+started running get_hdr_value
+finished get_hdr_value
+analyzing gcc-5__Ou__mailutils__mboxidx/get_content_encoding
+started running get_content_encoding
+finished get_content_encoding
+analyzing gcc-5__Ou__mailutils__mboxidx/set_charset_filter
+started running set_charset_filter
+finished set_charset_filter
+analyzing gcc-5__Ou__mailutils__mboxidx/formatbody
+started running formatbody
+finished formatbody
+analyzing gcc-5__Ou__mailutils__mboxidx/fldfmt
+started running fldfmt
+finished fldfmt
+analyzing gcc-5__Ou__mailutils__mboxidx/fldout
+started running fldout
+finished fldout
+analyzing gcc-5__Ou__mailutils__mboxidx/xmlpipe2_header
+started running xmlpipe2_header
+finished xmlpipe2_header
+analyzing gcc-5__Ou__mailutils__mboxidx/xmlpipe2_footer
+started running xmlpipe2_footer
+finished xmlpipe2_footer
+analyzing gcc-5__Ou__mailutils__mboxidx/read_state_file
+started running read_state_file
+finished read_state_file
+analyzing gcc-5__Ou__mailutils__mboxidx/write_state_file
+started running write_state_file
+finished write_state_file
+analyzing gcc-5__Ou__mailutils__mboxidx/action
+started running action
+finished action

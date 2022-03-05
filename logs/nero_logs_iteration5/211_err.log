@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 5, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/__init__.py", line 22, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/utils/__init__.py", line 3, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/utils/graph.py", line 5, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/networkx/__init__.py", line 57, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/networkx/utils/__init__.py", line 1, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/networkx/utils/misc.py", line 18, in <module>
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 917, in get_data
+MemoryError

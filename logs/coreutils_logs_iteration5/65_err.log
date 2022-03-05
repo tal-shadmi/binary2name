@@ -1,0 +1,5 @@
+WARNING | 2021-12-08 21:07:09,285 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-09 01:46:41,506 | root     | b'out of memory'
+ERROR   | 2021-12-09 01:46:41,512 | root     | got an error while analyzing hash_pjw
+ERROR   | 2021-12-09 01:46:43,656 | root     | b'out of memory'
+ERROR   | 2021-12-09 01:46:43,663 | root     | got an error while analyzing rpl_fseeko

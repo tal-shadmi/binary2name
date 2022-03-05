@@ -1,0 +1,54 @@
+gcc-5__Ou__gnushogi-1.4.2__pat2inc have 14 funcs
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/Initialize_data
+started running Initialize_data
+finished Initialize_data
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/piece_distance
+started running piece_distance
+finished piece_distance
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ptype_distance
+started running ptype_distance
+finished ptype_distance
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ValueOfOpeningName
+started running ValueOfOpeningName
+finished ValueOfOpeningName
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ShowMessage
+started running ShowMessage
+finished ShowMessage
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/skipbb
+started running skipbb
+finished skipbb
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/skipi
+started running skipi
+finished skipi
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ScanPiece
+started running ScanPiece
+finished ScanPiece
+removing targets
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ScanPattern
+started running ScanPattern
+finished ScanPattern
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/ReadOpeningSequences
+started running ReadOpeningSequences
+stopped exploration
+finished ReadOpeningSequences
+analyzing gcc-5__Ou__gnushogi-1.4.2__pat2inc/WriteOpeningSequences
+started running WriteOpeningSequences
+finished WriteOpeningSequences

@@ -1,0 +1,321 @@
+comm have 86 funcs
+analyzing comm/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing comm/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing comm/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing comm/writeline.isra.0
+started running writeline.isra.0
+finished writeline.isra.0
+removing targets
+analyzing comm/check_order.isra.1.part.2
+started running check_order.isra.1.part.2
+finished check_order.isra.1.part.2
+removing targets
+analyzing comm/compare_files
+started running compare_files
+finished compare_files
+analyzing comm/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing comm/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing comm/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing comm/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing comm/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing comm/fopen_safer
+started running fopen_safer
+finished fopen_safer
+analyzing comm/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing comm/umaxtostr
+started running umaxtostr
+finished umaxtostr
+removing targets
+analyzing comm/initbuffer
+started running initbuffer
+finished initbuffer
+analyzing comm/readlinebuffer_delim
+started running readlinebuffer_delim
+finished readlinebuffer_delim
+removing targets
+analyzing comm/readlinebuffer
+started running readlinebuffer
+finished readlinebuffer
+removing targets
+analyzing comm/freebuffer
+started running freebuffer
+finished freebuffer
+removing targets
+analyzing comm/memcmp2
+started running memcmp2
+finished memcmp2
+analyzing comm/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing comm/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing comm/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing comm/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing comm/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing comm/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing comm/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing comm/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing comm/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing comm/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing comm/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing comm/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing comm/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing comm/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing comm/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing comm/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing comm/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing comm/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing comm/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing comm/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing comm/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing comm/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing comm/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing comm/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing comm/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing comm/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing comm/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing comm/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing comm/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing comm/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing comm/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing comm/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing comm/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing comm/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing comm/quote
+started running quote
+finished quote
+removing targets
+analyzing comm/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing comm/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing comm/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing comm/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing comm/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing comm/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing comm/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing comm/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing comm/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing comm/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing comm/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing comm/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing comm/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing comm/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing comm/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing comm/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing comm/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing comm/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing comm/collate_error
+started running collate_error
+finished collate_error
+analyzing comm/xmemcoll
+started running xmemcoll
+finished xmemcoll
+analyzing comm/xmemcoll0
+started running xmemcoll0
+finished xmemcoll0
+analyzing comm/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing comm/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing comm/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing comm/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing comm/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing comm/close_stream
+started running close_stream
+finished close_stream
+analyzing comm/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing comm/strcoll_loop
+started running strcoll_loop
+finished strcoll_loop
+analyzing comm/memcoll
+started running memcoll
+finished memcoll
+removing targets
+analyzing comm/memcoll0
+started running memcoll0
+finished memcoll0
+removing targets
+analyzing comm/atexit
+started running atexit
+finished atexit
+removing targets

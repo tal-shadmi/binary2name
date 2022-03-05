@@ -1,0 +1,4 @@
+WARNING | 2021-12-08 23:13:14,753 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __check_rhosts_file
+WARNING | 2021-12-08 23:13:14,753 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __rcmd_errstr
+WARNING | 2021-12-08 23:13:14,756 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

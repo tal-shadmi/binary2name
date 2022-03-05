@@ -1,0 +1,2 @@
+ERROR   | 2021-12-08 18:28:09,519 | root     | b'out of memory'
+ERROR   | 2021-12-08 18:28:09,524 | root     | got an error while analyzing proclog

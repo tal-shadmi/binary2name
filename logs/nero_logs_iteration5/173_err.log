@@ -1,0 +1,29 @@
+WARNING | 2021-12-08 20:25:41,623 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_get_device_id_rs
+WARNING | 2021-12-08 20:25:41,623 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_units
+WARNING | 2021-12-08 20:25:41,623 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_sensor_types
+WARNING | 2021-12-08 20:25:41,623 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: ipmi_oem_sensor_type
+WARNING | 2021-12-08 20:25:41,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_cmd_pet_acknowledge_rs
+WARNING | 2021-12-08 20:25:41,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_sel_system_event_record
+WARNING | 2021-12-08 20:25:41,624 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tmpl_sel_system_event_record_event_fields
+WARNING | 2021-12-08 20:25:41,627 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 21:24:39,178 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:39,181 | root     | got an error while analyzing cbuf_writer
+ERROR   | 2021-12-08 21:24:45,835 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:45,837 | root     | got an error while analyzing cbuf_grow
+ERROR   | 2021-12-08 21:26:14,068 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:26:14,069 | root     | got an error while analyzing conffile_parse
+ERROR   | 2021-12-08 21:27:39,441 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:27:39,452 | root     | got an error while analyzing fd_read_line
+ERROR   | 2021-12-08 21:29:42,941 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:29:42,961 | root     | got an error while analyzing hostname_create_with_suffix
+ERROR   | 2021-12-08 21:31:15,473 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:15,477 | root     | got an error while analyzing hostrange_pop
+ERROR   | 2021-12-08 21:31:16,101 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:16,102 | root     | got an error while analyzing hostrange_shift
+ERROR   | 2021-12-08 21:31:17,503 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:17,509 | root     | got an error while analyzing hostrange_intersect
+ERROR   | 2021-12-08 21:31:18,183 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:31:18,192 | root     | got an error while analyzing hostrange_hn_within
+ERROR   | 2021-12-08 21:35:10,171 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:35:10,181 | root     | got an error while analyzing hostlist_push
+Killed

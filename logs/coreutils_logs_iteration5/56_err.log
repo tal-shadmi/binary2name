@@ -1,0 +1,5 @@
+WARNING | 2021-12-08 20:42:00,111 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-08 21:04:13,140 | root     | 
+ERROR   | 2021-12-08 21:04:13,146 | root     | got an error while analyzing decode_format_string
+ERROR   | 2021-12-08 21:28:04,623 | root     | list index out of range
+ERROR   | 2021-12-08 21:28:04,623 | root     | got an error while analyzing ldtoastr

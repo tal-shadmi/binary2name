@@ -1,0 +1,82 @@
+gcc-5__Ou__texinfo__makedoc have 24 funcs
+analyzing gcc-5__Ou__texinfo__makedoc/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/maybe_dump_tags
+started running maybe_dump_tags
+finished maybe_dump_tags
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/make_emacs_tag_block
+started running make_emacs_tag_block
+finished make_emacs_tag_block
+analyzing gcc-5__Ou__texinfo__makedoc/add_tag_to_block
+started running add_tag_to_block
+finished add_tag_to_block
+analyzing gcc-5__Ou__texinfo__makedoc/process_one_file
+started running process_one_file
+analyzing gcc-5__Ou__texinfo__makedoc/fatal_file_error
+started running fatal_file_error
+finished fatal_file_error
+analyzing gcc-5__Ou__texinfo__makedoc/must_fopen
+started running must_fopen
+finished must_fopen
+analyzing gcc-5__Ou__texinfo__makedoc/init_func_key
+started running init_func_key
+finished init_func_key
+analyzing gcc-5__Ou__texinfo__makedoc/next_func_key
+started running next_func_key
+finished next_func_key
+analyzing gcc-5__Ou__texinfo__makedoc/xnmalloc
+started running xnmalloc
+finished xnmalloc
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/xnrealloc
+started running xnrealloc
+finished xnrealloc
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/x2nrealloc
+started running x2nrealloc
+finished x2nrealloc
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/xcharalloc
+started running xcharalloc
+finished xcharalloc
+analyzing gcc-5__Ou__texinfo__makedoc/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__texinfo__makedoc/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/x2realloc
+started running x2realloc
+finished x2realloc
+analyzing gcc-5__Ou__texinfo__makedoc/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing gcc-5__Ou__texinfo__makedoc/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing gcc-5__Ou__texinfo__makedoc/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing gcc-5__Ou__texinfo__makedoc/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing gcc-5__Ou__texinfo__makedoc/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing gcc-5__Ou__texinfo__makedoc/stat
+started running stat
+finished stat
+removing targets

@@ -1,0 +1,298 @@
+unexpand have 79 funcs
+analyzing unexpand/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing unexpand/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing unexpand/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing unexpand/set_extend_size
+started running set_extend_size
+finished set_extend_size
+removing targets
+analyzing unexpand/set_increment_size
+started running set_increment_size
+finished set_increment_size
+removing targets
+analyzing unexpand/add_tab_stop
+started running add_tab_stop
+finished add_tab_stop
+removing targets
+analyzing unexpand/parse_tab_stops
+started running parse_tab_stops
+finished parse_tab_stops
+removing targets
+analyzing unexpand/finalize_tab_stops
+started running finalize_tab_stops
+finished finalize_tab_stops
+removing targets
+analyzing unexpand/get_next_tab_column
+started running get_next_tab_column
+finished get_next_tab_column
+removing targets
+analyzing unexpand/set_file_list
+started running set_file_list
+finished set_file_list
+analyzing unexpand/next_file
+started running next_file
+finished next_file
+removing targets
+analyzing unexpand/cleanup_file_list_stdin
+started running cleanup_file_list_stdin
+finished cleanup_file_list_stdin
+removing targets
+analyzing unexpand/emit_tab_list_info
+started running emit_tab_list_info
+finished emit_tab_list_info
+analyzing unexpand/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing unexpand/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing unexpand/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing unexpand/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing unexpand/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing unexpand/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing unexpand/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing unexpand/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing unexpand/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing unexpand/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing unexpand/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing unexpand/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing unexpand/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing unexpand/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing unexpand/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing unexpand/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing unexpand/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing unexpand/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing unexpand/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing unexpand/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing unexpand/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing unexpand/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing unexpand/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing unexpand/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing unexpand/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing unexpand/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing unexpand/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing unexpand/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing unexpand/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing unexpand/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing unexpand/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing unexpand/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing unexpand/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing unexpand/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing unexpand/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing unexpand/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing unexpand/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing unexpand/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing unexpand/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing unexpand/quote
+started running quote
+finished quote
+removing targets
+analyzing unexpand/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing unexpand/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing unexpand/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing unexpand/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing unexpand/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing unexpand/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing unexpand/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing unexpand/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing unexpand/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing unexpand/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing unexpand/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing unexpand/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing unexpand/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing unexpand/xcalloc
+started running xcalloc
+finished xcalloc
+removing targets
+analyzing unexpand/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing unexpand/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing unexpand/xalloc_die
+started running xalloc_die
+stopped exploration
+finished xalloc_die
+analyzing unexpand/xstrndup
+started running xstrndup
+finished xstrndup
+analyzing unexpand/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing unexpand/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing unexpand/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing unexpand/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing unexpand/close_stream
+started running close_stream
+finished close_stream
+analyzing unexpand/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing unexpand/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing unexpand/atexit
+started running atexit
+finished atexit
+removing targets

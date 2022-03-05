@@ -1,0 +1,284 @@
+gcc-5__Ou__mailutils__maidag have 84 funcs
+analyzing gcc-5__Ou__mailutils__maidag/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/make_tmp
+started running make_tmp
+finished make_tmp
+analyzing gcc-5__Ou__mailutils__maidag/maidag_stdio_delivery
+started running maidag_stdio_delivery
+finished maidag_stdio_delivery
+analyzing gcc-5__Ou__mailutils__maidag/deliver_to_mailbox
+started running deliver_to_mailbox
+finished deliver_to_mailbox
+analyzing gcc-5__Ou__mailutils__maidag/is_remote_url
+started running is_remote_url
+finished is_remote_url
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/do_delivery
+started running do_delivery
+finished do_delivery
+analyzing gcc-5__Ou__mailutils__maidag/deliver_to_url
+started running deliver_to_url
+finished deliver_to_url
+analyzing gcc-5__Ou__mailutils__maidag/deliver_to_user
+started running deliver_to_user
+finished deliver_to_user
+analyzing gcc-5__Ou__mailutils__maidag/forward_to_email
+started running forward_to_email
+finished forward_to_email
+analyzing gcc-5__Ou__mailutils__maidag/forward_mailer_create
+started running forward_mailer_create
+finished forward_mailer_create
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/create_from_address
+started running create_from_address
+finished create_from_address
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/process_forward
+started running process_forward
+finished process_forward
+analyzing gcc-5__Ou__mailutils__maidag/maidag_forward
+started running maidag_forward
+finished maidag_forward
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/lmtp_transcript
+started running lmtp_transcript
+finished lmtp_transcript
+analyzing gcc-5__Ou__mailutils__maidag/lmtp_reply
+started running lmtp_reply
+finished lmtp_reply
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/cfun_unknown
+started running cfun_unknown
+finished cfun_unknown
+analyzing gcc-5__Ou__mailutils__maidag/add_default_domain
+started running add_default_domain
+finished add_default_domain
+analyzing gcc-5__Ou__mailutils__maidag/check_address
+started running check_address
+finished check_address
+analyzing gcc-5__Ou__mailutils__maidag/cfun_mail_from
+started running cfun_mail_from
+finished cfun_mail_from
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/cfun_rcpt_to
+started running cfun_rcpt_to
+finished cfun_rcpt_to
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/dot_temp_fail
+started running dot_temp_fail
+finished dot_temp_fail
+analyzing gcc-5__Ou__mailutils__maidag/dot_deliver
+started running dot_deliver
+finished dot_deliver
+analyzing gcc-5__Ou__mailutils__maidag/cfun_data
+started running cfun_data
+finished cfun_data
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/cfun_rset
+started running cfun_rset
+finished cfun_rset
+analyzing gcc-5__Ou__mailutils__maidag/cfun_lhlo
+started running cfun_lhlo
+finished cfun_lhlo
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/cfun_quit
+started running cfun_quit
+finished cfun_quit
+analyzing gcc-5__Ou__mailutils__maidag/cfun_help
+started running cfun_help
+finished cfun_help
+analyzing gcc-5__Ou__mailutils__maidag/getcmd
+started running getcmd
+finished getcmd
+analyzing gcc-5__Ou__mailutils__maidag/to_fgets
+started running to_fgets
+finished to_fgets
+analyzing gcc-5__Ou__mailutils__maidag/lmtp_loop
+started running lmtp_loop
+finished lmtp_loop
+analyzing gcc-5__Ou__mailutils__maidag/lmtp_connection
+started running lmtp_connection
+finished lmtp_connection
+analyzing gcc-5__Ou__mailutils__maidag/lmtp_set_privs
+started running lmtp_set_privs
+finished lmtp_set_privs
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/maidag_lmtp_server
+started running maidag_lmtp_server
+finished maidag_lmtp_server
+analyzing gcc-5__Ou__mailutils__maidag/set_debug_flags
+started running set_debug_flags
+finished set_debug_flags
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/set_inetd_mode
+started running set_inetd_mode
+finished set_inetd_mode
+analyzing gcc-5__Ou__mailutils__maidag/set_daemon_mode
+started running set_daemon_mode
+finished set_daemon_mode
+analyzing gcc-5__Ou__mailutils__maidag/set_foreground
+started running set_foreground
+finished set_foreground
+analyzing gcc-5__Ou__mailutils__maidag/set_delivery_url
+started running set_delivery_url
+finished set_delivery_url
+analyzing gcc-5__Ou__mailutils__maidag/set_delivery_mda
+started running set_delivery_mda
+finished set_delivery_mda
+analyzing gcc-5__Ou__mailutils__maidag/set_sender_address
+started running set_sender_address
+finished set_sender_address
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/set_lmtp_mode
+started running set_lmtp_mode
+finished set_lmtp_mode
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/set_debug
+started running set_debug
+finished set_debug
+analyzing gcc-5__Ou__mailutils__maidag/set_stderr
+started running set_stderr
+finished set_stderr
+analyzing gcc-5__Ou__mailutils__maidag/set_script_lang
+started running set_script_lang
+finished set_script_lang
+analyzing gcc-5__Ou__mailutils__maidag/set_script_pattern
+started running set_script_pattern
+finished set_script_pattern
+analyzing gcc-5__Ou__mailutils__maidag/cb_debug
+started running cb_debug
+finished cb_debug
+analyzing gcc-5__Ou__mailutils__maidag/cb_stderr
+started running cb_stderr
+finished cb_stderr
+analyzing gcc-5__Ou__mailutils__maidag/cb2_group
+started running cb2_group
+finished cb2_group
+analyzing gcc-5__Ou__mailutils__maidag/cb_group
+started running cb_group
+finished cb_group
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/cb2_forward_file_checks
+started running cb2_forward_file_checks
+finished cb2_forward_file_checks
+analyzing gcc-5__Ou__mailutils__maidag/cb_forward_file_checks
+started running cb_forward_file_checks
+finished cb_forward_file_checks
+analyzing gcc-5__Ou__mailutils__maidag/cb_script_language
+started running cb_script_language
+finished cb_script_language
+analyzing gcc-5__Ou__mailutils__maidag/cb_script_pattern
+started running cb_script_pattern
+finished cb_script_pattern
+analyzing gcc-5__Ou__mailutils__maidag/cb_delivery_mode
+started running cb_delivery_mode
+finished cb_delivery_mode
+analyzing gcc-5__Ou__mailutils__maidag/cb_listen
+started running cb_listen
+finished cb_listen
+analyzing gcc-5__Ou__mailutils__maidag/maidag_cfg_init
+started running maidag_cfg_init
+finished maidag_cfg_init
+analyzing gcc-5__Ou__mailutils__maidag/script_register
+started running script_register
+finished script_register
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/apply_script
+started running apply_script
+finished apply_script
+analyzing gcc-5__Ou__mailutils__maidag/script_apply
+started running script_apply
+finished script_apply
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/close_fds
+started running close_fds
+finished close_fds
+analyzing gcc-5__Ou__mailutils__maidag/switch_user_id
+started running switch_user_id
+finished switch_user_id
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/maidag_error
+started running maidag_error
+finished maidag_error
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/guess_retval
+started running guess_retval
+finished guess_retval
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_debug_flags
+started running mu_script_debug_flags
+finished mu_script_debug_flags
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_lang_handler
+started running mu_script_lang_handler
+finished mu_script_lang_handler
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_suffix_handler
+started running mu_script_suffix_handler
+finished mu_script_suffix_handler
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_init
+started running mu_script_init
+finished mu_script_init
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_done
+started running mu_script_done
+finished mu_script_done
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_log_enable
+started running mu_script_log_enable
+finished mu_script_log_enable
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/mu_script_process_msg
+started running mu_script_process_msg
+finished mu_script_process_msg
+analyzing gcc-5__Ou__mailutils__maidag/sieve_setenv
+started running sieve_setenv
+finished sieve_setenv
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/sieve_init
+started running sieve_init
+finished sieve_init
+analyzing gcc-5__Ou__mailutils__maidag/sieve_log_enable
+started running sieve_log_enable
+finished sieve_log_enable
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/sieve_done
+started running sieve_done
+finished sieve_done
+analyzing gcc-5__Ou__mailutils__maidag/sieve_proc
+started running sieve_proc
+finished sieve_proc
+analyzing gcc-5__Ou__mailutils__maidag/python_init
+started running python_init
+finished python_init
+analyzing gcc-5__Ou__mailutils__maidag/python_done
+started running python_done
+finished python_done
+analyzing gcc-5__Ou__mailutils__maidag/python_proc
+started running python_proc
+finished python_proc
+analyzing gcc-5__Ou__mailutils__maidag/mu_tcpwrapper_cfg_init
+started running mu_tcpwrapper_cfg_init
+finished mu_tcpwrapper_cfg_init
+analyzing gcc-5__Ou__mailutils__maidag/mu_tcpwrapper_access
+started running mu_tcpwrapper_access
+finished mu_tcpwrapper_access
+analyzing gcc-5__Ou__mailutils__maidag/mu_tcp_wrapper_prefork
+started running mu_tcp_wrapper_prefork
+finished mu_tcp_wrapper_prefork
+removing targets
+analyzing gcc-5__Ou__mailutils__maidag/stat
+started running stat
+finished stat
+removing targets

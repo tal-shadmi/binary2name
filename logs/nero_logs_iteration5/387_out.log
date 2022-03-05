@@ -1,0 +1,50 @@
+gcc-5__Ou__mailutils__sieve have 15 funcs
+analyzing gcc-5__Ou__mailutils__sieve/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__sieve/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__sieve/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__sieve/sieve_setenv
+started running sieve_setenv
+finished sieve_setenv
+analyzing gcc-5__Ou__mailutils__sieve/modify_debug_flags
+started running modify_debug_flags
+finished modify_debug_flags
+analyzing gcc-5__Ou__mailutils__sieve/set_debug_level
+started running set_debug_level
+finished set_debug_level
+removing targets
+analyzing gcc-5__Ou__mailutils__sieve/cli_compile_and_dump
+started running cli_compile_and_dump
+finished cli_compile_and_dump
+analyzing gcc-5__Ou__mailutils__sieve/cli_debug
+started running cli_debug
+finished cli_debug
+analyzing gcc-5__Ou__mailutils__sieve/cli_email
+started running cli_email
+finished cli_email
+analyzing gcc-5__Ou__mailutils__sieve/cli_env
+started running cli_env
+finished cli_env
+analyzing gcc-5__Ou__mailutils__sieve/mu_compat_printer
+started running mu_compat_printer
+finished mu_compat_printer
+analyzing gcc-5__Ou__mailutils__sieve/cb_debug
+started running cb_debug
+finished cb_debug
+analyzing gcc-5__Ou__mailutils__sieve/cb_email
+started running cb_email
+finished cb_email
+analyzing gcc-5__Ou__mailutils__sieve/sieve_message
+started running sieve_message
+finished sieve_message
+analyzing gcc-5__Ou__mailutils__sieve/sieve_mailbox
+started running sieve_mailbox
+finished sieve_mailbox

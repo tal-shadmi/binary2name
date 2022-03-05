@@ -1,0 +1,38 @@
+gcc-5__Ou__adns__adnslogres have 10 funcs
+analyzing gcc-5__Ou__adns__adnslogres/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/msg
+started running msg
+finished msg
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/aargh
+started running aargh
+stopped exploration
+finished aargh
+analyzing gcc-5__Ou__adns__adnslogres/ipaddr2domain
+started running ipaddr2domain
+stopped exploration
+finished ipaddr2domain
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/printline
+started running printline
+finished printline
+removing targets
+analyzing gcc-5__Ou__adns__adnslogres/readline
+started running readline
+finished readline
+analyzing gcc-5__Ou__adns__adnslogres/proclog
+started running proclog
+analyzing gcc-5__Ou__adns__adnslogres/printhelp
+started running printhelp
+finished printhelp

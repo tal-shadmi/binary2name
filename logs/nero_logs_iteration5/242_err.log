@@ -1,0 +1,29 @@
+WARNING | 2021-12-08 22:04:19,488 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_4096_group_prime
+WARNING | 2021-12-08 22:04:19,489 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_free
+WARNING | 2021-12-08 22:04:19,489 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_1024_group_generator
+WARNING | 2021-12-08 22:04:19,489 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_4096_group_generator
+WARNING | 2021-12-08 22:04:19,489 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_2048_group_generator
+WARNING | 2021-12-08 22:04:19,489 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_1536_group_generator
+WARNING | 2021-12-08 22:04:19,490 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_3072_group_prime
+WARNING | 2021-12-08 22:04:19,490 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_3072_group_generator
+WARNING | 2021-12-08 22:04:19,490 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_1536_group_prime
+WARNING | 2021-12-08 22:04:19,490 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_1024_group_prime
+WARNING | 2021-12-08 22:04:19,490 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gnutls_srp_2048_group_prime
+WARNING | 2021-12-08 22:04:19,493 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 22:37:34,878 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:34,885 | root     | got an error while analyzing parse_scaled_value
+ERROR   | 2021-12-08 22:37:35,875 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:35,881 | root     | got an error while analyzing parse_year_month_day
+ERROR   | 2021-12-08 22:37:36,655 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:37:36,663 | root     | got an error while analyzing parse_yearmonthday
+ERROR   | 2021-12-08 22:41:17,112 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:41:17,112 | root     | got an error while analyzing parse_YMWD
+ERROR   | 2021-12-08 22:41:18,393 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:41:18,400 | root     | got an error while analyzing parse_hour_minute_second
+ERROR   | 2021-12-08 22:41:20,231 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:41:20,236 | root     | got an error while analyzing parse_hourminutesecond
+ERROR   | 2021-12-08 22:41:21,228 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:41:21,235 | root     | got an error while analyzing parse_HMS
+ERROR   | 2021-12-08 22:48:33,245 | root     | b'out of memory'
+ERROR   | 2021-12-08 22:48:33,252 | root     | got an error while analyzing option_parse_duration
+Killed

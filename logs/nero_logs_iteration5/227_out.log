@@ -1,0 +1,19 @@
+gcc-5__Ou__gnutls28-3.4.10__ex-client-x509 have 5 funcs
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-x509/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-x509/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-x509/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-x509/tcp_connect
+started running tcp_connect
+finished tcp_connect
+analyzing gcc-5__Ou__gnutls28-3.4.10__ex-client-x509/tcp_close
+started running tcp_close
+finished tcp_close

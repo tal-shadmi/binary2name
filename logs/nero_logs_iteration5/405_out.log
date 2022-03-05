@@ -1,0 +1,89 @@
+gcc-5__Ou__nettle__ecc-benchmark have 28 funcs
+analyzing gcc-5__Ou__nettle__ecc-benchmark/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__ecc-benchmark/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__ecc-benchmark/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__ecc-benchmark/xalloc
+started running xalloc
+finished xalloc
+analyzing gcc-5__Ou__nettle__ecc-benchmark/xalloc_limbs
+started running xalloc_limbs
+finished xalloc_limbs
+analyzing gcc-5__Ou__nettle__ecc-benchmark/time_function
+started running time_function
+finished time_function
+analyzing gcc-5__Ou__nettle__ecc-benchmark/modinv_gcd
+started running modinv_gcd
+finished modinv_gcd
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_modp
+started running bench_modp
+finished bench_modp
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_reduce
+started running bench_reduce
+finished bench_reduce
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_modq
+started running bench_modq
+finished bench_modq
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_modinv
+started running bench_modinv
+finished bench_modinv
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_modinv_gcd
+started running bench_modinv_gcd
+finished bench_modinv_gcd
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_modinv_powm
+started running bench_modinv_powm
+finished bench_modinv_powm
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_dup_jj
+started running bench_dup_jj
+finished bench_dup_jj
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_add_jja
+started running bench_add_jja
+finished bench_add_jja
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_add_hhh
+started running bench_add_hhh
+finished bench_add_hhh
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_mul_g
+started running bench_mul_g
+finished bench_mul_g
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_mul_a
+started running bench_mul_a
+finished bench_mul_a
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_dup_eh
+started running bench_dup_eh
+finished bench_dup_eh
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_add_eh
+started running bench_add_eh
+finished bench_add_eh
+analyzing gcc-5__Ou__nettle__ecc-benchmark/bench_curve
+started running bench_curve
+finished bench_curve
+analyzing gcc-5__Ou__nettle__ecc-benchmark/die
+started running die
+finished die
+removing targets
+analyzing gcc-5__Ou__nettle__ecc-benchmark/cgt_works_p
+started running cgt_works_p
+finished cgt_works_p
+analyzing gcc-5__Ou__nettle__ecc-benchmark/cgt_time_start
+started running cgt_time_start
+finished cgt_time_start
+analyzing gcc-5__Ou__nettle__ecc-benchmark/cgt_time_end
+started running cgt_time_end
+finished cgt_time_end
+analyzing gcc-5__Ou__nettle__ecc-benchmark/clock_time_start
+started running clock_time_start
+finished clock_time_start
+analyzing gcc-5__Ou__nettle__ecc-benchmark/clock_time_end
+started running clock_time_end
+finished clock_time_end
+analyzing gcc-5__Ou__nettle__ecc-benchmark/time_init
+started running time_init
+finished time_init

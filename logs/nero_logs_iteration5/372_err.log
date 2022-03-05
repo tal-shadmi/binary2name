@@ -1,0 +1,3 @@
+WARNING | 2021-12-09 01:11:33,626 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _mu_prog_limit_flags
+WARNING | 2021-12-09 01:11:33,626 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: mu_c_tab
+WARNING | 2021-12-09 01:11:33,627 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

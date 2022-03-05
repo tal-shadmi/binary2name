@@ -1,0 +1,20 @@
+make-prime-list have 5 funcs
+analyzing make-prime-list/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing make-prime-list/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing make-prime-list/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing make-prime-list/print_wide_uint
+started running print_wide_uint
+finished print_wide_uint
+removing targets
+analyzing make-prime-list/xalloc
+started running xalloc
+finished xalloc

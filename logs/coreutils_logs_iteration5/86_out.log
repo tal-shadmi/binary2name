@@ -1,0 +1,652 @@
+tac have 169 funcs
+analyzing tac/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing tac/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing tac/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing tac/output
+started running output
+finished output
+removing targets
+analyzing tac/tac_seekable
+started running tac_seekable
+finished tac_seekable
+removing targets
+analyzing tac/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing tac/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing tac/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing tac/mfile_name_concat
+started running mfile_name_concat
+finished mfile_name_concat
+analyzing tac/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing tac/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing tac/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing tac/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing tac/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing tac/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing tac/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing tac/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing tac/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing tac/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing tac/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing tac/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing tac/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing tac/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing tac/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing tac/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing tac/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing tac/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing tac/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing tac/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing tac/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing tac/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing tac/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing tac/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing tac/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing tac/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing tac/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing tac/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing tac/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing tac/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing tac/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing tac/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing tac/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing tac/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing tac/quote
+started running quote
+finished quote
+removing targets
+analyzing tac/safe_read
+started running safe_read
+finished safe_read
+analyzing tac/mkstemp_safer
+started running mkstemp_safer
+finished mkstemp_safer
+analyzing tac/mkostemp_safer
+started running mkostemp_safer
+finished mkostemp_safer
+analyzing tac/fd_safer
+started running fd_safer
+finished fd_safer
+removing targets
+analyzing tac/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing tac/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing tac/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing tac/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing tac/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing tac/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing tac/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing tac/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing tac/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing tac/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing tac/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing tac/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing tac/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing tac/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing tac/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing tac/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing tac/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing tac/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing tac/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing tac/peek_token_bracket
+started running peek_token_bracket
+finished peek_token_bracket
+removing targets
+analyzing tac/mark_opt_subexp
+started running mark_opt_subexp
+finished mark_opt_subexp
+removing targets
+analyzing tac/check_dst_limits_calc_pos_1
+started running check_dst_limits_calc_pos_1
+stopped exploration
+finished check_dst_limits_calc_pos_1
+removing targets
+analyzing tac/check_dst_limits_calc_pos
+started running check_dst_limits_calc_pos
+stopped exploration
+finished check_dst_limits_calc_pos
+removing targets
+analyzing tac/postorder
+started running postorder
+finished postorder
+removing targets
+analyzing tac/preorder
+started running preorder
+finished preorder
+removing targets
+analyzing tac/re_string_realloc_buffers
+started running re_string_realloc_buffers
+finished re_string_realloc_buffers
+removing targets
+analyzing tac/re_node_set_insert_last
+started running re_node_set_insert_last
+finished re_node_set_insert_last
+removing targets
+analyzing tac/re_node_set_insert
+started running re_node_set_insert
+finished re_node_set_insert
+removing targets
+analyzing tac/register_state
+started running register_state
+finished register_state
+analyzing tac/build_upper_buffer
+started running build_upper_buffer
+finished build_upper_buffer
+removing targets
+analyzing tac/build_wcs_buffer
+started running build_wcs_buffer
+stopped exploration
+finished build_wcs_buffer
+removing targets
+analyzing tac/build_wcs_upper_buffer
+started running build_wcs_upper_buffer
+stopped exploration
+finished build_wcs_upper_buffer
+removing targets
+analyzing tac/extend_buffers
+started running extend_buffers
+stopped exploration
+finished extend_buffers
+removing targets
+analyzing tac/clean_state_log_if_needed
+started running clean_state_log_if_needed
+finished clean_state_log_if_needed
+removing targets
+analyzing tac/free_charset
+started running free_charset
+finished free_charset
+analyzing tac/free_token
+started running free_token
+finished free_token
+removing targets
+analyzing tac/free_tree
+started running free_tree
+finished free_tree
+analyzing tac/re_dfa_add_node
+started running re_dfa_add_node
+finished re_dfa_add_node
+removing targets
+analyzing tac/duplicate_node
+started running duplicate_node
+finished duplicate_node
+analyzing tac/duplicate_node_closure
+started running duplicate_node_closure
+stopped exploration
+finished duplicate_node_closure
+removing targets
+analyzing tac/free_state
+started running free_state
+finished free_state
+analyzing tac/re_string_destruct
+started running re_string_destruct
+finished re_string_destruct
+analyzing tac/free_dfa_content
+started running free_dfa_content
+stopped exploration
+finished free_dfa_content
+removing targets
+analyzing tac/match_ctx_clean
+started running match_ctx_clean
+stopped exploration
+finished match_ctx_clean
+removing targets
+analyzing tac/re_string_char_size_at.part.0
+started running re_string_char_size_at.part.0
+finished re_string_char_size_at.part.0
+removing targets
+analyzing tac/re_node_set_compare.part.2
+started running re_node_set_compare.part.2
+finished re_node_set_compare.part.2
+removing targets
+analyzing tac/re_node_set_contains.isra.3
+started running re_node_set_contains.isra.3
+finished re_node_set_contains.isra.3
+removing targets
+analyzing tac/check_arrival_expand_ecl_sub
+started running check_arrival_expand_ecl_sub
+finished check_arrival_expand_ecl_sub
+analyzing tac/re_node_set_remove_at.isra.4.part.5
+started running re_node_set_remove_at.isra.4.part.5
+finished re_node_set_remove_at.isra.4.part.5
+removing targets
+analyzing tac/optimize_subexps
+started running optimize_subexps
+finished optimize_subexps
+removing targets
+analyzing tac/calc_next
+started running calc_next
+finished calc_next
+removing targets
+analyzing tac/check_dst_limits.isra.13
+started running check_dst_limits.isra.13
+finished check_dst_limits.isra.13
+removing targets
+analyzing tac/re_node_set_merge
+started running re_node_set_merge
+stopped exploration
+finished re_node_set_merge
+removing targets
+analyzing tac/calc_eclosure_iter
+started running calc_eclosure_iter
+finished calc_eclosure_iter
+analyzing tac/check_arrival_expand_ecl
+started running check_arrival_expand_ecl
+stopped exploration
+finished check_arrival_expand_ecl
+analyzing tac/re_node_set_add_intersect
+started running re_node_set_add_intersect
+stopped exploration
+finished re_node_set_add_intersect
+removing targets
+analyzing tac/create_token_tree.isra.16
+started running create_token_tree.isra.16
+finished create_token_tree.isra.16
+removing targets
+analyzing tac/duplicate_tree
+started running duplicate_tree
+finished duplicate_tree
+analyzing tac/lower_subexp
+started running lower_subexp
+finished lower_subexp
+removing targets
+analyzing tac/lower_subexps
+started running lower_subexps
+finished lower_subexps
+removing targets
+analyzing tac/re_node_set_init_copy
+started running re_node_set_init_copy
+finished re_node_set_init_copy
+removing targets
+analyzing tac/re_node_set_init_union
+started running re_node_set_init_union
+finished re_node_set_init_union
+removing targets
+analyzing tac/re_acquire_state_context
+started running re_acquire_state_context
+stopped exploration
+finished re_acquire_state_context
+removing targets
+analyzing tac/re_acquire_state
+started running re_acquire_state
+finished re_acquire_state
+removing targets
+analyzing tac/merge_state_array
+started running merge_state_array
+finished merge_state_array
+removing targets
+analyzing tac/expand_bkref_cache
+started running expand_bkref_cache
+stopped exploration
+finished expand_bkref_cache
+removing targets
+analyzing tac/check_subexp_matching_top.isra.18
+started running check_subexp_matching_top.isra.18
+finished check_subexp_matching_top.isra.18
+removing targets
+analyzing tac/re_string_context_at
+started running re_string_context_at
+finished re_string_context_at
+removing targets
+analyzing tac/check_node_accept
+started running check_node_accept
+finished check_node_accept
+removing targets
+analyzing tac/check_halt_state_context.isra.20
+started running check_halt_state_context.isra.20
+finished check_halt_state_context.isra.20
+analyzing tac/re_string_reconstruct
+started running re_string_reconstruct
+stopped exploration
+finished re_string_reconstruct
+removing targets
+analyzing tac/build_trtable
+started running build_trtable
+stopped exploration
+finished build_trtable
+analyzing tac/calc_first
+started running calc_first
+finished calc_first
+removing targets
+analyzing tac/free_fail_stack_return.part.24
+started running free_fail_stack_return.part.24
+finished free_fail_stack_return.part.24
+removing targets
+analyzing tac/pop_fail_stack.isra.25
+started running pop_fail_stack.isra.25
+finished pop_fail_stack.isra.25
+removing targets
+analyzing tac/build_collating_symbol.isra.28
+started running build_collating_symbol.isra.28
+finished build_collating_symbol.isra.28
+analyzing tac/build_charclass.isra.29
+started running build_charclass.isra.29
+stopped exploration
+finished build_charclass.isra.29
+removing targets
+analyzing tac/build_charclass_op
+started running build_charclass_op
+finished build_charclass_op
+analyzing tac/re_compile_fastmap_iter.isra.30
+started running re_compile_fastmap_iter.isra.30
+stopped exploration
+finished re_compile_fastmap_iter.isra.30
+removing targets
+analyzing tac/check_node_accept_bytes.isra.31
+started running check_node_accept_bytes.isra.31
+finished check_node_accept_bytes.isra.31
+removing targets
+analyzing tac/check_arrival
+started running check_arrival
+stopped exploration
+finished check_arrival
+removing targets
+analyzing tac/set_regs
+started running set_regs
+stopped exploration
+finished set_regs
+removing targets
+analyzing tac/get_subexp_sub.isra.32
+started running get_subexp_sub.isra.32
+finished get_subexp_sub.isra.32
+analyzing tac/transit_state_bkref.isra.34
+started running transit_state_bkref.isra.34
+stopped exploration
+finished transit_state_bkref.isra.34
+removing targets
+analyzing tac/merge_state_with_log
+started running merge_state_with_log
+finished merge_state_with_log
+removing targets
+analyzing tac/sift_states_backward
+started running sift_states_backward
+stopped exploration
+finished sift_states_backward
+analyzing tac/re_search_internal
+started running re_search_internal
+finished re_search_internal
+analyzing tac/update_cur_sifted_state
+started running update_cur_sifted_state
+stopped exploration
+finished update_cur_sifted_state
+removing targets
+analyzing tac/parse_bracket_element.constprop.37
+started running parse_bracket_element.constprop.37
+stopped exploration
+finished parse_bracket_element.constprop.37
+removing targets
+analyzing tac/peek_token
+started running peek_token
+finished peek_token
+removing targets
+analyzing tac/fetch_number
+started running fetch_number
+finished fetch_number
+analyzing tac/parse_expression
+started running parse_expression
+finished parse_expression
+removing targets
+analyzing tac/parse_branch
+started running parse_branch
+finished parse_branch
+analyzing tac/parse_reg_exp
+started running parse_reg_exp
+finished parse_reg_exp
+analyzing tac/re_compile_internal
+started running re_compile_internal
+finished re_compile_internal
+removing targets
+analyzing tac/rpl_re_compile_pattern
+started running rpl_re_compile_pattern
+finished rpl_re_compile_pattern
+analyzing tac/rpl_re_set_syntax
+started running rpl_re_set_syntax
+finished rpl_re_set_syntax
+analyzing tac/rpl_re_compile_fastmap
+started running rpl_re_compile_fastmap
+finished rpl_re_compile_fastmap
+analyzing tac/re_search_stub
+started running re_search_stub
+stopped exploration
+finished re_search_stub
+removing targets
+analyzing tac/re_search_2_stub
+started running re_search_2_stub
+finished re_search_2_stub
+removing targets
+analyzing tac/rpl_regcomp
+started running rpl_regcomp
+finished rpl_regcomp
+analyzing tac/rpl_regerror
+started running rpl_regerror
+finished rpl_regerror
+removing targets
+analyzing tac/rpl_regfree
+started running rpl_regfree
+finished rpl_regfree
+removing targets
+analyzing tac/rpl_regexec
+started running rpl_regexec
+finished rpl_regexec
+removing targets
+analyzing tac/rpl_re_match
+started running rpl_re_match
+finished rpl_re_match
+analyzing tac/rpl_re_search
+started running rpl_re_search
+finished rpl_re_search
+analyzing tac/rpl_re_match_2
+started running rpl_re_match_2
+finished rpl_re_match_2
+analyzing tac/rpl_re_search_2
+started running rpl_re_search_2
+finished rpl_re_search_2
+analyzing tac/rpl_re_set_registers
+started running rpl_re_set_registers
+finished rpl_re_set_registers
+removing targets
+analyzing tac/close_stream
+started running close_stream
+finished close_stream
+analyzing tac/last_component
+started running last_component
+finished last_component
+removing targets
+analyzing tac/base_len
+started running base_len
+finished base_len
+analyzing tac/fd_safer_flag
+started running fd_safer_flag
+finished fd_safer_flag
+removing targets
+analyzing tac/dup_safer_flag
+started running dup_safer_flag
+finished dup_safer_flag
+removing targets
+analyzing tac/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing tac/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing tac/dup_safer
+started running dup_safer
+finished dup_safer
+removing targets
+analyzing tac/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing tac/rpl_fcntl
+started running rpl_fcntl
+finished rpl_fcntl
+removing targets
+analyzing tac/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing tac/atexit
+started running atexit
+finished atexit
+removing targets

@@ -1,0 +1,3 @@
+WARNING | 2021-12-09 02:05:51,022 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZTVN6octave15cli_applicationE
+WARNING | 2021-12-09 02:05:51,022 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZSt4cerr
+WARNING | 2021-12-09 02:05:51,023 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata

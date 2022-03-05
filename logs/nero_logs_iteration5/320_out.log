@@ -1,0 +1,17 @@
+gcc-5__Ou__mailutils__dotlock have 4 funcs
+analyzing gcc-5__Ou__mailutils__dotlock/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__dotlock/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__dotlock/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__dotlock/cli_force
+started running cli_force
+finished cli_force
+removing targets

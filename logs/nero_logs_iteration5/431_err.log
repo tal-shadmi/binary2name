@@ -1,0 +1,6 @@
+ERROR   | 2021-12-09 02:44:55,406 | root     | 
+ERROR   | 2021-12-09 02:44:55,408 | root     | got an error while analyzing concatenate_arguments
+ERROR   | 2021-12-09 03:04:13,607 | root     | 
+ERROR   | 2021-12-09 03:04:13,646 | root     | got an error while analyzing daemon_commandtoken_escape
+ERROR   | 2021-12-09 03:28:04,360 | root     | 
+ERROR   | 2021-12-09 03:28:04,360 | root     | got an error while analyzing daemon_commandtoken_escape_string

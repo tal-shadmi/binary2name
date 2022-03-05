@@ -1,0 +1,17 @@
+gcc-5__Ou__nettle__gcmdata have 4 funcs
+analyzing gcc-5__Ou__nettle__gcmdata/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__gcmdata/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__gcmdata/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__gcmdata/reduce
+started running reduce
+finished reduce
+removing targets

@@ -1,0 +1,22 @@
+gcc-5__Ou__mailutils__mailutils-flt2047 have 6 funcs
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/set_encode_mode
+started running set_encode_mode
+finished set_encode_mode
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/describe
+started running describe
+finished describe
+analyzing gcc-5__Ou__mailutils__mailutils-flt2047/mu_action_getopt
+started running mu_action_getopt
+finished mu_action_getopt

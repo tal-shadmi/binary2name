@@ -1,0 +1,9 @@
+WARNING | 2021-12-08 20:57:52,451 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gdbm_syserr
+WARNING | 2021-12-08 20:57:52,451 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_attempted_completion_function
+WARNING | 2021-12-08 20:57:52,451 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_pre_input_hook
+WARNING | 2021-12-08 20:57:52,452 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: history_length
+WARNING | 2021-12-08 20:57:52,452 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_readline_name
+WARNING | 2021-12-08 20:57:52,452 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gdbm_version
+WARNING | 2021-12-08 20:57:52,452 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2021-12-08 20:57:52,455 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

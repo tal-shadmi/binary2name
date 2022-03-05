@@ -1,0 +1,264 @@
+gcc-5__Ou__httptunnel__hts have 85 funcs
+analyzing gcc-5__Ou__httptunnel__hts/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/log_debug
+started running log_debug
+finished log_debug
+analyzing gcc-5__Ou__httptunnel__hts/log_verbose
+started running log_verbose
+finished log_verbose
+analyzing gcc-5__Ou__httptunnel__hts/log_annoying
+started running log_annoying
+finished log_annoying
+analyzing gcc-5__Ou__httptunnel__hts/do_connect
+started running do_connect
+finished do_connect
+analyzing gcc-5__Ou__httptunnel__hts/handle_input
+started running handle_input
+finished handle_input
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/parse_arguments
+started running parse_arguments
+finished parse_arguments
+skipping log|annoying
+analyzing gcc-5__Ou__httptunnel__hts/write_all
+started running write_all
+finished write_all
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/log_exit
+started running log_exit
+finished log_exit
+analyzing gcc-5__Ou__httptunnel__hts/log_notice
+started running log_notice
+finished log_notice
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/log_error
+started running log_error
+finished log_error
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/server_socket
+started running server_socket
+finished server_socket
+analyzing gcc-5__Ou__httptunnel__hts/set_address
+started running set_address
+finished set_address
+analyzing gcc-5__Ou__httptunnel__hts/open_device
+started running open_device
+finished open_device
+analyzing gcc-5__Ou__httptunnel__hts/handle_device_input
+started running handle_device_input
+finished handle_device_input
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/handle_tunnel_input
+started running handle_tunnel_input
+finished handle_tunnel_input
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/name_and_port
+started running name_and_port
+finished name_and_port
+analyzing gcc-5__Ou__httptunnel__hts/atoi_with_postfix
+started running atoi_with_postfix
+finished atoi_with_postfix
+skipping log|debug
+skipping log|verbose
+skipping log|annoying
+analyzing gcc-5__Ou__httptunnel__hts/read_all
+started running read_all
+finished read_all
+skipping write|all
+skipping do|connect
+analyzing gcc-5__Ou__httptunnel__hts/REQ_TO_STRING
+started running REQ_TO_STRING
+finished REQ_TO_STRING
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_is_disconnected
+started running tunnel_is_disconnected
+finished tunnel_is_disconnected
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_is_connected
+started running tunnel_is_connected
+finished tunnel_is_connected
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_is_server
+started running tunnel_is_server
+finished tunnel_is_server
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_is_client
+started running tunnel_is_client
+finished tunnel_is_client
+analyzing gcc-5__Ou__httptunnel__hts/get_proto_number
+started running get_proto_number
+finished get_proto_number
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_in_setsockopts
+started running tunnel_in_setsockopts
+finished tunnel_in_setsockopts
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_out_setsockopts
+started running tunnel_out_setsockopts
+finished tunnel_out_setsockopts
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_out_disconnect
+started running tunnel_out_disconnect
+finished tunnel_out_disconnect
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_in_disconnect
+started running tunnel_in_disconnect
+finished tunnel_in_disconnect
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_out_connect
+started running tunnel_out_connect
+finished tunnel_out_connect
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_in_connect
+started running tunnel_in_connect
+finished tunnel_in_connect
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_write_data
+started running tunnel_write_data
+finished tunnel_write_data
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_write_request
+started running tunnel_write_request
+stopped exploration
+finished tunnel_write_request
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_connect
+started running tunnel_connect
+finished tunnel_connect
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_write_or_padding
+started running tunnel_write_or_padding
+finished tunnel_write_or_padding
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_write
+started running tunnel_write
+finished tunnel_write
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_padding
+started running tunnel_padding
+finished tunnel_padding
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_close
+started running tunnel_close
+finished tunnel_close
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_read_request
+started running tunnel_read_request
+finished tunnel_read_request
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_read
+started running tunnel_read
+finished tunnel_read
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_pollin_fd
+started running tunnel_pollin_fd
+finished tunnel_pollin_fd
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_maybe_pad
+started running tunnel_maybe_pad
+finished tunnel_maybe_pad
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_accept
+started running tunnel_accept
+finished tunnel_accept
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_new_server
+started running tunnel_new_server
+finished tunnel_new_server
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_new_client
+started running tunnel_new_client
+finished tunnel_new_client
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_destroy
+started running tunnel_destroy
+finished tunnel_destroy
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_opt
+started running tunnel_opt
+finished tunnel_opt
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_setopt
+started running tunnel_setopt
+finished tunnel_setopt
+analyzing gcc-5__Ou__httptunnel__hts/tunnel_getopt
+started running tunnel_getopt
+finished tunnel_getopt
+skipping log|verbose
+skipping log|annoying
+skipping read|all
+skipping write|all
+analyzing gcc-5__Ou__httptunnel__hts/http_method
+started running http_method
+finished http_method
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_get
+started running http_get
+finished http_get
+analyzing gcc-5__Ou__httptunnel__hts/http_put
+started running http_put
+finished http_put
+analyzing gcc-5__Ou__httptunnel__hts/http_post
+started running http_post
+finished http_post
+analyzing gcc-5__Ou__httptunnel__hts/http_error_to_errno
+started running http_error_to_errno
+finished http_error_to_errno
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_string_to_method
+started running http_string_to_method
+finished http_string_to_method
+analyzing gcc-5__Ou__httptunnel__hts/http_method_to_string
+started running http_method_to_string
+finished http_method_to_string
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/read_until
+started running read_until
+finished read_until
+analyzing gcc-5__Ou__httptunnel__hts/http_alloc_header
+started running http_alloc_header
+finished http_alloc_header
+analyzing gcc-5__Ou__httptunnel__hts/http_add_header
+started running http_add_header
+finished http_add_header
+analyzing gcc-5__Ou__httptunnel__hts/parse_header
+started running parse_header
+finished parse_header
+analyzing gcc-5__Ou__httptunnel__hts/http_write_header
+started running http_write_header
+finished http_write_header
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_destroy_header
+started running http_destroy_header
+finished http_destroy_header
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_allocate_response
+started running http_allocate_response
+finished http_allocate_response
+analyzing gcc-5__Ou__httptunnel__hts/http_create_response
+started running http_create_response
+finished http_create_response
+analyzing gcc-5__Ou__httptunnel__hts/http_parse_response
+started running http_parse_response
+finished http_parse_response
+analyzing gcc-5__Ou__httptunnel__hts/http_destroy_response
+started running http_destroy_response
+finished http_destroy_response
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_allocate_request
+started running http_allocate_request
+finished http_allocate_request
+analyzing gcc-5__Ou__httptunnel__hts/http_create_request
+started running http_create_request
+finished http_create_request
+analyzing gcc-5__Ou__httptunnel__hts/http_parse_request
+started running http_parse_request
+finished http_parse_request
+analyzing gcc-5__Ou__httptunnel__hts/http_write_request
+started running http_write_request
+finished http_write_request
+analyzing gcc-5__Ou__httptunnel__hts/http_destroy_request
+started running http_destroy_request
+finished http_destroy_request
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_header_find
+started running http_header_find
+finished http_header_find
+removing targets
+analyzing gcc-5__Ou__httptunnel__hts/http_header_get
+started running http_header_get
+finished http_header_get

@@ -1,0 +1,166 @@
+gcc-5__Ou__dico__idxgcide have 47 funcs
+analyzing gcc-5__Ou__dico__idxgcide/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/full_write
+started running full_write
+finished full_write
+analyzing gcc-5__Ou__dico__idxgcide/flush_page
+started running flush_page
+finished flush_page
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/store_ref
+started running store_ref
+finished store_ref
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/refcmp
+started running refcmp
+finished refcmp
+analyzing gcc-5__Ou__dico__idxgcide/flush_refs
+started running flush_refs
+finished flush_refs
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/flush_headwords
+started running flush_headwords
+finished flush_headwords
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yylex
+started running yylex
+stopped exploration
+finished yylex
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_get_next_buffer
+started running yy_get_next_buffer
+stopped exploration
+finished yy_get_next_buffer
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_get_previous_state
+started running yy_get_previous_state
+finished yy_get_previous_state
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_try_NUL_trans
+started running yy_try_NUL_trans
+finished yy_try_NUL_trans
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yyrestart
+started running yyrestart
+finished yyrestart
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_switch_to_buffer
+started running yy_switch_to_buffer
+finished yy_switch_to_buffer
+analyzing gcc-5__Ou__dico__idxgcide/yy_load_buffer_state
+started running yy_load_buffer_state
+finished yy_load_buffer_state
+analyzing gcc-5__Ou__dico__idxgcide/yy_create_buffer
+started running yy_create_buffer
+finished yy_create_buffer
+analyzing gcc-5__Ou__dico__idxgcide/yy_delete_buffer
+started running yy_delete_buffer
+finished yy_delete_buffer
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_init_buffer
+started running yy_init_buffer
+finished yy_init_buffer
+analyzing gcc-5__Ou__dico__idxgcide/yy_flush_buffer
+started running yy_flush_buffer
+finished yy_flush_buffer
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yypush_buffer_state
+started running yypush_buffer_state
+finished yypush_buffer_state
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yypop_buffer_state
+started running yypop_buffer_state
+finished yypop_buffer_state
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yyensure_buffer_stack
+started running yyensure_buffer_stack
+finished yyensure_buffer_stack
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_scan_buffer
+started running yy_scan_buffer
+finished yy_scan_buffer
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yy_scan_string
+started running yy_scan_string
+finished yy_scan_string
+analyzing gcc-5__Ou__dico__idxgcide/yy_scan_bytes
+started running yy_scan_bytes
+finished yy_scan_bytes
+analyzing gcc-5__Ou__dico__idxgcide/yy_fatal_error
+started running yy_fatal_error
+finished yy_fatal_error
+analyzing gcc-5__Ou__dico__idxgcide/yyget_lineno
+started running yyget_lineno
+finished yyget_lineno
+analyzing gcc-5__Ou__dico__idxgcide/yyget_in
+started running yyget_in
+finished yyget_in
+analyzing gcc-5__Ou__dico__idxgcide/yyget_out
+started running yyget_out
+finished yyget_out
+analyzing gcc-5__Ou__dico__idxgcide/yyget_leng
+started running yyget_leng
+finished yyget_leng
+analyzing gcc-5__Ou__dico__idxgcide/yyget_text
+started running yyget_text
+finished yyget_text
+analyzing gcc-5__Ou__dico__idxgcide/yyset_lineno
+started running yyset_lineno
+finished yyset_lineno
+analyzing gcc-5__Ou__dico__idxgcide/yyset_in
+started running yyset_in
+finished yyset_in
+analyzing gcc-5__Ou__dico__idxgcide/yyset_out
+started running yyset_out
+finished yyset_out
+analyzing gcc-5__Ou__dico__idxgcide/yyget_debug
+started running yyget_debug
+finished yyget_debug
+analyzing gcc-5__Ou__dico__idxgcide/yyset_debug
+started running yyset_debug
+finished yyset_debug
+analyzing gcc-5__Ou__dico__idxgcide/yy_init_globals
+started running yy_init_globals
+finished yy_init_globals
+analyzing gcc-5__Ou__dico__idxgcide/yylex_destroy
+started running yylex_destroy
+finished yylex_destroy
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/yyalloc
+started running yyalloc
+finished yyalloc
+analyzing gcc-5__Ou__dico__idxgcide/yyrealloc
+started running yyrealloc
+finished yyrealloc
+analyzing gcc-5__Ou__dico__idxgcide/yyfree
+started running yyfree
+finished yyfree
+analyzing gcc-5__Ou__dico__idxgcide/yywrap
+started running yywrap
+finished yywrap
+analyzing gcc-5__Ou__dico__idxgcide/get_options
+started running get_options
+stopped exploration
+finished get_options
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/gcide_escape_to_utf8
+started running gcide_escape_to_utf8
+finished gcide_escape_to_utf8
+analyzing gcc-5__Ou__dico__idxgcide/gcide_entity_to_utf8
+started running gcide_entity_to_utf8
+finished gcide_entity_to_utf8
+removing targets
+analyzing gcc-5__Ou__dico__idxgcide/appi18n_init
+started running appi18n_init
+finished appi18n_init

@@ -1,0 +1,296 @@
+numfmt have 84 funcs
+analyzing numfmt/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing numfmt/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing numfmt/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing numfmt/simple_strtod_int
+started running simple_strtod_int
+finished simple_strtod_int
+removing targets
+analyzing numfmt/unit_to_umax
+started running unit_to_umax
+finished unit_to_umax
+analyzing numfmt/setup_padding_buffer.part.0
+started running setup_padding_buffer.part.0
+finished setup_padding_buffer.part.0
+analyzing numfmt/process_field
+started running process_field
+finished process_field
+removing targets
+analyzing numfmt/process_line
+started running process_line
+stopped exploration
+finished process_line
+removing targets
+analyzing numfmt/compare_ranges
+started running compare_ranges
+finished compare_ranges
+removing targets
+analyzing numfmt/add_range_pair
+started running add_range_pair
+finished add_range_pair
+removing targets
+analyzing numfmt/set_fields
+started running set_fields
+stopped exploration
+finished set_fields
+removing targets
+analyzing numfmt/reset_fields
+started running reset_fields
+finished reset_fields
+analyzing numfmt/argmatch
+started running argmatch
+finished argmatch
+analyzing numfmt/argmatch_invalid
+started running argmatch_invalid
+finished argmatch_invalid
+removing targets
+analyzing numfmt/argmatch_valid
+started running argmatch_valid
+finished argmatch_valid
+analyzing numfmt/argmatch_to_argument
+started running argmatch_to_argument
+finished argmatch_to_argument
+removing targets
+analyzing numfmt/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing numfmt/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing numfmt/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing numfmt/mbsalign
+started running mbsalign
+analyzing numfmt/ambsalign
+started running ambsalign
+analyzing numfmt/set_program_name
+started running set_program_name
+analyzing numfmt/gettext_quote.part.1
+started running gettext_quote.part.1
+analyzing numfmt/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing numfmt/quotearg_n_options
+started running quotearg_n_options
+analyzing numfmt/clone_quoting_options
+started running clone_quoting_options
+analyzing numfmt/get_quoting_style
+started running get_quoting_style
+analyzing numfmt/set_quoting_style
+started running set_quoting_style
+analyzing numfmt/set_char_quoting
+started running set_char_quoting
+analyzing numfmt/set_quoting_flags
+started running set_quoting_flags
+analyzing numfmt/set_custom_quoting
+started running set_custom_quoting
+analyzing numfmt/quotearg_buffer
+started running quotearg_buffer
+analyzing numfmt/quotearg_alloc_mem
+started running quotearg_alloc_mem
+analyzing numfmt/quotearg_alloc
+started running quotearg_alloc
+analyzing numfmt/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing numfmt/quotearg_n
+started running quotearg_n
+analyzing numfmt/quotearg_n_mem
+started running quotearg_n_mem
+analyzing numfmt/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing numfmt/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing numfmt/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing numfmt/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing numfmt/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing numfmt/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing numfmt/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing numfmt/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing numfmt/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing numfmt/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing numfmt/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing numfmt/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing numfmt/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing numfmt/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing numfmt/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing numfmt/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing numfmt/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing numfmt/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing numfmt/quote
+started running quote
+finished quote
+removing targets
+analyzing numfmt/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing numfmt/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing numfmt/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing numfmt/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing numfmt/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing numfmt/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing numfmt/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing numfmt/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing numfmt/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing numfmt/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing numfmt/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing numfmt/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing numfmt/xzalloc
+started running xzalloc
+stopped exploration
+finished xzalloc
+analyzing numfmt/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing numfmt/xmemdup
+started running xmemdup
+stopped exploration
+finished xmemdup
+analyzing numfmt/xstrdup
+started running xstrdup
+stopped exploration
+finished xstrdup
+analyzing numfmt/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing numfmt/xstrndup
+started running xstrndup
+finished xstrndup
+analyzing numfmt/xstrtol
+started running xstrtol
+finished xstrtol
+removing targets
+analyzing numfmt/xstrtoumax
+started running xstrtoumax
+finished xstrtoumax
+removing targets
+analyzing numfmt/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing numfmt/close_stream
+started running close_stream
+analyzing numfmt/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing numfmt/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing numfmt/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing numfmt/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing numfmt/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing numfmt/atexit
+started running atexit
+finished atexit
+removing targets

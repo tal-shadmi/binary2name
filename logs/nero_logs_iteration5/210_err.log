@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 5, in <module>
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/__init__.py", line 41, in <module>
+    from .procedures import SIM_PROCEDURES, SimProcedures, SIM_LIBRARIES
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/__init__.py", line 2, in <module>
+    from .definitions import SIM_LIBRARIES
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/definitions/__init__.py", line 619, in <module>
+    for _ in autoimport.auto_import_modules('angr.procedures.definitions', os.path.dirname(os.path.realpath(__file__))):
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/misc/autoimport.py", line 40, in auto_import_modules
+    proc_module = importlib.import_module(".%s" % proc_module_name, base_module)
+  File "/home/ittay.al/miniconda3/envs/tf1/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/definitions/win32_scarddlg.py", line 15, in <module>
+    lib.set_default_cc('AMD64', SimCCMicrosoftAMD64)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/procedures/definitions/__init__.py", line 96, in set_default_cc
+    arch_name = archinfo.arch_from_id(arch_name).name
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/archinfo/arch.py", line 871, in arch_from_id
+    return cls(aendness)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/archinfo/arch_amd64.py", line 44, in __init__
+    super(ArchAMD64, self).__init__(endness)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/archinfo/arch.py", line 248, in __init__
+    self.subregister_map[reg.vex_offset] = base_reg
+MemoryError

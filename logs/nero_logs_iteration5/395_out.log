@@ -1,0 +1,67 @@
+gcc-5__Ou__mc__man2hlp have 18 funcs
+analyzing gcc-5__Ou__mc__man2hlp/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/persistent_fread
+started running persistent_fread
+finished persistent_fread
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/persistent_fwrite
+started running persistent_fwrite
+finished persistent_fwrite
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/print_error
+started running print_error
+finished print_error
+analyzing gcc-5__Ou__mc__man2hlp/fopen_check
+started running fopen_check
+finished fopen_check
+analyzing gcc-5__Ou__mc__man2hlp/fclose_check
+started running fclose_check
+finished fclose_check
+analyzing gcc-5__Ou__mc__man2hlp/newline
+started running newline
+finished newline
+analyzing gcc-5__Ou__mc__man2hlp/string_len
+started running string_len
+finished string_len
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/print_string
+started running print_string
+finished print_string
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/printf_string
+started running printf_string
+finished printf_string
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/handle_node
+started running handle_node
+finished handle_node
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/char_to_font
+started running char_to_font
+finished char_to_font
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/handle_alt_font
+started running handle_alt_font
+finished handle_alt_font
+analyzing gcc-5__Ou__mc__man2hlp/handle_tp_ip
+started running handle_tp_ip
+finished handle_tp_ip
+removing targets
+analyzing gcc-5__Ou__mc__man2hlp/handle_command
+started running handle_command
+finished handle_command
+analyzing gcc-5__Ou__mc__man2hlp/handle_link
+started running handle_link
+finished handle_link
+removing targets

@@ -1,0 +1,35 @@
+WARNING | 2021-12-08 20:39:35,543 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+ERROR   | 2021-12-08 21:24:12,391 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:12,392 | root     | got an error while analyzing mbsalign
+ERROR   | 2021-12-08 21:24:12,846 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:12,846 | root     | got an error while analyzing ambsalign
+ERROR   | 2021-12-08 21:24:14,876 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:14,877 | root     | got an error while analyzing set_program_name
+ERROR   | 2021-12-08 21:24:15,328 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:15,328 | root     | got an error while analyzing gettext_quote.part.1
+ERROR   | 2021-12-08 21:24:16,853 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:16,853 | root     | got an error while analyzing quotearg_n_options
+ERROR   | 2021-12-08 21:24:17,305 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:17,305 | root     | got an error while analyzing clone_quoting_options
+ERROR   | 2021-12-08 21:24:17,741 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:17,742 | root     | got an error while analyzing get_quoting_style
+ERROR   | 2021-12-08 21:24:18,180 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:18,180 | root     | got an error while analyzing set_quoting_style
+ERROR   | 2021-12-08 21:24:18,615 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:18,615 | root     | got an error while analyzing set_char_quoting
+ERROR   | 2021-12-08 21:24:19,051 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:19,051 | root     | got an error while analyzing set_quoting_flags
+ERROR   | 2021-12-08 21:24:19,487 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:19,488 | root     | got an error while analyzing set_custom_quoting
+ERROR   | 2021-12-08 21:24:19,951 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:19,951 | root     | got an error while analyzing quotearg_buffer
+ERROR   | 2021-12-08 21:24:20,410 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:20,410 | root     | got an error while analyzing quotearg_alloc_mem
+ERROR   | 2021-12-08 21:24:20,868 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:20,869 | root     | got an error while analyzing quotearg_alloc
+ERROR   | 2021-12-08 21:24:21,603 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:21,603 | root     | got an error while analyzing quotearg_n
+ERROR   | 2021-12-08 21:24:22,061 | root     | b'out of memory'
+ERROR   | 2021-12-08 21:24:22,062 | root     | got an error while analyzing quotearg_n_mem
+ERROR   | 2021-12-09 06:07:26,072 | root     | b'out of memory'
+ERROR   | 2021-12-09 06:07:26,073 | root     | got an error while analyzing close_stream

@@ -1,0 +1,5 @@
+WARNING | 2021-12-08 19:01:02,207 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2021-12-08 19:01:02,209 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2021-12-08 19:01:02,210 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2021-12-08 20:46:57,910 | root     | list index out of range
+ERROR   | 2021-12-08 20:46:57,914 | root     | got an error while analyzing xstrdup

@@ -1,0 +1,36 @@
+gcc-5__Ou__mailutils__readmsg have 10 funcs
+analyzing gcc-5__Ou__mailutils__readmsg/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__readmsg/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__mailutils__readmsg/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__mailutils__readmsg/string_starts_with
+started running string_starts_with
+finished string_starts_with
+removing targets
+analyzing gcc-5__Ou__mailutils__readmsg/print_unix_header
+started running print_unix_header
+finished print_unix_header
+analyzing gcc-5__Ou__mailutils__readmsg/print_header
+started running print_header
+finished print_header
+analyzing gcc-5__Ou__mailutils__readmsg/print_body
+started running print_body
+finished print_body
+analyzing gcc-5__Ou__mailutils__readmsg/addset
+started running addset
+finished addset
+analyzing gcc-5__Ou__mailutils__readmsg/is_number
+started running is_number
+finished is_number
+removing targets
+analyzing gcc-5__Ou__mailutils__readmsg/msglist
+started running msglist
+finished msglist

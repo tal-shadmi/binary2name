@@ -1,0 +1,166 @@
+gcc-5__Ou__bash__mkbuiltins have 46 funcs
+analyzing gcc-5__Ou__bash__mkbuiltins/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/array_create
+started running array_create
+finished array_create
+analyzing gcc-5__Ou__bash__mkbuiltins/copy_string_array
+started running copy_string_array
+finished copy_string_array
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/array_add
+started running array_add
+finished array_add
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/array_free
+started running array_free
+finished array_free
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/find_directive
+started running find_directive
+finished find_directive
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/extract_info
+started running extract_info
+stopped exploration
+finished extract_info
+analyzing gcc-5__Ou__bash__mkbuiltins/free_builtin
+started running free_builtin
+finished free_builtin
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/free_defs
+started running free_defs
+finished free_defs
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/strip_whitespace
+started running strip_whitespace
+finished strip_whitespace
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/remove_trailing_whitespace
+started running remove_trailing_whitespace
+finished remove_trailing_whitespace
+analyzing gcc-5__Ou__bash__mkbuiltins/get_arg
+started running get_arg
+finished get_arg
+analyzing gcc-5__Ou__bash__mkbuiltins/must_be_building
+started running must_be_building
+finished must_be_building
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/current_builtin
+started running current_builtin
+finished current_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/add_documentation
+started running add_documentation
+finished add_documentation
+analyzing gcc-5__Ou__bash__mkbuiltins/builtin_handler
+started running builtin_handler
+finished builtin_handler
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/function_handler
+started running function_handler
+finished function_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/docname_handler
+started running docname_handler
+finished docname_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/short_doc_handler
+started running short_doc_handler
+finished short_doc_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/comment_handler
+started running comment_handler
+finished comment_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/depends_on_handler
+started running depends_on_handler
+finished depends_on_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/produces_handler
+started running produces_handler
+finished produces_handler
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/end_handler
+started running end_handler
+finished end_handler
+analyzing gcc-5__Ou__bash__mkbuiltins/line_error
+started running line_error
+finished line_error
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/file_error
+started running file_error
+finished file_error
+analyzing gcc-5__Ou__bash__mkbuiltins/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__bash__mkbuiltins/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/memory_error_and_abort
+started running memory_error_and_abort
+finished memory_error_and_abort
+analyzing gcc-5__Ou__bash__mkbuiltins/copy_builtin
+started running copy_builtin
+finished copy_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/save_builtin
+started running save_builtin
+finished save_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/write_file_headers
+started running write_file_headers
+finished write_file_headers
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_file_footers
+started running write_file_footers
+finished write_file_footers
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_builtins
+started running write_builtins
+stopped exploration
+finished write_builtins
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_longdocs
+started running write_longdocs
+finished write_longdocs
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_dummy_declarations
+started running write_dummy_declarations
+finished write_dummy_declarations
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_ifdefs
+started running write_ifdefs
+finished write_ifdefs
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_endifs
+started running write_endifs
+finished write_endifs
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_documentation
+started running write_documentation
+stopped exploration
+finished write_documentation
+removing targets
+analyzing gcc-5__Ou__bash__mkbuiltins/write_helpfiles
+started running write_helpfiles
+finished write_helpfiles
+analyzing gcc-5__Ou__bash__mkbuiltins/is_special_builtin
+started running is_special_builtin
+finished is_special_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/is_assignment_builtin
+started running is_assignment_builtin
+finished is_assignment_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/is_localvar_builtin
+started running is_localvar_builtin
+finished is_localvar_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/is_posix_builtin
+started running is_posix_builtin
+finished is_posix_builtin
+analyzing gcc-5__Ou__bash__mkbuiltins/stat
+started running stat
+finished stat
+removing targets

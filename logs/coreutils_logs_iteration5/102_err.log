@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "paths_constraints_main.py", line 360, in <module>
+    main()
+  File "paths_constraints_main.py", line 356, in main
+    generate_dataset(binaries[args.binary_idx], args.output, args.dataset, args.no_usables_file)
+  File "paths_constraints_main.py", line 193, in generate_dataset
+    analyze_binary(analyzed_funcs, train_binary, output_dir, is_function_usable)
+  File "paths_constraints_main.py", line 200, in analyze_binary
+    proj = Project(binary_name, auto_load_libs=False) # Load angr project and calculate CFG
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/angr/project.py", line 135, in __init__
+    self.loader = cle.Loader(self.filename, concrete_target=concrete_target, **load_options)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/cle/loader.py", line 133, in __init__
+    self.initial_load_objects = self._internal_load(main_binary, *preload_libs, *force_load_libs, preloading=(main_binary, *preload_libs))
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/cle/loader.py", line 668, in _internal_load
+    obj = self._load_object_isolated(main_spec)
+  File "/home/ittay.al/venv/pproc/lib/python3.7/site-packages/cle/loader.py", line 845, in _load_object_isolated
+    raise CLECompatibilityError("Unable to find a loader backend for %s.  Perhaps try the 'blob' loader?" % spec)
+cle.errors.CLECompatibilityError: Unable to find a loader backend for our_dataset/coreutils_ds/usable_functions_names.txt.  Perhaps try the 'blob' loader?

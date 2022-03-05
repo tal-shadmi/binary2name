@@ -1,0 +1,117 @@
+gcc-5__Ou__nettle__hogweed-benchmark have 38 funcs
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/die
+started running die
+finished die
+removing targets
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/xalloc
+started running xalloc
+finished xalloc
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/hash_string
+started running hash_string
+finished hash_string
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/time_function
+started running time_function
+finished time_function
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_alg
+started running bench_alg
+finished bench_alg
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_rsa_init
+started running bench_rsa_init
+finished bench_rsa_init
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_rsa_sign
+started running bench_rsa_sign
+finished bench_rsa_sign
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_rsa_verify
+started running bench_rsa_verify
+finished bench_rsa_verify
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_rsa_clear
+started running bench_rsa_clear
+finished bench_rsa_clear
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_dsa_init
+started running bench_dsa_init
+finished bench_dsa_init
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_dsa_sign
+started running bench_dsa_sign
+finished bench_dsa_sign
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_dsa_verify
+started running bench_dsa_verify
+finished bench_dsa_verify
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_dsa_clear
+started running bench_dsa_clear
+finished bench_dsa_clear
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_ecdsa_init
+started running bench_ecdsa_init
+finished bench_ecdsa_init
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_ecdsa_sign
+started running bench_ecdsa_sign
+finished bench_ecdsa_sign
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_ecdsa_verify
+started running bench_ecdsa_verify
+finished bench_ecdsa_verify
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_ecdsa_clear
+started running bench_ecdsa_clear
+finished bench_ecdsa_clear
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_rsa_init
+started running bench_openssl_rsa_init
+finished bench_openssl_rsa_init
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_rsa_sign
+started running bench_openssl_rsa_sign
+finished bench_openssl_rsa_sign
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_rsa_verify
+started running bench_openssl_rsa_verify
+finished bench_openssl_rsa_verify
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_rsa_clear
+started running bench_openssl_rsa_clear
+finished bench_openssl_rsa_clear
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_ecdsa_init
+started running bench_openssl_ecdsa_init
+finished bench_openssl_ecdsa_init
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_ecdsa_sign
+started running bench_openssl_ecdsa_sign
+finished bench_openssl_ecdsa_sign
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_ecdsa_verify
+started running bench_openssl_ecdsa_verify
+finished bench_openssl_ecdsa_verify
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_openssl_ecdsa_clear
+started running bench_openssl_ecdsa_clear
+finished bench_openssl_ecdsa_clear
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_curve25519_mul_g
+started running bench_curve25519_mul_g
+finished bench_curve25519_mul_g
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_curve25519_mul
+started running bench_curve25519_mul
+finished bench_curve25519_mul
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/bench_curve25519
+started running bench_curve25519
+finished bench_curve25519
+skipping die
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/cgt_works_p
+started running cgt_works_p
+finished cgt_works_p
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/cgt_time_start
+started running cgt_time_start
+finished cgt_time_start
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/cgt_time_end
+started running cgt_time_end
+finished cgt_time_end
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/clock_time_start
+started running clock_time_start
+finished clock_time_start
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/clock_time_end
+started running clock_time_end
+finished clock_time_end
+analyzing gcc-5__Ou__nettle__hogweed-benchmark/time_init
+started running time_init
+finished time_init

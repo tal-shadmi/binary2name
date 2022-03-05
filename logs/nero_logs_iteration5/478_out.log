@@ -1,0 +1,122 @@
+gcc-5__Ou__which__which have 34 funcs
+analyzing gcc-5__Ou__which__which/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__which__which/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__which__which/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__which__which/uidget
+started running uidget
+finished uidget
+analyzing gcc-5__Ou__which__which/getmaxgroups
+started running getmaxgroups
+finished getmaxgroups
+removing targets
+analyzing gcc-5__Ou__which__which/initialize_group_array
+started running initialize_group_array
+finished initialize_group_array
+removing targets
+analyzing gcc-5__Ou__which__which/group_member
+started running group_member
+finished group_member
+removing targets
+analyzing gcc-5__Ou__which__which/file_status
+started running file_status
+finished file_status
+analyzing gcc-5__Ou__which__which/absolute_program
+started running absolute_program
+finished absolute_program
+analyzing gcc-5__Ou__which__which/substring
+started running substring
+finished substring
+analyzing gcc-5__Ou__which__which/extract_colon_unit
+started running extract_colon_unit
+finished extract_colon_unit
+removing targets
+analyzing gcc-5__Ou__which__which/get_next_path_element
+started running get_next_path_element
+finished get_next_path_element
+analyzing gcc-5__Ou__which__which/make_full_pathname
+started running make_full_pathname
+finished make_full_pathname
+analyzing gcc-5__Ou__which__which/get_current_user_info
+started running get_current_user_info
+finished get_current_user_info
+removing targets
+analyzing gcc-5__Ou__which__which/sh_get_env_value
+started running sh_get_env_value
+finished sh_get_env_value
+analyzing gcc-5__Ou__which__which/sh_get_home_dir
+started running sh_get_home_dir
+finished sh_get_home_dir
+removing targets
+analyzing gcc-5__Ou__which__which/print_usage
+started running print_usage
+finished print_usage
+analyzing gcc-5__Ou__which__which/print_version
+started running print_version
+finished print_version
+analyzing gcc-5__Ou__which__which/print_fail
+started running print_fail
+finished print_fail
+analyzing gcc-5__Ou__which__which/find_command_in_path
+started running find_command_in_path
+finished find_command_in_path
+analyzing gcc-5__Ou__which__which/get_current_working_directory
+started running get_current_working_directory
+finished get_current_working_directory
+removing targets
+analyzing gcc-5__Ou__which__which/path_clean_up
+started running path_clean_up
+finished path_clean_up
+removing targets
+analyzing gcc-5__Ou__which__which/func_search
+started running func_search
+finished func_search
+removing targets
+analyzing gcc-5__Ou__which__which/path_search
+started running path_search
+finished path_search
+removing targets
+analyzing gcc-5__Ou__which__which/process_alias
+started running process_alias
+stopped exploration
+finished process_alias
+removing targets
+analyzing gcc-5__Ou__which__which/xmalloc
+started running xmalloc
+finished xmalloc
+analyzing gcc-5__Ou__which__which/xrealloc
+started running xrealloc
+finished xrealloc
+removing targets
+analyzing gcc-5__Ou__which__which/tilde_find_prefix
+started running tilde_find_prefix
+finished tilde_find_prefix
+analyzing gcc-5__Ou__which__which/tilde_find_suffix
+started running tilde_find_suffix
+finished tilde_find_suffix
+analyzing gcc-5__Ou__which__which/tilde_expand
+started running tilde_expand
+finished tilde_expand
+analyzing gcc-5__Ou__which__which/isolate_tilde_prefix
+started running isolate_tilde_prefix
+finished isolate_tilde_prefix
+analyzing gcc-5__Ou__which__which/glue_prefix_and_suffix
+started running glue_prefix_and_suffix
+finished glue_prefix_and_suffix
+removing targets
+analyzing gcc-5__Ou__which__which/tilde_expand_word
+started running tilde_expand_word
+finished tilde_expand_word
+removing targets
+analyzing gcc-5__Ou__which__which/stat
+started running stat
+finished stat
+removing targets

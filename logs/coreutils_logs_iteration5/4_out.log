@@ -1,0 +1,428 @@
+basenc have 116 funcs
+analyzing basenc/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing basenc/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing basenc/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing basenc/base64_length_wrapper
+started running base64_length_wrapper
+finished base64_length_wrapper
+analyzing basenc/base32_length_wrapper
+started running base32_length_wrapper
+finished base32_length_wrapper
+analyzing basenc/isbase32hex
+started running isbase32hex
+finished isbase32hex
+analyzing basenc/isbase16
+started running isbase16
+finished isbase16
+analyzing basenc/base16_length
+started running base16_length
+finished base16_length
+analyzing basenc/base16_encode
+started running base16_encode
+finished base16_encode
+removing targets
+analyzing basenc/z85_length
+started running z85_length
+finished z85_length
+analyzing basenc/isbase2
+started running isbase2
+finished isbase2
+analyzing basenc/base2_length
+started running base2_length
+finished base2_length
+analyzing basenc/base2msbf_encode
+started running base2msbf_encode
+finished base2msbf_encode
+removing targets
+analyzing basenc/base2lsbf_encode
+started running base2lsbf_encode
+finished base2lsbf_encode
+removing targets
+analyzing basenc/isbase64url
+started running isbase64url
+finished isbase64url
+removing targets
+analyzing basenc/base64url_encode
+started running base64url_encode
+finished base64url_encode
+analyzing basenc/z85_decode_ctx_init
+started running z85_decode_ctx_init
+finished z85_decode_ctx_init
+analyzing basenc/base2_decode_ctx_init
+started running base2_decode_ctx_init
+finished base2_decode_ctx_init
+analyzing basenc/base16_decode_ctx_init
+started running base16_decode_ctx_init
+finished base16_decode_ctx_init
+analyzing basenc/isz85
+started running isz85
+finished isz85
+removing targets
+analyzing basenc/base32_decode_ctx_wrapper
+started running base32_decode_ctx_wrapper
+finished base32_decode_ctx_wrapper
+analyzing basenc/base32hex_decode_ctx_init_wrapper
+started running base32hex_decode_ctx_init_wrapper
+finished base32hex_decode_ctx_init_wrapper
+analyzing basenc/base32_decode_ctx_init_wrapper
+started running base32_decode_ctx_init_wrapper
+finished base32_decode_ctx_init_wrapper
+removing targets
+analyzing basenc/base64_decode_ctx_wrapper
+started running base64_decode_ctx_wrapper
+finished base64_decode_ctx_wrapper
+analyzing basenc/base64url_decode_ctx_init_wrapper
+started running base64url_decode_ctx_init_wrapper
+finished base64url_decode_ctx_init_wrapper
+analyzing basenc/base64_decode_ctx_init_wrapper
+started running base64_decode_ctx_init_wrapper
+finished base64_decode_ctx_init_wrapper
+removing targets
+analyzing basenc/base16_decode_ctx
+started running base16_decode_ctx
+finished base16_decode_ctx
+removing targets
+analyzing basenc/z85_decode_ctx
+started running z85_decode_ctx
+finished z85_decode_ctx
+removing targets
+analyzing basenc/base2lsbf_decode_ctx
+started running base2lsbf_decode_ctx
+finished base2lsbf_decode_ctx
+removing targets
+analyzing basenc/base2msbf_decode_ctx
+started running base2msbf_decode_ctx
+finished base2msbf_decode_ctx
+removing targets
+analyzing basenc/z85_encode
+started running z85_encode
+stopped exploration
+finished z85_encode
+removing targets
+analyzing basenc/base32hex_encode
+started running base32hex_encode
+finished base32hex_encode
+analyzing basenc/base64url_decode_ctx_wrapper
+started running base64url_decode_ctx_wrapper
+finished base64url_decode_ctx_wrapper
+removing targets
+analyzing basenc/base32hex_decode_ctx_wrapper
+started running base32hex_decode_ctx_wrapper
+finished base32hex_decode_ctx_wrapper
+removing targets
+analyzing basenc/decode_8
+started running decode_8
+finished decode_8
+removing targets
+analyzing basenc/base32_encode
+started running base32_encode
+finished base32_encode
+removing targets
+analyzing basenc/base32_encode_alloc
+started running base32_encode_alloc
+finished base32_encode_alloc
+removing targets
+analyzing basenc/isbase32
+started running isbase32
+finished isbase32
+analyzing basenc/base32_decode_ctx_init
+started running base32_decode_ctx_init
+finished base32_decode_ctx_init
+analyzing basenc/base32_decode_ctx
+started running base32_decode_ctx
+stopped exploration
+finished base32_decode_ctx
+removing targets
+analyzing basenc/base32_decode_alloc_ctx
+started running base32_decode_alloc_ctx
+finished base32_decode_alloc_ctx
+analyzing basenc/decode_4
+started running decode_4
+finished decode_4
+removing targets
+analyzing basenc/base64_encode
+started running base64_encode
+finished base64_encode
+removing targets
+analyzing basenc/base64_encode_alloc
+started running base64_encode_alloc
+finished base64_encode_alloc
+removing targets
+analyzing basenc/isbase64
+started running isbase64
+finished isbase64
+analyzing basenc/base64_decode_ctx_init
+started running base64_decode_ctx_init
+finished base64_decode_ctx_init
+analyzing basenc/base64_decode_ctx
+started running base64_decode_ctx
+stopped exploration
+finished base64_decode_ctx
+removing targets
+analyzing basenc/base64_decode_alloc_ctx
+started running base64_decode_alloc_ctx
+finished base64_decode_alloc_ctx
+analyzing basenc/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing basenc/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing basenc/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing basenc/fdadvise
+started running fdadvise
+finished fdadvise
+removing targets
+analyzing basenc/fadvise
+started running fadvise
+finished fadvise
+removing targets
+analyzing basenc/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing basenc/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing basenc/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing basenc/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing basenc/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing basenc/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing basenc/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing basenc/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing basenc/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing basenc/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing basenc/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing basenc/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing basenc/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing basenc/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing basenc/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing basenc/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing basenc/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing basenc/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing basenc/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing basenc/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing basenc/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing basenc/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing basenc/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing basenc/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing basenc/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing basenc/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing basenc/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets
+analyzing basenc/quotearg_n_custom_mem
+started running quotearg_n_custom_mem
+finished quotearg_n_custom_mem
+removing targets
+analyzing basenc/quotearg_n_custom
+started running quotearg_n_custom
+finished quotearg_n_custom
+removing targets
+analyzing basenc/quotearg_custom
+started running quotearg_custom
+finished quotearg_custom
+removing targets
+analyzing basenc/quotearg_custom_mem
+started running quotearg_custom_mem
+finished quotearg_custom_mem
+removing targets
+analyzing basenc/quote_n_mem
+started running quote_n_mem
+finished quote_n_mem
+removing targets
+analyzing basenc/quote_mem
+started running quote_mem
+finished quote_mem
+removing targets
+analyzing basenc/quote_n
+started running quote_n
+finished quote_n
+removing targets
+analyzing basenc/quote
+started running quote
+finished quote
+removing targets
+analyzing basenc/version_etc_arn
+started running version_etc_arn
+finished version_etc_arn
+removing targets
+analyzing basenc/version_etc_ar
+started running version_etc_ar
+finished version_etc_ar
+removing targets
+analyzing basenc/version_etc_va
+started running version_etc_va
+finished version_etc_va
+removing targets
+analyzing basenc/version_etc
+started running version_etc
+finished version_etc
+removing targets
+analyzing basenc/emit_bug_reporting_address
+started running emit_bug_reporting_address
+finished emit_bug_reporting_address
+analyzing basenc/xmalloc
+started running xmalloc
+stopped exploration
+finished xmalloc
+analyzing basenc/xnmalloc
+started running xnmalloc
+stopped exploration
+finished xnmalloc
+removing targets
+analyzing basenc/xcharalloc
+started running xcharalloc
+stopped exploration
+finished xcharalloc
+removing targets
+analyzing basenc/xrealloc
+started running xrealloc
+stopped exploration
+finished xrealloc
+removing targets
+analyzing basenc/xnrealloc
+started running xnrealloc
+stopped exploration
+finished xnrealloc
+removing targets
+analyzing basenc/x2nrealloc
+started running x2nrealloc
+stopped exploration
+finished x2nrealloc
+removing targets
+analyzing basenc/x2realloc
+started running x2realloc
+stopped exploration
+finished x2realloc
+removing targets
+analyzing basenc/xzalloc
+started running xzalloc
+finished xzalloc
+analyzing basenc/xcalloc
+started running xcalloc
+stopped exploration
+finished xcalloc
+removing targets
+analyzing basenc/xmemdup
+started running xmemdup
+finished xmemdup
+analyzing basenc/xstrdup
+started running xstrdup
+finished xstrdup
+analyzing basenc/xalloc_die
+started running xalloc_die
+finished xalloc_die
+analyzing basenc/xnumtoumax
+started running xnumtoumax
+finished xnumtoumax
+analyzing basenc/xdectoumax
+started running xdectoumax
+finished xdectoumax
+analyzing basenc/xstrtoumax
+started running xstrtoumax
+stopped exploration
+finished xstrtoumax
+removing targets
+analyzing basenc/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing basenc/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing basenc/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing basenc/rpl_mbrtowc
+started running rpl_mbrtowc
+finished rpl_mbrtowc
+analyzing basenc/close_stream
+started running close_stream
+finished close_stream
+analyzing basenc/hard_locale
+started running hard_locale
+finished hard_locale
+analyzing basenc/locale_charset
+started running locale_charset
+finished locale_charset
+analyzing basenc/atexit
+started running atexit
+finished atexit
+removing targets

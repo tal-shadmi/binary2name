@@ -1,0 +1,63 @@
+gcc-5__Ou__gcal__gcal2txt have 17 funcs
+analyzing gcc-5__Ou__gcal__gcal2txt/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/usage_msg
+started running usage_msg
+finished usage_msg
+analyzing gcc-5__Ou__gcal__gcal2txt/version_msg
+started running version_msg
+finished version_msg
+analyzing gcc-5__Ou__gcal__gcal2txt/my_malloc
+started running my_malloc
+finished my_malloc
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/my_realloc
+started running my_realloc
+finished my_realloc
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/my_error
+started running my_error
+finished my_error
+analyzing gcc-5__Ou__gcal__gcal2txt/handle_signal
+started running handle_signal
+finished handle_signal
+analyzing gcc-5__Ou__gcal__gcal2txt/decode_format
+started running decode_format
+finished decode_format
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/direxists
+started running direxists
+finished direxists
+analyzing gcc-5__Ou__gcal__gcal2txt/path_search
+started running path_search
+finished path_search
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/rpl_fclose
+started running rpl_fclose
+finished rpl_fclose
+analyzing gcc-5__Ou__gcal__gcal2txt/clear_ungetc_buffer_preserving_position
+started running clear_ungetc_buffer_preserving_position
+finished clear_ungetc_buffer_preserving_position
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/rpl_fflush
+started running rpl_fflush
+finished rpl_fflush
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/rpl_fseeko
+started running rpl_fseeko
+finished rpl_fseeko
+removing targets
+analyzing gcc-5__Ou__gcal__gcal2txt/stat
+started running stat
+finished stat
+removing targets

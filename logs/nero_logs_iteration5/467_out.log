@@ -1,0 +1,74 @@
+gcc-5__Ou__uucp__tstuu have 21 funcs
+analyzing gcc-5__Ou__uucp__tstuu/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/uchild
+started running uchild
+finished uchild
+analyzing gcc-5__Ou__uucp__tstuu/xfopen
+started running xfopen
+finished xfopen
+analyzing gcc-5__Ou__uucp__tstuu/xfclose
+started running xfclose
+finished xfclose
+analyzing gcc-5__Ou__uucp__tstuu/umake_file
+started running umake_file
+finished umake_file
+analyzing gcc-5__Ou__uucp__tstuu/ucheck_file
+started running ucheck_file
+finished ucheck_file
+analyzing gcc-5__Ou__uucp__tstuu/uprepare_test
+started running uprepare_test
+stopped exploration
+finished uprepare_test
+analyzing gcc-5__Ou__uucp__tstuu/ucheck_test
+started running ucheck_test
+finished ucheck_test
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/cpshow
+started running cpshow
+finished cpshow
+analyzing gcc-5__Ou__uucp__tstuu/uchoose
+started running uchoose
+finished uchoose
+analyzing gcc-5__Ou__uucp__tstuu/cread
+started running cread
+stopped exploration
+finished cread
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/fsend
+started running fsend
+stopped exploration
+finished fsend
+removing targets
+analyzing gcc-5__Ou__uucp__tstuu/fwritable
+started running fwritable
+finished fwritable
+analyzing gcc-5__Ou__uucp__tstuu/xsystem
+started running xsystem
+finished xsystem
+analyzing gcc-5__Ou__uucp__tstuu/ixsysdep_time
+started running ixsysdep_time
+finished ixsysdep_time
+analyzing gcc-5__Ou__uucp__tstuu/ixsysdep_process_time
+started running ixsysdep_process_time
+finished ixsysdep_process_time
+analyzing gcc-5__Ou__uucp__tstuu/exchange
+started running exchange
+finished exchange
+analyzing gcc-5__Ou__uucp__tstuu/gnu_getopt
+started running gnu_getopt
+finished gnu_getopt
+analyzing gcc-5__Ou__uucp__tstuu/xfree
+started running xfree
+finished xfree
+removing targets
