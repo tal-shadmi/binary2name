@@ -1,0 +1,23 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4251835
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4251835,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|dword|ptr|rbp|-|4|edi|    |mov|qword|ptr|rbp|-|0x10|rsi|    |mov|eax|dword|ptr|rbp|-|4|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "stat_time_normalize"
+}

@@ -1,0 +1,59 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4222302,
+                "src": 4222251
+            },
+            {
+                "dst": 4222356,
+                "src": 4222302
+            },
+            {
+                "dst": 4222381,
+                "src": 4222356
+            },
+            {
+                "dst": 4222402,
+                "src": 4222381
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4222402
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4222251,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0xa0|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|8|rax|    |xor|eax|eax|    |lea|rax|rbp|-|0x90|    |mov|rdx|rax|    |mov|esi|0x6148c0|    |mov|edi|0|    |call|0x401670|    "
+            },
+            {
+                "block_addr": 4222302,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20d5d0|    |mov|dword|ptr|rbp|-|0x94|eax|    |cmp|dword|ptr|rbp|-|0x94|0|    |js|0x406d94|    "
+            },
+            {
+                "block_addr": 4222356,
+                "constraints": [],
+                "instructions": "lea|rax|rbp|-|0x90|    |mov|edx|0|    |mov|rsi|rax|    |mov|edi|2|    |call|0x401670|    "
+            },
+            {
+                "block_addr": 4222381,
+                "constraints": [],
+                "instructions": "nop|    |mov|rax|qword|ptr|rbp|-|8|    |xor|rax|qword|ptr|fs:0x28|    |je|0x406dc2|    "
+            },
+            {
+                "block_addr": 4222402,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "remove_output_file"
+}

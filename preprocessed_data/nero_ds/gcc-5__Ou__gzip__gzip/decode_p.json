@@ -1,0 +1,50 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4238982,
+                "src": 4238858
+            },
+            {
+                "dst": 4239002,
+                "src": 4238982
+            },
+            {
+                "dst": 4239043,
+                "src": 4239002
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4239043
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4238858,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x18|    |movzx|eax|word|ptr|rip|+|0x20d186|    |shr|ax|8|    |movzx|eax|ax|    |cdqe|    |movzx|eax|word|ptr|rax|+|rax|+|0x617da0|    |movzx|eax|ax|    |mov|dword|ptr|rbp|-|0x18|eax|    |cmp|dword|ptr|rbp|-|0x18|0xd|    |jbe|target_0|    "
+            },
+            {
+                "block_addr": 4238982,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x18|    |movzx|eax|byte|ptr|rax|+|0x617d60|    |movzx|eax|al|    |mov|edi|eax|    |call|0x40a39a|    "
+            },
+            {
+                "block_addr": 4239002,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0x18|0|    |je|0x40aec3|    "
+            },
+            {
+                "block_addr": 4239043,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x18|    |add|rsp|0x18|    |pop|rbx|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "decode_p"
+}

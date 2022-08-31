@@ -1,0 +1,56 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4245841,
+                "src": 4245809
+            },
+            {
+                "dst": 4245834,
+                "src": 4245809
+            },
+            {
+                "dst": 4245861,
+                "src": 4245841
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4245861
+            },
+            {
+                "dst": 4245841,
+                "src": 4245834
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4245809,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|dword|ptr|rbp|-|4|edi|    |mov|qword|ptr|rbp|-|0x10|rsi|    |mov|dword|ptr|rbp|-|8|edx|    |mov|eax|dword|ptr|rbp|-|8|    |test|eax|eax|    |jns|target_0|    "
+            },
+            {
+                "block_addr": 4245841,
+                "constraints": [],
+                "instructions": "mov|edx|dword|ptr|rbp|-|8|    |mov|rcx|qword|ptr|rbp|-|0x10|    |mov|eax|dword|ptr|rbp|-|4|    |mov|rsi|rcx|    |mov|edi|eax|    |call|0x401790|    "
+            },
+            {
+                "block_addr": 4245861,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4245834,
+                "constraints": [
+                    "<Bool __ne__(Extract(0, 0, LShR(ZeroExt(32, Extract(31, 0, reg_20_10612_64)), 0x1f)), 0)>"
+                ],
+                "instructions": "mov|dword|ptr|rbp|-|8|0x7fffffff|    |mov|edx|dword|ptr|rbp|-|8|    |mov|rcx|qword|ptr|rbp|-|0x10|    |mov|eax|dword|ptr|rbp|-|4|    |mov|rsi|rcx|    |mov|edi|eax|    |call|0x401790|    "
+            }
+        ]
+    },
+    "func_name": "write_buffer"
+}

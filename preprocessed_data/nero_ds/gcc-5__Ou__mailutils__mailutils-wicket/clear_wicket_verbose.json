@@ -1,0 +1,23 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4197590
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4197590,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|qword|ptr|rbp|-|0x10|rsi|    |mov|qword|ptr|rbp|-|0x18|rdx|    |mov|dword|ptr|rip|+|0x201420|0|    |nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "clear_wicket_verbose"
+}

@@ -1,0 +1,23 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4245348
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4245348,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|dword|ptr|rip|+|0x250bce|0|    |mov|dword|ptr|rip|+|0x23bf68|0|    |mov|eax|dword|ptr|rip|+|0x23bf62|    |mov|dword|ptr|rip|+|0x250bbc|eax|    |mov|qword|ptr|rip|+|0x250b8d|0|    |mov|rax|qword|ptr|rip|+|0x250b86|    |mov|qword|ptr|rip|+|0x20bf1f|rax|    |nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "clear_bufs"
+}

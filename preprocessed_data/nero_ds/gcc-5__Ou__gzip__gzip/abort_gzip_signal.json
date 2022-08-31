@@ -1,0 +1,74 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4222439,
+                "src": 4222423
+            },
+            {
+                "dst": 4222460,
+                "src": 4222439
+            },
+            {
+                "dst": 4222450,
+                "src": 4222439
+            },
+            {
+                "dst": 4222475,
+                "src": 4222460
+            },
+            {
+                "dst": 4222485,
+                "src": 4222475
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4222485
+            },
+            {
+                "dst": 4222460,
+                "src": 4222450
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4222423,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|dword|ptr|rbp|-|4|edi|    |call|0x406d2b|    "
+            },
+            {
+                "block_addr": 4222439,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20db53|    |cmp|dword|ptr|rbp|-|4|eax|    |jne|0x406dfc|    "
+            },
+            {
+                "block_addr": 4222460,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |mov|esi|0|    |mov|edi|eax|    |call|0x401940|    "
+            },
+            {
+                "block_addr": 4222475,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |mov|edi|eax|    |call|0x401680|    "
+            },
+            {
+                "block_addr": 4222485,
+                "constraints": [],
+                "instructions": "nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4222450,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, reg_48_6229_64), 0x0)>"
+                ],
+                "instructions": "mov|edi|2|    |call|0x401700|    "
+            }
+        ]
+    },
+    "func_name": "abort_gzip_signal"
+}

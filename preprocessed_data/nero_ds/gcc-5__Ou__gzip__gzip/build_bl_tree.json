@@ -1,0 +1,81 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4234040,
+                "src": 4234014
+            },
+            {
+                "dst": 4234058,
+                "src": 4234040
+            },
+            {
+                "dst": 4234068,
+                "src": 4234058
+            },
+            {
+                "dst": 4234111,
+                "src": 4234068
+            },
+            {
+                "dst": 4234077,
+                "src": 4234111
+            },
+            {
+                "dst": 4234107,
+                "src": 4234077
+            },
+            {
+                "dst": 4234111,
+                "src": 4234107
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4234107
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4234014,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|eax|dword|ptr|rip|+|0x20abf8|    |mov|esi|eax|    |mov|edi|0x614e20|    |call|0x409771|    "
+            },
+            {
+                "block_addr": 4234040,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20ac26|    |mov|esi|eax|    |mov|edi|0x615720|    |call|0x409771|    "
+            },
+            {
+                "block_addr": 4234058,
+                "constraints": [],
+                "instructions": "mov|edi|0x614780|    |call|0x4093eb|    "
+            },
+            {
+                "block_addr": 4234068,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|4|0x12|    |jmp|0x409b7f|    "
+            },
+            {
+                "block_addr": 4234111,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|4|2|    |jg|0x409b5d|    "
+            },
+            {
+                "block_addr": 4234077,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |cdqe|    |movzx|eax|byte|ptr|rax|+|0x6147b0|    |movzx|eax|al|    |cdqe|    |movzx|eax|word|ptr|rax*4|+|0x615d22|    |test|ax|ax|    |jne|0x409b87|    "
+            },
+            {
+                "block_addr": 4234107,
+                "constraints": [],
+                "instructions": "sub|dword|ptr|rbp|-|4|1|    |cmp|dword|ptr|rbp|-|4|2|    |jg|0x409b5d|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "build_bl_tree"
+}

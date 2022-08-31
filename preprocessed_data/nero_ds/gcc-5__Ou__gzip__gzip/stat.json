@@ -1,0 +1,41 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4200864,
+                "src": 4257664
+            },
+            {
+                "dst": 7340480,
+                "src": 4200864
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 7340480
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4257664,
+                "constraints": [],
+                "instructions": "mov|rdx|rsi|    |mov|rsi|rdi|    |mov|edi|1|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4200864,
+                "constraints": [],
+                "instructions": "jmp|qword|ptr|rip|+|0x212812|    "
+            },
+            {
+                "block_addr": 7340480,
+                "constraints": [],
+                "instructions": "add|byte|ptr|rax|al|    |add|byte|ptr|rax|al|    |add|byte|ptr|rax|al|    |add|byte|ptr|rax|al|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "stat"
+}

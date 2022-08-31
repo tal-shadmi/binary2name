@@ -1,0 +1,250 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4202754,
+                "src": 4202726
+            },
+            {
+                "dst": 4202748,
+                "src": 4202726
+            },
+            {
+                "dst": 4202764,
+                "src": 4202754
+            },
+            {
+                "dst": 4202796,
+                "src": 4202764
+            },
+            {
+                "dst": 4202934,
+                "src": 4202796
+            },
+            {
+                "dst": 4202913,
+                "src": 4202796
+            },
+            {
+                "dst": 4202959,
+                "src": 4202934
+            },
+            {
+                "dst": 4202940,
+                "src": 4202934
+            },
+            {
+                "dst": 4202999,
+                "src": 4202959
+            },
+            {
+                "dst": 4203026,
+                "src": 4202999
+            },
+            {
+                "dst": 4203015,
+                "src": 4202999
+            },
+            {
+                "dst": 4203149,
+                "src": 4203026
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4203149
+            },
+            {
+                "dst": 4202764,
+                "src": 4202748
+            },
+            {
+                "dst": 4202754,
+                "src": 4202748
+            },
+            {
+                "dst": 4202959,
+                "src": 4202913
+            },
+            {
+                "dst": 4203026,
+                "src": 4203015
+            },
+            {
+                "dst": 4203048,
+                "src": 4203015
+            },
+            {
+                "dst": 4202959,
+                "src": 4202940
+            },
+            {
+                "dst": 4203065,
+                "src": 4203048
+            },
+            {
+                "dst": 4203088,
+                "src": 4203065
+            },
+            {
+                "dst": 4203078,
+                "src": 4203065
+            },
+            {
+                "dst": 4203144,
+                "src": 4203088
+            },
+            {
+                "dst": 4203105,
+                "src": 4203144
+            },
+            {
+                "dst": 4203149,
+                "src": 4203144
+            },
+            {
+                "dst": 4203144,
+                "src": 4203105
+            },
+            {
+                "dst": 4203060,
+                "src": 4203078
+            },
+            {
+                "dst": 4203065,
+                "src": 4203060
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4203060
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4202726,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x18|    |mov|dword|ptr|rbp|-|0x14|edi|    |mov|qword|ptr|rbp|-|0x20|rsi|    |cmp|dword|ptr|rbp|-|0x14|0|    |jle|target_0|    "
+            },
+            {
+                "block_addr": 4202754,
+                "constraints": [
+                    "<Bool SGT(Extract(31, 0, reg_48_46_64), 0x9)>"
+                ],
+                "instructions": "mov|edi|0x40f7c4|    |call|0x40cd07|    "
+            },
+            {
+                "block_addr": 4202764,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x14|    |mov|dword|ptr|rip|+|0x212713|eax|    |mov|eax|0x6286e0|    |mov|edx|0x10000|    |mov|esi|0|    |mov|rdi|rax|    |call|0x401870|    "
+            },
+            {
+                "block_addr": 4202796,
+                "constraints": [],
+                "instructions": "mov|eax|0xffffffff|    |mov|qword|ptr|rip|+|0x212700|rax|    |mov|qword|ptr|rip|+|0x2126ed|0|    |mov|eax|dword|ptr|rbp|-|0x14|    |cdqe|    |movzx|eax|word|ptr|rax*8|+|0x6142c2|    |movzx|eax|ax|    |mov|dword|ptr|rip|+|0x2126cb|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |cdqe|    |movzx|eax|word|ptr|rax*8|+|0x6142c0|    |movzx|eax|ax|    |mov|dword|ptr|rip|+|0x216129|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |cdqe|    |movzx|eax|word|ptr|rax*8|+|0x6142c4|    |movzx|eax|ax|    |mov|dword|ptr|rip|+|0x2126bb|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |cdqe|    |movzx|eax|word|ptr|rax*8|+|0x6142c6|    |movzx|eax|ax|    |mov|dword|ptr|rip|+|0x216101|eax|    |cmp|dword|ptr|rbp|-|0x14|1|    |jne|0x4021b6|    "
+            },
+            {
+                "block_addr": 4202934,
+                "constraints": [
+                    "<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142ca), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x61430a), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142d2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x614302), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142da), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142fa), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142e2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142f2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142ea))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142c8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x614308), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142d0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x614300), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142d8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142f8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142e0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142f0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142e8))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142cc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x61430c), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142d4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x614304), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142dc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142fc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142e4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142f4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142ec))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142ce), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x61430e), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142d6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x614306), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142de), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142fe), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142e6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142f6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142ee))>|<Bool __ne__(Extract(31, 0, reg_48_46_64), 0x1)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|0x14|9|    |jne|0x4021cf|    "
+            },
+            {
+                "block_addr": 4202959,
+                "constraints": [
+                    "<Bool __eq__(reg_40_47_64, 0xfffffffe00000000)>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x2160af|0|    |mov|qword|ptr|rip|+|0x2160ac|0|    |mov|rax|qword|ptr|rip|+|0x216095|    |mov|esi|0x10000|    |mov|edi|0x64d320|    |call|rax|    "
+            },
+            {
+                "block_addr": 4202999,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rip|+|0x212623|eax|    |mov|eax|dword|ptr|rip|+|0x21261d|    |test|eax|eax|    |je|0x402212|    "
+            },
+            {
+                "block_addr": 4203026,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_65_64), 0x0)>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x212600|1|    |mov|dword|ptr|rip|+|0x2125fa|0|    |jmp|0x40228d|    "
+            },
+            {
+                "block_addr": 4203149,
+                "constraints": [],
+                "instructions": "add|rsp|0x18|    |pop|rbx|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4202748,
+                "constraints": [
+                    "<Bool SGT(Extract(31, 0, reg_48_46_64), 0x0)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|0x14|9|    |jle|0x40210c|    "
+            },
+            {
+                "block_addr": 4202913,
+                "constraints": [
+                    "<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142ca), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x61430a), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142d2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x614302), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142da), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142fa), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142e2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142f2), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c2), 0x6142ea))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142c8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x614308), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142d0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x614300), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142d8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142f8), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142e0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142f0), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c0), 0x6142e8))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142cc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x61430c), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142d4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x614304), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142dc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142fc), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142e4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142f4), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c4), 0x6142ec))>|<Bool Or(__eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142ce), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x61430e), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142d6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x614306), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142de), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142fe), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142e6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142f6), __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_48_46_64)), 0x3), 0x6142c6), 0x6142ee))>|<Bool __eq__(Extract(31, 0, reg_48_46_64), 0x1)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x20|    |movzx|eax|word|ptr|rax|    |or|eax|4|    |mov|edx|eax|    |mov|rax|qword|ptr|rbp|-|0x20|    |mov|word|ptr|rax|dx|    |jmp|0x4021cf|    "
+            },
+            {
+                "block_addr": 4203015,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_66_64), 0x0)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x212613|    |cmp|eax|-1|    |jne|0x402228|    "
+            },
+            {
+                "block_addr": 4202940,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, reg_48_46_64), 0x9)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x20|    |movzx|eax|word|ptr|rax|    |or|eax|2|    |mov|edx|eax|    |mov|rax|qword|ptr|rbp|-|0x20|    |mov|word|ptr|rax|dx|    |mov|dword|ptr|rip|+|0x2160af|0|    |mov|qword|ptr|rip|+|0x2160ac|0|    |mov|rax|qword|ptr|rip|+|0x216095|    |mov|esi|0x10000|    |mov|edi|0x64d320|    |call|rax|    "
+            },
+            {
+                "block_addr": 4203048,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_67_64), 0xffffffff)>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x2125ea|0|    |jmp|0x402239|    "
+            },
+            {
+                "block_addr": 4203065,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x2125e1|    |cmp|eax|0x105|    |ja|0x402250|    "
+            },
+            {
+                "block_addr": 4203088,
+                "constraints": [
+                    "<Bool __gt__(Extract(31, 0, fake_ret_value_66_64), 0x105)>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x2125be|0|    |mov|ebx|0|    |jmp|0x402288|    "
+            },
+            {
+                "block_addr": 4203144,
+                "constraints": [],
+                "instructions": "cmp|ebx|1|    |jbe|0x402261|    "
+            },
+            {
+                "block_addr": 4203105,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x2125b1|    |shl|eax|5|    |mov|edx|eax|    |mov|eax|ebx|    |movzx|eax|byte|ptr|rax|+|0x64d320|    |movzx|eax|al|    |xor|eax|edx|    |and|eax|0x7fff|    |mov|dword|ptr|rip|+|0x212593|eax|    |add|ebx|1|    |cmp|ebx|1|    |jbe|0x402261|    "
+            },
+            {
+                "block_addr": 4203078,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x2125d0|    |test|eax|eax|    |je|0x402234|    "
+            },
+            {
+                "block_addr": 4203060,
+                "constraints": [],
+                "instructions": "call|0x4024dc|    "
+            }
+        ]
+    },
+    "func_name": "lm_init"
+}

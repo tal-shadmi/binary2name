@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4220407,
+                "src": 4220368
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4220407
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4220368,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x30|    |mov|dword|ptr|rbp|-|0x14|edi|    |mov|qword|ptr|rbp|-|0x20|rsi|    |mov|dword|ptr|rbp|-|0x18|edx|    |mov|dword|ptr|rbp|-|0x24|ecx|    |mov|edx|dword|ptr|rbp|-|0x24|    |mov|ecx|dword|ptr|rbp|-|0x18|    |mov|eax|dword|ptr|rbp|-|0x14|    |mov|esi|ecx|    |mov|edi|eax|    |call|0x401a70|    "
+            },
+            {
+                "block_addr": 4220407,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|4|eax|    |nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "do_chown"
+}

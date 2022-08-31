@@ -1,0 +1,1 @@
+{"func_name": "Fhelp", "GNN_data": {"edges": [{"py/tuple": [4207008, 4207049]}, {"py/tuple": [4207049, 4207074]}, {"py/tuple": [4207074, 4207051]}, {"py/tuple": [4207051, 4207074]}, {"py/tuple": [4207051, "loopSeerDum"]}], "nodes": {"4207008": [], "4207049": [], "4207074": [], "4207051": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

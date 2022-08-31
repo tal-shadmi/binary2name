@@ -1,0 +1,1 @@
+{"func_name": "Fderegister_tm_clones", "GNN_data": {"edges": [{"py/tuple": [4197040, 4197088]}, {"py/tuple": [4197088, "loopSeerDum"]}], "nodes": {"4197040": [], "4197088": [], "loopSeerDum": []}}, "exe_name": "mailutils-query", "package": "mailutils"}

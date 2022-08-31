@@ -1,0 +1,1 @@
+{"func_name": "Flicense", "GNN_data": {"edges": [{"py/tuple": [4207089, 4207137]}, {"py/tuple": [4207137, 4207162]}, {"py/tuple": [4207162, 4207139]}, {"py/tuple": [4207139, 4207162]}, {"py/tuple": [4207139, "loopSeerDum"]}], "nodes": {"4207089": [], "4207137": [], "4207162": [], "4207139": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

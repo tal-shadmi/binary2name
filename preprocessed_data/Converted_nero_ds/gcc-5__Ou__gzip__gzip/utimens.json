@@ -1,0 +1,1 @@
+{"func_name": "Futimens", "GNN_data": {"edges": [{"py/tuple": [4254194, 4254231]}, {"py/tuple": [4254231, "loopSeerDum"]}], "nodes": {"4254194": [], "4254231": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

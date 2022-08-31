@@ -202,7 +202,7 @@ def process_file(file_path, data_file_role, dataset_name, collect_histograms=Fal
 
 def create_writer(data_file_role, dataset_name):
     output_path = '{}.{}'.format(dataset_name, data_file_role)
-    writer = tf.io.TFRecordWriter(output_path, options=tf.io.TFRecordCompressionType.GZIP)
+    writer = tf.io.TFRecordWriter(output_path, options=tf.compat.v1.io.TFRecordCompressionType.GZIP)
     return writer
 
 

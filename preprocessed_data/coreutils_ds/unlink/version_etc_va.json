@@ -1,0 +1,113 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4210480,
+                "src": 4210448
+            },
+            {
+                "dst": 4210488,
+                "src": 4210480
+            },
+            {
+                "dst": 4210554,
+                "src": 4210480
+            },
+            {
+                "dst": 4210501,
+                "src": 4210488
+            },
+            {
+                "dst": 4210523,
+                "src": 4210501
+            },
+            {
+                "dst": 4210513,
+                "src": 4210501
+            },
+            {
+                "dst": 4210528,
+                "src": 4210523
+            },
+            {
+                "dst": 4210544,
+                "src": 4210528
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4210544
+            },
+            {
+                "dst": 4210501,
+                "src": 4210554
+            },
+            {
+                "dst": 4210480,
+                "src": 4210513
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4210513
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4210448,
+                "constraints": [],
+                "instructions": "sub|rsp|0x68|    |mov|reg|reg|    |xor|regd|regd|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x58|rax|    |xor|eax|eax|    |mov|reg|rsp|    |nop|dword|ptr|rax|    |mov|eax|dword|ptr|reg|    |cmp|eax|0x2f|    |ja|target_0|    "
+            },
+            {
+                "block_addr": 4210480,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|r10|    |cmp|eax|0x2f|    |ja|0x403f7a|    "
+            },
+            {
+                "block_addr": 4210488,
+                "constraints": [
+                    "<Bool __le__(__add__(0x10, mem_ffffff8000000000_71524_32), 0x2f)>"
+                ],
+                "instructions": "mov|r11d|eax|    |add|r11|qword|ptr|r10|+|0x10|    |add|eax|8|    |mov|dword|ptr|r10|eax|    |mov|rax|qword|ptr|r11|    |test|rax|rax|    |mov|qword|ptr|r8|+|r9*8|rax|    |je|0x403f5b|    "
+            },
+            {
+                "block_addr": 4210501,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|r11|    |test|rax|rax|    |mov|qword|ptr|r8|+|r9*8|rax|    |je|0x403f5b|    "
+            },
+            {
+                "block_addr": 4210523,
+                "constraints": [
+                    "<Bool __eq__(mem_ffffffffffffffe8_71532_64, 0x0)>"
+                ],
+                "instructions": "call|0x403ad0|    "
+            },
+            {
+                "block_addr": 4210528,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rsp|+|0x58|    |xor|rax|qword|ptr|fs:0x28|    |jne|0x403f75|    "
+            },
+            {
+                "block_addr": 4210544,
+                "constraints": [],
+                "instructions": "add|rsp|0x68|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4210554,
+                "constraints": [],
+                "instructions": "mov|r11|qword|ptr|r10|+|8|    |lea|rax|r11|+|8|    |mov|qword|ptr|r10|+|8|rax|    |jmp|0x403f45|    "
+            },
+            {
+                "block_addr": 4210513,
+                "constraints": [
+                    "<Bool __eq__(__add__(Concat(0x0, mem_ffffff8000000000_71524_32), mem_ffffff8000000010_71525_64), 0xffffffffffffffe0)>|<Bool __ne__(mem_ffffffffffffffe0_71527_64, 0x0)>"
+                ],
+                "instructions": "add|r9|1|    |cmp|r9|0xa|    |jne|0x403f30|    "
+            }
+        ]
+    },
+    "func_name": "version_etc_va"
+}

@@ -1,0 +1,68 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4205401,
+                "src": 4204489
+            },
+            {
+                "dst": 4205415,
+                "src": 4205401
+            },
+            {
+                "dst": 4205457,
+                "src": 4205415
+            },
+            {
+                "dst": 4205479,
+                "src": 4205457
+            },
+            {
+                "dst": 4205492,
+                "src": 4205479
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4205492
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4204489,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|dword|ptr|rbp|-|0xc|0|    |mov|dword|ptr|rbp|-|8|0|    |mov|dword|ptr|rip|+|0x215ab7|2|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4205401,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x211cc1|    |test|eax|eax|    |jne|0x4027ee|    "
+            },
+            {
+                "block_addr": 4205415,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0xc|    |lea|edx|rax|-|1|    |mov|eax|dword|ptr|rip|+|0x215715|    |mov|ecx|eax|    |mov|rax|qword|ptr|rip|+|0x215714|    |sub|rcx|rax|    |mov|rax|rcx|    |mov|rsi|rax|    |mov|rax|qword|ptr|rip|+|0x215704|    |test|rax|rax|    |js|0x402ba2|    "
+            },
+            {
+                "block_addr": 4205457,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rip|+|0x2156f8|    |mov|eax|eax|    |add|rax|0x64d320|    |jmp|0x402ba7|    "
+            },
+            {
+                "block_addr": 4205479,
+                "constraints": [],
+                "instructions": "mov|ecx|1|    |mov|rdi|rax|    |call|0x409c5d|    "
+            },
+            {
+                "block_addr": 4205492,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "deflate_fast"
+}

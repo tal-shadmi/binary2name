@@ -1,0 +1,102 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4251926,
+                "src": 4251851
+            },
+            {
+                "dst": 4251868,
+                "src": 4251851
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4251926
+            },
+            {
+                "dst": 4251926,
+                "src": 4251868
+            },
+            {
+                "dst": 4251874,
+                "src": 4251868
+            },
+            {
+                "dst": 4251884,
+                "src": 4251874
+            },
+            {
+                "dst": 4251892,
+                "src": 4251884
+            },
+            {
+                "dst": 4251907,
+                "src": 4251892
+            },
+            {
+                "dst": 4251912,
+                "src": 4251907
+            },
+            {
+                "dst": 4251926,
+                "src": 4251912
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4251851,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|dword|ptr|rbp|-|0x14|edi|    |cmp|dword|ptr|rbp|-|0x14|0|    |js|target_0|    "
+            },
+            {
+                "block_addr": 4251926,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_11229_64, 0xffffffffffffffff)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x14|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4251868,
+                "constraints": [
+                    "<Bool __eq__(Extract(0, 0, LShR(ZeroExt(32, Extract(31, 0, reg_48_11224_64)), 0x1f)), 0)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|0x14|2|    |jg|0x40e116|    "
+            },
+            {
+                "block_addr": 4251874,
+                "constraints": [
+                    "<Bool SLE(Extract(31, 0, reg_48_11224_64), 0x2)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x14|    |mov|edi|eax|    |call|0x40f6d9|    "
+            },
+            {
+                "block_addr": 4251884,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|8|eax|    |call|0x4016d0|    "
+            },
+            {
+                "block_addr": 4251892,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rax|    |mov|dword|ptr|rbp|-|4|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |mov|edi|eax|    |call|0x401880|    "
+            },
+            {
+                "block_addr": 4251907,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_11226_64, 0xe000000000000000)>"
+                ],
+                "instructions": "call|0x4016d0|    "
+            },
+            {
+                "block_addr": 4251912,
+                "constraints": [],
+                "instructions": "mov|rdx|rax|    |mov|eax|dword|ptr|rbp|-|4|    |mov|dword|ptr|rdx|eax|    |mov|eax|dword|ptr|rbp|-|8|    |mov|dword|ptr|rbp|-|0x14|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |leave|    |ret|    "
+            }
+        ]
+    },
+    "func_name": "fd_safer"
+}

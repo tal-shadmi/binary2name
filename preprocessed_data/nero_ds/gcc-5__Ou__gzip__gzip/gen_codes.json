@@ -1,0 +1,45 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4232014,
+                "src": 4231922
+            },
+            {
+                "dst": 4231968,
+                "src": 4232014
+            },
+            {
+                "dst": 4232014,
+                "src": 4231968
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4231968
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4231922,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x58|    |mov|qword|ptr|rbp|-|0x58|rdi|    |mov|dword|ptr|rbp|-|0x5c|esi|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|0x18|rax|    |xor|eax|eax|    |mov|word|ptr|rbp|-|0x4e|0|    |mov|dword|ptr|rbp|-|0x4c|1|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4232014,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0x4c|0xf|    |jle|0x409320|    "
+            },
+            {
+                "block_addr": 4231968,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x4c|    |sub|eax|1|    |cdqe|    |movzx|edx|word|ptr|rax|+|rax|+|0x615dc0|    |movzx|eax|word|ptr|rbp|-|0x4e|    |add|eax|edx|    |add|eax|eax|    |mov|word|ptr|rbp|-|0x4e|ax|    |mov|eax|dword|ptr|rbp|-|0x4c|    |cdqe|    |movzx|edx|word|ptr|rbp|-|0x4e|    |mov|word|ptr|rbp|+|rax*2|-|0x40|dx|    |add|dword|ptr|rbp|-|0x4c|1|    |cmp|dword|ptr|rbp|-|0x4c|0xf|    |jle|0x409320|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "gen_codes"
+}

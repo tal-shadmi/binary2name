@@ -1,0 +1,85 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4224519,
+                "src": 4224432
+            },
+            {
+                "dst": 4224599,
+                "src": 4224519
+            },
+            {
+                "dst": 4224521,
+                "src": 4224599
+            },
+            {
+                "dst": 4224566,
+                "src": 4224521
+            },
+            {
+                "dst": 4224585,
+                "src": 4224566
+            },
+            {
+                "dst": 4224588,
+                "src": 4224585
+            },
+            {
+                "dst": 4224599,
+                "src": 4224588
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4224588
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4224432,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|reg|    |push|reg|    |push|rbx|    |sub|rsp|0x48|    |mov|qword|ptr|rbp|-|0x48|rdi|    |mov|qword|ptr|rbp|-|0x50|rsi|    |mov|dword|ptr|rbp|-|0x54|edx|    |mov|dword|ptr|rbp|-|0x58|ecx|    |mov|reg|qword|ptr|rip|+|0x20d826|    |mov|ebx|dword|ptr|rip|+|0x20d828|    |mov|eax|dword|ptr|rip|+|0x255d62|    |mov|dword|ptr|rbp|-|0x34|eax|    |mov|eax|dword|ptr|rbp|-|0x54|    |cdqe|    |movzx|eax|word|ptr|rax|+|rax|+|0x614560|    |movzx|eax|ax|    |mov|dword|ptr|rbp|-|0x30|eax|    |mov|eax|dword|ptr|rbp|-|0x58|    |cdqe|    |movzx|eax|word|ptr|rax|+|rax|+|0x614560|    |movzx|eax|ax|    |mov|dword|ptr|rbp|-|0x2c|eax|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4224519,
+                "constraints": [
+                    "<Bool __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_20_6510_64)), 0x1), 0x614560), 0xfffffffffffffffc)>|<Bool __eq__(__add__(__lshift__(SignExt(32, Extract(31, 0, reg_18_6511_64)), 0x1), 0x614560), 0xfffffffffffffff0)>"
+                ],
+                "instructions": "jmp|0x407657|    "
+            },
+            {
+                "block_addr": 4224599,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x54|    |cmp|ebx|eax|    |jb|0x407609|    "
+            },
+            {
+                "block_addr": 4224521,
+                "constraints": [
+                    "<Bool __lt__(0x0, Extract(31, 0, reg_20_6510_64))>"
+                ],
+                "instructions": "mov|edx|dword|ptr|rip|+|0x2410d5|    |mov|eax|dword|ptr|rip|+|0x255d2f|    |cmp|edx|eax|    |jae|0x407636|    "
+            },
+            {
+                "block_addr": 4224566,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x34|    |mov|dword|ptr|rip|+|0x255d01|eax|    |mov|edi|0|    |call|0x40c7a4|    "
+            },
+            {
+                "block_addr": 4224585,
+                "constraints": [],
+                "instructions": "movzx|eax|al|    |mov|ecx|ebx|    |shl|rax|cl|    |or|r13|rax|    |add|ebx|8|    |mov|eax|dword|ptr|rbp|-|0x54|    |cmp|ebx|eax|    |jb|0x407609|    "
+            },
+            {
+                "block_addr": 4224588,
+                "constraints": [],
+                "instructions": "mov|ecx|ebx|    |shl|rax|cl|    |or|r13|rax|    |add|ebx|8|    |mov|eax|dword|ptr|rbp|-|0x54|    |cmp|ebx|eax|    |jb|0x407609|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "inflate_codes"
+}

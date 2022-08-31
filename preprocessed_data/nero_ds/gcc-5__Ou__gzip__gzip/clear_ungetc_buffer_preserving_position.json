@@ -1,0 +1,47 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4257025,
+                "src": 4256976
+            },
+            {
+                "dst": 4257003,
+                "src": 4256976
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4257025
+            },
+            {
+                "dst": 4257025,
+                "src": 4257003
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4256976,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|rax|qword|ptr|rbp|-|8|    |mov|eax|dword|ptr|rax|    |and|eax|0x100|    |test|eax|eax|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4257025,
+                "constraints": [],
+                "instructions": "nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4257003,
+                "constraints": [
+                    "<Bool __eq__(reg_48_11725_64, 0xfffffffffffffc00)>|<Bool __ne__(__and__(Extract(15, 0, mem_fffffffffffffc00_11726_32), 0x100), 0x0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |mov|edx|1|    |mov|esi|0|    |mov|rdi|rax|    |call|0x40f54f|    "
+            }
+        ]
+    },
+    "func_name": "clear_ungetc_buffer_preserving_position"
+}

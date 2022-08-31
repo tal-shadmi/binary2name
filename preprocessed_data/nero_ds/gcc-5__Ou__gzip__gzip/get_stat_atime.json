@@ -1,0 +1,25 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4251735
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4251735,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdx|qword|ptr|rax|+|0x50|    |mov|rax|qword|ptr|rax|+|0x48|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    "<Bool __eq__(__add__(reg_48_11202_64, 0x50), 0xfffffffffffffff0)>"
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "get_stat_atime"
+}

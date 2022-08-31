@@ -1,0 +1,1 @@
+{"func_name": "Fdeflate", "GNN_data": {"edges": [{"py/tuple": [4205494, 4205537]}, {"py/tuple": [4205537, 4205542]}, {"py/tuple": [4205542, 4206955]}, {"py/tuple": [4206955, "loopSeerDum"]}], "nodes": {"4205494": [], "4205537": [], "4205542": [], "4206955": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

@@ -1,0 +1,47 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201583,
+                "src": 4201526
+            },
+            {
+                "dst": 4201572,
+                "src": 4201526
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201583
+            },
+            {
+                "dst": 4201583,
+                "src": 4201572
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201526,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|dword|ptr|rbp|-|4|edi|    |mov|eax|dword|ptr|rbp|-|4|    |mov|dword|ptr|rip|+|0x212bc6|eax|    |mov|word|ptr|rip|+|0x212bc1|0|    |mov|dword|ptr|rip|+|0x212bbb|0|    |mov|eax|dword|ptr|rip|+|0x212bad|    |cmp|eax|-1|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4201583,
+                "constraints": [],
+                "instructions": "nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4201572,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, reg_48_19_64), 0xffffffff)>"
+                ],
+                "instructions": "mov|qword|ptr|rip|+|0x216611|0x40d7e5|    |nop|    |pop|rbp|    |ret|    "
+            }
+        ]
+    },
+    "func_name": "bi_init"
+}

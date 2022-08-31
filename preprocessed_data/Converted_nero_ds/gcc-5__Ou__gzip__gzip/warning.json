@@ -1,0 +1,1 @@
+{"func_name": "Fwarning", "GNN_data": {"edges": [{"py/tuple": [4246893, 4246915]}, {"py/tuple": [4246915, 4246959]}, {"py/tuple": [4246959, 4246969]}, {"py/tuple": [4246969, 4246979]}, {"py/tuple": [4246979, "loopSeerDum"]}], "nodes": {"4246893": [], "4246915": [], "4246959": [], "4246969": [], "4246979": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

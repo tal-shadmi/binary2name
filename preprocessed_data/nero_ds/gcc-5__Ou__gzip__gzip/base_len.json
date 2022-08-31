@@ -1,0 +1,86 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4249822,
+                "src": 4249790
+            },
+            {
+                "dst": 4249833,
+                "src": 4249822
+            },
+            {
+                "dst": 4249862,
+                "src": 4249833
+            },
+            {
+                "dst": 4249840,
+                "src": 4249833
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4249862
+            },
+            {
+                "dst": 4249862,
+                "src": 4249840
+            },
+            {
+                "dst": 4249828,
+                "src": 4249840
+            },
+            {
+                "dst": 4249833,
+                "src": 4249828
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4249828
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4249790,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|qword|ptr|rbp|-|0x18|rdi|    |mov|qword|ptr|rbp|-|8|0|    |mov|rax|qword|ptr|rbp|-|0x18|    |mov|rdi|rax|    |call|0x4017d0|    "
+            },
+            {
+                "block_addr": 4249822,
+                "constraints": [],
+                "instructions": "mov|qword|ptr|rbp|-|0x10|rax|    |jmp|0x40d8e9|    "
+            },
+            {
+                "block_addr": 4249833,
+                "constraints": [],
+                "instructions": "cmp|qword|ptr|rbp|-|0x10|1|    |jbe|0x40d906|    "
+            },
+            {
+                "block_addr": 4249862,
+                "constraints": [
+                    "<Bool __le__(__add__(0xffffffffffffffff, fake_ret_value_10878_64), 0x1)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x10|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4249840,
+                "constraints": [
+                    "<Bool __gt__(fake_ret_value_10878_64, 0x1)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x10|    |lea|rdx|rax|-|1|    |mov|rax|qword|ptr|rbp|-|0x18|    |add|rax|rdx|    |movzx|eax|byte|ptr|rax|    |cmp|al|0x2f|    |je|0x40d8e4|    "
+            },
+            {
+                "block_addr": 4249828,
+                "constraints": [
+                    "<Bool __eq__(mem_fffffffffffffffe_10880_8, 47)>"
+                ],
+                "instructions": "sub|qword|ptr|rbp|-|0x10|1|    |cmp|qword|ptr|rbp|-|0x10|1|    |jbe|0x40d906|    "
+            }
+        ]
+    },
+    "func_name": "base_len"
+}

@@ -1,0 +1,50 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4205537,
+                "src": 4205494
+            },
+            {
+                "dst": 4205542,
+                "src": 4205537
+            },
+            {
+                "dst": 4206955,
+                "src": 4205542
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4206955
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4205494,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x18|    |mov|dword|ptr|rbp|-|0x20|0|    |mov|dword|ptr|rbp|-|0x1c|0|    |mov|ebx|2|    |mov|eax|dword|ptr|rip|+|0x211c50|    |cmp|eax|3|    |jg|target_0|    "
+            },
+            {
+                "block_addr": 4205537,
+                "constraints": [],
+                "instructions": "call|0x4027c9|    "
+            },
+            {
+                "block_addr": 4205542,
+                "constraints": [],
+                "instructions": "jmp|0x40316b|    "
+            },
+            {
+                "block_addr": 4206955,
+                "constraints": [],
+                "instructions": "add|rsp|0x18|    |pop|rbx|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "deflate"
+}

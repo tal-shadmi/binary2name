@@ -1,0 +1,176 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4243479,
+                "src": 4243393
+            },
+            {
+                "dst": 4243639,
+                "src": 4243479
+            },
+            {
+                "dst": 4243650,
+                "src": 4243639
+            },
+            {
+                "dst": 4243655,
+                "src": 4243650
+            },
+            {
+                "dst": 4243669,
+                "src": 4243655
+            },
+            {
+                "dst": 4243664,
+                "src": 4243655
+            },
+            {
+                "dst": 4244113,
+                "src": 4243669
+            },
+            {
+                "dst": 4243679,
+                "src": 4243669
+            },
+            {
+                "dst": 4244127,
+                "src": 4244113
+            },
+            {
+                "dst": 4244202,
+                "src": 4244127
+            },
+            {
+                "dst": 4244136,
+                "src": 4244202
+            },
+            {
+                "dst": 4244178,
+                "src": 4244136
+            },
+            {
+                "dst": 4244188,
+                "src": 4244178
+            },
+            {
+                "dst": 4244202,
+                "src": 4244188
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4244188
+            },
+            {
+                "dst": 4243689,
+                "src": 4243679
+            },
+            {
+                "dst": 4244103,
+                "src": 4243689
+            },
+            {
+                "dst": 4244113,
+                "src": 4244103
+            },
+            {
+                "dst": 4243669,
+                "src": 4243664
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4243393,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x58|    |mov|dword|ptr|rbp|-|0x54|edi|    |mov|dword|ptr|rbp|-|0x58|esi|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|0x18|rax|    |xor|eax|eax|    |mov|qword|ptr|rbp|-|0x40|0|    |mov|qword|ptr|rbp|-|0x38|0|    |mov|dword|ptr|rbp|-|0x48|0|    |mov|eax|dword|ptr|rbp|-|0x54|    |mov|dword|ptr|rip|+|0x240f01|eax|    |mov|eax|dword|ptr|rbp|-|0x58|    |mov|dword|ptr|rip|+|0x23c6d8|eax|    |mov|esi|0|    |mov|edi|0|    |call|0x40c6f1|    "
+            },
+            {
+                "block_addr": 4243479,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20c243|    |test|eax|eax|    |je|0x40c0b7|    "
+            },
+            {
+                "block_addr": 4243639,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20826f|    |cmp|eax|8|    |jne|0x40c0e9|    "
+            },
+            {
+                "block_addr": 4243650,
+                "constraints": [],
+                "instructions": "call|0x4088ab|    "
+            },
+            {
+                "block_addr": 4243655,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|0x44|eax|    |cmp|dword|ptr|rbp|-|0x44|3|    |jne|0x40c0d5|    "
+            },
+            {
+                "block_addr": 4243669,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_10539_64), 0x3)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|0x44|0|    |je|0x40c291|    "
+            },
+            {
+                "block_addr": 4244113,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20bfc9|    |test|eax|eax|    |jne|0x40c361|    "
+            },
+            {
+                "block_addr": 4244127,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|0x4c|0|    |jmp|0x40c2ea|    "
+            },
+            {
+                "block_addr": 4244202,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0x4c|7|    |jle|0x40c2a8|    "
+            },
+            {
+                "block_addr": 4244136,
+                "constraints": [],
+                "instructions": "mov|edx|dword|ptr|rip|+|0x23c436|    |mov|eax|dword|ptr|rip|+|0x251090|    |cmp|edx|eax|    |jae|0x40c2d2|    "
+            },
+            {
+                "block_addr": 4244178,
+                "constraints": [],
+                "instructions": "mov|edi|0|    |call|0x40c7a4|    "
+            },
+            {
+                "block_addr": 4244188,
+                "constraints": [],
+                "instructions": "mov|edx|dword|ptr|rbp|-|0x4c|    |movsxd|rdx|edx|    |mov|byte|ptr|rbp|+|rdx|-|0x30|al|    |add|dword|ptr|rbp|-|0x4c|1|    |cmp|dword|ptr|rbp|-|0x4c|7|    |jle|0x40c2a8|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4243679,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_10539_64), 0x0)>"
+                ],
+                "instructions": "mov|edi|0x411578|    |call|0x40cd07|    "
+            },
+            {
+                "block_addr": 4243689,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x20c171|    |test|eax|eax|    |je|0x40c287|    "
+            },
+            {
+                "block_addr": 4244103,
+                "constraints": [],
+                "instructions": "mov|edi|0x4115e8|    |call|0x40cd07|    "
+            },
+            {
+                "block_addr": 4243664,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_10539_64), 0x3)>"
+                ],
+                "instructions": "call|0x40cd44|    "
+            }
+        ]
+    },
+    "func_name": "unzip"
+}

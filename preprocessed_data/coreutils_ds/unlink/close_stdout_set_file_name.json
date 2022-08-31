@@ -1,0 +1,23 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4201040
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201040,
+                "constraints": [],
+                "instructions": "mov|qword|ptr|rip|+|0x205681|rdi|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "close_stdout_set_file_name"
+}

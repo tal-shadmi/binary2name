@@ -1,0 +1,154 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4204341,
+                "src": 4204231
+            },
+            {
+                "dst": 4204250,
+                "src": 4204231
+            },
+            {
+                "dst": 4204467,
+                "src": 4204341
+            },
+            {
+                "dst": 4204484,
+                "src": 4204467
+            },
+            {
+                "dst": 4204349,
+                "src": 4204467
+            },
+            {
+                "dst": 4204487,
+                "src": 4204484
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4204487
+            },
+            {
+                "dst": 4204309,
+                "src": 4204250
+            },
+            {
+                "dst": 4204258,
+                "src": 4204309
+            },
+            {
+                "dst": 4204486,
+                "src": 4204258
+            },
+            {
+                "dst": 4204275,
+                "src": 4204258
+            },
+            {
+                "dst": 4204487,
+                "src": 4204486
+            },
+            {
+                "dst": 4204463,
+                "src": 4204349
+            },
+            {
+                "dst": 4204467,
+                "src": 4204463
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4204463
+            },
+            {
+                "dst": 4204309,
+                "src": 4204275
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4204275
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4204231,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|dword|ptr|rbp|-|0x14|edi|    |mov|dword|ptr|rbp|-|0x18|esi|    |cmp|dword|ptr|rbp|-|0x14|0xfff|    |ja|target_0|    "
+            },
+            {
+                "block_addr": 4204341,
+                "constraints": [
+                    "<Bool __gt__(Extract(31, 0, reg_48_127_64), 0xfff)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x14|    |mov|dword|ptr|rbp|-|4|eax|    |jmp|0x4027b3|    "
+            },
+            {
+                "block_addr": 4204467,
+                "constraints": [],
+                "instructions": "mov|edx|dword|ptr|rbp|-|0x14|    |mov|eax|dword|ptr|rbp|-|0x18|    |add|eax|edx|    |cmp|eax|dword|ptr|rbp|-|4|    |ja|0x40273d|    "
+            },
+            {
+                "block_addr": 4204484,
+                "constraints": [
+                    "<Bool __le__(__add__(Extract(31, 0, reg_40_128_64), Extract(31, 0, reg_48_127_64)), __add__(0x1, Extract(31, 0, reg_48_127_64)))>"
+                ],
+                "instructions": "jmp|0x4027c7|    "
+            },
+            {
+                "block_addr": 4204487,
+                "constraints": [],
+                "instructions": "pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4204250,
+                "constraints": [
+                    "<Bool __le__(Extract(31, 0, reg_48_127_64), 0xfff)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x14|    |mov|dword|ptr|rbp|-|4|eax|    |jmp|0x402715|    "
+            },
+            {
+                "block_addr": 4204309,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|4|0xfff|    |jbe|0x4026e2|    "
+            },
+            {
+                "block_addr": 4204258,
+                "constraints": [],
+                "instructions": "mov|edx|dword|ptr|rbp|-|0x14|    |mov|eax|dword|ptr|rbp|-|0x18|    |add|eax|edx|    |cmp|eax|dword|ptr|rbp|-|4|    |je|0x4027c6|    "
+            },
+            {
+                "block_addr": 4204486,
+                "constraints": [
+                    "<Bool __eq__(__add__(Extract(31, 0, reg_40_128_64), Extract(31, 0, reg_48_127_64)), __add__(0x2, Extract(31, 0, reg_48_127_64)))>"
+                ],
+                "instructions": "nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": 4204349,
+                "constraints": [
+                    "<Bool __gt__(__add__(Extract(31, 0, reg_40_128_64), Extract(31, 0, reg_48_127_64)), __add__(0x1, Extract(31, 0, reg_48_127_64)))>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |movzx|eax|byte|ptr|rax|+|0x64d320|    |movzx|edx|al|    |mov|rax|qword|ptr|rip|+|0x2120df|    |add|rax|rdx|    |mov|qword|ptr|rip|+|0x2120d5|rax|    |mov|rdx|qword|ptr|rip|+|0x2120ce|    |mov|eax|dword|ptr|rbp|-|4|    |sub|eax|0x1000|    |mov|eax|eax|    |movzx|eax|byte|ptr|rax|+|0x64d320|    |movzx|eax|al|    |sub|rdx|rax|    |mov|rax|rdx|    |mov|qword|ptr|rip|+|0x2120ad|rax|    |mov|rdx|qword|ptr|rip|+|0x2120ae|    |mov|eax|0xffffffff|    |cmp|rdx|rax|    |jne|0x4027af|    "
+            },
+            {
+                "block_addr": 4204463,
+                "constraints": [],
+                "instructions": "add|dword|ptr|rbp|-|4|1|    |mov|edx|dword|ptr|rbp|-|0x14|    |mov|eax|dword|ptr|rbp|-|0x18|    |add|eax|edx|    |cmp|eax|dword|ptr|rbp|-|4|    |ja|0x40273d|    "
+            },
+            {
+                "block_addr": 4204275,
+                "constraints": [
+                    "<Bool __ne__(__add__(Extract(31, 0, reg_40_128_64), Extract(31, 0, reg_48_127_64)), Extract(31, 0, reg_48_127_64))>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |movzx|eax|byte|ptr|rax|+|0x64d320|    |movzx|edx|al|    |mov|rax|qword|ptr|rip|+|0x212129|    |add|rax|rdx|    |mov|qword|ptr|rip|+|0x21211f|rax|    |add|dword|ptr|rbp|-|4|1|    |cmp|dword|ptr|rbp|-|4|0xfff|    |jbe|0x4026e2|    "
+            }
+        ]
+    },
+    "func_name": "rsync_roll"
+}

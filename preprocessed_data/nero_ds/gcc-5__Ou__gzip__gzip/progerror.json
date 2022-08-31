@@ -1,0 +1,63 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4207226,
+                "src": 4207209
+            },
+            {
+                "dst": 4207263,
+                "src": 4207226
+            },
+            {
+                "dst": 4207268,
+                "src": 4207263
+            },
+            {
+                "dst": 4207288,
+                "src": 4207268
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207288
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207209,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|qword|ptr|rbp|-|0x18|rdi|    |call|0x4016d0|    "
+            },
+            {
+                "block_addr": 4207226,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rax|    |mov|dword|ptr|rbp|-|4|eax|    |mov|rdx|qword|ptr|rip|+|0x25a0a2|    |mov|rax|qword|ptr|rip|+|0x211573|    |mov|esi|0x40fe2d|    |mov|rdi|rax|    |mov|eax|0|    |call|0x401960|    "
+            },
+            {
+                "block_addr": 4207263,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_171_64, 0x8000000000000000)>"
+                ],
+                "instructions": "call|0x4016d0|    "
+            },
+            {
+                "block_addr": 4207268,
+                "constraints": [],
+                "instructions": "mov|rdx|rax|    |mov|eax|dword|ptr|rbp|-|4|    |mov|dword|ptr|rdx|eax|    |mov|rax|qword|ptr|rbp|-|0x18|    |mov|rdi|rax|    |call|0x401a80|    "
+            },
+            {
+                "block_addr": 4207288,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_174_64, 0xffffffffffffffff)>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x2115ae|1|    |nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "progerror"
+}

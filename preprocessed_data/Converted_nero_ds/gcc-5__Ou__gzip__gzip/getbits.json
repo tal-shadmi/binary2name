@@ -1,0 +1,1 @@
+{"func_name": "Fgetbits", "GNN_data": {"edges": [{"py/tuple": [4236431, 4236483]}, {"py/tuple": [4236483, "loopSeerDum"]}], "nodes": {"4236431": [], "4236483": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

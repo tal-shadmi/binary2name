@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255691,
+                "src": 4255651
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255691
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255651,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|qword|ptr|rbp|-|0x10|rsi|    |mov|rcx|qword|ptr|rbp|-|0x10|    |mov|rax|qword|ptr|rbp|-|8|    |mov|edx|1|    |mov|rsi|rcx|    |mov|rdi|rax|    |call|0x40edf2|    "
+            },
+            {
+                "block_addr": 4255691,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "x2realloc"
+}

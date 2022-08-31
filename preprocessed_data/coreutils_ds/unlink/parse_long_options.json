@@ -1,0 +1,165 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201332,
+                "src": 4201248
+            },
+            {
+                "dst": 4201274,
+                "src": 4201248
+            },
+            {
+                "dst": 4201369,
+                "src": 4201332
+            },
+            {
+                "dst": 4201424,
+                "src": 4201332
+            },
+            {
+                "dst": 4201405,
+                "src": 4201369
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201405
+            },
+            {
+                "dst": 4201332,
+                "src": 4201274
+            },
+            {
+                "dst": 4201451,
+                "src": 4201424
+            },
+            {
+                "dst": 4201369,
+                "src": 4201451
+            },
+            {
+                "dst": 4201456,
+                "src": 4201451
+            },
+            {
+                "dst": 4201466,
+                "src": 4201456
+            },
+            {
+                "dst": 4201552,
+                "src": 4201456
+            },
+            {
+                "dst": 4201369,
+                "src": 4201466
+            },
+            {
+                "dst": 4201471,
+                "src": 4201466
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201552
+            },
+            {
+                "dst": 4201536,
+                "src": 4201471
+            },
+            {
+                "dst": 4201543,
+                "src": 4201536
+            },
+            {
+                "dst": 4201552,
+                "src": 4201543
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201248,
+                "constraints": [],
+                "instructions": "push|reg|    |push|reg|    |mov|reg|reg|    |push|rbp|    |push|rbx|    |mov|rbp|rdx|    |mov|reg|rcx|    |sub|rsp|0xe8|    |test|al|al|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4201332,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x28|rax|    |xor|eax|eax|    |cmp|edi|2|    |mov|ebx|dword|ptr|rip|+|0x205513|    |mov|dword|ptr|rip|+|0x205509|0|    |je|0x401bd0|    "
+            },
+            {
+                "block_addr": 4201369,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_70752_64), 0x76)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rsp|+|0x28|    |xor|rax|qword|ptr|fs:0x28|    |mov|dword|ptr|rip|+|0x2054f3|ebx|    |mov|dword|ptr|rip|+|0x2054d9|0|    |jne|0x401c5a|    "
+            },
+            {
+                "block_addr": 4201405,
+                "constraints": [],
+                "instructions": "add|rsp|0xe8|    |pop|rbx|    |pop|rbp|    |pop|r12|    |pop|r13|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4201274,
+                "constraints": [
+                    "<Bool __ne__(reg_10_70738_8, 0)>"
+                ],
+                "instructions": "movaps|xmmword|ptr|rsp|+|0x60|xmm0|    |movaps|xmmword|ptr|rsp|+|0x70|xmm1|    |movaps|xmmword|ptr|rsp|+|0x80|xmm2|    |movaps|xmmword|ptr|rsp|+|0x90|xmm3|    |movaps|xmmword|ptr|rsp|+|0xa0|xmm4|    |movaps|xmmword|ptr|rsp|+|0xb0|xmm5|    |movaps|xmmword|ptr|rsp|+|0xc0|xmm6|    |movaps|xmmword|ptr|rsp|+|0xd0|xmm7|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x28|rax|    |xor|eax|eax|    |cmp|edi|2|    |mov|ebx|dword|ptr|rip|+|0x205513|    |mov|dword|ptr|rip|+|0x205509|0|    |je|0x401bd0|    "
+            },
+            {
+                "block_addr": 4201424,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, reg_48_70750_64), 0x2)>"
+                ],
+                "instructions": "lea|rcx|rip|+|0x204fe9|    |lea|rdx|rip|+|0x2ddd|    |xor|r8d|r8d|    |mov|qword|ptr|rsp|+|8|r9|    |call|0x4012d0|    "
+            },
+            {
+                "block_addr": 4201451,
+                "constraints": [],
+                "instructions": "cmp|eax|-1|    |je|0x401b99|    "
+            },
+            {
+                "block_addr": 4201456,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_70749_64), 0xffffffff)>"
+                ],
+                "instructions": "cmp|eax|0x68|    |mov|r9|qword|ptr|rsp|+|8|    |je|0x401c50|    "
+            },
+            {
+                "block_addr": 4201466,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_70749_64), 0x68)>"
+                ],
+                "instructions": "cmp|eax|0x76|    |jne|0x401b99|    "
+            },
+            {
+                "block_addr": 4201552,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_70752_64), 0x68)>"
+                ],
+                "instructions": "xor|edi|edi|    |call|r9|    "
+            },
+            {
+                "block_addr": 4201471,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_70749_64), 0x76)>"
+                ],
+                "instructions": "lea|rax|rsp|+|0x110|    |mov|rdi|qword|ptr|rip|+|0x20547a|    |lea|r8|rsp|+|0x10|    |mov|rcx|r13|    |mov|rdx|r12|    |mov|rsi|rbp|    |mov|qword|ptr|rsp|+|0x18|rax|    |lea|rax|rsp|+|0x30|    |mov|dword|ptr|rsp|+|0x10|0x30|    |mov|dword|ptr|rsp|+|0x14|0x30|    |mov|qword|ptr|rsp|+|0x20|rax|    |call|0x403f10|    "
+            },
+            {
+                "block_addr": 4201536,
+                "constraints": [],
+                "instructions": "xor|edi|edi|    |call|0x401410|    "
+            },
+            {
+                "block_addr": 4201543,
+                "constraints": [],
+                "instructions": "nop|word|ptr|rax|+|rax|    |xor|edi|edi|    |call|r9|    "
+            }
+        ]
+    },
+    "func_name": "parse_long_options"
+}

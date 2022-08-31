@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4239084,
+                "src": 4239075
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4239084
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4239075,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |call|0x40aecd|    "
+            },
+            {
+                "block_addr": 4239084,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rip|+|0x20d0b6|0|    |mov|dword|ptr|rip|+|0x20d0b0|0|    |nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "decode_start"
+}

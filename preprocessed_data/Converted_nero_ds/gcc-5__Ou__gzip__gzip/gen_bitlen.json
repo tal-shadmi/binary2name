@@ -1,0 +1,1 @@
+{"func_name": "Fgen_bitlen", "GNN_data": {"edges": [{"py/tuple": [4231008, 4231116]}, {"py/tuple": [4231116, 4231097]}, {"py/tuple": [4231097, 4231116]}, {"py/tuple": [4231097, "loopSeerDum"]}], "nodes": {"4231008": [], "4231116": [], "4231097": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

@@ -1,0 +1,43 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4208766,
+                "src": 4208640
+            },
+            {
+                "dst": 4208782,
+                "src": 4208766
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4208782
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4208640,
+                "constraints": [],
+                "instructions": "sub|rsp|0x48|    |mov|ecx|edx|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x38|rax|    |xor|eax|eax|    |mov|rax|qword|ptr|rip|+|0x203a13|    |mov|reg|rsp|    |and|ecx|0x1f|    |movdqa|xmm|xmmword|ptr|rip|+|0x2039d5|    |mov|qword|ptr|rsp|+|0x30|rax|    |mov|eax|edx|    |movaps|xmmword|ptr|rsp|xmm|    |shr|al|5|    |movzx|eax|al|    |lea|reg|reg|+|rax*4|+|8|    |movdqa|xmm|xmmword|ptr|rip|+|0x2039c7|    |movaps|xmmword|ptr|rsp|+|0x10|xmm|    |movdqa|xmm|xmmword|ptr|rip|+|0x2039ca|    |movaps|xmmword|ptr|rsp|+|0x20|xmm|    |mov|edx|dword|ptr|reg|    |mov|eax|edx|    |shr|eax|cl|    |not|eax|    |and|eax|1|    |shl|eax|cl|    |mov|rcx|reg|    |xor|eax|edx|    |mov|rdx|rsi|    |mov|rsi|rdi|    |mov|dword|ptr|reg|eax|    |xor|edi|edi|    |call|0x403170|    "
+            },
+            {
+                "block_addr": 4208766,
+                "constraints": [
+                    "<Bool Or(__eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffb8), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffd4), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffbc), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffd0), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffc0), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffcc), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffc4), __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffc8))>|<Bool __eq__(__add__(__lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_20_71211_64)), 0x5))), 0x2), 0x7fffffffffeffb8), 0x7fffffffffeffd4)>"
+                ],
+                "instructions": "mov|rsi|qword|ptr|rsp|+|0x38|    |xor|rsi|qword|ptr|fs:0x28|    |jne|0x403893|    "
+            },
+            {
+                "block_addr": 4208782,
+                "constraints": [],
+                "instructions": "add|rsp|0x48|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "quotearg_char_mem"
+}

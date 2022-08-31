@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4239062,
+                "src": 4239053
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4239062
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4239053,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |call|0x40a4c8|    "
+            },
+            {
+                "block_addr": 4239062,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rip|+|0x20cea0|0|    |nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "huf_decode_start"
+}

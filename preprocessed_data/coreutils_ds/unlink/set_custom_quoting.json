@@ -1,0 +1,95 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4207641,
+                "src": 4207616
+            },
+            {
+                "dst": 4207655,
+                "src": 4207616
+            },
+            {
+                "dst": 4207646,
+                "src": 4207641
+            },
+            {
+                "dst": 4207655,
+                "src": 4207641
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207646
+            },
+            {
+                "dst": 4207664,
+                "src": 4207655
+            },
+            {
+                "dst": 4207714,
+                "src": 4207664
+            },
+            {
+                "dst": 4207761,
+                "src": 4207714
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207761
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207616,
+                "constraints": [],
+                "instructions": "lea|rax|rip|+|0x203df9|    |test|rdi|rdi|    |cmove|rdi|rax|    |test|rsi|rsi|    |mov|dword|ptr|rdi|0xa|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4207641,
+                "constraints": [
+                    "<Bool __eq__(If(__eq__(reg_48_70958_64, 0x0), 0x607200, reg_48_70958_64), 0xffffffffffffffff)>|<Bool __ne__(reg_40_70959_64, 0x0)>"
+                ],
+                "instructions": "test|rdx|rdx|    |je|0x403427|    "
+            },
+            {
+                "block_addr": 4207646,
+                "constraints": [
+                    "<Bool __ne__(reg_20_70961_64, 0x0)>"
+                ],
+                "instructions": "mov|qword|ptr|rdi|+|0x28|rsi|    |mov|qword|ptr|rdi|+|0x30|rdx|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    "<Bool __eq__(__add__(If(__eq__(reg_48_70958_64, 0x0), 0x607200, reg_48_70958_64), 0x28), 0x27)>|<Bool __eq__(__add__(If(__eq__(reg_48_70958_64, 0x0), 0x607200, reg_48_70958_64), 0x30), 0x2f)>"
+                ],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4207655,
+                "constraints": [
+                    "<Bool __eq__(reg_20_70961_64, 0x0)>"
+                ],
+                "instructions": "sub|rsp|8|    |call|0x401200|    "
+            },
+            {
+                "block_addr": 4207664,
+                "constraints": [],
+                "instructions": "push|r15|    |push|r14|    |lea|rax|rip|+|0x203dc5|    |push|r13|    |push|r12|    |mov|r13|rdi|    |push|rbp|    |push|rbx|    |mov|rbx|r8|    |mov|r14|rsi|    |mov|r15|rdx|    |sub|rsp|0x18|    |test|r8|r8|    |cmove|rbx|rax|    |mov|qword|ptr|rsp|+|8|rcx|    |call|0x401210|    "
+            },
+            {
+                "block_addr": 4207714,
+                "constraints": [],
+                "instructions": "mov|r12d|dword|ptr|rax|    |mov|rbp|rax|    |lea|rax|rbx|+|8|    |sub|rsp|8|    |mov|r9d|dword|ptr|rbx|+|4|    |push|qword|ptr|rbx|+|0x30|    |mov|r8d|dword|ptr|rbx|    |push|qword|ptr|rbx|+|0x28|    |mov|rdx|r15|    |push|rax|    |mov|rcx|qword|ptr|rsp|+|0x28|    |mov|rsi|r14|    |mov|rdi|r13|    |call|0x401f30|    "
+            },
+            {
+                "block_addr": 4207761,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_70986_64, 0xffffffffffffff00)>|<Bool __eq__(__add__(If(__eq__(reg_50_70984_64, 0x0), 0x607200, reg_50_70984_64), 0x4), 0x5)>"
+                ],
+                "instructions": "mov|dword|ptr|rbp|r12d|    |add|rsp|0x38|    |pop|rbx|    |pop|rbp|    |pop|r12|    |pop|r13|    |pop|r14|    |pop|r15|    |ret|    "
+            }
+        ]
+    },
+    "func_name": "set_custom_quoting"
+}

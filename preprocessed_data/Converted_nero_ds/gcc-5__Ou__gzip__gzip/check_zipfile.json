@@ -1,0 +1,1 @@
+{"func_name": "Fcheck_zipfile", "GNN_data": {"edges": [{"py/tuple": [4242880, 4243103]}, {"py/tuple": [4243103, 4243140]}, {"py/tuple": [4243140, 4243391]}, {"py/tuple": [4243391, "loopSeerDum"]}], "nodes": {"4242880": [], "4243103": [], "4243140": [], "4243391": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

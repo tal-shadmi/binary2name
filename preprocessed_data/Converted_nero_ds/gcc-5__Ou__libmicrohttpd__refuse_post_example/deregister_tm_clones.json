@@ -1,0 +1,1 @@
+{"func_name": "Fderegister_tm_clones", "GNN_data": {"edges": [{"py/tuple": [4196672, 4196720]}, {"py/tuple": [4196720, "loopSeerDum"]}], "nodes": {"4196672": [], "4196720": [], "loopSeerDum": []}}, "exe_name": "example", "package": "post"}

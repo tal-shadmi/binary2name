@@ -1,0 +1,1 @@
+{"func_name": "Fgzip_base_name", "GNN_data": {"edges": [{"py/tuple": [4246240, 4246264]}, {"py/tuple": [4246264, "loopSeerDum"]}], "nodes": {"4246240": [], "4246264": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

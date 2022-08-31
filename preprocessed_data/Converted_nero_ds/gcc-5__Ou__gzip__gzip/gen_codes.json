@@ -1,0 +1,1 @@
+{"func_name": "Fgen_codes", "GNN_data": {"edges": [{"py/tuple": [4231922, 4232014]}, {"py/tuple": [4232014, 4231968]}, {"py/tuple": [4231968, 4232014]}, {"py/tuple": [4231968, "loopSeerDum"]}], "nodes": {"4231922": [], "4232014": [], "4231968": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

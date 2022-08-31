@@ -1,0 +1,1 @@
+{"func_name": "Fframe_dummy", "GNN_data": {"edges": [{"py/tuple": [4201488, 4201499]}, {"py/tuple": [4201499, 4201392]}, {"py/tuple": [4201392, 4201448]}, {"py/tuple": [4201448, "loopSeerDum"]}], "nodes": {"4201488": [], "4201499": [], "4201392": [], "4201448": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

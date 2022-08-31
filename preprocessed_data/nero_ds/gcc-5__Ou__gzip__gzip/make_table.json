@@ -1,0 +1,45 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4236621,
+                "src": 4236534
+            },
+            {
+                "dst": 4236598,
+                "src": 4236621
+            },
+            {
+                "dst": 4236621,
+                "src": 4236598
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4236598
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4236534,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0xe0|    |mov|dword|ptr|rbp|-|0xc4|edi|    |mov|qword|ptr|rbp|-|0xd0|rsi|    |mov|dword|ptr|rbp|-|0xc8|edx|    |mov|qword|ptr|rbp|-|0xd8|rcx|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|8|rax|    |xor|eax|eax|    |mov|dword|ptr|rbp|-|0xb8|1|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4236621,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0xb8|0x10|    |jbe|0x40a536|    "
+            },
+            {
+                "block_addr": 4236598,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0xb8|    |mov|word|ptr|rbp|+|rax*2|-|0x90|0|    |add|dword|ptr|rbp|-|0xb8|1|    |cmp|dword|ptr|rbp|-|0xb8|0x10|    |jbe|0x40a536|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "make_table"
+}

@@ -1,10 +1,14 @@
-
+from random import sample
 
 class Vertex:
-    def __init__(self, baddr: int, instructions: str, constraint: list = []):
+    # --------------------- TAL'S CODE START---------------------#
+    def __init__(self, baddr: int, instructions: str, path_len: int, constraint: list = []):
         self.baddr = baddr
         self.instructions = instructions
         self.constraint = constraint
+        self.paths_constraints = []
+        self.path_len = path_len # added this vertex param to indicate path length to the vertex 
+    # --------------------- TAL'S CODE END---------------------#
     
     # we define uniqueness by address only
     def __eq__(self, other):
@@ -30,25 +34,45 @@ class Edge:
 
 
 class SymGraph: # TODO: sanity check, when graph is done, vertices.keys() length is same as edges.keys()
-    def __init__(self, root: Vertex, func_name: str="unknown_function"):
+    def __init__(self, root: Vertex, func_name: str="unknown_function", number_of_paths: int=1):
         self.root = root
         self.vertices = {}
         self.edges = {}
         self.addVertex(root)
         self.func_name = func_name
+        self.number_of_paths = number_of_paths
 
+    # --------------------- TAL'S CODE START---------------------#	
     def addVertex(self, vertex: Vertex):
         vertex.constraint = list(filter(None, vertex.constraint))
         
         if vertex.baddr in self.vertices:
-            for constraint in self.vertices[vertex.baddr].constraint:
-                if constraint not in vertex.constraint:
-                    vertex.constraint.append(constraint)
-        
-        self.vertices[vertex.baddr] = vertex
+            # check number_of_paths limit
+            if len(self.vertices[vertex.baddr].paths_constraints) >= self.number_of_paths:
+                self.vertices[vertex.baddr].paths_constraints.append(vertex.constraint)  # save paths constraints
+                new_constraints = []  # new constraints list to build for this vertex according to the length of paths
+                indexes = sample(range(len(self.vertices[vertex.baddr].paths_constraints)), self.number_of_paths)
+                for index in indexes:
+                    for constraint in self.vertices[vertex.baddr].paths_constraints[index]:
+                        # print(constraint)
+                        # print(type(constraint))
+                        new_constraints.append(constraint) #GABI: this code might choose a constraint more than once. A better option may be sample(). #TAL: you are right, see my revised code 
+                self.vertices[vertex.baddr].constraint = new_constraints
+            else:
+                self.vertices[vertex.baddr].paths_constraints.append(vertex.constraint)
+                new_constraints = []
+                for constraint in self.vertices[vertex.baddr].paths_constraints[0]:
+                    # print(constraint)
+                    # print(type(constraint))
+                    new_constraints.append(constraint)
+                self.vertices[vertex.baddr].constraint = new_constraints
+        else:
+            vertex.paths_constraints.append(vertex.constraint)
+            self.vertices[vertex.baddr] = vertex
 
         if (vertex.baddr not in self.edges.keys()):
             self.edges[vertex.baddr] = []
+    # --------------------- TAL'S CODE END---------------------#
 
     def addEdge(self, edge: Edge):
         assert(edge.source in self.vertices.keys() and edge.source in self.edges.keys())

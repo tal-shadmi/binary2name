@@ -1,0 +1,1 @@
+{"func_name": "Fversion", "GNN_data": {"edges": [{"py/tuple": [4207177, 4207186]}, {"py/tuple": [4207186, 4207196]}, {"py/tuple": [4207196, 4207206]}, {"py/tuple": [4207206, "loopSeerDum"]}], "nodes": {"4207177": [], "4207186": [], "4207196": [], "4207206": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

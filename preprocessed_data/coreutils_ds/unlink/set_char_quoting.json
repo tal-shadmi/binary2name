@@ -1,0 +1,25 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4207520
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207520,
+                "constraints": [],
+                "instructions": "lea|rax|rip|+|0x203e59|    |test|rdi|rdi|    |mov|ecx|esi|    |cmove|rdi|rax|    |mov|eax|esi|    |and|ecx|0x1f|    |shr|al|5|    |movzx|eax|al|    |lea|rdi|rdi|+|rax*4|+|8|    |mov|esi|dword|ptr|rdi|    |mov|eax|esi|    |shr|eax|cl|    |xor|edx|eax|    |and|eax|1|    |and|edx|1|    |shl|edx|cl|    |xor|edx|esi|    |mov|dword|ptr|rdi|edx|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    "<Bool __eq__(__add__(If(__eq__(reg_48_70948_64, 0x0), 0x607200, reg_48_70948_64), __lshift__(ZeroExt(56, Extract(7, 0, LShR(ZeroExt(56, Extract(7, 0, reg_40_70949_64)), 0x5))), 0x2), 0x8), 0xffffffffc0000200)>"
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "set_char_quoting"
+}

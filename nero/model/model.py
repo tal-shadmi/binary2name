@@ -11,7 +11,7 @@ from .common import common, stats_file_name, log_file_name, ref_file_name, predi
 class Model:
     topk = 10
     num_batches_to_log = 100000000
-    epocs_no_improvment_stop = 200
+    epocs_no_improvment_stop = 30
 
     def __init__(self, config, name="model.init"):
         #tf.enable_eager_execution()

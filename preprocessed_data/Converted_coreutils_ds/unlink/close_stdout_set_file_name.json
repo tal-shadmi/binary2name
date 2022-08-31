@@ -1,0 +1,1 @@
+{"func_name": "Fclose_stdout_set_file_name", "GNN_data": {"edges": [{"py/tuple": [4201040, "loopSeerDum"]}], "nodes": {"4201040": [], "loopSeerDum": []}}, "exe_name": "unlink", "package": "unknown"}

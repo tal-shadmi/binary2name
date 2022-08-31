@@ -1,0 +1,54 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4207137,
+                "src": 4207089
+            },
+            {
+                "dst": 4207162,
+                "src": 4207137
+            },
+            {
+                "dst": 4207139,
+                "src": 4207162
+            },
+            {
+                "dst": 4207162,
+                "src": 4207139
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207139
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207089,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|0x40f920|    |mov|rdx|qword|ptr|rip|+|0x2115c8|    |mov|rax|qword|ptr|rip|+|0x25a119|    |mov|rsi|rax|    |mov|edi|0x40fe09|    |mov|eax|0|    |call|0x401820|    "
+            },
+            {
+                "block_addr": 4207137,
+                "constraints": [],
+                "instructions": "jmp|0x40323a|    "
+            },
+            {
+                "block_addr": 4207162,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |mov|rax|qword|ptr|rax|    |test|rax|rax|    |jne|0x403223|    "
+            },
+            {
+                "block_addr": 4207139,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |lea|rdx|rax|+|8|    |mov|qword|ptr|rbp|-|8|rdx|    |mov|rax|qword|ptr|rax|    |mov|rdi|rax|    |call|0x401730|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "license"
+}

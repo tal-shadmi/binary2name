@@ -1,0 +1,1 @@
+{"func_name": "Fremove_output_file", "GNN_data": {"edges": [{"py/tuple": [4222251, 4222302]}, {"py/tuple": [4222302, 4222356]}, {"py/tuple": [4222356, 4222381]}, {"py/tuple": [4222381, 4222402]}, {"py/tuple": [4222402, "loopSeerDum"]}], "nodes": {"4222251": [], "4222302": [], "4222356": [], "4222381": [], "4222402": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

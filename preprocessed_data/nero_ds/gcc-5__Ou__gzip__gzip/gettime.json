@@ -1,0 +1,85 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4250224,
+                "src": 4250180
+            },
+            {
+                "dst": 4250277,
+                "src": 4250224
+            },
+            {
+                "dst": 4250228,
+                "src": 4250224
+            },
+            {
+                "dst": 4250278,
+                "src": 4250277
+            },
+            {
+                "dst": 4250298,
+                "src": 4250278
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4250298
+            },
+            {
+                "dst": 4250245,
+                "src": 4250228
+            },
+            {
+                "dst": 4250278,
+                "src": 4250245
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4250180,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x30|    |mov|qword|ptr|rbp|-|0x28|rdi|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|8|rax|    |xor|eax|eax|    |mov|rax|qword|ptr|rbp|-|0x28|    |mov|rsi|rax|    |mov|edi|0|    |call|0x401780|    "
+            },
+            {
+                "block_addr": 4250224,
+                "constraints": [],
+                "instructions": "test|eax|eax|    |je|0x40daa5|    "
+            },
+            {
+                "block_addr": 4250277,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_10910_64), 0x0)>"
+                ],
+                "instructions": "nop|    |mov|rax|qword|ptr|rbp|-|8|    |xor|rax|qword|ptr|fs:0x28|    |je|0x40daba|    "
+            },
+            {
+                "block_addr": 4250278,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |xor|rax|qword|ptr|fs:0x28|    |je|0x40daba|    "
+            },
+            {
+                "block_addr": 4250298,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4250228,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_10910_64), 0x0)>"
+                ],
+                "instructions": "lea|rax|rbp|-|0x20|    |mov|esi|0|    |mov|rdi|rax|    |call|0x401860|    "
+            },
+            {
+                "block_addr": 4250245,
+                "constraints": [],
+                "instructions": "mov|rdx|qword|ptr|rbp|-|0x20|    |mov|rax|qword|ptr|rbp|-|0x28|    |mov|qword|ptr|rax|rdx|    |mov|rax|qword|ptr|rbp|-|0x18|    |imul|rdx|rax|0x3e8|    |mov|rax|qword|ptr|rbp|-|0x28|    |mov|qword|ptr|rax|+|8|rdx|    |jmp|0x40daa6|    "
+            }
+        ]
+    },
+    "func_name": "gettime"
+}

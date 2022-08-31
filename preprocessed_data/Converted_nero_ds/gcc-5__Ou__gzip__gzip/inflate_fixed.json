@@ -1,0 +1,1 @@
+{"func_name": "Finflate_fixed", "GNN_data": {"edges": [{"py/tuple": [4226301, 4226365]}, {"py/tuple": [4226365, 4226339]}, {"py/tuple": [4226339, 4226365]}, {"py/tuple": [4226339, "loopSeerDum"]}], "nodes": {"4226301": [], "4226365": [], "4226339": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

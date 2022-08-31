@@ -1,0 +1,1 @@
+{"func_name": "Fbi_windup", "GNN_data": {"edges": [{"py/tuple": [4201993, 4202196]}, {"py/tuple": [4202196, 4202254]}, {"py/tuple": [4202254, "loopSeerDum"]}], "nodes": {"4201993": [], "4202196": [], "4202254": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

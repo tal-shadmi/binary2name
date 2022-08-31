@@ -17,7 +17,7 @@ import itertools
 from glob import glob
 
 import logging
-import resource
+# import resource
 import sys
 
 bases_dict = dict()
@@ -303,8 +303,10 @@ def sm_to_graph(sm: SimulationManager, output_file, func_name):
         assert(path[0][0] == initial_node[0])  # WARNING: very redundent, only checking adress
         assert(path[0][1] == [])  # assert all root's contain no constraints as expected
 
-    root = Vertex(initial_node[0], address_to_content(proj, initial_node[0]))
-    sym_graph = SymGraph(root, func_name)
+    root = Vertex(initial_node[0], address_to_content(proj, initial_node[0]), 0, [])
+    # --------------------- TAL'S CODE START---------------------#
+    sym_graph = SymGraph(root, func_name, 1) # added number of paths limit for each vertex in the graph
+    # --------------------- TAL'S CODE END---------------------#
 
     # In each iteration, add a new constrainted vertex to the graph and connect it to the previous vertex.
     # In the SymGraph, vertex addition handles multiple constraint options and adds an OR relation.
@@ -314,9 +316,13 @@ def sm_to_graph(sm: SimulationManager, output_file, func_name):
         for i in range(1, len(path)):
             constraint_list = varify_constraints_raw(path[i][1])
             if type(path[i][0]) == str:
-                dst = Vertex(path[i][0], "no_instructions", ["|".join(constraint_list)])
+                # --------------------- TAL'S CODE START---------------------#
+                dst = Vertex(path[i][0], "no_instructions", i, ["|".join(constraint_list)]) # added path length as third param
+                # --------------------- TAL'S CODE END---------------------#
             else:
-                dst = Vertex(path[i][0], address_to_content_raw(proj, path[i][0]), ["|".join(constraint_list)])
+                # --------------------- TAL'S CODE START---------------------#
+                dst = Vertex(path[i][0], address_to_content_raw(proj, path[i][0]), i, ["|".join(constraint_list)]) # added path length as third param
+                # --------------------- TAL'S CODE END---------------------#
             sym_graph.addVertex(dst)
             edge = Edge(prev.baddr, dst.baddr)
             sym_graph.addEdge(edge)
@@ -340,10 +346,10 @@ def main():
     parser.add_argument("--no_usables_file", dest="no_usables_file", action="store_true")
     args = parser.parse_args()
 
-    logging.getLogger('angr').setLevel('CRITICAL')  # Silence angr  
-    heap_resource = resource.RLIMIT_DATA  # Limit data capture
+    logging.getLogger('angr').setLevel('CRITICAL')  # Silence angr
+    # heap_resource = resource.RLIMIT_DATA  # Limit data capture
     # soft_l, hard_l = resource.getrlimit(heap_resource)
-    resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
+    # resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
     sys.setrecursionlimit(10**6)  # Limit stack
 
     

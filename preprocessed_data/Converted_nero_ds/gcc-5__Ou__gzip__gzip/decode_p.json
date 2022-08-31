@@ -1,0 +1,1 @@
+{"func_name": "Fdecode_p", "GNN_data": {"edges": [{"py/tuple": [4238858, 4238982]}, {"py/tuple": [4238982, 4239002]}, {"py/tuple": [4239002, 4239043]}, {"py/tuple": [4239043, "loopSeerDum"]}], "nodes": {"4238858": [], "4238982": [], "4239002": [], "4239043": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

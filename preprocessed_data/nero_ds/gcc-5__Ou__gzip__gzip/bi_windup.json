@@ -1,0 +1,41 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4202196,
+                "src": 4201993
+            },
+            {
+                "dst": 4202254,
+                "src": 4202196
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4202254
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201993,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|eax|dword|ptr|rip|+|0x212a01|    |cmp|eax|8|    |jle|target_0|    "
+            },
+            {
+                "block_addr": 4202196,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x21293a|    |test|eax|eax|    |jle|0x401f0e|    "
+            },
+            {
+                "block_addr": 4202254,
+                "constraints": [],
+                "instructions": "mov|word|ptr|rip|+|0x2128f9|0|    |mov|dword|ptr|rip|+|0x2128f3|0|    |nop|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "bi_windup"
+}

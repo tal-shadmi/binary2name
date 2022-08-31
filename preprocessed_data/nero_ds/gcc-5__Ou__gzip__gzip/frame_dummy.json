@@ -1,0 +1,50 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201499,
+                "src": 4201488
+            },
+            {
+                "dst": 4201392,
+                "src": 4201499
+            },
+            {
+                "dst": 4201448,
+                "src": 4201392
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201448
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201488,
+                "constraints": [],
+                "instructions": "mov|edi|0x613e20|    |cmp|qword|ptr|rdi|0|    |jne|target_0|    "
+            },
+            {
+                "block_addr": 4201499,
+                "constraints": [],
+                "instructions": "jmp|0x401bb0|    "
+            },
+            {
+                "block_addr": 4201392,
+                "constraints": [],
+                "instructions": "mov|esi|0x6147d8|    |push|rbp|    |sub|rsi|0x6147d8|    |sar|rsi|3|    |mov|rbp|rsp|    |mov|rax|rsi|    |shr|rax|0x3f|    |add|rsi|rax|    |sar|rsi|1|    |je|0x401be8|    "
+            },
+            {
+                "block_addr": 4201448,
+                "constraints": [],
+                "instructions": "pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "frame_dummy"
+}

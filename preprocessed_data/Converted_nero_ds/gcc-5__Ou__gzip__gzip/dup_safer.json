@@ -1,0 +1,1 @@
+{"func_name": "Fdup_safer", "GNN_data": {"edges": [{"py/tuple": [4257497, 4257533]}, {"py/tuple": [4257533, "loopSeerDum"]}], "nodes": {"4257497": [], "4257533": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

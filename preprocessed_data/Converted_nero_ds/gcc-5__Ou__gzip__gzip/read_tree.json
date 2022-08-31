@@ -1,0 +1,1 @@
+{"func_name": "Fread_tree", "GNN_data": {"edges": [{"py/tuple": [4241603, 4241675]}, {"py/tuple": [4241675, 4241639]}, {"py/tuple": [4241639, 4241658]}, {"py/tuple": [4241658, 4241675]}, {"py/tuple": [4241658, "loopSeerDum"]}], "nodes": {"4241603": [], "4241675": [], "4241639": [], "4241658": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

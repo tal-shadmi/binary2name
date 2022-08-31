@@ -1,0 +1,1 @@
+{"func_name": "Fmu_action_getopt", "GNN_data": {"edges": [{"py/tuple": [4197759, 4197902]}, {"py/tuple": [4197902, 4197902]}, {"py/tuple": [4197902, "loopSeerDum"]}], "nodes": {"4197759": [], "4197902": [], "loopSeerDum": []}}, "exe_name": "mailutils-query", "package": "mailutils"}

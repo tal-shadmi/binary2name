@@ -1,0 +1,76 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4229533,
+                "src": 4229502
+            },
+            {
+                "dst": 4229573,
+                "src": 4229533
+            },
+            {
+                "dst": 4229591,
+                "src": 4229573
+            },
+            {
+                "dst": 4229581,
+                "src": 4229573
+            },
+            {
+                "dst": 4229596,
+                "src": 4229591
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4229596
+            },
+            {
+                "dst": 4229591,
+                "src": 4229581
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4229502,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|dword|ptr|rbp|-|4|edi|    |mov|dword|ptr|rbp|-|8|esi|    |mov|eax|dword|ptr|rip|+|0x20c476|    |test|eax|eax|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4229533,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rip|+|0x20c461|1|    |mov|rax|qword|ptr|rip|+|0x20be52|    |mov|rcx|rax|    |mov|edx|0x2b|    |mov|esi|1|    |mov|edi|0x411330|    |call|0x401af0|    "
+            },
+            {
+                "block_addr": 4229573,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |cmp|eax|dword|ptr|rbp|-|8|    |je|0x4089d7|    "
+            },
+            {
+                "block_addr": 4229591,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, reg_48_6555_64), Extract(31, 0, reg_40_6556_64))>"
+                ],
+                "instructions": "mov|eax|1|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": 4229596,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4229581,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, reg_48_6555_64), Extract(31, 0, reg_40_6556_64))>"
+                ],
+                "instructions": "mov|dword|ptr|rip|+|0x20be99|1|    |mov|eax|1|    |leave|    |ret|    "
+            }
+        ]
+    },
+    "func_name": "lzw"
+}

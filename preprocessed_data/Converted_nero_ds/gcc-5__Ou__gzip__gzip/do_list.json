@@ -1,0 +1,1 @@
+{"func_name": "Fdo_list", "GNN_data": {"edges": [{"py/tuple": [4218415, 4218512]}, {"py/tuple": [4218512, 4218467]}, {"py/tuple": [4218467, 4218512]}, {"py/tuple": [4218467, "loopSeerDum"]}], "nodes": {"4218415": [], "4218512": [], "4218467": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

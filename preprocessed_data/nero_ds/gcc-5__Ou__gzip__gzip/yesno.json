@@ -1,0 +1,145 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255988,
+                "src": 4255975
+            },
+            {
+                "dst": 4255997,
+                "src": 4255988
+            },
+            {
+                "dst": 4256003,
+                "src": 4255988
+            },
+            {
+                "dst": 4256010,
+                "src": 4255997
+            },
+            {
+                "dst": 4256003,
+                "src": 4255997
+            },
+            {
+                "dst": 4256015,
+                "src": 4256010
+            },
+            {
+                "dst": 4256032,
+                "src": 4256015
+            },
+            {
+                "dst": 4256044,
+                "src": 4256032
+            },
+            {
+                "dst": 4256038,
+                "src": 4256032
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4256044
+            },
+            {
+                "dst": 4256044,
+                "src": 4256038
+            },
+            {
+                "dst": 4256024,
+                "src": 4256038
+            },
+            {
+                "dst": 4256015,
+                "src": 4256003
+            },
+            {
+                "dst": 4256029,
+                "src": 4256024
+            },
+            {
+                "dst": 4256032,
+                "src": 4256029
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4256029
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255975,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |call|0x401930|    "
+            },
+            {
+                "block_addr": 4255988,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|4|eax|    |cmp|dword|ptr|rbp|-|4|0x79|    |je|0x40f103|    "
+            },
+            {
+                "block_addr": 4255997,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_11645_64), 0x79)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|4|0x59|    |jne|0x40f10a|    "
+            },
+            {
+                "block_addr": 4256010,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_11645_64), 0x59)>"
+                ],
+                "instructions": "mov|eax|0|    |mov|byte|ptr|rbp|-|5|al|    |and|byte|ptr|rbp|-|5|1|    |jmp|0x40f120|    "
+            },
+            {
+                "block_addr": 4256015,
+                "constraints": [],
+                "instructions": "mov|byte|ptr|rbp|-|5|al|    |and|byte|ptr|rbp|-|5|1|    |jmp|0x40f120|    "
+            },
+            {
+                "block_addr": 4256032,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|4|0xa|    |je|0x40f12c|    "
+            },
+            {
+                "block_addr": 4256044,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_11651_64), 0xa)>"
+                ],
+                "instructions": "movzx|eax|byte|ptr|rbp|-|5|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4256038,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_11646_64), 0xa)>"
+                ],
+                "instructions": "cmp|dword|ptr|rbp|-|4|-1|    |jne|0x40f118|    "
+            },
+            {
+                "block_addr": 4256003,
+                "constraints": [
+                    "<Bool __eq__(Extract(31, 0, fake_ret_value_11645_64), 0x79)>"
+                ],
+                "instructions": "mov|eax|1|    |jmp|0x40f10f|    "
+            },
+            {
+                "block_addr": 4256024,
+                "constraints": [
+                    "<Bool __ne__(Extract(31, 0, fake_ret_value_11645_64), 0xffffffff)>"
+                ],
+                "instructions": "call|0x401930|    "
+            },
+            {
+                "block_addr": 4256029,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rbp|-|4|eax|    |cmp|dword|ptr|rbp|-|4|0xa|    |je|0x40f12c|    "
+            }
+        ]
+    },
+    "func_name": "yesno"
+}

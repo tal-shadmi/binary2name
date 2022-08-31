@@ -1,0 +1,50 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4243103,
+                "src": 4242880
+            },
+            {
+                "dst": 4243140,
+                "src": 4243103
+            },
+            {
+                "dst": 4243391,
+                "src": 4243140
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4243391
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4242880,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|dword|ptr|rbp|-|0x14|edi|    |mov|eax|dword|ptr|rip|+|0x23c913|    |mov|eax|eax|    |add|rax|0x65d360|    |mov|qword|ptr|rbp|-|8|rax|    |mov|eax|dword|ptr|rbp|-|0x14|    |mov|dword|ptr|rip|+|0x24111a|eax|    |mov|rax|qword|ptr|rbp|-|8|    |add|rax|0x1a|    |movzx|eax|byte|ptr|rax|    |movzx|eax|al|    |mov|rdx|qword|ptr|rbp|-|8|    |add|rdx|0x1b|    |movzx|edx|byte|ptr|rdx|    |movzx|edx|dl|    |shl|edx|8|    |or|eax|edx|    |lea|ecx|rax|+|0x1e|    |mov|rax|qword|ptr|rbp|-|8|    |add|rax|0x1c|    |movzx|eax|byte|ptr|rax|    |movzx|eax|al|    |mov|rdx|qword|ptr|rbp|-|8|    |add|rdx|0x1d|    |movzx|edx|byte|ptr|rdx|    |movzx|edx|dl|    |shl|edx|8|    |or|eax|edx|    |add|eax|ecx|    |mov|edx|eax|    |mov|eax|dword|ptr|rip|+|0x23c8af|    |add|eax|edx|    |mov|dword|ptr|rip|+|0x23c8a7|eax|    |mov|edx|dword|ptr|rip|+|0x23c8a1|    |mov|eax|dword|ptr|rip|+|0x2514fb|    |cmp|edx|eax|    |ja|target_0|    "
+            },
+            {
+                "block_addr": 4243103,
+                "constraints": [],
+                "instructions": "mov|rdx|qword|ptr|rip|+|0x251482|    |mov|rax|qword|ptr|rip|+|0x208953|    |mov|ecx|0x6182c0|    |mov|esi|0x4114f0|    |mov|rdi|rax|    |mov|eax|0|    |call|0x401960|    "
+            },
+            {
+                "block_addr": 4243140,
+                "constraints": [],
+                "instructions": "mov|dword|ptr|rip|+|0x2089a2|1|    |mov|eax|1|    |jmp|0x40bfbf|    "
+            },
+            {
+                "block_addr": 4243391,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "check_zipfile"
+}

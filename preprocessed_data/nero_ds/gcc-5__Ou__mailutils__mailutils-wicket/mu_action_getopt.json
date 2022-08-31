@@ -1,0 +1,36 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4198766,
+                "src": 4198623
+            },
+            {
+                "dst": 4198766,
+                "src": 4198766
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4198766
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4198623,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0xd0|    |mov|qword|ptr|rbp|-|0xa8|rdi|    |mov|qword|ptr|rbp|-|0xb0|rsi|    |mov|qword|ptr|rbp|-|0xb8|rdx|    |mov|qword|ptr|rbp|-|0xc0|rcx|    |mov|qword|ptr|rbp|-|0xc8|reg|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rbp|-|8|rax|    |xor|eax|eax|    |mov|qword|ptr|rbp|-|0x90|0|    |mov|qword|ptr|rbp|-|0x88|0|    |mov|qword|ptr|rbp|-|0x80|0|    |mov|qword|ptr|rbp|-|0x78|0|    |mov|qword|ptr|rbp|-|0x20|0x602240|    |mov|rax|qword|ptr|rbp|-|0xb8|    |mov|qword|ptr|rbp|-|0x18|rax|    |mov|qword|ptr|rbp|-|0x10|0|    |lea|rdx|rbp|-|0x70|    |mov|eax|0|    |mov|ecx|9|    |mov|rdi|rdx|    |rep|stosq|qword|ptr|rdi|rax|    "
+            },
+            {
+                "block_addr": 4198766,
+                "constraints": [],
+                "instructions": "rep|stosq|qword|ptr|rdi|rax|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "mu_action_getopt"
+}

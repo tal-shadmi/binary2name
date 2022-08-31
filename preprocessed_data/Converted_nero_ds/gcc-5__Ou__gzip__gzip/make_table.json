@@ -1,0 +1,1 @@
+{"func_name": "Fmake_table", "GNN_data": {"edges": [{"py/tuple": [4236534, 4236621]}, {"py/tuple": [4236621, 4236598]}, {"py/tuple": [4236598, 4236621]}, {"py/tuple": [4236598, "loopSeerDum"]}], "nodes": {"4236534": [], "4236621": [], "4236598": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

@@ -1,0 +1,1 @@
+{"func_name": "Fset_file_type", "GNN_data": {"edges": [{"py/tuple": [4236031, 4236083]}, {"py/tuple": [4236083, 4236058]}, {"py/tuple": [4236058, 4236083]}, {"py/tuple": [4236058, "loopSeerDum"]}], "nodes": {"4236031": [], "4236083": [], "4236058": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

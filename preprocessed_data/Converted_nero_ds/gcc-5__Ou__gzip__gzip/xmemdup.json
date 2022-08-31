@@ -1,0 +1,1 @@
+{"func_name": "Fxmemdup", "GNN_data": {"edges": [{"py/tuple": [4255878, 4255906]}, {"py/tuple": [4255906, 4255928]}, {"py/tuple": [4255928, "loopSeerDum"]}], "nodes": {"4255878": [], "4255906": [], "4255928": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

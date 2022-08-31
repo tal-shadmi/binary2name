@@ -1,0 +1,128 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255577,
+                "src": 4255554
+            },
+            {
+                "dst": 4255603,
+                "src": 4255554
+            },
+            {
+                "dst": 4255584,
+                "src": 4255577
+            },
+            {
+                "dst": 4255603,
+                "src": 4255577
+            },
+            {
+                "dst": 4255596,
+                "src": 4255584
+            },
+            {
+                "dst": 4255649,
+                "src": 4255596
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255649
+            },
+            {
+                "dst": 4255622,
+                "src": 4255603
+            },
+            {
+                "dst": 4255645,
+                "src": 4255622
+            },
+            {
+                "dst": 4255633,
+                "src": 4255622
+            },
+            {
+                "dst": 4255649,
+                "src": 4255645
+            },
+            {
+                "dst": 4255645,
+                "src": 4255633
+            },
+            {
+                "dst": 4255640,
+                "src": 4255633
+            },
+            {
+                "dst": 4255645,
+                "src": 4255640
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255554,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|qword|ptr|rbp|-|0x10|rsi|    |cmp|qword|ptr|rbp|-|0x10|0|    |jne|target_0|    "
+            },
+            {
+                "block_addr": 4255577,
+                "constraints": [
+                    "<Bool __eq__(reg_40_11608_64, 0x0)>"
+                ],
+                "instructions": "cmp|qword|ptr|rbp|-|8|0|    |je|0x40ef73|    "
+            },
+            {
+                "block_addr": 4255584,
+                "constraints": [
+                    "<Bool __ne__(reg_48_11607_64, 0x0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |mov|rdi|rax|    |call|0x401690|    "
+            },
+            {
+                "block_addr": 4255596,
+                "constraints": [],
+                "instructions": "mov|eax|0|    |jmp|0x40efa1|    "
+            },
+            {
+                "block_addr": 4255649,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4255603,
+                "constraints": [
+                    "<Bool __ne__(reg_40_11608_64, 0x0)>"
+                ],
+                "instructions": "mov|rdx|qword|ptr|rbp|-|0x10|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rsi|rdx|    |mov|rdi|rax|    |call|0x401a10|    "
+            },
+            {
+                "block_addr": 4255622,
+                "constraints": [],
+                "instructions": "mov|qword|ptr|rbp|-|8|rax|    |cmp|qword|ptr|rbp|-|8|0|    |jne|0x40ef9d|    "
+            },
+            {
+                "block_addr": 4255645,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": 4255633,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_11610_64, 0x0)>"
+                ],
+                "instructions": "cmp|qword|ptr|rbp|-|0x10|0|    |je|0x40ef9d|    "
+            },
+            {
+                "block_addr": 4255640,
+                "constraints": [],
+                "instructions": "call|0x40cd44|    "
+            }
+        ]
+    },
+    "func_name": "xrealloc"
+}

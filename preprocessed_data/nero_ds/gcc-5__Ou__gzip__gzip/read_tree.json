@@ -1,0 +1,54 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4241675,
+                "src": 4241603
+            },
+            {
+                "dst": 4241639,
+                "src": 4241675
+            },
+            {
+                "dst": 4241658,
+                "src": 4241639
+            },
+            {
+                "dst": 4241675,
+                "src": 4241658
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4241658
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4241603,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |sub|rsp|0x18|    |mov|dword|ptr|rbp|-|0x14|1|    |mov|qword|ptr|rip|+|0x20c6e2|0|    |mov|dword|ptr|rbp|-|0x18|1|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4241675,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0x18|4|    |jle|0x40b8e7|    "
+            },
+            {
+                "block_addr": 4241639,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rip|+|0x20c6d2|    |shl|rax|8|    |mov|rbx|rax|    |call|0x40b86c|    "
+            },
+            {
+                "block_addr": 4241658,
+                "constraints": [],
+                "instructions": "movzx|eax|al|    |or|rax|rbx|    |mov|qword|ptr|rip|+|0x20c6b9|rax|    |add|dword|ptr|rbp|-|0x18|1|    |cmp|dword|ptr|rbp|-|0x18|4|    |jle|0x40b8e7|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "read_tree"
+}

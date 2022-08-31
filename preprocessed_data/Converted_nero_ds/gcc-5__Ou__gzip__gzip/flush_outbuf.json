@@ -1,0 +1,1 @@
+{"func_name": "Fflush_outbuf", "GNN_data": {"edges": [{"py/tuple": [4245863, 4245938]}, {"py/tuple": [4245938, 4245939]}, {"py/tuple": [4245939, "loopSeerDum"]}], "nodes": {"4245863": [], "4245938": [], "4245939": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

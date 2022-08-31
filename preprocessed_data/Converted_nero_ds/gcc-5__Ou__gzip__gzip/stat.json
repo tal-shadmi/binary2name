@@ -1,0 +1,1 @@
+{"func_name": "Fstat", "GNN_data": {"edges": [{"py/tuple": [4257664, 4200864]}, {"py/tuple": [4200864, 7340480]}, {"py/tuple": [7340480, "loopSeerDum"]}], "nodes": {"4257664": [], "4200864": [], "7340480": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

@@ -1,0 +1,55 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201963,
+                "src": 4201947
+            },
+            {
+                "dst": 4201986,
+                "src": 4201963
+            },
+            {
+                "dst": 4201963,
+                "src": 4201963
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201963
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201986
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201947,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|rbx|    |mov|dword|ptr|rbp|-|0xc|edi|    |mov|dword|ptr|rbp|-|0x10|esi|    |mov|ebx|0|    |mov|eax|dword|ptr|rbp|-|0xc|    |and|eax|1|    |or|ebx|eax|    |shr|dword|ptr|rbp|-|0xc|1|    |add|ebx|ebx|    |sub|dword|ptr|rbp|-|0x10|1|    |cmp|dword|ptr|rbp|-|0x10|0|    |jg|target_0|    "
+            },
+            {
+                "block_addr": 4201963,
+                "constraints": [
+                    "<Bool SGT(__add__(0xffffffff, Extract(31, 0, reg_40_28_64)), 0x0)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0xc|    |and|eax|1|    |or|ebx|eax|    |shr|dword|ptr|rbp|-|0xc|1|    |add|ebx|ebx|    |sub|dword|ptr|rbp|-|0x10|1|    |cmp|dword|ptr|rbp|-|0x10|0|    |jg|0x401deb|    "
+            },
+            {
+                "block_addr": 4201986,
+                "constraints": [
+                    "<Bool SLE(__add__(0xfffffffe, Extract(31, 0, reg_40_28_64)), 0x0)>"
+                ],
+                "instructions": "mov|eax|ebx|    |shr|eax|1|    |pop|rbx|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    "<Bool SGT(__add__(0xfffffffd, Extract(31, 0, reg_40_28_64)), 0x0)>"
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "bi_reverse"
+}

@@ -20,13 +20,13 @@ class Config:
         config.SAVE_EVERY_EPOCHS = 1
         config.USE_MOMENTUM = False
 
-        config.BATCH_SIZE = 1024
-        config.TEST_BATCH_SIZE = 128
-        config.NUM_BATCHING_THREADS = 6
+        config.BATCH_SIZE = 256 # 16 # 1
+        config.TEST_BATCH_SIZE = 128 # 1
+        config.NUM_BATCHING_THREADS = 6 # 6
 
         config.READING_BATCH_SIZE = config.BATCH_SIZE * config.NUM_BATCHING_THREADS
 
-        config.BATCH_QUEUE_SIZE = 10000
+        config.BATCH_QUEUE_SIZE = 10000 # 100
         config.CSV_BUFFER_SIZE = None
 
         config.TRAIN_PATH = args.data_path
@@ -40,8 +40,8 @@ class Config:
 
         config.LOAD_PATH = args.load_path
 
-        config.DATA_PATHS_MAX_LEN = 100
-        config.PATHS_MAX_LEN = 100
+        config.DATA_PATHS_MAX_LEN = 10
+        config.PATHS_MAX_LEN = 10
         config.PATHS_RANDOMIZE = False
 
         if not config.PATHS_RANDOMIZE:
@@ -68,10 +68,10 @@ class Config:
         #     assert (config.UNITED_API_TARGETS_HISTOGRAM_PATH or (
         #                 config.API_HISTOGRAM_PATH and config.TARGET_HISTOGRAM_PATH))
 
-        config.EMBEDDINGS_SIZE = 128
-        config.ARG_EMBEDDINGS_SIZE = 128
-        config.RNN_SIZE = 320
-        config.DECODER_SIZE = 512
+        config.EMBEDDINGS_SIZE = 128 # 32
+        config.ARG_EMBEDDINGS_SIZE = 128 # 32
+        config.RNN_SIZE = 320 # 80
+        config.DECODER_SIZE = 512 # 128
         config.EMBEDDINGS_DROPOUT_KEEP_PROB = 0.50
         config.RNN_DROPOUT_KEEP_PROB = 0.50
         config.BIRNN = True

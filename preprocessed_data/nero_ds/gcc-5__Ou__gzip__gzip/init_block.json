@@ -1,0 +1,45 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4230368,
+                "src": 4230336
+            },
+            {
+                "dst": 4230349,
+                "src": 4230368
+            },
+            {
+                "dst": 4230368,
+                "src": 4230349
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4230349
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4230336,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|dword|ptr|rbp|-|4|0|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4230368,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|4|0x11d|    |jle|0x408ccd|    "
+            },
+            {
+                "block_addr": 4230349,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |cdqe|    |mov|word|ptr|rax*4|+|0x614e20|0|    |add|dword|ptr|rbp|-|4|1|    |cmp|dword|ptr|rbp|-|4|0x11d|    |jle|0x408ccd|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "init_block"
+}

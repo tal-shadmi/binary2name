@@ -1,0 +1,45 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4231116,
+                "src": 4231008
+            },
+            {
+                "dst": 4231097,
+                "src": 4231116
+            },
+            {
+                "dst": 4231116,
+                "src": 4231097
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4231097
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4231008,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|qword|ptr|rbp|-|0x48|rdi|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|rax|qword|ptr|rax|    |mov|qword|ptr|rbp|-|0x18|rax|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|rax|qword|ptr|rax|+|0x10|    |mov|qword|ptr|rbp|-|0x10|rax|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|eax|dword|ptr|rax|+|0x18|    |mov|dword|ptr|rbp|-|0x28|eax|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|eax|dword|ptr|rax|+|0x24|    |mov|dword|ptr|rbp|-|0x24|eax|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|eax|dword|ptr|rax|+|0x20|    |mov|dword|ptr|rbp|-|0x20|eax|    |mov|rax|qword|ptr|rbp|-|0x48|    |mov|rax|qword|ptr|rax|+|8|    |mov|qword|ptr|rbp|-|8|rax|    |mov|dword|ptr|rbp|-|0x2c|0|    |mov|dword|ptr|rbp|-|0x34|0|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4231116,
+                "constraints": [],
+                "instructions": "cmp|dword|ptr|rbp|-|0x34|0xf|    |jle|0x408fb9|    "
+            },
+            {
+                "block_addr": 4231097,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|0x34|    |cdqe|    |mov|word|ptr|rax|+|rax|+|0x615dc0|0|    |add|dword|ptr|rbp|-|0x34|1|    |cmp|dword|ptr|rbp|-|0x34|0xf|    |jle|0x408fb9|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "gen_bitlen"
+}

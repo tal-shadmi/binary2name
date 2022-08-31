@@ -1,0 +1,23 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4201056
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201056,
+                "constraints": [],
+                "instructions": "mov|byte|ptr|rip|+|0x205669|dil|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "close_stdout_set_ignore_EPIPE"
+}

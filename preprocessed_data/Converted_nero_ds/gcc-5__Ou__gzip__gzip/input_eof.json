@@ -1,0 +1,1 @@
+{"func_name": "Finput_eof", "GNN_data": {"edges": [{"py/tuple": [4209307, 4209331]}, {"py/tuple": [4209331, 4209404]}, {"py/tuple": [4209404, "loopSeerDum"]}], "nodes": {"4209307": [], "4209331": [], "4209404": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

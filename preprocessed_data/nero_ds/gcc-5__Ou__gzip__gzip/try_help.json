@@ -1,0 +1,72 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4206998,
+                "src": 4206962
+            },
+            {
+                "dst": 4207008,
+                "src": 4206998
+            },
+            {
+                "dst": 4207049,
+                "src": 4207008
+            },
+            {
+                "dst": 4207074,
+                "src": 4207049
+            },
+            {
+                "dst": 4207051,
+                "src": 4207074
+            },
+            {
+                "dst": 4207074,
+                "src": 4207051
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207051
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4206962,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |mov|rdx|qword|ptr|rip|+|0x25a1ab|    |mov|rax|qword|ptr|rip|+|0x21167c|    |mov|esi|0x40fdc0|    |mov|rdi|rax|    |mov|eax|0|    |call|0x401960|    "
+            },
+            {
+                "block_addr": 4206998,
+                "constraints": [],
+                "instructions": "mov|edi|1|    |call|0x406cb8|    "
+            },
+            {
+                "block_addr": 4207008,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|0x411180|    |mov|rax|qword|ptr|rip|+|0x25a171|    |mov|rsi|rax|    |mov|edi|0x40fde8|    |mov|eax|0|    |call|0x401820|    "
+            },
+            {
+                "block_addr": 4207049,
+                "constraints": [],
+                "instructions": "jmp|0x4031e2|    "
+            },
+            {
+                "block_addr": 4207074,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |mov|rax|qword|ptr|rax|    |test|rax|rax|    |jne|0x4031cb|    "
+            },
+            {
+                "block_addr": 4207051,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |lea|rdx|rax|+|8|    |mov|qword|ptr|rbp|-|8|rdx|    |mov|rax|qword|ptr|rax|    |mov|rdi|rax|    |call|0x401730|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "try_help"
+}

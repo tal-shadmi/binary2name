@@ -7,7 +7,8 @@ import argparse
 from tqdm import tqdm
 import random
 import re
-import multiprocessing
+# import multiprocessing
+import multiprocess
 
 TIMEOUT_PER_FILE = 3
 CONSTRAINT_DELIM = '|'
@@ -78,12 +79,14 @@ def dissolve_function_call(str_call):
 
 
 def convert_argument(argument: str) -> tuple:
+    line_split = argument.split('_')
     if is_mem(argument):
         argument_type = 'MEMORY'
         argument = 'mem'
     elif is_reg(argument):
         argument_type = 'REGISTER'
-        argument = 'reg'
+        argument = 'reg' + line_split[1]
+        #argument = 'reg'
     elif is_num(argument):
         argument_type = 'CONSTANT'
     elif is_retval(argument):
@@ -97,7 +100,7 @@ def convert_argument(argument: str) -> tuple:
 
 
 class ConstraintAst:
-    def __init__(self, value='dummy_name', children: List['ConstraintAst']=[]):
+    def __init__(self, value='dummy_name', children: List['ConstraintAst'] = []):
         self.value = value
         self.children = children
 
@@ -220,7 +223,6 @@ def get_constraint_ast(constraint: str) -> ConstraintAst:
     return constraint_ast
 
 
-
 class OutputConvertor:
     def __init__(self):
         self.filenames = []
@@ -258,23 +260,36 @@ class OutputConvertor:
 
     def convert_dataset(self):
         print('Starting to convert json files')
+        # --------------------- TAL'S CODE START---------------------#
+        converted_files_counter = 0
+        # --------------------- TAL'S CODE END---------------------#
         failed_files = []
 
         for filename in tqdm(self.filenames):
             print(f'converting {filename}')
-            p = multiprocessing.Process(target=self.__convert_json, args=(filename,))
+            if os.path.getsize(filename) != 0:
+                converted_files_counter = converted_files_counter + 1
+            p = multiprocessy.Process(target=self.__convert_json, args=(filename,))
             p.start()
             p.join(60 * TIMEOUT_PER_FILE)
             if p.is_alive():
                 print('file {} passed the timeout, killing and erasing the file'.format(filename))
+                converted_files_counter = converted_files_counter - 1
                 p.kill()
                 os.remove(filename)
                 failed_files.append(filename)
                 p.join()
             else:
+                # --------------------- TAL'S CODE START---------------------#
+                # if (not is_empty):
+                # converted_files_counter = converted_files_counter + 1
+                # --------------------- TAL'S CODE END---------------------#
                 print(f'{filename} converted')
 
         print('Done converting, data should be ready')
+        # --------------------- TAL'S CODE START---------------------#
+        print('{} out of {} files were converted which mean they were not empty or passed the timeout that was defined'.format(converted_files_counter, len(self.filenames)))
+        # --------------------- TAL'S CODE END---------------------#
         for filename in failed_files:
             self.filenames.remove(filename)
 
@@ -317,18 +332,45 @@ class OutputConvertor:
         """
         converted_block_constraints = []
         for path_constraints in block_constraints:
+            # print(path_constraints)
+            # print(type(path_constraints))
             converted_path_constraints = []
             for constraint in path_constraints.split('|'):
                 # Remove the <Bool ... > prefix and suffix of each constraint.
                 converted_constraint = constraint.replace('Bool', '').replace('<', '').replace('>', '').strip()
                 # Clean the representation of boolean ops: remove the '__' prefix and suffix.
-                converted_constraint = re.sub(r'__(?P<op>[a-zA-Z]+)__',
-                                            r'\g<op>',
-                                            converted_constraint)
+                converted_constraint = re.sub(r'__(?P<op>[a-zA-Z]+)__', r'\g<op>', converted_constraint)
                 converted_path_constraints.append(converted_constraint)
             # Style back to the original format
             converted_block_constraints.append('|'.join(converted_path_constraints))
         return converted_block_constraints
+
+    # --------------------- TAL'S CODE START---------------------#
+    # function to manually deduct constraints to a certain number
+    def __deduct_constraints(self, block_constraints: List[str], num_paths_after_deduction: int) -> List[str]:
+        """
+        get block constraints and return those constraints after deduction. the number of paths will be
+        num_paths_after_deduction long.
+        """
+        print("this is the original version of block constraints with " + str(len(block_constraints)) + " paths:")
+        for constraint in block_constraints:
+            print(constraint)
+        paths_counter = 0
+        deducted_block_constraints = []
+        for path_constraints in block_constraints:
+            deducted_path_constraints = []
+            paths_counter = paths_counter + 1
+            if paths_counter > num_paths_after_deduction:
+                break
+            for constraint in path_constraints.split('|'):
+                deducted_path_constraints.append(constraint)
+            deducted_block_constraints.append('|'.join(deducted_path_constraints))
+        print("this is a deducted version of block constraints because " + str(paths_counter) + " paths left")
+        for constraint in deducted_block_constraints:
+            print(constraint)
+        return deducted_block_constraints
+
+    # --------------------- TAL'S CODE END---------------------#
 
     # This algorithm is rudimentary at best.
     # Feel free to make it more efficient :)
@@ -357,7 +399,6 @@ class OutputConvertor:
                 i += 1
         return constraint_asts
 
-
     def __convert_nodes(self, nodes: List) -> Dict:
         with open('conversion_config.json', 'r') as config_file:
                 data = json.load(config_file)
@@ -368,18 +409,22 @@ class OutputConvertor:
                 print('HERE!')
             # Remove "junk symbols"
             node['constraints'] = self.__prettify_constraints(node['constraints'])
+            
+            # --------------------- TAL'S CODE START---------------------#
+            # deduct constraints
+            # node['constraints'] = self.__deduct_constraints(node['constraints'], 5)
+            # --------------------- TAL'S CODE END---------------------#
 
-            # Perform per-constraint styling on each node    
+            # Perform per-constraint styling on each node
             filtered_constraint_asts = self.__process_constraints_to_asts(node['constraints'])
 
             # Perform node-wide deduplication
             filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
-            
+
             # Convert to the nero format
-            converted_constraints = []        
+            converted_constraints = []
             for constraint_ast in filtered_constraint_asts:
                 converted_constraints += constraint_ast.convert_list_to_nero_format()
-
 
             if not converted_constraints:
                 converted_nodes[node['block_addr']] = []
@@ -408,8 +453,7 @@ class OutputConvertor:
 
         if function_name == 'set_process_security_ctx':
             print('HERE!')
-        converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name,
-                          'package': package_name}
+        converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
         converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
         converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
 

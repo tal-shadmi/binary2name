@@ -20,7 +20,7 @@ class Config:
         config.SAVE_EVERY_EPOCHS = 1
         config.USE_MOMENTUM = False
 
-        config.BATCH_SIZE = 1024
+        config.BATCH_SIZE = 256
         config.TEST_BATCH_SIZE = 128
         config.NUM_BATCHING_THREADS = 6
 
@@ -40,8 +40,8 @@ class Config:
 
         config.LOAD_PATH = args.load_path
 
-        config.DATA_PATHS_MAX_LEN = 100
-        config.PATHS_MAX_LEN = 100
+        config.DATA_PATHS_MAX_LEN = 10
+        config.PATHS_MAX_LEN = 10
         config.PATHS_RANDOMIZE = False
 
         if not config.PATHS_RANDOMIZE:

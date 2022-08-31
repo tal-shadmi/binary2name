@@ -1,0 +1,1 @@
+{"func_name": "Fxcharalloc", "GNN_data": {"edges": [{"py/tuple": [4255475, 4255499]}, {"py/tuple": [4255499, "loopSeerDum"]}], "nodes": {"4255475": [], "4255499": [], "loopSeerDum": []}}, "exe_name": "gzip", "package": "gzip"}

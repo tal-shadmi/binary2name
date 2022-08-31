@@ -1,0 +1,73 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4224413,
+                "src": 4224373
+            },
+            {
+                "dst": 4224418,
+                "src": 4224413
+            },
+            {
+                "dst": 4224394,
+                "src": 4224413
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4224418
+            },
+            {
+                "dst": 4224410,
+                "src": 4224394
+            },
+            {
+                "dst": 4224413,
+                "src": 4224410
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4224410
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4224373,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |push|reg|    |push|rbx|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|0x18|rdi|    |mov|rbx|qword|ptr|rbp|-|0x18|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4224413,
+                "constraints": [],
+                "instructions": "test|rbx|rbx|    |jne|0x40758a|    "
+            },
+            {
+                "block_addr": 4224418,
+                "constraints": [
+                    "<Bool __eq__(Concat(mem_4000000000000000_6495_40, mem_3ffffffffffffffd_6494_24), 0x0)>"
+                ],
+                "instructions": "mov|eax|0|    |add|rsp|0x10|    |pop|rbx|    |pop|r12|    |pop|rbp|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4224394,
+                "constraints": [
+                    "<Bool __ne__(reg_48_6493_64, 0x0)>"
+                ],
+                "instructions": "sub|rbx|0x10|    |mov|r12|qword|ptr|rbx|+|8|    |mov|rdi|rbx|    |call|0x401690|    "
+            },
+            {
+                "block_addr": 4224410,
+                "constraints": [
+                    "<Bool __eq__(__sub__(Concat(mem_4000000000000000_6495_40, mem_3ffffffffffffffd_6494_24), 0x8), 0xfffffffffffffff9)>"
+                ],
+                "instructions": "mov|rbx|r12|    |test|rbx|rbx|    |jne|0x40758a|    "
+            }
+        ]
+    },
+    "func_name": "huft_free"
+}

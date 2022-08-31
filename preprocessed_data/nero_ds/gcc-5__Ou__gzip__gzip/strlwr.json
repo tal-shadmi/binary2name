@@ -1,0 +1,115 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4246223,
+                "src": 4246125
+            },
+            {
+                "dst": 4246234,
+                "src": 4246223
+            },
+            {
+                "dst": 4246147,
+                "src": 4246223
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4246234
+            },
+            {
+                "dst": 4246152,
+                "src": 4246147
+            },
+            {
+                "dst": 4246205,
+                "src": 4246152
+            },
+            {
+                "dst": 4246186,
+                "src": 4246152
+            },
+            {
+                "dst": 4246212,
+                "src": 4246205
+            },
+            {
+                "dst": 4246223,
+                "src": 4246212
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4246212
+            },
+            {
+                "dst": 4246203,
+                "src": 4246186
+            },
+            {
+                "dst": 4246212,
+                "src": 4246203
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4246125,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|qword|ptr|rbp|-|0x18|rdi|    |mov|rax|qword|ptr|rbp|-|0x18|    |mov|qword|ptr|rbp|-|8|rax|    |jmp|target_0|    "
+            },
+            {
+                "block_addr": 4246223,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |test|al|al|    |jne|0x40ca83|    "
+            },
+            {
+                "block_addr": 4246234,
+                "constraints": [
+                    "<Bool __eq__(reg_48_10640_64, 0x1)>|<Bool __eq__(mem_1_10641_8, 0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x18|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4246147,
+                "constraints": [
+                    "<Bool __ne__(mem_3_10654_8, 0)>"
+                ],
+                "instructions": "call|0x401b20|    "
+            },
+            {
+                "block_addr": 4246152,
+                "constraints": [],
+                "instructions": "mov|rdx|qword|ptr|rax|    |mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |movzx|eax|al|    |add|rax|rax|    |add|rax|rdx|    |movzx|eax|word|ptr|rax|    |movzx|eax|ax|    |and|eax|0x100|    |test|eax|eax|    |je|0x40cabd|    "
+            },
+            {
+                "block_addr": 4246205,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_10642_64, 0xfffffffffc000000)>|<Bool __eq__(__add__(__lshift__(ZeroExt(56, mem_1_10641_8), 0x1), mem_fffffffffc000000_10643_64), 0xfffffffffffffff2)>|<Bool __eq__(__and__(mem_fffffffffffffff2_10644_16, 0x100), 0x0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |mov|rdx|qword|ptr|rbp|-|8|    |mov|byte|ptr|rdx|al|    |add|qword|ptr|rbp|-|8|1|    |mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |test|al|al|    |jne|0x40ca83|    "
+            },
+            {
+                "block_addr": 4246212,
+                "constraints": [],
+                "instructions": "mov|rdx|qword|ptr|rbp|-|8|    |mov|byte|ptr|rdx|al|    |add|qword|ptr|rbp|-|8|1|    |mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |test|al|al|    |jne|0x40ca83|    "
+            },
+            {
+                "block_addr": 4246186,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_10642_64, 0xfffffffffc000000)>|<Bool __eq__(__add__(__lshift__(ZeroExt(56, mem_1_10641_8), 0x1), mem_fffffffffc000000_10643_64), 0xfffffffffffffff2)>|<Bool __ne__(__and__(mem_fffffffffffffff2_10644_16, 0x100), 0x0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |movzx|eax|byte|ptr|rax|    |movzx|eax|al|    |mov|edi|eax|    |call|0x4019c0|    "
+            },
+            {
+                "block_addr": 4246203,
+                "constraints": [],
+                "instructions": "jmp|0x40cac4|    "
+            }
+        ]
+    },
+    "func_name": "strlwr"
+}

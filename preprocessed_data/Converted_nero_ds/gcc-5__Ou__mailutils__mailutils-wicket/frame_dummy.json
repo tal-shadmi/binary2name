@@ -1,0 +1,1 @@
+{"func_name": "Fframe_dummy", "GNN_data": {"edges": [{"py/tuple": [4197552, 4197563]}, {"py/tuple": [4197563, 4197456]}, {"py/tuple": [4197456, 4197512]}, {"py/tuple": [4197512, "loopSeerDum"]}], "nodes": {"4197552": [], "4197563": [], "4197456": [], "4197512": [], "loopSeerDum": []}}, "exe_name": "mailutils-wicket", "package": "mailutils"}

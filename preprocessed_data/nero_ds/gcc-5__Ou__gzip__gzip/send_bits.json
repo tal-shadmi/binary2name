@@ -1,0 +1,76 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201894,
+                "src": 4201586
+            },
+            {
+                "dst": 4201624,
+                "src": 4201586
+            },
+            {
+                "dst": 4201944,
+                "src": 4201894
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201944
+            },
+            {
+                "dst": 4201670,
+                "src": 4201624
+            },
+            {
+                "dst": 4201836,
+                "src": 4201670
+            },
+            {
+                "dst": 4201944,
+                "src": 4201836
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201586,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|dword|ptr|rbp|-|4|edi|    |mov|dword|ptr|rbp|-|8|esi|    |mov|eax|0x10|    |sub|eax|dword|ptr|rbp|-|8|    |mov|edx|eax|    |mov|eax|dword|ptr|rip|+|0x212b84|    |cmp|edx|eax|    |jge|target_0|    "
+            },
+            {
+                "block_addr": 4201894,
+                "constraints": [
+                    "<Bool SGE(__sub__(0x10, Extract(31, 0, reg_40_23_64)), 0x0)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x212a68|    |mov|edx|dword|ptr|rbp|-|4|    |mov|ecx|eax|    |shl|edx|cl|    |mov|eax|edx|    |mov|edx|eax|    |movzx|eax|word|ptr|rip|+|0x212a52|    |or|eax|edx|    |mov|word|ptr|rip|+|0x212a49|ax|    |mov|edx|dword|ptr|rip|+|0x212a47|    |mov|eax|dword|ptr|rbp|-|8|    |add|eax|edx|    |mov|dword|ptr|rip|+|0x212a3c|eax|    |nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": 4201944,
+                "constraints": [],
+                "instructions": "nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4201624,
+                "constraints": [
+                    "<Bool SLT(__sub__(0x10, Extract(31, 0, reg_40_23_64)), 0x0)>"
+                ],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x212b76|    |mov|edx|dword|ptr|rbp|-|4|    |mov|ecx|eax|    |shl|edx|cl|    |mov|eax|edx|    |mov|edx|eax|    |movzx|eax|word|ptr|rip|+|0x212b60|    |or|eax|edx|    |mov|word|ptr|rip|+|0x212b57|ax|    |mov|eax|dword|ptr|rip|+|0x25b681|    |cmp|eax|0x3ffd|    |ja|0x401d08|    "
+            },
+            {
+                "block_addr": 4201670,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x25b674|    |lea|edx|rax|+|1|    |mov|dword|ptr|rip|+|0x25b66b|edx|    |movzx|edx|word|ptr|rip|+|0x212b34|    |mov|eax|eax|    |mov|byte|ptr|rax|+|0x648700|dl|    |mov|eax|dword|ptr|rip|+|0x25b656|    |lea|edx|rax|+|1|    |mov|dword|ptr|rip|+|0x25b64d|edx|    |movzx|edx|word|ptr|rip|+|0x212b16|    |shr|dx|8|    |mov|eax|eax|    |mov|byte|ptr|rax|+|0x648700|dl|    |jmp|0x401d6c|    "
+            },
+            {
+                "block_addr": 4201836,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |movzx|edx|ax|    |mov|eax|dword|ptr|rip|+|0x212a9c|    |mov|ecx|0x10|    |sub|ecx|eax|    |mov|eax|ecx|    |mov|ecx|eax|    |sar|edx|cl|    |mov|eax|edx|    |mov|word|ptr|rip|+|0x212a82|ax|    |mov|eax|dword|ptr|rip|+|0x212a80|    |mov|edx|eax|    |mov|eax|dword|ptr|rbp|-|8|    |add|eax|edx|    |sub|eax|0x10|    |mov|dword|ptr|rip|+|0x212a70|eax|    |jmp|0x401dd8|    "
+            }
+        ]
+    },
+    "func_name": "send_bits"
+}

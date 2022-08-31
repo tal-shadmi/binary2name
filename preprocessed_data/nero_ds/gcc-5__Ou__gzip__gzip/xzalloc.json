@@ -1,0 +1,41 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255717,
+                "src": 4255693
+            },
+            {
+                "dst": 4255740,
+                "src": 4255717
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255740
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255693,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdi|rax|    |call|0x40ef0d|    "
+            },
+            {
+                "block_addr": 4255717,
+                "constraints": [],
+                "instructions": "mov|rcx|rax|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdx|rax|    |mov|esi|0|    |mov|rdi|rcx|    |call|0x401870|    "
+            },
+            {
+                "block_addr": 4255740,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "xzalloc"
+}

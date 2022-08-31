@@ -1,0 +1,73 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255525,
+                "src": 4255501
+            },
+            {
+                "dst": 4255548,
+                "src": 4255525
+            },
+            {
+                "dst": 4255536,
+                "src": 4255525
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255548
+            },
+            {
+                "dst": 4255548,
+                "src": 4255536
+            },
+            {
+                "dst": 4255543,
+                "src": 4255536
+            },
+            {
+                "dst": 4255548,
+                "src": 4255543
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255501,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|qword|ptr|rbp|-|0x18|rdi|    |mov|rax|qword|ptr|rbp|-|0x18|    |mov|rdi|rax|    |call|0x4019d0|    "
+            },
+            {
+                "block_addr": 4255525,
+                "constraints": [],
+                "instructions": "mov|qword|ptr|rbp|-|8|rax|    |cmp|qword|ptr|rbp|-|8|0|    |jne|0x40ef3c|    "
+            },
+            {
+                "block_addr": 4255548,
+                "constraints": [
+                    "<Bool __ne__(fake_ret_value_11603_64, 0x0)>"
+                ],
+                "instructions": "mov|rax|qword|ptr|rbp|-|8|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4255536,
+                "constraints": [
+                    "<Bool __eq__(fake_ret_value_11603_64, 0x0)>"
+                ],
+                "instructions": "cmp|qword|ptr|rbp|-|0x18|0|    |je|0x40ef3c|    "
+            },
+            {
+                "block_addr": 4255543,
+                "constraints": [
+                    "<Bool __ne__(reg_48_11602_64, 0x0)>"
+                ],
+                "instructions": "call|0x40cd44|    "
+            }
+        ]
+    },
+    "func_name": "xmalloc"
+}

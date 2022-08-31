@@ -187,7 +187,8 @@ class TFRecordReader:
         return glob.glob(prefix + '*')
 
     def _create_filtered_output(self):
-        dataset = tf.data.TFRecordDataset(self.filenames, buffer_size=self.config.CSV_BUFFER_SIZE,
+        # tal shadmi changed lines 191-194	
+        dataset = tf.data.TFRecordDataset(self.filenames, buffer_size=self.config.CSV_BUFFER_SIZE, 
                                           num_parallel_reads=None,
                                           compression_type=tf.io.TFRecordOptions.compression_type_map[
                                               tf.io.TFRecordCompressionType.GZIP])
@@ -234,8 +235,8 @@ if __name__ == '__main__':
             self.TEST_PATH = self.TRAIN_PATH + '.val'
             self.BATCH_SIZE = 128
             self.TEST_BATCH_SIZE = self.BATCH_SIZE
-            self.NUM_BATCHING_THREADS = 1
-            self.CSV_BUFFER_SIZE = None
+            self.NUM_BATCHING_THREADS = 1 # tal shadmi changed this line
+            self.CSV_BUFFER_SIZE = None # tal shadmi changed this line
             self.SHUFFLE_BUFFER_SIZE = 100
             self.TARGET_MAX_PARTS = 5
             self.API_MAX_NAME_PARTS = 4

@@ -1,0 +1,41 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255954,
+                "src": 4255930
+            },
+            {
+                "dst": 4255973,
+                "src": 4255954
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255973
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255930,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdi|rax|    |call|0x4017d0|    "
+            },
+            {
+                "block_addr": 4255954,
+                "constraints": [],
+                "instructions": "lea|rdx|rax|+|1|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rsi|rdx|    |mov|rdi|rax|    |call|0x40f086|    "
+            },
+            {
+                "block_addr": 4255973,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "xstrdup"
+}

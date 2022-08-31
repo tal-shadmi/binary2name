@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4255499,
+                "src": 4255475
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4255499
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4255475,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x10|    |mov|qword|ptr|rbp|-|8|rdi|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdi|rax|    |call|0x40ef0d|    "
+            },
+            {
+                "block_addr": 4255499,
+                "constraints": [],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "xcharalloc"
+}

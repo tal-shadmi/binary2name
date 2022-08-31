@@ -1,0 +1,34 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4250671,
+                "src": 4250614
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4250671
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4250614,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|qword|ptr|rbp|-|0x18|rdi|    |mov|qword|ptr|rbp|-|0x20|rsi|    |mov|rax|qword|ptr|rbp|-|0x18|    |mov|qword|ptr|rbp|-|0x10|rax|    |mov|rax|qword|ptr|rbp|-|0x20|    |mov|qword|ptr|rbp|-|8|rax|    |mov|rax|qword|ptr|rbp|-|8|    |mov|rdx|qword|ptr|rax|    |mov|rax|qword|ptr|rbp|-|0x10|    |mov|rax|qword|ptr|rax|    |mov|rsi|rdx|    |mov|rdi|rax|    |call|0x401920|    "
+            },
+            {
+                "block_addr": 4250671,
+                "constraints": [
+                    "<Bool __eq__(reg_40_10942_64, 0xffffffffffc00000)>|<Bool __eq__(reg_48_10941_64, 0xffffff8000000000)>"
+                ],
+                "instructions": "leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "direntry_cmp_name"
+}

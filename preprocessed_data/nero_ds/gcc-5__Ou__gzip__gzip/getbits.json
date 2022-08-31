@@ -1,0 +1,32 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4236483,
+                "src": 4236431
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4236483
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4236431,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x20|    |mov|dword|ptr|rbp|-|0x14|edi|    |movzx|eax|word|ptr|rip|+|0x20daff|    |movzx|edx|ax|    |mov|eax|dword|ptr|rbp|-|0x14|    |mov|ecx|0x10|    |sub|ecx|eax|    |mov|eax|ecx|    |mov|ecx|eax|    |sar|edx|cl|    |mov|eax|edx|    |mov|dword|ptr|rbp|-|4|eax|    |mov|eax|dword|ptr|rbp|-|0x14|    |mov|edi|eax|    |call|0x40a39a|    "
+            },
+            {
+                "block_addr": 4236483,
+                "constraints": [],
+                "instructions": "mov|eax|dword|ptr|rbp|-|4|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "getbits"
+}

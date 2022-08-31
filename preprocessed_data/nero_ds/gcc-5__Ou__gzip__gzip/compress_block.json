@@ -1,0 +1,43 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4235986,
+                "src": 4235463
+            },
+            {
+                "dst": 4236028,
+                "src": 4235986
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4236028
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4235463,
+                "constraints": [],
+                "instructions": "push|rbp|    |mov|rbp|rsp|    |sub|rsp|0x30|    |mov|qword|ptr|rbp|-|0x28|rdi|    |mov|qword|ptr|rbp|-|0x30|rsi|    |mov|dword|ptr|rbp|-|0x1c|0|    |mov|dword|ptr|rbp|-|0x18|0|    |mov|dword|ptr|rbp|-|0x14|0|    |mov|byte|ptr|rbp|-|0x1d|0|    |mov|eax|dword|ptr|rip|+|0x20dc2a|    |test|eax|eax|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4235986,
+                "constraints": [],
+                "instructions": "mov|rax|qword|ptr|rbp|-|0x28|    |add|rax|0x400|    |movzx|eax|word|ptr|rax|+|2|    |movzx|edx|ax|    |mov|rax|qword|ptr|rbp|-|0x28|    |add|rax|0x400|    |movzx|eax|word|ptr|rax|    |movzx|eax|ax|    |mov|esi|edx|    |mov|edi|eax|    |call|0x401c72|    "
+            },
+            {
+                "block_addr": 4236028,
+                "constraints": [
+                    "<Bool __eq__(__add__(reg_48_6966_64, 0x402), 0xfffffffffffffffe)>"
+                ],
+                "instructions": "nop|    |leave|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "compress_block"
+}
