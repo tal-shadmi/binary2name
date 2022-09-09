@@ -42,10 +42,15 @@ class SymGraph: # TODO: sanity check, when graph is done, vertices.keys() length
         self.func_name = func_name
         self.number_of_paths = number_of_paths
 
-    # --------------------- TAL'S CODE START---------------------#	
+    # --------------------- TAL'S CODE START---------------------#
     def addVertex(self, vertex: Vertex):
         vertex.constraint = list(filter(None, vertex.constraint))
-        
+        x = 1000 
+        sum_c = 0
+        for c in vertex.constraint:
+            sum_c = sum_c + len(c)
+        if sum_c > x:
+            return
         if vertex.baddr in self.vertices:
             # check number_of_paths limit
             if len(self.vertices[vertex.baddr].paths_constraints) >= self.number_of_paths:
