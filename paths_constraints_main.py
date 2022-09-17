@@ -17,7 +17,7 @@ import itertools
 from glob import glob
 
 import logging
-# import resource
+import resource
 import sys
 
 bases_dict = dict()
@@ -347,9 +347,9 @@ def main():
     args = parser.parse_args()
 
     logging.getLogger('angr').setLevel('CRITICAL')  # Silence angr
-    # heap_resource = resource.RLIMIT_DATA  # Limit data capture
-    # soft_l, hard_l = resource.getrlimit(heap_resource)
-    # resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
+    heap_resource = resource.RLIMIT_DATA  # Limit data capture
+    soft_l, hard_l = resource.getrlimit(heap_resource)
+    resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
     sys.setrecursionlimit(10**6)  # Limit stack
 
     

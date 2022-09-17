@@ -7,8 +7,10 @@ import argparse
 from tqdm import tqdm
 import random
 import re
-# import multiprocessing
-import multiprocess
+import multiprocessing
+#import multiprocess
+#import pebble
+import datetime
 
 TIMEOUT_PER_FILE = 3
 CONSTRAINT_DELIM = '|'
@@ -16,6 +18,8 @@ OUR_API_TYPE = 'F'  # Meaningless - simply here to notify this is not a NORMAL_P
 
 MEM_DIFF_THRESH = 20
 RET_DIFF_THRESH = 20
+CONVERTED_DS_PREFIX = 'Converted_'
+SYM_EXE_MAX_OUTPUT_TO_PROCESS = 1000000
 
 
 def is_num(val: str) -> bool:
@@ -224,28 +228,39 @@ def get_constraint_ast(constraint: str) -> ConstraintAst:
 
 
 class OutputConvertor:
-    def __init__(self):
+    def __init__(self, dataset_name: str):
         self.filenames = []
+        self.converted_filenames = []
+        self.src = dataset_name
+        self.dest = CONVERTED_DS_PREFIX + dataset_name
 
-    def backup_all_files(self, dataset_name):
+    def backup_all_files(self):
         """
         update the self.filename list to contain all the files in the given dataset
         we presume the given dataset is a folder in the same directory as the script
         we copy the dataset first to a different name directory so working on it will not harm
         the previous model.
         """
-        src = dataset_name
-        dest = 'Converted_' + dataset_name
+        src = self.src
+        dest = self.dest
         if os.path.isdir(dest):
             print('converted dir already exists, removing')
             shutil.rmtree(dest)
-
+        
         print('Started copying dataset for backup')
         shutil.copytree(src, dest)
         print('Finished backup, starting to scan files')
 
-    def load_all_files(self, dataset_name: str):
-        dataset_name = 'Converted_' + dataset_name
+    def clear_converted_dataset(self):
+        src = self.src
+        dest = self.dest
+        if os.path.isdir(dest):
+            print('converted dir already exists, removing')
+            shutil.rmtree(dest)
+        
+        
+    def load_all_files(self):
+        dataset_name = self.src
         bin_folders = list(
             map(lambda x: os.path.join(dataset_name, x) if x[-4:] != '.txt' else None, os.listdir(dataset_name)))
         bin_folders = list(filter(None, bin_folders))
@@ -258,40 +273,38 @@ class OutputConvertor:
                 self.filenames.remove(file)
         print('Finished scanning and adding all files\n', 'added {} files'.format(len(self.filenames)))
 
+
     def convert_dataset(self):
-        print('Starting to convert json files')
-        # --------------------- TAL'S CODE START---------------------#
-        converted_files_counter = 0
-        # --------------------- TAL'S CODE END---------------------#
-        failed_files = []
-
-        for filename in tqdm(self.filenames):
-            print(f'converting {filename}')
-            if os.path.getsize(filename) != 0:
+        print(datetime.datetime.now().strftime("%H:%M:%S"), 'Starting to convert json files')
+        '''
+        with pebble.ProcessPool(2*os.cpu_count()) as pool:
+            future = pool.map(self.convert_json, self.filenames, timeout=60*TIMEOUT_PER_FILE)
+        iterator = future.result()
+        i = 0
+        while True:
+            try:
+                fname = next(iterator)
                 converted_files_counter = converted_files_counter + 1
-            p = multiprocessy.Process(target=self.__convert_json, args=(filename,))
-            p.start()
-            p.join(60 * TIMEOUT_PER_FILE)
-            if p.is_alive():
-                print('file {} passed the timeout, killing and erasing the file'.format(filename))
-                converted_files_counter = converted_files_counter - 1
-                p.kill()
-                os.remove(filename)
-                failed_files.append(filename)
-                p.join()
-            else:
-                # --------------------- TAL'S CODE START---------------------#
-                # if (not is_empty):
-                # converted_files_counter = converted_files_counter + 1
-                # --------------------- TAL'S CODE END---------------------#
-                print(f'{filename} converted')
-
-        print('Done converting, data should be ready')
-        # --------------------- TAL'S CODE START---------------------#
-        print('{} out of {} files were converted which mean they were not empty or passed the timeout that was defined'.format(converted_files_counter, len(self.filenames)))
-        # --------------------- TAL'S CODE END---------------------#
-        for filename in failed_files:
-            self.filenames.remove(filename)
+            except StopIteration:
+                break
+            except Exception as error:
+                failed_files.append(self.filenames[i])
+            i = i + 1
+            p = int(i*100/(1+len(self.filenames)))
+            print(f'{p}% processed.\r', end = "    ")
+        '''
+        i = 0
+        pool = multiprocessing.Pool(32)
+        for success, converted_filename in pool.imap_unordered(self.convert_json, self.filenames, chunksize = 1000):
+            if success:
+                self.converted_filenames.append(converted_filename)
+            i = i + 1
+            if i % 100 == 0:
+                p = int(i*100/(1+len(self.filenames)))
+                print(f'{p}% processed.', end = "    \r")
+            
+        print('\n', datetime.datetime.now().strftime("%H:%M:%S"), 'Done converting, data should be ready')
+        print('{} out of {} files were converted which mean they were not empty or too large.'.format(len(self.converted_filenames), len(self.filenames)))
 
     def __convert_edges(self, edges: List) -> List:
         converted_edges = []
@@ -405,8 +418,6 @@ class OutputConvertor:
                 MAX_TOKENS_PER_CONSTRAINT = data['MAX_TOKENS_PER_CONSTRAINT']
         converted_nodes = {}
         for node in nodes:
-            if node['block_addr'] == 4224031:
-                print('HERE!')
             # Remove "junk symbols"
             node['constraints'] = self.__prettify_constraints(node['constraints'])
             
@@ -433,11 +444,13 @@ class OutputConvertor:
 
         return converted_nodes
 
-    def __convert_json(self, filename: str):
-        if os.path.getsize(filename) == 0:
-            print(f'Warning! file {filename} is empty. Skipping.')
-            return
-
+    def convert_json(self, filename: str):
+        filesize = os.path.getsize(filename)
+        if filesize == 0 or filesize > SYM_EXE_MAX_OUTPUT_TO_PROCESS:
+            # print(f'Warning! file {filename} is empty. Skipping.')
+            # raise Exception #This is necessary as that calling function will omit this
+            return False, None
+        
         with open(filename, 'r') as function_file:
             initial_data = json.load(function_file)
 
@@ -451,16 +464,17 @@ class OutputConvertor:
             exe_name = exe_name_split[-1]
             package_name = exe_name_split[-2]
 
-        if function_name == 'set_process_security_ctx':
-            print('HERE!')
         converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
         converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
         converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
 
-        with open(filename, 'w') as function_file:
+        converted_filename = CONVERTED_DS_PREFIX + filename
+        os.makedirs(os.path.dirname(converted_filename), exist_ok=True)
+        with open(converted_filename, 'w') as function_file:
             jp_obj = str(encode(converted_data))
             function_file.write(jp_obj)
-
+            
+        return True, converted_filename
 
 class OrganizeOutput:
     def __init__(self, dataset_name, file_locations, train_percentage, test_percentage, validate_percentage):
@@ -520,16 +534,16 @@ def main():
     parser.add_argument('--only_style', dest='only_style', action='store_true')
     args = parser.parse_args()
 
-    out_convertor = OutputConvertor()
+    out_convertor = OutputConvertor(args.dataset_name)
     os.chdir('preprocessed_data')
     if not args.only_collect:
-        out_convertor.backup_all_files(args.dataset_name)
-        out_convertor.load_all_files(args.dataset_name)
+        out_convertor.clear_converted_dataset()
+        out_convertor.load_all_files()
         out_convertor.convert_dataset()
     else:
-        out_convertor.load_all_files(args.dataset_name)
+        out_convertor.load_all_files()
 
-    collector = OrganizeOutput(args.dataset_name, out_convertor.filenames, args.train, args.test, args.val)
+    collector = OrganizeOutput(args.dataset_name, out_convertor.converted_filenames, args.train, args.test, args.val)
     collector.print_information_and_fix()
     buff = input('collect converted files into train/val/test? [y/n]\n')
     if 'y' in buff or 'Y' in buff:
