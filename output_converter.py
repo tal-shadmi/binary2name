@@ -8,9 +8,11 @@ from tqdm import tqdm
 import random
 import re
 import multiprocessing
-#import multiprocess
+import multiprocess
 #import pebble
 import datetime
+import math
+import pprint
 
 TIMEOUT_PER_FILE = 3
 CONSTRAINT_DELIM = '|'
@@ -68,9 +70,11 @@ def separate_arguments(args):
 
     arguments.append(args[begin_index:])
     if delimiter_count != 0:
+        print("delimiter_count", delimiter_count)
+        print("args", args)
         print('Warning! delimiters are not equal on both sides, check for inconsistencies')
         print('arguments', arguments)
-        exit(1)
+        raise Exception
     return arguments
 
 
@@ -98,6 +102,9 @@ def convert_argument(argument: str) -> tuple:
         argument = 'fake_ret'
     elif argument.startswith(OUR_API_TYPE):
         argument_type = 'FUNCTION_CALL'
+    #elif argument.startswith("EAX"):
+    #    argument_type = 'REGISTER'
+    #    argument = 'EAX'
     else:
         argument_type = 'UNKNOWN'
     return argument_type, argument
@@ -163,11 +170,11 @@ def are_constraints_similar(first: ConstraintAst, second: ConstraintAst) -> bool
         elif is_mem(first.value) and is_mem(second.value):
             split_a = [int(x, 16) for x in first.value.split('_')[1:]]
             split_b = [int(x, 16) for x in second.value.split('_')[1:]]
-            if split_a[0] != split_b[0]:
+            if split_a[0] != split_b[0]:    # address
                 return False
-            if abs(split_a[1] - split_b[1]) > MEM_DIFF_THRESH:
+            if abs(split_a[1] - split_b[1]) > MEM_DIFF_THRESH:  # arbitary id (incremented sequentially)
                 return False
-            if abs(split_a[2] - split_b[2]) > MEM_DIFF_THRESH:
+            if abs(split_a[2] != split_b[2]) > MEM_DIFF_THRESH:  # size
                 return False
             return True
         
@@ -228,11 +235,13 @@ def get_constraint_ast(constraint: str) -> ConstraintAst:
 
 
 class OutputConvertor:
-    def __init__(self, dataset_name: str):
+    def __init__(self, dataset_name: str, sample_path: int, sample_constraint: int):
         self.filenames = []
         self.converted_filenames = []
         self.src = dataset_name
         self.dest = CONVERTED_DS_PREFIX + dataset_name
+        self.sample_path = sample_path
+        self.sample_constraint = sample_constraint
 
     def backup_all_files(self):
         """
@@ -276,23 +285,6 @@ class OutputConvertor:
 
     def convert_dataset(self):
         print(datetime.datetime.now().strftime("%H:%M:%S"), 'Starting to convert json files')
-        '''
-        with pebble.ProcessPool(2*os.cpu_count()) as pool:
-            future = pool.map(self.convert_json, self.filenames, timeout=60*TIMEOUT_PER_FILE)
-        iterator = future.result()
-        i = 0
-        while True:
-            try:
-                fname = next(iterator)
-                converted_files_counter = converted_files_counter + 1
-            except StopIteration:
-                break
-            except Exception as error:
-                failed_files.append(self.filenames[i])
-            i = i + 1
-            p = int(i*100/(1+len(self.filenames)))
-            print(f'{p}% processed.\r', end = "    ")
-        '''
         i = 0
         pool = multiprocessing.Pool(32)
         for success, converted_filename in pool.imap_unordered(self.convert_json, self.filenames, chunksize = 1000):
@@ -305,6 +297,61 @@ class OutputConvertor:
             
         print('\n', datetime.datetime.now().strftime("%H:%M:%S"), 'Done converting, data should be ready')
         print('{} out of {} files were converted which mean they were not empty or too large.'.format(len(self.converted_filenames), len(self.filenames)))
+
+
+    def get_stats(self):
+        print(datetime.datetime.now().strftime("%H:%M:%S"), 'Starting to calculate stats')
+        i = 0
+        pool = multiprocessing.Pool(32)
+        precent_block_constraints = {}
+        num_files_with_json_error = 0
+        for success, result in pool.imap_unordered(self.get_stats_json, self.filenames, chunksize = 1000):
+            if success:
+                if result["error_parsing_json"] == True:
+                    num_files_with_json_error = num_files_with_json_error + 1
+                    continue
+                per = math.ceil(result["precent_block_constraints"]*10)
+                precent_block_constraints[per] = precent_block_constraints.get(per, 0) + 1
+            i = i + 1
+            if i % 100 == 0:
+                p = int(i*100/(1+len(self.filenames)))
+                print(f'{p}% processed.', end = "    \r")
+        for per, value in sorted(precent_block_constraints.items()):
+            print(f"{(per-1)*10}%-{per*10}% -- {math.ceil((value/i)*100)}%")
+        pprint.pprint(precent_block_constraints)
+        print("num_files_with_json_error", num_files_with_json_error)
+        print('\n', datetime.datetime.now().strftime("%H:%M:%S"), 'Done calculating stats')
+
+    def get_stats_json(self, filename):
+        filesize = os.path.getsize(filename)
+        result = {}
+        if filesize == 0 or filesize > SYM_EXE_MAX_OUTPUT_TO_PROCESS:
+            return False, None
+        result["error_parsing_json"] = False
+        try:
+            with open(filename, 'r') as function_file:
+                data = json.load(function_file)
+        except Exception as e:
+            # print (str(e))
+            # print(filename)
+            #os.remove(filename)
+            result["error_parsing_json"] = True
+            return True, result
+        
+        nodes = data['GNN_DATA']['nodes']
+        num_nodes_with_constraints = 0
+        num_nodes = 0
+        for node in nodes:
+            node_has_constarints = False
+            for c in node["constraints"]:
+                if len(c[1]) > 0:
+                    node_has_constarints = True
+                    break
+            num_nodes = num_nodes + 1
+            num_nodes_with_constraints = num_nodes_with_constraints + int(node_has_constarints)
+        result["precent_block_constraints"] = num_nodes_with_constraints/num_nodes
+        return True, result
+
 
     def __convert_edges(self, edges: List) -> List:
         converted_edges = []
@@ -327,8 +374,8 @@ class OutputConvertor:
                 # filter all unwanted functions
                 constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'Extract', 3)
                 constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'ZeroExt', 2)
-                constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'invert', 1)
-                constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'Concat', 1)  # Random choice - perhaps a different choice would be better.
+                # constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'invert', 1)
+                # constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'Concat', 1)  # Random choice - perhaps a different choice would be better.
 
                 filtered_asts.append(constraint_ast)
 
@@ -350,13 +397,32 @@ class OutputConvertor:
             converted_path_constraints = []
             for constraint in path_constraints.split('|'):
                 # Remove the <Bool ... > prefix and suffix of each constraint.
-                converted_constraint = constraint.replace('Bool', '').replace('<', '').replace('>', '').strip()
+                converted_constraint = constraint.replace('Bool', '').replace('<', '').replace('>', '').replace('BV32 ', '').strip()
                 # Clean the representation of boolean ops: remove the '__' prefix and suffix.
                 converted_constraint = re.sub(r'__(?P<op>[a-zA-Z]+)__', r'\g<op>', converted_constraint)
                 converted_path_constraints.append(converted_constraint)
             # Style back to the original format
             converted_block_constraints.append('|'.join(converted_path_constraints))
         return converted_block_constraints
+
+    def __reduce_constraints(self, block_constraints: List[str]) -> List[str]:
+        """
+        goals: reduce the number of constraints so the model would like more easily
+        """
+        converted_block_constraints = []
+        filtered_block_constraints = list(filter(lambda c: len(c[1]) > 0, block_constraints)) #filter paths that have zero constraints
+        if len(filtered_block_constraints) == 0:
+            return ['']
+        # print("block_constraints", len(block_constraints), block_constraints)
+        paths_len_and_constraints = random.sample(filtered_block_constraints, min(len(filtered_block_constraints), self.sample_path))
+        # print("paths_len_and_constraints", len(paths_len_and_constraints), paths_len_and_constraints)
+        for path_len, path_constraints in paths_len_and_constraints: # path_len is the length of the execution path (until the current block) that contibuted these
+            selected_path_constraints = random.sample(path_constraints, min(len(path_constraints), self.sample_constraint))
+            converted_block_constraints.extend(selected_path_constraints)
+            # print("converted_block_constraints", len(converted_block_constraints), converted_block_constraints)
+        # print("|".join(converted_block_constraints))
+        return ["|".join(converted_block_constraints)]
+
 
     # --------------------- TAL'S CODE START---------------------#
     # function to manually deduct constraints to a certain number
@@ -418,9 +484,10 @@ class OutputConvertor:
                 MAX_TOKENS_PER_CONSTRAINT = data['MAX_TOKENS_PER_CONSTRAINT']
         converted_nodes = {}
         for node in nodes:
+            # reduce the number of constraints
+            node['constraints'] = self.__reduce_constraints(node['constraints'])
             # Remove "junk symbols"
             node['constraints'] = self.__prettify_constraints(node['constraints'])
-            
             # --------------------- TAL'S CODE START---------------------#
             # deduct constraints
             # node['constraints'] = self.__deduct_constraints(node['constraints'], 5)
@@ -428,15 +495,13 @@ class OutputConvertor:
 
             # Perform per-constraint styling on each node
             filtered_constraint_asts = self.__process_constraints_to_asts(node['constraints'])
-
             # Perform node-wide deduplication
-            filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
-
+            # filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
             # Convert to the nero format
             converted_constraints = []
             for constraint_ast in filtered_constraint_asts:
                 converted_constraints += constraint_ast.convert_list_to_nero_format()
-
+            # print("5", converted_constraints)
             if not converted_constraints:
                 converted_nodes[node['block_addr']] = []
             else:
@@ -447,7 +512,7 @@ class OutputConvertor:
     def convert_json(self, filename: str):
         filesize = os.path.getsize(filename)
         if filesize == 0 or filesize > SYM_EXE_MAX_OUTPUT_TO_PROCESS:
-            # print(f'Warning! file {filename} is empty. Skipping.')
+            # print(f'Warning! file {filename} is empty or larger than {SYM_EXE_MAX_OUTPUT_TO_PROCESS}. Skipping.')
             # raise Exception #This is necessary as that calling function will omit this
             return False, None
         
@@ -458,15 +523,20 @@ class OutputConvertor:
         exe_name = filename.split(os.sep)[-2]
         package_name = 'unknown'
         function_name = filename.split(os.sep)[-1][:-5]
-
         exe_name_split = list(filter(None, exe_name.split('_')))
         if len(exe_name_split) > 1:
             exe_name = exe_name_split[-1]
             package_name = exe_name_split[-2]
+        
+        # print(package_name, exe_name, function_name)
 
         converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
-        converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
-        converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
+        try:
+            converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
+            converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
+        except Exception:
+            print("file", filename)
+            exit(1)
 
         converted_filename = CONVERTED_DS_PREFIX + filename
         os.makedirs(os.path.dirname(converted_filename), exist_ok=True)
@@ -530,11 +600,14 @@ def main():
     parser.add_argument('--train', type=int, default=70, help='percent of functions in the train file')
     parser.add_argument('--test', type=int, default=20, help='percent of functions in the test file')
     parser.add_argument('--val', type=int, default=10, help='percent of functions in the validate file')
+    parser.add_argument('--sample_path', type=int, default=1, help='select sample_path paths from the constraints of each block')
+    parser.add_argument('--sample_constraint', type=int, default=10, help='select sample_constraint constraints from each path constraints of each block')
     parser.add_argument('--only_collect', dest='only_collect', action='store_true')
     parser.add_argument('--only_style', dest='only_style', action='store_true')
     args = parser.parse_args()
 
-    out_convertor = OutputConvertor(args.dataset_name)
+    print(f"Convert with sample_path={args.sample_path}, sample_constraint={args.sample_constraint}.")
+    out_convertor = OutputConvertor(args.dataset_name, args.sample_path, args.sample_constraint)
     os.chdir('preprocessed_data')
     if not args.only_collect:
         out_convertor.clear_converted_dataset()
@@ -542,7 +615,8 @@ def main():
         out_convertor.convert_dataset()
     else:
         out_convertor.load_all_files()
-
+        out_convertor.get_stats()
+        
     collector = OrganizeOutput(args.dataset_name, out_convertor.converted_filenames, args.train, args.test, args.val)
     collector.print_information_and_fix()
     buff = input('collect converted files into train/val/test? [y/n]\n')

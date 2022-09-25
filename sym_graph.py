@@ -1,3 +1,5 @@
+from random import sample
+
 class Vertex:
     # --------------------- TAL'S CODE START---------------------#
     def __init__(self, baddr: int, instructions: str, path_len: int, constraint: list = []):
@@ -32,49 +34,34 @@ class Edge:
 
 
 class SymGraph: # TODO: sanity check, when graph is done, vertices.keys() length is same as edges.keys()
-    def __init__(self, root: Vertex, func_name: str="unknown_function", number_of_constraints_from_shortest_path: int=1):
+    def __init__(self, root: Vertex, func_name: str="unknown_function", path_constraints_len_limit: int=5000, path_len_limit: int=100):
         self.root = root
+        self.path_constraints_len_limit = path_constraints_len_limit
+        self.path_len_limit = path_len_limit
         self.vertices = {}
         self.edges = {}
         self.addVertex(root)
         self.func_name = func_name
-        self.number_of_constraints_from_shortest_path = number_of_constraints_from_shortest_path
 
-    # --------------------- TAL'S CODE START---------------------#	
+    # --------------------- TAL'S CODE START---------------------#
     def addVertex(self, vertex: Vertex):
         vertex.constraint = list(filter(None, vertex.constraint))
-        path_constraints_len_limit = 5000 
+
+        # We do not want to save excessively long constraints or long paths
+        if vertex.path_len > self.path_len_limit:
+            return
+
         sum_c = 0
         for c in vertex.constraint:
             sum_c = sum_c + len(c)
-        if sum_c > path_constraints_len_limit:
+        if sum_c > self.path_constraints_len_limit:
             return
+        len_and_contraint = [vertex.path_len, vertex.constraint]
         if vertex.baddr in self.vertices:
-            self.vertices[vertex.baddr].paths_constraints.append((vertex.constraint, vertex.path_len)) # save paths constraints with their path length
-            self.vertices[vertex.baddr].paths_constraints.sort(key=lambda x: x[1]) # sort paths constraints by the paths lengths
-            new_constraints = [] # new constraints list to build for this vertex according to the length of paths
-            split_constraints = self.vertices[vertex.baddr].paths_constraints[0][0].split("|")
-            # pick number_of_constraints_from_shortest_path constraints from shortest path to node
-            if len(split_constraints) >= self.number_of_constraints_from_shortest_path:
-                indexes = sample(split_constraints, self.number_of_constraints_from_shortest_path) #TAL: used sample here too, see my revised code
-                for index in indexes:
-                    new_constraints.append(split_constraints[index])
-            else:
-               for constraint in split_constraints:
-                   new_constraints.append(constraint)
-            self.vertices[vertex.baddr].constraint = ["|".join(new_constraints)]
+            self.vertices[vertex.baddr].constraint.append(len_and_contraint)
         else:
-            vertex.paths_constraints.append((vertex.constraint, vertex.path_len))
             self.vertices[vertex.baddr] = vertex
-            split_constraints = self.vertices[vertex.baddr].paths_constraints[0][0].split("|")
-            if len(split_constraints) >= self.number_of_constraints_from_shortest_path:
-                indexes = sample(split_constraints, self.number_of_constraints_from_shortest_path) #TAL: used sample here too, see my revised code
-                for index in indexes:
-                    new_constraints.append(split_constraints[index])
-            else:
-               for constraint in split_constraints:
-                   new_constraints.append(constraint)
-            self.vertices[vertex.baddr].constraint = ["|".join(new_constraints)]
+            self.vertices[vertex.baddr].constraint = [len_and_contraint]
 
         if (vertex.baddr not in self.edges.keys()):
             self.edges[vertex.baddr] = []

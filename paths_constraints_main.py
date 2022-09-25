@@ -1,9 +1,11 @@
 from sym_graph import *
 from typing import Dict, Any, List, Callable, Set
-
+from multiprocessing import Pool
+from itertools import repeat
 
 from angr import Project
 from angr.exploration_techniques.loop_seer import LoopSeer
+from angr.exploration_techniques.lengthlimiter import LengthLimiter
 from angr.block import Block
 from angr.sim_manager import SimulationManager
 from claripy import ast
@@ -15,6 +17,8 @@ import json
 import argparse
 import itertools
 from glob import glob
+import gc
+import time
 
 import logging
 import resource
@@ -29,7 +33,7 @@ start_time = 0
         
 def time_limit_check(simulation_manager):
     global start_time
-    minutes_limit = 10
+    minutes_limit = 2
     should_stop = time.time() - start_time > (60 * minutes_limit)
     if should_stop:
         print("stopped exploration")
@@ -37,18 +41,19 @@ def time_limit_check(simulation_manager):
 
 # Analyze a specific function with angr
 # proj is the project object, cfg IS THE ACTUAL CONTROL-FLOW GRAPH
-def analyze_func(proj, bin_func, cfg):
-    print(f"started running {bin_func.name}")
-    call_state = proj.factory.call_state(bin_func.addr, add_options={
+def analyze_func(proj, bin_func_name, bin_func_addr, cfg):
+    print(f"started running {bin_func_name}")
+    call_state = proj.factory.call_state(bin_func_addr, add_options={
         'CALLLESS': True, 'NO_SYMBOLIC_SYSCALL_RESOLUTION': True
     })
     sm = proj.factory.simulation_manager(call_state)  # Creates a simulation manager, ready to start from the specific function
-    sm.use_technique(LoopSeer(cfg=cfg, bound=2))
+    sm.use_technique(LoopSeer(cfg=cfg, bound=1))
+    # sm.use_technique(LengthLimiter(100))
     
     global start_time
     start_time = time.time()
     sm.run(until=time_limit_check)
-    print(f"finished {bin_func.name}")
+    print(f"finished {bin_func_name}")
     return sm
 
 
@@ -56,7 +61,7 @@ def get_cfg_funcs(proj, binary, excluded):
     """
     get functions that are suitable for analysis, (funcs that are defined in the binary and not libc funcs...)
     """
-    return list(filter(None, [f if f.binary_name == binary and (not f.is_plt) and not f.name.startswith(
+    return list(filter(None, [(f.name, f.addr) if f.binary_name == binary and (not f.is_plt) and not f.name.startswith(
         "sub_") and not f.name.startswith("_") and f.name not in excluded else None for f in
                               proj.kb.functions.values()]))
 
@@ -189,40 +194,83 @@ def generate_dataset(train_binary: str, output_dir: str, dataset_name: str, no_u
     # Disabling this part of the algorithm, since it eats up memory and is not implemented well
     # analyzed_funcs = get_analyzed_funcs(output_dir)
     analyzed_funcs = set()
-
     analyze_binary(analyzed_funcs, train_binary, output_dir, is_function_usable)
 
 
 
-def analyze_binary(analyzed_funcs: Set[str], binary_name: str, output_dir: str, is_function_usable: Callable[[str], bool]):
+def analyze_binaryOLD(analyzed_funcs: Set[str], binary_name: str, output_dir: str, is_function_usable: Callable[[str], bool]):
     excluded = {'main', 'usage', 'exit'}.union(analyzed_funcs)
 
     proj = Project(binary_name, auto_load_libs=False) # Load angr project and calculate CFG
     cfg = proj.analyses.CFGFast()  # cfg is the ACTUAL control-flow graph
 
-    binary_name = os.path.basename(binary_name) # Make the output directory for this binary
-    binary_output_dir = os.path.join(output_dir, f"{binary_name}")
+    binary_name_base = os.path.basename(binary_name) # Make the output directory for this binary
+    binary_output_dir = os.path.join(output_dir, f"{binary_name_base}")
     os.makedirs(binary_output_dir, exist_ok=True)
 
-    funcs = get_cfg_funcs(proj, binary_name, excluded)
-    print(f"{binary_name} have {len(funcs)} funcs")
-    for test_func in funcs:        
-        if (test_func.name in analyzed_funcs) or not is_function_usable(tokenize_function_name(test_func.name)): # Skip unusable/computed functions
-            print(f"skipping {tokenize_function_name(test_func.name)}")
+    funcs = get_cfg_funcs(proj, binary_name_base, excluded)
+    
+    print(f"{binary_name_base} have {len(funcs)} funcs")
+    for test_func_name, test_func_addr in funcs:        
+        if (test_func_name in analyzed_funcs) or not is_function_usable(tokenize_function_name(test_func_name)): # Skip unusable/computed functions
+            print(f"skipping {tokenize_function_name(test_func_name)}")
             continue
-        print(f"analyzing {binary_name}/{test_func.name}")
+        if os.path.isfile(os.path.join(binary_output_dir, f"{test_func_name}.json")):
+            print(f"skipping {tokenize_function_name(test_func_name)} already analysed.")
+            continue            # file already exists no need to analyse again
+        print(f"analyzing {binary_name_base}/{test_func_name}")
         
-        analyzed_funcs.add(test_func.name)
+        analyzed_funcs.add(test_func_name)
         try:
-            sm = analyze_func(proj, test_func, cfg) # Perform Carol's angr analysis
-            with open(os.path.join(binary_output_dir, f"{test_func.name}.json"), "w") as output:
-                sm_to_graph(sm, output, test_func.name) # calculate the constraint-full CFG
+            sm = analyze_func(proj, test_func_name, test_func_addr, cfg) # Perform Carol's angr analysis
+            with open(os.path.join(binary_output_dir, f"{test_func_name}.json"), "w") as output:
+                sm_to_graph(sm, output, test_func_name) # calculate the constraint-full CFG
         except Exception as e:
+            open(os.path.join(binary_output_dir, f"{test_func_name}.json"), "w").close() #create an empty file so that the next time we will not analyse this function
             logging.error(str(e))
-            logging.error(f"got an error while analyzing {test_func.name}")
-        
-    return analyzed_funcs
+            logging.error(f"got an error while analyzing {test_func_name}")
+    return True
 
+def analyze_binary(analyzed_funcs: Set[str], binary_name: str, output_dir: str, is_function_usable: Callable[[str], bool]):
+    excluded = {'main', 'usage', 'exit'}.union(analyzed_funcs)
+
+    proj = Project(binary_name, auto_load_libs=False) # Load angr project and calculate CFG
+    cfg = proj.analyses.CFGFast()  # cfg is the ACTUAL control-flow graph   
+    
+    binary_name_base = os.path.basename(binary_name) # Make the output directory for this binary
+    binary_output_dir = os.path.join(output_dir, f"{binary_name_base}")
+    os.makedirs(binary_output_dir, exist_ok=True)
+
+    funcs = get_cfg_funcs(proj, binary_name_base, excluded)
+    
+    print(f"{binary_name_base} have {len(funcs)} funcs")
+    time.sleep(10)
+    with Pool(1, maxtasksperchild=2) as p:
+        args = zip(funcs, repeat(binary_name), repeat(output_dir))
+        p.map(analyze_binary_func, args)
+    # for test_func_name, test_func_addr in funcs:        
+    return True
+
+def analyze_binary_func(args):
+    (test_func_name, test_func_addr), binary_name, output_dir = args
+    binary_name_base = os.path.basename(binary_name) # Make the output directory for this binary
+    binary_output_dir = os.path.join(output_dir, f"{binary_name_base}")
+    os.makedirs(binary_output_dir, exist_ok=True)
+    if os.path.isfile(os.path.join(binary_output_dir, f"{test_func_name}.json")):
+        print(f"skipping {tokenize_function_name(test_func_name)} already analysed.")
+        return            # file already exists no need to analyse again
+    print(f"analyzing {binary_name_base}/{test_func_name}")
+    proj = Project(binary_name, auto_load_libs=False) # Load angr project and calculate CFG
+    cfg = proj.analyses.CFGFast()  # cfg is the ACTUAL control-flow graph   
+    
+    try:
+        sm = analyze_func(proj, test_func_name, test_func_addr, cfg) # Perform Carol's angr analysis
+        with open(os.path.join(binary_output_dir, f"{test_func_name}.json"), "w") as output:
+            sm_to_graph(sm, output, test_func_name) # calculate the constraint-full CFG
+    except Exception as e:
+        open(os.path.join(binary_output_dir, f"{test_func_name}.json"), "w").close() #create an empty file so that the next time we will not analyse this function
+        logging.error(str(e))
+        logging.error(f"got an error while analyzing {test_func_name}")
 
 def get_analyzed_funcs(dataset_path: str) -> Set[str]:
     binaries = os.scandir(dataset_path)
@@ -289,9 +337,12 @@ def sm_to_graph(sm: SimulationManager, output_file, func_name):
     assert(final_states is not []) # assert that final states list is not empty else we dont have what to work with
     # compose all routs backtracking from final to initial
     all_paths = []
+    eax_val = []
     for state in final_states:
+        eax_val.append(state.regs.eax)
         current_node = state.history
         state_path = [("loopSeerDum", current_node.recent_constraints)]
+        
         while current_node.addr is not None:
             state_path.insert(0, (current_node.addr, (current_node.parent.recent_constraints if current_node.parent else [])))
             current_node = current_node.parent
@@ -305,23 +356,25 @@ def sm_to_graph(sm: SimulationManager, output_file, func_name):
 
     root = Vertex(initial_node[0], address_to_content(proj, initial_node[0]), 0, [])
     # --------------------- TAL'S CODE START---------------------#
-    sym_graph = SymGraph(root, func_name, 1) # added number of paths limit for each vertex in the graph
+    sym_graph = SymGraph(root, func_name, 5000, 100) # added number of paths limit for each vertex in the graph
     # --------------------- TAL'S CODE END---------------------#
 
     # In each iteration, add a new constrainted vertex to the graph and connect it to the previous vertex.
     # In the SymGraph, vertex addition handles multiple constraint options and adds an OR relation.
 
-    for path in all_paths:
+    for path_num, path in enumerate(all_paths):
         prev = root
         for i in range(1, len(path)):
             constraint_list = varify_constraints_raw(path[i][1])
-            if type(path[i][0]) == str:
+            if type(path[i][0]) == str: #This is "loopSeerDum"
                 # --------------------- TAL'S CODE START---------------------#
-                dst = Vertex(path[i][0], "no_instructions", i, ["|".join(constraint_list)]) # added path length as third param
+                #dst = Vertex(path[i][0], "no_instructions", i, ["|".join(constraint_list)]) # added path length as third param
+                dst = Vertex(path[i][0], "no_instructions", i, constraint_list + [constraint_to_str(eax_val[path_num])]) # added path length as third param
                 # --------------------- TAL'S CODE END---------------------#
             else:
                 # --------------------- TAL'S CODE START---------------------#
-                dst = Vertex(path[i][0], address_to_content_raw(proj, path[i][0]), i, ["|".join(constraint_list)]) # added path length as third param
+                #dst = Vertex(path[i][0], address_to_content_raw(proj, path[i][0]), i, ["|".join(constraint_list)]) # added path length as third param
+                dst = Vertex(path[i][0], address_to_content_raw(proj, path[i][0]), i, constraint_list) # added path length as third param
                 # --------------------- TAL'S CODE END---------------------#
             sym_graph.addVertex(dst)
             edge = Edge(prev.baddr, dst.baddr)
@@ -330,6 +383,7 @@ def sm_to_graph(sm: SimulationManager, output_file, func_name):
     
     our_json = sym_graph.__str__()
     our_json = our_json.replace("'", "\"").replace("loopSeerDum", "\"loopSeerDum\"")
+    # print (our_json)
     parsed = json.loads(our_json)
     to_write = json.dumps(parsed, indent=4, sort_keys=True)
     output_file.write(to_write)
@@ -347,10 +401,10 @@ def main():
     args = parser.parse_args()
 
     logging.getLogger('angr').setLevel('CRITICAL')  # Silence angr
-    heap_resource = resource.RLIMIT_DATA  # Limit data capture
-    soft_l, hard_l = resource.getrlimit(heap_resource)
-    resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
-    sys.setrecursionlimit(10**6)  # Limit stack
+    # heap_resource = resource.RLIMIT_DATA  # Limit data capture
+    # soft_l, hard_l = resource.getrlimit(heap_resource)
+    # resource.setrlimit(heap_resource, (args.mem_limit*2**30, (args.mem_limit+5)*2**30))
+    # sys.setrecursionlimit(10**6)  # Limit stack
 
     
 
@@ -358,9 +412,9 @@ def main():
     binaries = os.listdir("our_dataset/" + args.dataset)
     binaries.sort()
     binaries = [f"our_dataset/{args.dataset}/{binary}" for binary in binaries]
-
+    print(binaries[args.binary_idx])
     generate_dataset(binaries[args.binary_idx], args.output, args.dataset, args.no_usables_file)
-
+    print("Finished!")
 
 if __name__ == '__main__':
     main()

@@ -28,7 +28,7 @@ def run_single_bin(args: argparse.Namespace, bin_idx: int):
 
 def dispatch_process(args: argparse.Namespace, bin_idx:int, processes: Dict[int, Tuple[int, Process]]) -> Dict[int, Tuple[int, Process]]:
     """Dispatch a process to analyze a single binary."""
-
+    bin_idx = abs(bin_idx)
     print(f'dispatching idx {bin_idx} at {datetime.today()}')
     proc = Process(target=run_single_bin, args=(args, bin_idx))
     proc.start()
@@ -54,14 +54,19 @@ def run_preprocess(args: argparse.Namespace, base_dataset_dir:str = "our_dataset
     # Calculate number of binaries
     full_dataset_dir = os.path.join(base_dataset_dir, args.dataset_dir)
     bin_count = len(os.listdir(full_dataset_dir))
-
+    
+    if args.reverse_order:
+        start_of_bin = -1 * bin_count    # [-bin_count, -bin_count+1, -bin_count+2, ..., 0]
+    else:
+        start_of_bin = 0                 # [0, 1, 2, ..., bin_count]
+    end_of_bin = start_of_bin + bin_count
     # Fill CPUs with jobs
-    curr_bin = 0
+    curr_bin = start_of_bin
     for _ in range(min(args.cpu_no, bin_count)):
         processes = dispatch_process(args, curr_bin, processes)
         curr_bin += 1
 
-    while curr_bin < bin_count:
+    while curr_bin < end_of_bin:
         collect_process(processes)
 
         # Build and run a new process
@@ -92,6 +97,7 @@ def main():
     parser.add_argument("--mem_limit", type=int, default=20)
     parser.add_argument('--bin_timeout', type=str, default='1000m')
     parser.add_argument("--no_usables_file", dest="no_usables_file", action="store_true")
+    parser.add_argument("--reverse", dest="reverse_order", action="store_true") # process the files from the last to the first
     args = parser.parse_args()
 
     # Make a directory for log files
