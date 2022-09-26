@@ -8,7 +8,7 @@ from tqdm import tqdm
 import random
 import re
 import multiprocessing
-import multiprocess
+#import multiprocess
 #import pebble
 import datetime
 import math
@@ -93,8 +93,8 @@ def convert_argument(argument: str) -> tuple:
         argument = 'mem'
     elif is_reg(argument):
         argument_type = 'REGISTER'
-        argument = 'reg' + line_split[1]
-        #argument = 'reg'
+        #argument = 'reg' + line_split[1]
+        argument = 'reg'
     elif is_num(argument):
         argument_type = 'CONSTANT'
     elif is_retval(argument):
@@ -496,7 +496,7 @@ class OutputConvertor:
             # Perform per-constraint styling on each node
             filtered_constraint_asts = self.__process_constraints_to_asts(node['constraints'])
             # Perform node-wide deduplication
-            # filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
+            filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
             # Convert to the nero format
             converted_constraints = []
             for constraint_ast in filtered_constraint_asts:
