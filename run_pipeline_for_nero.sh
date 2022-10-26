@@ -16,7 +16,7 @@ echo "Also remember to have all your modules installed - angr and TensorFlow 1 i
 
 date +%H:%M:%S
 echo "Running output processing and conversion"
-yes | python3 output_converter.py --dataset_name nero --sample_path 3 --sample_constraint 3
+yes | python3 output_converter.py --train 70 --test 20 --val 10 --dataset_name nero --sample_path 1 --sample_constraint 3
 
 date +%H:%M:%S
 echo "Removing empty lines (feel free to find a better way)"

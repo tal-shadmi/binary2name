@@ -42,9 +42,39 @@ def is_retval(val: str) -> bool:
 
 def collect_to_file(file_list: List[str], filename: str) -> None:
     collective_files = ''
+    # --------------------- TAL'S CODE START---------------------#
+    #num_files_found_in_model_train_set = 0
+    #if 'test.json' in filename:
+        #with open(os.path.join('../nero/nero', 'model_train.json'), 'r') as model_train_set:
+            #for function_file in file_list:
+                #function_name = function_file.split('/')[2].replace('.json', '')
+                #if function_name not in model_train_set.read():
+                    #with open(function_file, 'r') as file:
+                        #collective_files += file.read() + '\n'
+                #else:
+                    #num_files_found_in_model_train_set += 1
+                #model_train_set.seek(0)
+        #print("found {} functions in model train set".format(num_files_found_in_model_train_set))
+    #else:
+        #for function_file in file_list:
+            #with open(function_file, 'r') as file:
+                #collective_files += file.read() + '\n'
+    
+    if 'train.json' in filename:
+        binaries = [b for b in os.listdir('../nero_dataset_binaries/TRAIN') if os.path.isfile(os.path.join('../nero_dataset_binaries/TRAIN', b))]
+    if 'test.json' in filename:
+        binaries = [b for b in os.listdir('../nero_dataset_binaries/TEST') if os.path.isfile(os.path.join('../nero_dataset_binaries/TEST', b))]
+    if 'validation.json' in filename:
+        binaries = [b for b in os.listdir('../nero_dataset_binaries/VALIDATE') if os.path.isfile(os.path.join('../nero_dataset_binaries/VALIDATE', b))]
     for function_file in file_list:
-        with open(function_file, 'r') as file:
-            collective_files += file.read() + '\n'
+        binary_name = function_file.split('/')[1]
+        if binary_name in binaries:
+            with open(function_file, 'r') as file:
+                collective_files += file.read() + '\n'
+    # --------------------- TAL'S CODE END---------------------#
+    #for function_file in file_list:
+        #with open(function_file, 'r') as file:
+            #collective_files += file.read() + '\n'
 
     with open(os.path.join('../ready_data', filename), 'w') as file:
         file.write(collective_files)
@@ -117,9 +147,11 @@ class ConstraintAst:
 
     def remove_filler_nodes(self, bad_name: str, argnum: int) -> None:
         if self.value == bad_name:
-            assert len(self.children) >= argnum
-            self.value = self.children[argnum - 1].value
-            self.children = self.children[argnum - 1].children
+            if len(self.children) >= argnum:
+                self.value = self.children[argnum - 1].value
+                self.children = self.children[argnum - 1].children
+            else:
+                assert len(self.children) == 0
 
         if self.children is None:  # if the grandchild is none, meaning the son which replaced the father is a leaf
             return
@@ -221,14 +253,16 @@ def merge_constraints_similar(first: ConstraintAst, second: ConstraintAst) -> Co
     return ConstraintAst(value, children)
 
 
-def get_constraint_ast(constraint: str) -> ConstraintAst:
+def get_constraint_ast(constraint: str, curr_depth: int, max_depth: int) -> ConstraintAst:
     constraint_ast = ConstraintAst(children=[])
     function_name, arguments = dissolve_function_call(constraint)
     function_name = OUR_API_TYPE + function_name
     constraint_ast.value = function_name
+    if curr_depth >= max_depth:
+        return constraint_ast
     for arg in arguments:
         if '(' in arg or ')' in arg:
-            constraint_ast.children.append(get_constraint_ast(arg))
+            constraint_ast.children.append(get_constraint_ast(arg, curr_depth + 1, max_depth))
         else:
             constraint_ast.children.append(ConstraintAst(value=arg))
     return constraint_ast
@@ -370,7 +404,7 @@ class OutputConvertor:
             constraints = path_constraints_string.split(CONSTRAINT_DELIM)
             for constraint in constraints:
                 # get the constraint AST
-                constraint_ast = get_constraint_ast(constraint)
+                constraint_ast = get_constraint_ast(constraint, 1, 3) #return constraints tree upto a depths of max_depth=3
                 # filter all unwanted functions
                 constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'Extract', 3)
                 constraint_ast.remove_filler_nodes(OUR_API_TYPE + 'ZeroExt', 2)
@@ -486,22 +520,23 @@ class OutputConvertor:
         for node in nodes:
             # reduce the number of constraints
             node['constraints'] = self.__reduce_constraints(node['constraints'])
-            # Remove "junk symbols"
-            node['constraints'] = self.__prettify_constraints(node['constraints'])
-            # --------------------- TAL'S CODE START---------------------#
-            # deduct constraints
-            # node['constraints'] = self.__deduct_constraints(node['constraints'], 5)
-            # --------------------- TAL'S CODE END---------------------#
-
-            # Perform per-constraint styling on each node
-            filtered_constraint_asts = self.__process_constraints_to_asts(node['constraints'])
-            # Perform node-wide deduplication
-            filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
-            # Convert to the nero format
             converted_constraints = []
-            for constraint_ast in filtered_constraint_asts:
-                converted_constraints += constraint_ast.convert_list_to_nero_format()
-            # print("5", converted_constraints)
+            if node['constraints'] != ['']:
+                # Remove "junk symbols"
+                node['constraints'] = self.__prettify_constraints(node['constraints'])
+                # --------------------- TAL'S CODE START---------------------#
+                # deduct constraints
+                # node['constraints'] = self.__deduct_constraints(node['constraints'], 5)
+                # --------------------- TAL'S CODE END---------------------#
+
+                # Perform per-constraint styling on each node
+                filtered_constraint_asts = self.__process_constraints_to_asts(node['constraints'])
+                # Perform node-wide deduplication
+                filtered_constraint_asts = self.__deduplicate_constraints(filtered_constraint_asts)
+                # Convert to the nero format
+                for constraint_ast in filtered_constraint_asts:
+                    converted_constraints += constraint_ast.convert_list_to_nero_format()
+            
             if not converted_constraints:
                 converted_nodes[node['block_addr']] = []
             else:
@@ -515,6 +550,10 @@ class OutputConvertor:
             # print(f'Warning! file {filename} is empty or larger than {SYM_EXE_MAX_OUTPUT_TO_PROCESS}. Skipping.')
             # raise Exception #This is necessary as that calling function will omit this
             return False, None
+        
+        # _, result = self.get_stats_json(filename)
+        # if result["precent_block_constraints"] < 0.3: # Check if there too few blocks with constraints. In the nero DS this should remove about 15% of the functions
+        #     return False, None
         
         with open(filename, 'r') as function_file:
             initial_data = json.load(function_file)
@@ -530,14 +569,25 @@ class OutputConvertor:
         
         # print(package_name, exe_name, function_name)
 
-        converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
-        try:
-            converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
-            converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
-        except Exception:
-            print("file", filename)
-            exit(1)
-
+        #converted_data = {'func_name': OUR_API_TYPE + function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
+        converted_data = {'func_name': function_name, 'GNN_data': {}, 'exe_name': exe_name, 'package': package_name}
+        # try:
+        converted_data['GNN_data']['edges'] = self.__convert_edges(initial_data['GNN_DATA']['edges'])
+        converted_data['GNN_data']['nodes'] = self.__convert_nodes(initial_data['GNN_DATA']['nodes'])
+        #except Exception as e:
+        #    print("file", filename)
+        #    exit(1)
+        
+        #if self.portion_nodes_has_constraints(converted_data['GNN_data']['nodes']) < 0.25 or self.nodes_total_num_constraints(converted_data['GNN_data']['nodes']) < 20:
+            #return False, None
+        
+        if self.nodes_total_num_constraints(converted_data['GNN_data']['nodes']) < 5:
+            return False, None
+        
+        #if self.portion_nodes_has_constraints(converted_data['GNN_data']['nodes']) < 0.15:
+            #return False, None
+            
+        #converted_data['GNN_data']['edges'], converted_data['GNN_data']['nodes'] = self.reduce_graph(converted_data['GNN_data']['edges'], converted_data['GNN_data']['nodes'])
         converted_filename = CONVERTED_DS_PREFIX + filename
         os.makedirs(os.path.dirname(converted_filename), exist_ok=True)
         with open(converted_filename, 'w') as function_file:
@@ -546,6 +596,54 @@ class OutputConvertor:
             
         return True, converted_filename
 
+    '''
+    Every two adjacent unconstrained blocks will be merged.
+    '''
+    def reduce_graph(self, edges, nodes):
+        stop_loop = False
+        while not stop_loop:
+            stop_loop = True
+            for e in edges:
+                len_e = len(edges)
+                len_n = len(nodes)
+                src, dst = e
+                if src != dst and len(nodes[src]) == 0 and len(nodes[dst]) == 0: # src and dst are unconstrained blockes, they should be merged
+                    edges, nodes = self.merge_nodes(edges, nodes, src, dst)
+                    stop_loop = False  # we updated the edges, the loop should start again (we can not update a list while iterating on it)
+                    len_e_after_merge = len(edges)
+                    len_n_after_merge = len(nodes)
+                    assert len_e_after_merge == len_e - 1
+                    assert len_n_after_merge == len_n - 1
+                    break
+        return edges, nodes
+            
+    '''
+    Merge mode2 into node1
+    '''
+    def merge_nodes(self, edges, nodes, node1, node2):
+        edges.remove((node1, node2))
+        for i in range(len(edges)):
+            if edges[i][0] == node2:
+                edges[i] = (node1, edges[i][1])
+            if edges[i][1] == node2:
+                edges[i] = (edges[i][0], node1)
+        del nodes[node2]
+        return edges, nodes
+
+    
+    def portion_nodes_has_constraints(self, nodes):
+        num_nodes_with_constraints = 0
+        for _, constraints in nodes.items():
+            if len(constraints) > 0:
+                num_nodes_with_constraints = num_nodes_with_constraints + 1
+        return num_nodes_with_constraints/len(nodes)
+    
+    def nodes_total_num_constraints(self, nodes):
+        total_num_constraints = 0
+        for _, constraints in nodes.items():
+            total_num_constraints = total_num_constraints + len(constraints)
+        return total_num_constraints
+    
 class OrganizeOutput:
     def __init__(self, dataset_name, file_locations, train_percentage, test_percentage, validate_percentage):
         self.dataset_name = dataset_name
@@ -569,28 +667,34 @@ class OrganizeOutput:
         """
         Aggregate all training, testing and validation files into single files.
         """
-        train_length = int(len(self.file_locations) * self.train_percentage)
-        test_length = int(len(self.file_locations) * self.test_percentage)
-        validate_length = len(self.file_locations) - train_length - test_length
+        #train_length = int(len(self.file_locations) * self.train_percentage)
+        #test_length = int(len(self.file_locations) * self.test_percentage)
+        #validate_length = len(self.file_locations) - train_length - test_length
 
-        print('num of train files: {}'.format(train_length))
-        print('num of test files: {}'.format(test_length))
-        print('num of validate files: {}'.format(validate_length))
+        #print('num of train files: {}'.format(train_length))
+        #print('num of test files: {}'.format(test_length))
+        #print('num of validate files: {}'.format(validate_length))
 
-        random.shuffle(self.file_locations)
+        #random.shuffle(self.file_locations)
 
-        training_files = self.file_locations[:train_length]
-        testing_files = self.file_locations[train_length:train_length + test_length]
-        validating_files = self.file_locations[train_length + test_length:]
+        #training_files = self.file_locations[:train_length]
+        #testing_files = self.file_locations[train_length:train_length + test_length]
+        #validating_files = self.file_locations[train_length + test_length:]
 
         ready_dir = 'ready_' + self.dataset_name
 
         if not os.path.exists(os.path.join('../ready_data', ready_dir)):
             os.mkdir(os.path.join('../ready_data', ready_dir))
         
-        collect_to_file(training_files, os.path.join(ready_dir, 'train.json'))
-        collect_to_file(testing_files, os.path.join(ready_dir, 'test.json'))
-        collect_to_file(validating_files, os.path.join(ready_dir, 'validation.json'))
+        # --------------------- TAL'S CODE START---------------------#
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'train.json'))
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'test.json'))
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'validation.json'))
+        # --------------------- TAL'S CODE END---------------------#
+        
+        #collect_to_file(training_files, os.path.join(ready_dir, 'train.json'))
+        #collect_to_file(testing_files, os.path.join(ready_dir, 'test.json'))
+        #collect_to_file(validating_files, os.path.join(ready_dir, 'validation.json'))
 
 
 def main():
